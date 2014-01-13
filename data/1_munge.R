@@ -46,7 +46,7 @@ countryavgs$country<-countrycode(countryavgs$Group.1, "cown", "iso3c")
 countryavgs$dem<-ifelse(countryavgs$polity2>-2.21, "Greater than median democracy", "Less than median democracy")
 countryavgs$dem<-as.factor(countryavgs$dem)
 
-setwd("~/Dropbox/Projects/glob_media_freedom/data")
+setwd("~/Dropbox/Projects/globalization_media_freedom/data")
 
 write.csv(countryavgs, "out_countryavgs.csv")
 write.csv(df, "out_df.csv")

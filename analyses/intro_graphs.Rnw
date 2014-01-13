@@ -2,16 +2,35 @@
 
 require(ggplot2)
 
-df<-read.csv("~/Dropbox/Projects/glob_media_freedom/data/out_df.csv")
-countryavgs<-read.csv("~/Dropbox/Projects/glob_media_freedom/data/out_countryavgs.csv")
+df<-read.csv("~/Dropbox/Projects/globalization_media_freedom/data/out_df.csv")
+countryavgs<-read.csv("~/Dropbox/Projects/globalization_media_freedom/data/out_countryavgs.csv")
 
-introplot1<-ggplot(countryavgs, aes(x=fp, y=openk)) +
+introplot1<-ggplot(countryavgs, aes(x=fp, y=fpistock)) +
+  geom_smooth(method=lm, se=FALSE) +
+  geom_point() +
+  geom_text(aes(label=country),hjust=.5, vjust=-.2, size=4) +
+  xlab("Average Media Freedom") +
+  ylab("Average Inward Foreign Portfolio Investment Stock (% of GDP)") +
+  theme_bw() +
+  ggtitle("Average Inward Foreign Portfolio Investment Stock & Media Freedom, 1948-2003")
+
+introplot2<-ggplot(countryavgs, aes(x=fp, y=fdiinward)) +
+  geom_smooth(method=lm, se=FALSE) +
+  geom_point() +
+  geom_text(aes(label=country),hjust=.5, vjust=-.2, size=4) +
+  xlab("Average Media Freedom") +
+  ylab("Average Inward Foreign Direct Investment Stock (% of GDP)") +
+  theme_bw() +
+  ggtitle("Average Inward Foreign Direct Investment Stock & Media Freedom, 1948-2003")
+
+introplot3<-ggplot(countryavgs, aes(x=fp, y=openk)) +
   geom_smooth(method=lm, se=FALSE) +
   geom_point() +
   geom_text(aes(label=country),hjust=.5, vjust=-.2, size=4) +
   xlab("Average Media Freedom") +
   ylab("Average Trade (% of GDP)") +
   theme_bw() +
-  ggtitle("Average Trade Openness & Media Freedom, 1948-2003") 
-introplot1
+  ggtitle("Average Trade Openness & Media Freedom, 1948-2003")
+introplot3
+
 @
