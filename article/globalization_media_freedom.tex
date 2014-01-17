@@ -49,7 +49,6 @@
 
 \usepackage{alltt}
 \usepackage{fullpage}
-\usepackage[authoryear]{natbib}
 \usepackage{setspace}
     \doublespacing
 %\usepackage[usenames,dvipsnames]{xcolor}
@@ -66,8 +65,14 @@
 \usepackage{url}
 \usepackage{tikz}
 \usepackage{todonotes}
-\usepackage[utf8]{inputenc} 
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
 \usepackage{graphicx}
+
+\usepackage{csquotes}
+\usepackage[style=authoryear, sorting=ynt, backend=bibtex]{biblatex}
+\addbibresource{mybib.bib}
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 
 \begin{document}
@@ -90,13 +95,18 @@ Why are more trade-open countries more likely to repress the media, even though 
 
 \vspace{0.3cm}
 
-Given the conventional wisdom that democratic political institutions drive economic openness (Milner and Kubota 2005) and vice-versa (Eichengreen and Leblang 2008), it is surprising that since the 1960s, on average, those countries which have been more open to international trade have had lower levels of media freedom. Although international portfolio capital and foreign direct investment are each positively correlated with media freedom around the world, the bivariate relationship between trade and media freedom is slightly negative.Disaggregated economic data come from the World Bank Development Indicators (Bank 2012) and data on media freedom come from Freedom House () and Van Belle's Global Press Freedom Dataset (Van Belle 2000). See the section on Data and Method below for a more detailed discussion of data and coding. Considering the 151 countries between 1960 and 2011 for which there is available data, those countries which most often had a repressive media environment had higher levels of trade than those countries which most often had a free media. This is true in democratic and non-democratic countries, although the negative relationship is weaker in democratic countries. Given the positive correlation found between media freedom and other measures of economic openness such as portfolio capital flows foreign direct investment, and the KOF Globalization index (Dreher et al. 2008), the coincidence of high trade openness and media repression is a surprisingly under-reported empirical puzzle in international and comparative political economy.
+Given the conventional wisdom that democratic political institutions drive economic openness \parencite{Milner:2005ci} and vice-versa \parencite{EICHENGREEN:2008gg}, it is surprising that since the 1960s, on average, those countries which have been more open to international trade have had lower levels of media freedom. Although international portfolio capital and foreign direct investment are each positively correlated with media freedom around the world, the bivariate relationship between trade and media freedom is slightly negative.Disaggregated economic data come from the World Bank Development Indicators (Bank 2012) and data on media freedom come from Freedom House () and Van Belle's Global Press Freedom Dataset (Van Belle 2000). See the section on Data and Method below for a more detailed discussion of data and coding. Considering the 151 countries between 1960 and 2011 for which there is available data, those countries which most often had a repressive media environment had higher levels of trade than those countries which most often had a free media. This is true in democratic and non-democratic countries, although the negative relationship is weaker in democratic countries. Given the positive correlation found between media freedom and other measures of economic openness such as portfolio capital flows foreign direct investment, and the KOF Globalization index (Dreher et al. 2008), the coincidence of high trade openness and media repression is a surprisingly under-reported empirical puzzle in international and comparative political economy.
 
+\pagebreak
+\begin{figure}[t]
+    \caption{Trade vs. General Economic Globalization in the Politics of Media Freedom, 1970-2003}
+    \label{absolute}
+    \begin{center}
 
 \begin{knitrout}
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=\maxwidth]{figures/intrographs} 
+{\centering \includegraphics[width=0.8\linewidth]{figures/intrographs} 
 
 }
 
@@ -105,12 +115,18 @@ Given the conventional wisdom that democratic political institutions drive econo
 \end{knitrout}
 
 
+    \end{center}
+    \begin{singlespace}
+        {\scriptsize{The KOF Index of Globalization is a 100-point scale reflecting the quantity of international trade and investment policy restrictions as well as flows of trade, FDI, FPI, and income paid to foreign nationals and capital (Dreher et al 2008, 43). Media freedom is measured on a dichotomous scale (free or not free). See the section on Data and Method for more details. 
+                      }}
+    \end{singlespace}
+\end{figure}
 
 This puzzle points to a larger gap in research on the domestic effects of economic globalization. International and comparative political economists have not yet developed a serious theoretical and empirical account of how a country's media are likely to be affected by that country's integration into the international economy. Much is known about the effects of economic integration on aspects of domestic politics such as cleavages (Rogowski 1987, 1989; Hiscox 2002), growth rates (Rodriguez and Rodrik 2001); domestic spending (Rodrik 1998; Burgoon 2001), civil war (Barbieri and Reuveny 2005; Bussmann and Schneider 2007), and generic measures of democracy (Eichengreen and Leblang 2008; Li and Reuveny 2003), but very little is known about how economic integration affects state-media relations. One exception is a working paper by Orion Lewis (2008), which finds mixed but suggestive evidence that trade openness is negatively related to media freedom and portfolio capital is positively related to media freedom. Other research has considered whether political and civil liberties (broadly including freedom of the media) affect international economic flows (2007) and the effect of media in economic reform (Coyne and Leeson 2004; Islam 2002), but in the extant literature there is no systematic analysis of whether and in what ways domestic media freedom has been shaped by increasing international economic integration around the world.
 
 \section{Globalization, Democracy, and Media}
 
-The present study provides a theoretical account of how different international economic flows affect domestic media freedom differently, focusing on the puzzling negative correlation between trade levels and media freedom. It improves on the limited previous research in two ways. First, Lewis (2008) uses only the Freedom House measures of press freedom and therefore considers country-level panel data only between 1993 and 2006. The present study incorporates the Global Media Freedom Index by Van Belle (2000; 1997) to consider a similar panel of countries for the much longer timeframe from 1948 to 2003. Second, I emphasize the difference between levels and changes (long-run and short-run effects) in a country's exposure to international economic flows, whereas Lewis considers only levels.
+The present study provides a theoretical account of how different international economic flows affect domestic media freedom differently, focusing on the puzzling negative correlation between trade levels and media freedom. It improves on the limited previous research in two ways. First, Lewis (2008) uses only the Freedom House measures of press freedom and therefore considers country-level panel data only between 1993 and 2006. The present study incorporates the Global Media Freedom Index by Van Belle (2000; 1997) to consider a similar panel of countries for the much longer timeframe from 1948 to 2009. Second, I emphasize the difference between levels and changes (long-run and short-run effects) in a country's exposure to international economic flows, whereas Lewis considers only levels.
 
 Previous research provides strong reasons to expect the global integration of markets to exert pressures on institutions of democracy, but there remains much theoretical uncertainty about the degree to which these effects are positive or negative. Many have argued that economic globalization generates economic growth which strengthens democratic institutions (Baghwati 1997; Im 1996), increases incentives for peace (Baghwati 1997; Oneal and Russett 1999), or diffuses democracy as a norm (Kant 1983; Limongi et al. 1996) On the other hand, many have argued that economic globalization is negatively associated with democracy because it rewards efficiency rather than popular sovereignty (Dominguez and Huntington 1975; Lindblom 1977; Cammack 1998), or because leaders may prefer to repress rather than compensate the domestic losers from increased openness (Adserà and Boix 2002).See Li and Reuveny 2003 for a detailed overview of this debate. Within the general debate surrounding the globalization-democracy nexus, some researchers such as Li and Reveuny (2003) have sought greater clarity by disaggregating the distinct types of international economic flows and considering them separately, but relying on standard aggregate measures of democracy. Li and Reveuny find that trade and portfolio capital have negative effects on democracy, while foreign direct investment and democratic norms have a positive effect, but their dependent variable of democracy is calculated with the common procedure of subtracting the Polity autocracy score from the Polity democracy score. Thus, despite much research on the relationship between economic globalization and democracy, and despite evidence that disaggregation is fruitful for understanding this nexus of relationships, relatively little is known about how different international economic flows affect the various institutions which separately constitute what we know as democracy.
 
@@ -202,7 +218,7 @@ Table 1 displays the results of 6 different logistic regressions assessing the p
 
 
 % Table created by stargazer v.4.5.3 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
-% Date and time: Mon, Jan 13, 2014 - 18:46:45
+% Date and time: Fri, Jan 17, 2014 - 15:17:27
 \begin{table}[!htbp] \centering 
   \caption{} 
   \label{} 
@@ -212,39 +228,39 @@ Table 1 displays the results of 6 different logistic regressions assessing the p
 \\[-1.8ex] & \multicolumn{6}{c}{fp} \\ 
 \\[-1.8ex] & (1) & (2) & (3) & (4) & (5) & (6)\\ 
 \hline \\[-1.8ex] 
- Democracy level & 4.53$^{***}$ & 4.20$^{***}$ & 4.17$^{***}$ & 4.19$^{***}$ & 4.20$^{***}$ & 4.17$^{***}$ \\ 
-  & (0.11) & (0.14) & (0.14) & (0.14) & (0.14) & (0.14) \\ 
-  Democracy change & $-$0.31$^{***}$ & $-$0.28$^{***}$ & $-$0.26$^{***}$ & $-$0.27$^{***}$ & $-$0.27$^{***}$ & $-$0.26$^{***}$ \\ 
+ Democracy level & 4.53$^{***}$ & 4.20$^{***}$ & 4.07$^{***}$ & 4.07$^{***}$ & 4.06$^{***}$ & 4.04$^{***}$ \\ 
+  & (0.11) & (0.14) & (0.15) & (0.15) & (0.15) & (0.15) \\ 
+  Democracy change & $-$0.31$^{***}$ & $-$0.28$^{***}$ & $-$0.24$^{***}$ & $-$0.24$^{***}$ & $-$0.26$^{***}$ & $-$0.23$^{***}$ \\ 
   & (0.07) & (0.08) & (0.08) & (0.08) & (0.08) & (0.08) \\ 
-  GDP per capita & 0.91$^{***}$ & 0.79$^{***}$ & 0.77$^{***}$ & 0.75$^{***}$ & 0.80$^{***}$ & 0.78$^{***}$ \\ 
-  & (0.08) & (0.14) & (0.14) & (0.14) & (0.14) & (0.14) \\ 
-  GDP per capita change & 0.07 & 0.19$^{*}$ & 0.24$^{**}$ & 0.19$^{*}$ & 0.20$^{*}$ & 0.24$^{**}$ \\ 
-  & (0.09) & (0.11) & (0.10) & (0.11) & (0.10) & (0.11) \\ 
-  Interpolated & $-$0.48$^{***}$ & $-$0.39$^{*}$ & $-$0.37$^{*}$ & $-$0.39$^{*}$ & $-$0.39$^{*}$ & $-$0.37$^{*}$ \\ 
-  & (0.18) & (0.21) & (0.21) & (0.21) & (0.21) & (0.21) \\ 
-  Spline1 & $-$0.04$^{***}$ & 0.08$^{*}$ & 0.07 & 0.07$^{*}$ & 0.08$^{*}$ & 0.07 \\ 
-  & (0.01) & (0.04) & (0.04) & (0.04) & (0.04) & (0.04) \\ 
-  Spline2 & 0.02 & $-$0.09$^{**}$ & $-$0.08$^{**}$ & $-$0.09$^{**}$ & $-$0.09$^{**}$ & $-$0.08$^{**}$ \\ 
-  & (0.01) & (0.04) & (0.04) & (0.04) & (0.04) & (0.04) \\ 
-  Trade level &  & $-$0.14 & $-$0.11 & $-$0.13 & $-$0.13 & $-$0.11 \\ 
-  &  & (0.10) & (0.11) & (0.10) & (0.10) & (0.10) \\ 
-  FDI level &  & $-$0.27 & $-$0.05 & $-$0.18 & $-$0.27 & $-$0.05 \\ 
-  &  & (0.21) & (0.13) & (0.18) & (0.21) & (0.13) \\ 
-  FPI level &  & 1.10$^{***}$ & 1.09$^{***}$ & 1.03$^{***}$ & 1.13$^{***}$ & 1.11$^{***}$ \\ 
-  &  & (0.16) & (0.16) & (0.16) & (0.16) & (0.17) \\ 
-  Trade change &  & $-$0.07 &  & $-$0.41$^{**}$ &  &  \\ 
-  &  & (0.12) &  & (0.17) &  &  \\ 
-  FDI change &  & 0.44$^{***}$ &  &  & 0.47$^{***}$ &  \\ 
-  &  & (0.13) &  &  & (0.16) &  \\ 
-  FPI change &  & 0.05 &  &  &  & $-$0.12 \\ 
-  &  & (0.18) &  &  &  & (0.20) \\ 
-  Liberalization average &  &  & 0.51$^{**}$ & 1.04$^{***}$ & $-$0.07 & 0.57$^{**}$ \\ 
-  &  &  & (0.23) & (0.33) & (0.28) & (0.25) \\ 
-  Constant & 77.88$^{***}$ & $-$154.10$^{*}$ & $-$138.10 & $-$146.40$^{*}$ & $-$154.60$^{*}$ & $-$139.60 \\ 
-  & (19.81) & (87.93) & (87.40) & (87.65) & (87.94) & (87.48) \\ 
- N & 5,787 & 4,058 & 4,058 & 4,058 & 4,058 & 4,058 \\ 
-Log Likelihood & $-$1,839.00 & $-$1,329.00 & $-$1,334.00 & $-$1,331.00 & $-$1,329.00 & $-$1,333.00 \\ 
-AIC & 3,695.00 & 2,687.00 & 2,691.00 & 2,687.00 & 2,685.00 & 2,693.00 \\ 
+  GDP per capita & 0.91$^{***}$ & 0.80$^{***}$ & 0.91$^{***}$ & 0.91$^{***}$ & 0.91$^{***}$ & 0.95$^{***}$ \\ 
+  & (0.08) & (0.14) & (0.14) & (0.14) & (0.14) & (0.15) \\ 
+  GDP per capita change & 0.07 & 0.19$^{*}$ & 0.35$^{***}$ & 0.34$^{***}$ & 0.32$^{**}$ & 0.35$^{***}$ \\ 
+  & (0.09) & (0.11) & (0.13) & (0.13) & (0.13) & (0.13) \\ 
+  Interpolated & $-$0.47$^{**}$ & $-$0.36 & $-$0.22 & $-$0.23 & $-$0.24 & $-$0.23 \\ 
+  & (0.19) & (0.22) & (0.23) & (0.23) & (0.23) & (0.23) \\ 
+  Spline1 & $-$0.04$^{***}$ & 0.05 & 0.07$^{**}$ & 0.07$^{**}$ & 0.07$^{**}$ & 0.06$^{*}$ \\ 
+  & (0.01) & (0.03) & (0.03) & (0.03) & (0.03) & (0.03) \\ 
+  Spline2 & 0.01 & $-$0.08$^{**}$ & $-$0.10$^{***}$ & $-$0.10$^{***}$ & $-$0.10$^{***}$ & $-$0.09$^{***}$ \\ 
+  & (0.01) & (0.03) & (0.03) & (0.03) & (0.03) & (0.03) \\ 
+  Trade level &  & $-$0.14 & $-$0.23$^{**}$ & $-$0.22$^{**}$ & $-$0.30$^{***}$ & $-$0.23$^{**}$ \\ 
+  &  & (0.10) & (0.11) & (0.11) & (0.12) & (0.11) \\ 
+  FDI level &  & $-$0.27 & 0.91$^{**}$ & 0.91$^{**}$ & 0.58 & 0.90$^{**}$ \\ 
+  &  & (0.21) & (0.40) & (0.40) & (0.41) & (0.40) \\ 
+  FPI level &  & 1.11$^{***}$ & 1.09$^{***}$ & 1.09$^{***}$ & 1.09$^{***}$ & 1.07$^{***}$ \\ 
+  &  & (0.16) & (0.17) & (0.17) & (0.16) & (0.17) \\ 
+  Trade change &  & $-$0.07 &  & $-$0.06 &  &  \\ 
+  &  & (0.12) &  & (0.13) &  &  \\ 
+  FDI change &  & 0.44$^{***}$ &  &  & 0.34$^{**}$ &  \\ 
+  &  & (0.13) &  &  & (0.15) &  \\ 
+  FPI change &  & 0.05 &  &  &  & $-$0.01 \\ 
+  &  & (0.18) &  &  &  & (0.16) \\ 
+  Liberalization average &  &  & 0.001 & 0.002 & $-$0.001 & $-$0.0003 \\ 
+  &  &  & (0.11) & (0.11) & (0.11) & (0.11) \\ 
+  Constant & 71.12$^{***}$ & $-$96.28 & $-$131.80$^{**}$ & $-$131.60$^{**}$ & $-$138.40$^{**}$ & $-$116.80$^{*}$ \\ 
+  & (17.04) & (62.76) & (64.87) & (64.86) & (65.08) & (64.93) \\ 
+ N & 5,780 & 4,051 & 3,647 & 3,647 & 3,633 & 3,634 \\ 
+Log Likelihood & $-$1,840.00 & $-$1,329.00 & $-$1,232.00 & $-$1,232.00 & $-$1,231.00 & $-$1,231.00 \\ 
+AIC & 3,695.00 & 2,686.00 & 2,488.00 & 2,490.00 & 2,488.00 & 2,488.00 \\ 
 \hline \\[-1.8ex] 
 \multicolumn{7}{l}{$^{*}$p $<$ .1; $^{**}$p $<$ .05; $^{***}$p $<$ .01} \\ 
 \normalsize 
@@ -253,12 +269,14 @@ AIC & 3,695.00 & 2,687.00 & 2,691.00 & 2,687.00 & 2,685.00 & 2,693.00 \\
 
 
 
-Model 1 represents a baseline model of media freedom as a function of only democracy and GDP per capita, with a cubic spline of time to control for autocorrelation (CITE TUCKER AND KATZ 1998) and a dummy variable for the years in which the Freedom House data were interpolated into Van Belle's binary scale. Level of democracy has a predictably positive association with media freedom and is statistically highly significant (at the .01 level). But surprisingly, changes in democracy (democratization) have a negative relationship to media freedom, suggesting that while democratic states in the long-run are more likely to have free media, democratizing states tend to repress the media. Levels of GDP per capita are positively signed and also significant at the .01 level, while changes in GDP per capita have no statistically distinguishable effect. The dummy variable for interpolated country-years is negative and significant, reflecting but controlling for artificial discontinuity introduced into the dependent variable by converting the Freedom House scores to the Van Belle scale. The first knot of the cubic spline is negatively signed and significant, unsurprisingly reflecting autocorrelation in the dependent variable. Finally, and notably, this baseline model correctly predicts the state of media freedom in 87.5065\% of country-years.
+Model 1 represents a baseline model of media freedom as a function of only democracy and GDP per capita, with a cubic spline of time to control for autocorrelation (CITE TUCKER AND KATZ 1998) and a dummy variable for the years in which the Freedom House data were interpolated into Van Belle's binary scale. Level of democracy has a predictably positive association with media freedom and is statistically highly significant (at the .01 level). But surprisingly, changes in democracy (democratization) have a negative relationship to media freedom, suggesting that while democratic states in the long-run are more likely to have free media, democratizing states tend to repress the media. Levels of GDP per capita are positively signed and also significant at the .01 level, while changes in GDP per capita have no statistically distinguishable effect. The dummy variable for interpolated country-years is negative and significant, reflecting but controlling for artificial discontinuity introduced into the dependent variable by converting the Freedom House scores to the Van Belle scale. The first knot of the cubic spline is negatively signed and significant, unsurprisingly reflecting autocorrelation in the dependent variable. Finally, and notably, this baseline model correctly predicts the state of media freedom in 87.4221\% of country-years.
 
 Model 2 adds to the baseline model levels and changes of international trade, inward FDI, and inward FPI. Considering levels (the long-run component), the coefficients for trade and FDI have negative signs but are statistically indistinguishable from zero, whereas the coefficient for FPI is positive and highly significant. Considering changes (the short-run component), trade and FPI are signed consistently with their long-term component but indistinguishable from zero, whereas FDI is positive and highly significant. Broadly, Model 2 suggests that increases in inward FDI may generate immediate pressures in favor of a free media which decay over time, whereas increases in inward FPI have little immediate effect but may increase the probability of an eventually free media in the long run. These results are consistent with the empirical associations considered at the beginning of this article, showing that FDI and FPI have a generally positive association with media freedom.
 
 However, if media freedom appears to have a negative bivariate relationship with trade noticably different than its relationship with FDI and FPI, why does Model 2 betray no statistically significant evidence of this peculiarity, neither in the short nor long run? Of course, it could never be ruled out that the negative bivariate correlation between trade and media freedom is simply an artifict of some other phenemonon correlated with trade. But it is also possible that this is an artifact of heterogeneous types of trade fluctations: trade increases which are a part of more general economic openings may, along with FDI and FPI, all have variously positive effects on media freedom, while trade increases apart from such general openings generate the dynamics hypothesized above. This could be due to qualitatively different political strategies, if some policymakers liberalize trade as a package of economic and political liberalization (including the media), but otherwise generic increases in trade have negative effects on media freedom.\footnote{This is not to argue that multicollinearity or correlation among independent variables is inflating the standard errors, but rather that there are perhaps heterogenous types of trade increases, those associated with generalized economic liberalization (by design not associated with media repression) and generic trade increases apart from this type. In any event, these three international economic flows are not highly correlated.} To test this possibility, models 3-6 include the variable \emph{Liberalization average}, which reflects the mean change in trade, FDI, and FPI. Each model in turn considers whether changes in any of these specific flows have an independent effect distinct from mean liberalization in general.
 
 After controlling for increased openness in general, Model 4 reveals evidence consistent with the main theoretical claim of this article that increases in trade have a uniquely negative effect on media freedom in the short-run. Model 5 finds additional support that increases in FDI are positively associated with media freedom in the short-run. Coefficients for the long-run component of each international flow are consistent through all six models, suggesting that while trade and FDI have no distinguishable long-run effect on media freedom, FPI has a robustly positive long-run effect on media freedom. Finally, in three of the four models, the coefficient for \emph{Liberalization average} is positive and statistically significant, consistent with the possibility that when international flows have generally increased together, it will typically be followed by liberalization in media politics as well.
+
+\printbibliography
 
 \end{document}

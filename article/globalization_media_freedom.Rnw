@@ -1,6 +1,5 @@
 \documentclass[a4paper]{article}
 \usepackage{fullpage}
-\usepackage[authoryear]{natbib}
 \usepackage{setspace}
     \doublespacing
 %\usepackage[usenames,dvipsnames]{xcolor}
@@ -17,8 +16,14 @@
 \usepackage{url}
 \usepackage{tikz}
 \usepackage{todonotes}
-\usepackage[utf8]{inputenc} 
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
 \usepackage{graphicx}
+
+\usepackage{csquotes}
+\usepackage[style=authoryear, sorting=ynt, backend=bibtex]{biblatex}
+\addbibresource{mybib.bib}
 
 \begin{document}
 
@@ -28,6 +33,7 @@ library(knitr)
 # set global chunk options
 opts_chunk$set(fig.path='figures/', fig.align='center', fig.show='hold', echo=FALSE, warning=FALSE, message=FALSE)
 options(replace.assign=TRUE,width=90)
+
 @
 
 \title{Why are the Most Trade-Open Countries More Likely to Repress the Media?}
@@ -44,10 +50,21 @@ Why are more trade-open countries more likely to repress the media, even though 
 
 \vspace{0.3cm}
 
-Given the conventional wisdom that democratic political institutions drive economic openness (Milner and Kubota 2005) and vice-versa (Eichengreen and Leblang 2008), it is surprising that since the 1960s, on average, those countries which have been more open to international trade have had lower levels of media freedom. Although international portfolio capital and foreign direct investment are each positively correlated with media freedom around the world, the bivariate relationship between trade and media freedom is slightly negative.Disaggregated economic data come from the World Bank Development Indicators (Bank 2012) and data on media freedom come from Freedom House () and Van Belle's Global Press Freedom Dataset (Van Belle 2000). See the section on Data and Method below for a more detailed discussion of data and coding. Considering the 151 countries between 1960 and 2011 for which there is available data, those countries which most often had a repressive media environment had higher levels of trade than those countries which most often had a free media. This is true in democratic and non-democratic countries, although the negative relationship is weaker in democratic countries. Given the positive correlation found between media freedom and other measures of economic openness such as portfolio capital flows foreign direct investment, and the KOF Globalization index (Dreher et al. 2008), the coincidence of high trade openness and media repression is a surprisingly under-reported empirical puzzle in international and comparative political economy.
+Given the conventional wisdom that democratic political institutions drive economic openness \parencite{Milner:2005ci} and vice-versa \parencite{EICHENGREEN:2008gg}, it is surprising that since the 1960s, on average, those countries which have been more open to international trade have had lower levels of media freedom. Although international portfolio capital and foreign direct investment are each positively correlated with media freedom around the world, the bivariate relationship between trade and media freedom is slightly negative.Disaggregated economic data come from the World Bank Development Indicators (Bank 2012) and data on media freedom come from Freedom House () and Van Belle's Global Press Freedom Dataset (Van Belle 2000). See the section on Data and Method below for a more detailed discussion of data and coding. Considering the 151 countries between 1960 and 2011 for which there is available data, those countries which most often had a repressive media environment had higher levels of trade than those countries which most often had a free media. This is true in democratic and non-democratic countries, although the negative relationship is weaker in democratic countries. Given the positive correlation found between media freedom and other measures of economic openness such as portfolio capital flows foreign direct investment, and the KOF Globalization index (Dreher et al. 2008), the coincidence of high trade openness and media repression is a surprisingly under-reported empirical puzzle in international and comparative political economy.
 
+\pagebreak
+\begin{figure}[t]
+    \caption{Trade vs. General Economic Globalization in the Politics of Media Freedom, 1970-2003}
+    \label{absolute}
+    \begin{center}
 <<Intro, child='~/Dropbox/Projects/globalization_media_freedom/analyses/intro_graphs.Rnw', cache=FALSE>>=
 @
+    \end{center}
+    \begin{singlespace}
+        {\scriptsize{The KOF Index of Globalization is a 100-point scale reflecting the quantity of international trade and investment policy restrictions as well as flows of trade, FDI, FPI, and income paid to foreign nationals and capital (Dreher et al 2008, 43). Media freedom is measured on a dichotomous scale (free or not free). See the section on Data and Method for more details. 
+                      }}
+    \end{singlespace}
+\end{figure}
 
 This puzzle points to a larger gap in research on the domestic effects of economic globalization. International and comparative political economists have not yet developed a serious theoretical and empirical account of how a country's media are likely to be affected by that country's integration into the international economy. Much is known about the effects of economic integration on aspects of domestic politics such as cleavages (Rogowski 1987, 1989; Hiscox 2002), growth rates (Rodriguez and Rodrik 2001); domestic spending (Rodrik 1998; Burgoon 2001), civil war (Barbieri and Reuveny 2005; Bussmann and Schneider 2007), and generic measures of democracy (Eichengreen and Leblang 2008; Li and Reuveny 2003), but very little is known about how economic integration affects state-media relations. One exception is a working paper by Orion Lewis (2008), which finds mixed but suggestive evidence that trade openness is negatively related to media freedom and portfolio capital is positively related to media freedom. Other research has considered whether political and civil liberties (broadly including freedom of the media) affect international economic flows (2007) and the effect of media in economic reform (Coyne and Leeson 2004; Islam 2002), but in the extant literature there is no systematic analysis of whether and in what ways domestic media freedom has been shaped by increasing international economic integration around the world.
 
@@ -160,5 +177,7 @@ Model 2 adds to the baseline model levels and changes of international trade, in
 However, if media freedom appears to have a negative bivariate relationship with trade noticably different than its relationship with FDI and FPI, why does Model 2 betray no statistically significant evidence of this peculiarity, neither in the short nor long run? Of course, it could never be ruled out that the negative bivariate correlation between trade and media freedom is simply an artifict of some other phenemonon correlated with trade. But it is also possible that this is an artifact of heterogeneous types of trade fluctations: trade increases which are a part of more general economic openings may, along with FDI and FPI, all have variously positive effects on media freedom, while trade increases apart from such general openings generate the dynamics hypothesized above. This could be due to qualitatively different political strategies, if some policymakers liberalize trade as a package of economic and political liberalization (including the media), but otherwise generic increases in trade have negative effects on media freedom.\footnote{This is not to argue that multicollinearity or correlation among independent variables is inflating the standard errors, but rather that there are perhaps heterogenous types of trade increases, those associated with generalized economic liberalization (by design not associated with media repression) and generic trade increases apart from this type. In any event, these three international economic flows are not highly correlated.} To test this possibility, models 3-6 include the variable \emph{Liberalization average}, which reflects the mean change in trade, FDI, and FPI. Each model in turn considers whether changes in any of these specific flows have an independent effect distinct from mean liberalization in general.
 
 After controlling for increased openness in general, Model 4 reveals evidence consistent with the main theoretical claim of this article that increases in trade have a uniquely negative effect on media freedom in the short-run. Model 5 finds additional support that increases in FDI are positively associated with media freedom in the short-run. Coefficients for the long-run component of each international flow are consistent through all six models, suggesting that while trade and FDI have no distinguishable long-run effect on media freedom, FPI has a robustly positive long-run effect on media freedom. Finally, in three of the four models, the coefficient for \emph{Liberalization average} is positive and statistically significant, consistent with the possibility that when international flows have generally increased together, it will typically be followed by liberalization in media politics as well.
+
+\printbibliography
 
 \end{document}

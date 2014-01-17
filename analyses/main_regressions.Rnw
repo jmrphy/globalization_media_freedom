@@ -33,10 +33,10 @@ model2correct<-(model2classif[1,1] + model2classif[2,2])
 
 ### Model3, considering  multicollinearity of neoliberalism ###
 
-modelvars$llibavg <- (modelvars$ldopenk + modelvars$lfdiinflow + modelvars$lfpi)/3
-model3vars<-subset(modelvars, select=c("fp", "lrgdpch", "lgrgdpch", "lopenk", "lfdiinward", "lfpistock", "lfpi", "llibavg", "lpolity2", "ldpolity2", "interp", "spline"))
+
+model3vars<-subset(modelvars, select=c("fp", "lrgdpch", "lgrgdpch", "lopenk", "ldopenk", "lfdiinward", "lfpistock", "lpolity2", "ldpolity2", "ldeconglob", "interp", "spline"))
 model3vars<-model3vars[complete.cases(model3vars),]
-model3<-zelig(fp ~ lpolity2 + ldpolity2 + lrgdpch + lgrgdpch + interp + spline + lopenk + lfdiinward + lfpistock + llibavg,
+model3<-zelig(fp ~ lpolity2 + ldpolity2 + lrgdpch + lgrgdpch + interp + spline + lopenk + lfdiinward + lfpistock + ldeconglob,
               model="logit",
               robust=TRUE,
               data=model3vars,
@@ -47,10 +47,9 @@ model3correct<-(model3classif[1,1] + model3classif[2,2])
 
 ### Model4, considering neoliberalism + trade change ###
 
-modelvars$llibavg <- (modelvars$ldopenk + modelvars$lfdiinflow + modelvars$lfpi)/3
-model4vars<-subset(modelvars, select=c("fp", "interp", "lrgdpch", "lgrgdpch", "lopenk", "ldopenk", "lfdiinward", "lfpistock", "llibavg", "lpolity2", "ldpolity2", "spline"))
+model4vars<-subset(modelvars, select=c("fp", "interp", "lrgdpch", "lgrgdpch", "lopenk", "ldopenk", "lfdiinward", "lfpistock", "ldeconglob", "lpolity2", "ldpolity2", "spline"))
 model4vars<-model4vars[complete.cases(model4vars),]
-model4<-zelig(fp ~ lpolity2 + ldpolity2 + lrgdpch + lgrgdpch + interp + spline + lopenk + lfdiinward + lfpistock + ldopenk + llibavg,
+model4<-zelig(fp ~ lpolity2 + ldpolity2 + lrgdpch + lgrgdpch + interp + spline + lopenk + lfdiinward + lfpistock + ldopenk + ldeconglob,
               model="logit",
               robust=TRUE,
               data=model4vars,
@@ -61,10 +60,9 @@ model4correct<-(model4classif[1,1] + model4classif[2,2])
 
 ### Model5, considering neoliberalism + fdi change ###
 
-modelvars$llibavg <- (modelvars$ldopenk + modelvars$lfdiinflow + modelvars$lfpi)/3
-model5vars<-subset(modelvars, select=c("fp", "interp", "lrgdpch", "lgrgdpch", "lopenk", "lfdiinflow", "lfdiinward", "lfpistock", "llibavg", "lpolity2", "ldpolity2", "spline"))
+model5vars<-subset(modelvars, select=c("fp", "interp", "lrgdpch", "lgrgdpch", "lopenk", "lfdiinflow", "lfdiinward", "lfpistock", "ldeconglob", "lpolity2", "ldpolity2", "spline"))
 model5vars<-model5vars[complete.cases(model5vars),]
-model5<-zelig(fp ~ lpolity2 + ldpolity2 + lrgdpch + lgrgdpch + interp + spline + lopenk + lfdiinward + lfpistock + lfdiinflow + llibavg,
+model5<-zelig(fp ~ lpolity2 + ldpolity2 + lrgdpch + lgrgdpch + interp + spline + lopenk + lfdiinward + lfpistock + lfdiinflow + ldeconglob,
               model="logit",
               robust=TRUE,
               data=model5vars,
@@ -75,10 +73,9 @@ model5correct<-(model5classif[1,1] + model5classif[2,2])
 
 ### Model6, considering neoliberalism + fpi change ###
 
-modelvars$llibavg <- (modelvars$ldopenk + modelvars$lfdiinflow + modelvars$lfpi)/3
-model6vars<-subset(modelvars, select=c("fp", "interp", "lrgdpch", "lgrgdpch", "lopenk", "lfpi", "lfdiinward", "lfpistock", "llibavg", "lpolity2", "ldpolity2", "spline"))
+model6vars<-subset(modelvars, select=c("fp", "interp", "lrgdpch", "lgrgdpch", "lopenk", "lfpi", "lfdiinward", "lfpistock", "ldeconglob", "lpolity2", "ldpolity2", "spline"))
 model6vars<-model6vars[complete.cases(model6vars),]
-model6<-zelig(fp ~ lpolity2 + ldpolity2 + lrgdpch + lgrgdpch + interp + spline + lopenk + lfdiinward + lfpistock + lfpi + llibavg,
+model6<-zelig(fp ~ lpolity2 + ldpolity2 + lrgdpch + lgrgdpch + interp + spline + lopenk + lfdiinward + lfpistock + lfpi + ldeconglob,
               model="logit",
               robust=TRUE,
               data=model6vars,

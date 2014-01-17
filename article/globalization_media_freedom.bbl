@@ -1,0 +1,124 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{Milner:2005ci}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Milner}{M.}%
+     {Helen}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kubota}{K.}%
+     {Keiko}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \list{publisher}{1}{%
+    {Cambridge University Press}%
+  }
+  \strng{namehash}{MHKK1}
+  \strng{fullhash}{MHKK1}
+  \field{labelyear}{2005}
+  \field{sortinit}{2}
+  \field{abstract}{%
+  Abstract Rising international trade flows are a primary component of
+  globalization. The liberalization of trade policy in many developing
+  countries has helped foster the growth of these flows. Preceding and
+  concurrent with this move to free trade , there has been a ...%
+  }
+  \verb{doi}
+  \verb 10.1017/S002081830505006X
+  \endverb
+  \field{number}{01}
+  \field{pages}{107\bibrangedash 143}
+  \field{title}{{Why the Move to Free Trade? Democracy and Trade Policy in the
+  Developing Countries}}
+  \verb{url}
+  \verb http://www.journals.cambridge.org/abstract_S002081830505006X
+  \endverb
+  \field{volume}{59}
+  \verb{file}
+  \verb {International Organization 2005 Milner.pdf:/Users/justin/Dropbox/Paper
+  \verb s App/Library.papers3/Articles/2005/Milner/International Organization 2
+  \verb 005 Milner.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{International Organization}
+  \field{month}{02}
+  \field{year}{2005}
+\endentry
+
+\entry{EICHENGREEN:2008gg}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Eichengreen}{E.}%
+     {Barry}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Leblang}{L.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \list{publisher}{1}{%
+    {Blackwell Publishing Ltd}%
+  }
+  \keyw{democracy, globalization, trade{\_}media{\_}freedom}
+  \strng{namehash}{EBLD1}
+  \strng{fullhash}{EBLD1}
+  \field{labelyear}{2008}
+  \field{sortinit}{2}
+  \field{abstract}{%
+  The relationship between democracy and globalization has been a subject of
+  both scholarly and policy debate. Some argue that the two go hand in
+  hand--that unrestricted international transactions encourage political
+  accountability and transparency and that politically free ...%
+  }
+  \verb{doi}
+  \verb 10.1111/j.1468-0343.2007.00329.x
+  \endverb
+  \field{number}{3}
+  \field{pages}{289\bibrangedash 334}
+  \field{title}{{Democracy and Globalization}}
+  \verb{url}
+  \verb http://onlinelibrary.wiley.com.libproxy.temple.edu/doi/10.1111/j.1468-0
+  \verb 343.2007.00329.x/full
+  \endverb
+  \field{volume}{20}
+  \verb{file}
+  \verb {Economics & Politics 2008 Eichengreen.pdf:/Users/justin/Dropbox/Papers
+  \verb  App/Library.papers3/Articles/2008/Eichengreen/Economics & Politics 200
+  \verb 8 Eichengreen.pdf:application/pdf;Economics & Politics 2008 Eichengreen
+  \verb .pdf:/Users/justin/Dropbox/Papers App/Library.papers3/Articles/2008/Eic
+  \verb hengreen/Economics & Politics 2008 Eichengreen.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{Economics {\&} Politics}
+  \field{year}{2008}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
