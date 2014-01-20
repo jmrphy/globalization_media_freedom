@@ -16,6 +16,139 @@
   {}
 \endgroup
 
+\entry{Rogowski:1987ip}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Rogowski}{R.}%
+     {Ronald}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RR1}
+  \strng{fullhash}{RR1}
+  \field{labelyear}{1987}
+  \field{sortinit}{1}
+  \verb{doi}
+  \verb 10.2307/1962581
+  \endverb
+  \field{number}{4}
+  \field{pages}{1121}
+  \field{title}{{Political Cleavages and Changing Exposure to Trade}}
+  \verb{url}
+  \verb http://www.jstor.org/stable/1962581?origin=crossref
+  \endverb
+  \field{volume}{81}
+  \verb{file}
+  \verb {The American Political Science Review 1987 Rogowski.pdf:/Users/justin/
+  \verb Dropbox/Papers App/Library.papers3/Articles/1987/Rogowski/The American
+  \verb Political Science Review 1987 Rogowski.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{The American Political Science Review}
+  \field{month}{12}
+  \field{year}{1987}
+\endentry
+
+\entry{Rogowski:1989wm}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Rogowski}{R.}%
+     {Ronald}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Princeton University Press}%
+  }
+  \strng{namehash}{RR1}
+  \strng{fullhash}{RR1}
+  \field{labelyear}{1989}
+  \field{sortinit}{1}
+  \field{abstract}{%
+  ... They may, however, have exaggerated agriculture's woes: see Holt 1936 and
+  Rogowski 1982. ... 5. In Argentina, of course, the populist regime of Peron
+  did not assume full power until 1946; but the cleavage (and the growing
+  strength of the labor ... Trade and Political Cleavages . 13 ...%
+  }
+  \field{title}{{Commerce and coalitions}}
+  \verb{url}
+  \verb http://isites.harvard.edu/fs/docs/icb.topic248058.files/February%2018%2
+  \verb 0readings/Rogowski.pdf
+  \endverb
+  \list{location}{1}{%
+    {Princeton, NJ}%
+  }
+  \verb{file}
+  \verb {1989 Rogowski.pdf:/Users/justin/Dropbox/Papers App/Library.papers3/Boo
+  \verb ks/1989/Rogowski/1989 Rogowski.pdf:application/pdf}
+  \endverb
+  \field{year}{1989}
+\endentry
+
+\entry{Hiscox:2002us}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hiscox}{H.}%
+     {M~J}{M.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HMJ1}
+  \strng{fullhash}{HMJ1}
+  \field{labelyear}{2002}
+  \field{extrayear}{1}
+  \field{sortinit}{2}
+  \field{abstract}{%
+  The extent to which political conflict over US trade policy has led to
+  clashes between broad- based class coalitions has varied significantly over
+  time during the past two centuries. I argue that much of this variation can
+  be explained by changes in economywide levels of ...%
+  }
+  \field{title}{{Commerce, coalitions, and factor mobility: Evidence from
+  congressional votes on trade legislation}}
+  \verb{url}
+  \verb http://journals.cambridge.org/production/action/cjoGetFulltext?fulltext
+  \verb id=130762
+  \endverb
+  \verb{file}
+  \verb {American Political Science Review 2002 Hiscox.pdf:/Users/justin/Dropbo
+  \verb x/Papers App/Library.papers3/Articles/2002/Hiscox/American Political Sc
+  \verb ience Review 2002 Hiscox.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{American Political Science Review}
+  \field{year}{2002}
+\endentry
+
+\entry{hiscox2002international}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hiscox}{H.}%
+     {M~J}{M.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Princeton University Press}%
+  }
+  \strng{namehash}{HMJ1}
+  \strng{fullhash}{HMJ1}
+  \field{labelyear}{2002}
+  \field{extrayear}{2}
+  \field{sortinit}{2}
+  \field{abstract}{%
+  ... I am especially indebted to Mike and Daniel since I drew very heavily
+  from their own ... James Alt and Michael Gilligan (1994) have suggested that
+  rules under which policy is made by a ... ments Act of 1934) about how
+  coalitions can shape policymaking institutions, see Hiscox 1999 ...%
+  }
+  \field{isbn}{9780691088556}
+  \field{title}{{International Trade and Political Conflict: Commerce,
+  Coalitions, and Mobility}}
+  \verb{url}
+  \verb http://books.google.com/books?id=PLaWP6tJOE4C
+  \endverb
+  \field{year}{2002}
+\endentry
+
 \entry{Milner:2005ci}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -64,6 +197,59 @@
   \field{journaltitle}{International Organization}
   \field{month}{02}
   \field{year}{2005}
+\endentry
+
+\entry{Dreher:2008dg}{book}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Dreher}{D.}%
+     {Axel}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gaston}{G.}%
+     {Noel}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Martens}{M.}%
+     {Pim}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{DAGNMP1}
+  \strng{fullhash}{DAGNMP1}
+  \field{labelyear}{2008}
+  \field{sortinit}{2}
+  \field{abstract}{%
+  Globalisation has become to be far more than a social commentator's buzzword
+  in contemporary times. Consequently, the measurement of globalisation is now
+  of central concern, whether for academe, business, the mass and specialised
+  media or policy circles. In business, ...%
+  }
+  \verb{doi}
+  \verb 10.1007/978-0-387-74069-0{\_}3
+  \endverb
+  \field{title}{{The Measurement of Globalisation}}
+  \verb{url}
+  \verb http://link.springer.com.libproxy.temple.edu/chapter/10.1007/978-0-387-
+  \verb 74069-0_3/fulltext.html
+  \endverb
+  \list{location}{1}{%
+    {New York}%
+  }
+  \verb{file}
+  \verb {D2F5093B-1068-47E6-9B55-A5F1B21CAD01.pdf:/Users/justin/Dropbox/Papers
+  \verb App/Library.papers3/Files/D2/D2F5093B-1068-47E6-9B55-A5F1B21CAD01.pdf:a
+  \verb pplication/pdf}
+  \endverb
+  \field{year}{2008}
 \endentry
 
 \entry{EICHENGREEN:2008gg}{article}{}
