@@ -23,7 +23,7 @@
 \usepackage{afterpage}
 
 \usepackage{csquotes}
-\usepackage[style=authoryear, sorting=ynt, backend=bibtex]{biblatex}
+\usepackage[style=authoryear, sorting=ynt, url=false, backend=bibtex]{biblatex}
 \addbibresource{mybib.bib}
 
 \begin{document}
@@ -248,7 +248,11 @@ The implications are important for researchers of the globalization-democracy ne
 
 Certain unexpected findings also suggest interesting questions. For instance, when economic liberalization increases market competition in the media sector, it generates strong pressures which favor a free, independent media. If this is the case, then it would provide a warrant for expecting trade liberalization to be associated with media freedom in the long run, as the conventional wisdom is that trade liberalization increases market competition. Thus, if trade indeed is associated with increased domestic competition, then it remains unclear why trade liberalization would be statistically associated with media repression in the long-run, a pattern evidenced in the statistical models here. One possibility is that the domestic economic and political consequences of trade liberalization are not fully understood and that trade liberalization independently is not associated with increased domestic competition.
 
+\begingroup
+\setstretch{0.8}
+\setlength\bibitemsep{5pt}
 \printbibliography
+\endgroup
 
 \section{Supplementary Material}
 
