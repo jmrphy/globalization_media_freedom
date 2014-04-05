@@ -1,7 +1,7 @@
 <<mainregressions>>=
 require(Zelig)
 
-modelvars<-read.csv("~/Dropbox/Projects/globalization_media_freedom/data/out_modelvars.csv")
+modelvars<-read.csv("~/Dropbox/gh_projects/globalization_media_freedom/data/out_modelvars.csv")
 
 require(rms)
 modelvars$spline<-rcs(as.numeric(modelvars$year),3)

@@ -20,6 +20,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage{graphicx}
+\usepackage{afterpage}
 
 \usepackage{csquotes}
 \usepackage[style=authoryear, sorting=ynt, backend=bibtex]{biblatex}
@@ -31,7 +32,7 @@
 <<setup, include=FALSE, cache=FALSE>>=
 library(knitr)
 # set global chunk options
-opts_chunk$set(fig.path='figures/', fig.align='center', fig.show='hold', echo=FALSE, warning=FALSE, message=FALSE)
+opts_chunk$set(fig.path='figures/', fig.align='center', echo=FALSE, warning=FALSE, message=FALSE)
 options(replace.assign=TRUE,width=90)
 
 @
@@ -52,12 +53,13 @@ Why are more trade-open countries more likely to repress the media, even though 
 
 Given the conventional wisdom that democratic political institutions drive economic openness \parencite{Milner:2005ci} and vice-versa \parencite{EICHENGREEN:2008gg}, it is surprising that since the 1960s, on average, those countries which have been more open to international trade have had lower levels of media freedom. Although international portfolio capital and foreign direct investment are each positively correlated with media freedom around the world, the bivariate relationship between trade and media freedom is slightly negative. Considering the full sample of countries between 1970 and 2003 for which there is available data, those countries which most often had a repressive media environment had higher levels of trade than those countries which most often had a free media. This is true in democratic and non-democratic countries, although the negative relationship is weaker in democratic countries. Given the positive correlation found between media freedom and other measures of economic openness such as portfolio capital flows foreign direct investment, and the KOF Globalization index \parencite{Dreher:2008dg}, the coincidence of high trade openness and media repression is a surprisingly under-reported empirical puzzle in international and comparative political economy.
 
-\pagebreak
+\afterpage{
 \begin{figure}[t]
     \caption{Trade vs. General Economic Globalization in the Politics of Media Freedom, 1970-2003}
     \label{absolute}
     \begin{center}
-<<Intro, child='~/Dropbox/Projects/globalization_media_freedom/analyses/intro_graphs.Rnw', cache=FALSE>>=
+<<Intro, child='~/Dropbox/gh_projects/globalization_media_freedom/analyses/intro_graphs.Rnw', cache=FALSE>>=
+
 @
     \end{center}
     \begin{singlespace}
@@ -65,6 +67,8 @@ Given the conventional wisdom that democratic political institutions drive econo
                       }}
     \end{singlespace}
 \end{figure}
+\clearpage
+}
 
 This puzzle points to a larger gap in research on the domestic effects of economic globalization. International and comparative political economists have not yet developed a serious theoretical and empirical account of how a country's media are likely to be affected by that country's integration into the international economy. Much is known about the effects of economic integration on aspects of domestic politics such as cleavages \parencites{Rogowski:1987ip}{Rogowski:1989wm}{Hiscox:2002us}{hiscox2002international}, growth rates (Rodriguez and Rodrik 2001); domestic spending (Rodrik 1998; Burgoon 2001), civil war (Barbieri and Reuveny 2005; Bussmann and Schneider 2007), and generic measures of democracy (Eichengreen and Leblang 2008; Li and Reuveny 2003), but very little is known about how economic integration affects state-media relations. One exception is a working paper by Orion Lewis (2008), which finds mixed but suggestive evidence that trade openness is negatively related to media freedom and portfolio capital is positively related to media freedom. Other research has considered whether political and civil liberties (broadly including freedom of the media) affect international economic flows (2007) and the effect of media in economic reform (Coyne and Leeson 2004; Islam 2002), but in the extant literature there is no systematic analysis of whether and in what ways domestic media freedom has been shaped by increasing international economic integration around the world.
 
@@ -155,7 +159,7 @@ Specifically, I offer two short, “disciplined-configurative” case studies fo
 
 Table 1 displays the results of 6 different logistic regressions assessing the probability of observing media freedom in country$_{it}$. Before analysis, all variables were rescaled by subtracting the mean and dividing by two standard deviations so that the displayed coefficients reflect the expected effect of a two standard-devation increase each independent variable, holding the others constant.\footnote{The difference between the two levels of a binary variable is, in effect, two standard deviations. CITE GELMAN.}  Each logistic regression is estimated using robust (heteroskedastic and autocorrelation consistent) standard errors.
 
-<<Main, child='~/Dropbox/Projects/globalization_media_freedom/analyses/main_regressions.Rnw', cache=FALSE>>=
+<<Main, child='~/Dropbox/gh_projects/globalization_media_freedom/analyses/main_regressions.Rnw', cache=FALSE>>=
 @
 
 <<MainModels, results='asis', cache=FALSE>>=

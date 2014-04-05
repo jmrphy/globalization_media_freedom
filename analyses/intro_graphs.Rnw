@@ -3,8 +3,8 @@
 require(ggplot2)
 require(gridExtra)
 
-df<-read.csv("~/Dropbox/Projects/globalization_media_freedom/data/out_df.csv")
-countryavgs<-read.csv("~/Dropbox/Projects/globalization_media_freedom/data/out_countryavgs.csv")
+df<-read.csv("~/Dropbox/gh_projects/globalization_media_freedom/data/out_df.csv")
+countryavgs<-read.csv("~/Dropbox/gh_projects/globalization_media_freedom/data/out_countryavgs.csv")
 
 kofintroplot<-ggplot(countryavgs, aes(x=fp, y=economic.globalization)) +
   geom_smooth(method=lm, se=FALSE) +
