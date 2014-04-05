@@ -16,6 +16,102 @@
   {}
 \endgroup
 
+\entry{Huntington:1975vt}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Dominguez}{D.}%
+     {Jorge~I}{J.~I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Huntington}{H.}%
+     {Samuel~P}{S.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{DJIHSP1}
+  \strng{fullhash}{DJIHSP1}
+  \field{labelyear}{1975}
+  \field{sortinit}{1}
+  \field{pages}{1\bibrangedash 114}
+  \field{title}{{Political Development}}
+  \verb{url}
+  \verb http://scholar.google.com/scholar?q=related:qdG3h122KaoJ:scholar.google
+  \verb .com/&hl=en&num=20&as_sdt=0,5
+  \endverb
+  \field{volume}{3}
+  \list{location}{1}{%
+    {Reading}%
+  }
+  \field{journaltitle}{Handbook of Political Science}
+  \field{year}{1975}
+\endentry
+
+\entry{Lindblom:1977ue}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lindblom}{L.}%
+     {Charles~E}{C.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Basic Books}%
+  }
+  \strng{namehash}{LCE1}
+  \strng{fullhash}{LCE1}
+  \field{labelyear}{1977}
+  \field{sortinit}{1}
+  \field{abstract}{%
+  The Wageningen UR Library Catalogue contains bibliographic data on books and
+  periodicals held by the libraries of Wageningen University and Research
+  Centre and some 15 associated libraries. Holding data are added to each
+  record.%
+  }
+  \field{title}{{Politics and Markets : The World's Political-Economic
+  Systems}}
+  \verb{url}
+  \verb http://library.wur.nl/WebQuery/clc/115879
+  \endverb
+  \list{location}{1}{%
+    {New York}%
+  }
+  \field{year}{1977}
+\endentry
+
+\entry{Kant:1983uf}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kant}{K.}%
+     {Immanuel}{I.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Hackett}%
+  }
+  \strng{namehash}{KI1}
+  \strng{fullhash}{KI1}
+  \field{labelyear}{1983}
+  \field{sortinit}{1}
+  \field{abstract}{%
+  TABLE OF CONTENTS: Introduction. Bibliography. A Note on the Text. 1. Idea
+  for a Universal History with a Cosmopolitan Intent (1784) 2. An Answer to the
+  Question: What Is Enlightenment?(1784) 3. Speculative Beginning of Human
+  History (1786) 4. On the ...%
+  }
+  \field{title}{{Perpetual Peace, and Other Essays on Politics, History, and
+  Morals}}
+  \verb{url}
+  \verb http://books.google.com.libproxy.temple.edu/books/about/Perpetual_Peace
+  \verb _and_Other_Essays_on_Poli.html?id=e8AarOLTngEC
+  \endverb
+  \list{location}{1}{%
+    {Indianapolis}%
+  }
+  \field{year}{1983}
+\endentry
+
 \entry{Rogowski:1987ip}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -24,8 +120,8 @@
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{RR1}
-  \strng{fullhash}{RR1}
+  \strng{namehash}{RR2}
+  \strng{fullhash}{RR2}
   \field{labelyear}{1987}
   \field{sortinit}{1}
   \verb{doi}
@@ -59,8 +155,8 @@
   \list{publisher}{1}{%
     {Princeton University Press}%
   }
-  \strng{namehash}{RR1}
-  \strng{fullhash}{RR1}
+  \strng{namehash}{RR2}
+  \strng{fullhash}{RR2}
   \field{labelyear}{1989}
   \field{sortinit}{1}
   \field{abstract}{%
@@ -82,6 +178,424 @@
   \verb ks/1989/Rogowski/1989 Rogowski.pdf:application/pdf}
   \endverb
   \field{year}{1989}
+\endentry
+
+\entry{Habermas:1991vg}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Habermas}{H.}%
+     {Jurgen}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {MIT}%
+  }
+  \strng{namehash}{HJ1}
+  \strng{fullhash}{HJ1}
+  \field{labelyear}{1991}
+  \field{sortinit}{1}
+  \field{abstract}{%
+  " The most significant modern work on its subject.... Habermas offers perhaps
+  the richest, best developed conceptualization available of the social nature
+  and foundations of public life."--Craig J. Calhoun," Contemporary Sociology"
+  This is J{\"u} rgen Habermas's most ...%
+  }
+  \field{title}{{The Structural Transformation of the Public Sphere}}
+  \verb{url}
+  \verb http://books.google.com.libproxy.temple.edu/books/about/The_Structural_
+  \verb Transformation_of_the_Pub.html?id=e799caakIWoC
+  \endverb
+  \field{year}{1991}
+\endentry
+
+\entry{Im:1996cl}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Im}{I.}%
+     {Hyug~Baeg}{H.~B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \strng{namehash}{IHB1}
+  \strng{fullhash}{IHB1}
+  \field{labelyear}{1996}
+  \field{sortinit}{1}
+  \field{abstract}{%
+  ... 27 Roland Axtman, ' Globalization and Democracy ', paper presented at the
+  XVI World Congress of IPSA, Berlin, 1994, p.1. 285 Page 8. HYUG BAEG IM and
+  technology. ... 286 Page 9. Globalisation and Democratisation fragile new
+  democracies . ...%
+  }
+  \verb{doi}
+  \verb 10.1080/10357719608445187
+  \endverb
+  \field{number}{3}
+  \field{pages}{279\bibrangedash 291}
+  \field{title}{{Globalisation and Democratisation: Boon Companions or Strange
+  Bedfellows?}}
+  \verb{url}
+  \verb http://www.tandfonline.com/doi/abs/10.1080/10357719608445187
+  \endverb
+  \field{volume}{50}
+  \field{journaltitle}{Australian Journal of International Affairs}
+  \field{month}{11}
+  \field{year}{1996}
+\endentry
+
+\entry{Limongi:1996dr}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Limongi}{L.}%
+     {Fernando}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cheibub}{C.}%
+     {Jose~Antonio}{J.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alvarez}{A.}%
+     {Michael~M}{M.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Przeworski}{P.}%
+     {Adam}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \list{publisher}{1}{%
+    {The Johns Hopkins University Press}%
+  }
+  \strng{namehash}{LF+1}
+  \strng{fullhash}{LFCJAAMMPA1}
+  \field{labelyear}{1996}
+  \field{sortinit}{1}
+  \field{abstract}{%
+  If a country, any randomly selected country, is to have a democratic regime
+  next year, what conditions should be present in that country and around the
+  world this year? The answer is: democracy , affluence, growth with moderate
+  inflation, declining inequality, a favorable ...%
+  }
+  \verb{doi}
+  \verb 10.1353/jod.1996.0016
+  \endverb
+  \field{number}{1}
+  \field{pages}{39\bibrangedash 55}
+  \field{title}{{What Makes Democracies Endure?}}
+  \verb{url}
+  \verb http://muse.jhu.edu.libproxy.temple.edu/journals/journal_of_democracy/v
+  \verb 007/7.1przeworski.html
+  \endverb
+  \field{volume}{7}
+  \field{journaltitle}{Journal of Democracy}
+  \field{month}{01}
+  \field{year}{1996}
+\endentry
+
+\entry{Baghwati:1997vy}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Baghwati}{B.}%
+     {Jagdish}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BJ1}
+  \strng{fullhash}{BJ1}
+  \field{labelyear}{1997}
+  \field{sortinit}{1}
+  \field{abstract}{%
+  Like everyone else, economists like to break out of the narrowness of their
+  discipline and speculate on a larger theme, painting on a bigger canvas. Like
+  John Kenneth Galbraith, they may even make money while having fun. In the
+  process, they may even illuminate and ...%
+  }
+  \field{title}{{Globalization, Sovereignty, and Democracy}}
+  \verb{url}
+  \verb http://books.google.com.libproxy.temple.edu/books/about/Democracy_s_Vic
+  \verb tory_and_Crisis.html?id=upGSFfW1DYkC
+  \endverb
+  \field{journaltitle}{Democracy's Victory and Crisis}
+  \field{year}{1997}
+\endentry
+
+\entry{Belle:1997wo}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Van~Belle}{V.~B.}%
+     {Douglas~A}{D.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{VBDA1}
+  \strng{fullhash}{VBDA1}
+  \field{labelyear}{1997}
+  \field{sortinit}{1}
+  \field{number}{4}
+  \field{pages}{405\bibrangedash 414}
+  \field{title}{{Press Freedom and the Democratic Peace}}
+  \field{volume}{34}
+  \verb{file}
+  \verb {Journal of Peace Research 1997 Belle.pdf:/Users/justin/Dropbox/Papers
+  \verb App/Library.papers3/Articles/1997/Belle/Journal of Peace Research 1997
+  \verb Belle.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{Journal of Peace Research}
+  \field{month}{01}
+  \field{year}{1997}
+\endentry
+
+\entry{Cammack:1998gf}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Cammack}{C.}%
+     {Paul}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \list{publisher}{1}{%
+    {Cambridge University Press}%
+  }
+  \strng{namehash}{CP1}
+  \strng{fullhash}{CP1}
+  \field{labelyear}{1998}
+  \field{sortinit}{1}
+  \field{abstract}{%
+  ... Printed in the United Kingdom Globalization and the death of liberal
+  democracy PAUL CAMMACK * It is doubtful as to whether the countries of the
+  Third World are likely to move to the kind of liberal democracy that is
+  regarded as characteristic of the West. ...%
+  }
+  \verb{doi}
+  \verb 10.1017/S1062798700003264
+  \endverb
+  \field{number}{02}
+  \field{pages}{249\bibrangedash 263}
+  \field{title}{{Globalization and the death of liberal democracy}}
+  \verb{url}
+  \verb http://journals.cambridge.org.libproxy.temple.edu/action/displayAbstrac
+  \verb t?aid=5307236
+  \endverb
+  \field{volume}{6}
+  \field{journaltitle}{European Review}
+  \field{year}{1998}
+\endentry
+
+\entry{Rodrik:1998te}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Rodrik}{R.}%
+     {Dani}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RD1}
+  \strng{fullhash}{RD1}
+  \field{labelyear}{1998}
+  \field{sortinit}{1}
+  \field{pages}{1\bibrangedash 37}
+  \field{title}{{Why Do More Open Economies Have Bigger Governments?}}
+  \verb{file}
+  \verb {Journal of Political Economy 1998 Rodrik.pdf:/Users/justin/Dropbox/Pap
+  \verb ers App/Library.papers3/Articles/1998/Rodrik/Journal of Political Econo
+  \verb my 1998 Rodrik.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{Journal of Political Economy}
+  \field{month}{10}
+  \field{year}{1998}
+\endentry
+
+\entry{Oneal:1999fc}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Oneal}{O.}%
+     {John~R}{J.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Russett}{R.}%
+     {Bruce}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \strng{namehash}{OJRRB1}
+  \strng{fullhash}{OJRRB1}
+  \field{labelyear}{1999}
+  \field{sortinit}{1}
+  \field{abstract}{%
+  Abstract Some recent analyses challenge previous reports which show that
+  economically important trade significantly reduces the probability of
+  militarized disputes between countries. Beck et al.(1998) address the effect
+  of temporal dependence in the time-series ...%
+  }
+  \verb{doi}
+  \verb 10.1177/0022343399036004003
+  \endverb
+  \field{number}{4}
+  \field{pages}{423\bibrangedash 442}
+  \field{title}{{Assessing the Liberal Peace with Alternative Specifications:
+  Trade Still Reduces Conflict}}
+  \verb{url}
+  \verb http://jpr.sagepub.com/cgi/doi/10.1177/0022343399036004003
+  \endverb
+  \field{volume}{36}
+  \field{journaltitle}{Journal of Peace Research}
+  \field{month}{07}
+  \field{year}{1999}
+\endentry
+
+\entry{van2000press}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Van~Belle}{V.~B.}%
+     {Douglas~A}{D.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Praeger}%
+  }
+  \keyw{international politics, media, media freedom, press freedom}
+  \strng{namehash}{VBDA1}
+  \strng{fullhash}{VBDA1}
+  \field{labelyear}{2000}
+  \field{sortinit}{2}
+  \field{abstract}{%
+  Van Belle provides the first systematic analysis of the effects that press
+  freedom has on the conduct of international politics . The
+  institutionalization of press freedoms within a state and the free flow of
+  information between the free presses of different nations creates a foreign
+  ...%
+  }
+  \field{isbn}{9780275967901}
+  \field{title}{{Press Freedom and Global Politics}}
+  \verb{url}
+  \verb http://books.google.com/books?id=ftSNriNThFYC
+  \endverb
+  \field{year}{2000}
+\endentry
+
+\entry{Burgoon:2001dp}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Burgoon}{B.}%
+     {Brian}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BB1}
+  \strng{fullhash}{BB1}
+  \field{labelyear}{2001}
+  \field{sortinit}{2}
+  \field{abstract}{%
+  The relationship between economic openness and welfare policies in
+  industrialized countries has long been of interest to and increasingly
+  divides students of politics and economics. Several lines of research once
+  suggested that greater openness poses ...%
+  }
+  \verb{doi}
+  \verb 10.1162/00208180152507542
+  \endverb
+  \field{number}{3}
+  \field{pages}{509\bibrangedash 551}
+  \field{title}{{Globalization and Welfare Compensation: Disentangling the Ties
+  that Bind}}
+  \verb{url}
+  \verb http://journals.cambridge.org/abstract_S0020818301441403
+  \endverb
+  \field{volume}{55}
+  \verb{file}
+  \verb {International Organization 2001 Burgoon.pdf:/Users/justin/Dropbox/Pape
+  \verb rs App/Library.papers3/Articles/2001/Burgoon/International Organization
+  \verb  2001 Burgoon.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{International Organization}
+  \field{month}{09}
+  \field{year}{2001}
+\endentry
+
+\entry{Rodriguez:2001uw}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Rodriguez}{R.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rodrik}{R.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RFRD1}
+  \strng{fullhash}{RFRD1}
+  \field{labelyear}{2001}
+  \field{sortinit}{2}
+  \field{abstract}{%
+  ... Sachs and Warner (1995) is a close second, and the index of openness
+  constructed therein has now been widely used in the ... Ben-David (1993)
+  considers income convergence in countries that have integrated with each
+  other (such as the European Community coun- tries). ...%
+  }
+  \field{title}{{Trade policy and economic growth: a skeptic's guide to the
+  cross-national evidence}}
+  \verb{url}
+  \verb http://www.nber.org/chapters/c11058.pdf
+  \endverb
+  \verb{file}
+  \verb {2001 Rodriguez.pdf:/Users/justin/Dropbox/Papers App/Library.papers3/Ar
+  \verb ticles/2001/Rodriguez/2001 Rodriguez.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{NBER Macroeconomics Annual 2000}
+  \field{year}{2001}
+\endentry
+
+\entry{Adsera:2002vt}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Adser{\`a}}{A.}%
+     {Al{\'\i}cia}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Boix}{B.}%
+     {Carles}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{democ, democracy, globalization, regime type, trade}
+  \strng{namehash}{AABC1}
+  \strng{fullhash}{AABC1}
+  \field{labelyear}{2002}
+  \field{sortinit}{2}
+  \field{number}{2}
+  \field{pages}{229\bibrangedash 262}
+  \field{title}{{Trade, Democracy, Public Sector: The Political Underpinnings
+  of Openness}}
+  \field{volume}{56}
+  \verb{file}
+  \verb {International Organization 2002 Adserà.pdf:/Users/justin/Dropbox/Pape
+  \verb rs App/Library.papers3/Articles/2002/Adserà/International Organization
+  \verb  2002 Adserà.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{International Organization}
+  \field{month}{03}
+  \field{year}{2002}
 \endentry
 
 \entry{Hiscox:2002us}{article}{}
@@ -149,11 +663,195 @@
   \field{year}{2002}
 \endentry
 
+\entry{Islam:2002uc}{book}{}
+  \name{editor}{1}{}{%
+    {{}%
+     {Islam}{I.}%
+     {Roumeen}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {World Bank Publications}%
+  }
+  \strng{namehash}{IR1}
+  \strng{fullhash}{IR1}
+  \field{labelyear}{2002}
+  \field{sortinit}{2}
+  \field{abstract}{%
+  An independent press is essential to sound and equitable economic
+  development. The media helps to give a voice to the poor and the
+  disenfranchised. An independent press also provides a solid foundation for a
+  free and transparent society.'The Right to Tell'contains an ...%
+  }
+  \field{series}{The Role of Mass Media in Economic Development}
+  \field{title}{{The Right to Tell}}
+  \verb{url}
+  \verb http://books.google.com.libproxy.temple.edu/books/about/The_Right_to_Te
+  \verb ll.html?id=56punueI7G0C
+  \endverb
+  \field{year}{2002}
+\endentry
+
+\entry{Levitsky:2002gx}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Levitsky}{L.}%
+     {Steven}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Way}{W.}%
+     {Lucan}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \list{publisher}{1}{%
+    {The Johns Hopkins University Press}%
+  }
+  \strng{namehash}{LSWL1}
+  \strng{fullhash}{LSWL1}
+  \field{labelyear}{2002}
+  \field{sortinit}{2}
+  \field{abstract}{%
+  ... Leonid Kuchma, Peru under Alberto Fujimori, and post-1995 Haiti, as well
+  as Albania, Armenia, Ghana, Kenya, Malaysia, Mexico , and Zambia ... 2)
+  virtually all adults possess the right to vote; 3) political rights and civil
+  liberties, including freedom of the press , freedom of association ...%
+  }
+  \verb{doi}
+  \verb 10.1353/jod.2002.0026
+  \endverb
+  \field{number}{2}
+  \field{pages}{51\bibrangedash 65}
+  \field{title}{{The Rise of Competitive Authoritarianism}}
+  \verb{url}
+  \verb http://muse.jhu.edu/content/crossref/journals/journal_of_democracy/v013
+  \verb /13.2levitsky.html
+  \endverb
+  \field{volume}{13}
+  \verb{file}
+  \verb {Journal of Democracy 2002 Levitsky.pdf:/Users/justin/Dropbox/Papers Ap
+  \verb p/Library.papers3/Articles/2002/Levitsky/Journal of Democracy 2002 Levi
+  \verb tsky.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{Journal of Democracy}
+  \field{year}{2002}
+\endentry
+
+\entry{Islam:2003tu}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Islam}{I.}%
+     {Roumeen}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{IR1}
+  \strng{fullhash}{IR1}
+  \field{labelyear}{2003}
+  \field{sortinit}{2}
+  \field{abstract}{%
+  ... More recently, papers have looked at the empirical evidence linking the
+  responsiveness of governments as well as private actors to better information
+  provided by the media ( Islam 2002, World Bank, 2002). For example, Besley
+  and Burgess (2001, 2002) find that regions in ...%
+  }
+  \field{title}{{Do More Transparent Governments Govern Better?}}
+  \verb{url}
+  \verb http://papers.ssrn.com/abstract=636439
+  \endverb
+  \verb{file}
+  \verb {2003 Islam.pdf:/Users/justin/Dropbox/Papers App/Library.papers3/Articl
+  \verb es/2003/Islam/2003 Islam.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{World Bank Policy Research Working Paper}
+  \field{year}{2003}
+\endentry
+
+\entry{Li:2003vj}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Li}{L.}%
+     {Quan}{Q.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Reuveny}{R.}%
+     {Rafael}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{democracy, globalization}
+  \strng{namehash}{LQRR1}
+  \strng{fullhash}{LQRR1}
+  \field{labelyear}{2003}
+  \field{sortinit}{2}
+  \field{number}{1}
+  \field{pages}{29\bibrangedash 54}
+  \field{title}{{Economic Globalization and Democracy: An Empirical Analysis}}
+  \verb{url}
+  \verb http://www.jstor.org.libproxy.temple.edu/stable/pdfplus/4092267.pdf
+  \endverb
+  \field{volume}{33}
+  \verb{file}
+  \verb {British Journal of Political Science 2003 Li.pdf:/Users/justin/Dropbox
+  \verb /Papers App/Library.papers3/Articles/2003/Li/British Journal of Politic
+  \verb al Science 2003 Li.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{British Journal of Political Science}
+  \field{month}{01}
+  \field{year}{2003}
+\endentry
+
+\entry{Coyne:2004bq}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Coyne}{C.}%
+     {Christopher~J}{C.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Leeson}{L.}%
+     {Peter~T}{P.~T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \strng{namehash}{CCJLPT1}
+  \strng{fullhash}{CCJLPT1}
+  \field{labelyear}{2004}
+  \field{sortinit}{2}
+  \verb{doi}
+  \verb 10.1111/j.0023-5962.2004.00241.x
+  \endverb
+  \field{number}{1}
+  \field{pages}{21\bibrangedash 44}
+  \field{title}{{Read All About It! Understanding the Role of Media in Economic
+  Development}}
+  \verb{url}
+  \verb http://doi.wiley.com/10.1111/j.0023-5962.2004.00241.x
+  \endverb
+  \field{volume}{57}
+  \verb{file}
+  \verb {Kyklos 2004 Coyne.pdf:/Users/justin/Dropbox/Papers App/Library.papers3
+  \verb /Articles/2004/Coyne/Kyklos 2004 Coyne.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{Kyklos}
+  \field{month}{02}
+  \field{year}{2004}
+\endentry
+
 \entry{Milner:2005ci}{article}{}
   \name{author}{2}{}{%
     {{}%
      {Milner}{M.}%
-     {Helen}{H.}%
+     {Helen~V}{H.~V.}%
      {}{}%
      {}{}}%
     {{}%
@@ -168,8 +866,8 @@
   \list{publisher}{1}{%
     {Cambridge University Press}%
   }
-  \strng{namehash}{MHKK1}
-  \strng{fullhash}{MHKK1}
+  \strng{namehash}{MHVKK1}
+  \strng{fullhash}{MHVKK1}
   \field{labelyear}{2005}
   \field{sortinit}{2}
   \field{abstract}{%
@@ -197,6 +895,185 @@
   \field{journaltitle}{International Organization}
   \field{month}{02}
   \field{year}{2005}
+\endentry
+
+\entry{Barbieri:2005uk}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Reuveny}{R.}%
+     {Rafael}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RR1}
+  \strng{fullhash}{RR1}
+  \field{labelyear}{2005}
+  \field{sortinit}{2}
+  \field{number}{4}
+  \field{title}{{Economic Globalization and Civil War}}
+  \verb{url}
+  \verb http://www.jstor.org.libproxy.temple.edu/stable/3449903?&Search=yes&sea
+  \verb rchText=sector&searchText=globalization&searchText=public&searchText=de
+  \verb mocracy&list=hide&searchUri=%2Faction%2FdoBasicSearch%3FQuery%3Dglobali
+  \verb zation%2Bdemocracy%2Bpublic%2Bsector%26fromHomePage%3Dtrue%26acc%3Don%2
+  \verb 6wc%3Don%26fc%3Doff&prevSearch=&item=12&ttl=7413&returnArticleService=s
+  \verb howFullText
+  \endverb
+  \field{volume}{67}
+  \verb{file}
+  \verb {The Journal of Politics 2005 Barbieri.pdf:/Users/justin/Dropbox/Papers
+  \verb  App/Library.papers3/Articles/2005/Barbieri/The Journal of Politics 200
+  \verb 5 Barbieri.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{The Journal of Politics}
+  \field{annotation}{%
+  1232- liberalization induces protest, repression, and then war%
+  }
+  \field{month}{11}
+  \field{year}{2005}
+\endentry
+
+\entry{Corrales:2006vz}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Corrales}{C.}%
+     {Javier}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Westhoff}{W.}%
+     {Frank}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CJWF1}
+  \strng{fullhash}{CJWF1}
+  \field{labelyear}{2006}
+  \field{sortinit}{2}
+  \field{pages}{1\bibrangedash 24}
+  \field{title}{{IT Adoption and Political Regimes}}
+  \verb{file}
+  \verb {2006 Corrales.pdf:/Users/justin/Dropbox/Papers App/Library.papers3/Art
+  \verb icles/2006/Corrales/2006 Corrales.pdf:application/pdf}
+  \endverb
+  \field{month}{10}
+  \field{year}{2006}
+\endentry
+
+\entry{Levitsky:2006ex}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Levitsky}{L.}%
+     {Steven}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Way}{W.}%
+     {Lucan~A}{L.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \keyw{democratization, needtoread, regime change}
+  \strng{namehash}{LSWLA1}
+  \strng{fullhash}{LSWLA1}
+  \field{labelyear}{2006}
+  \field{sortinit}{2}
+  \verb{doi}
+  \verb 10.2307/20434008
+  \endverb
+  \field{number}{4}
+  \field{pages}{379}
+  \field{title}{{Linkage versus Leverage. Rethinking the International
+  Dimension of Regime Change}}
+  \verb{url}
+  \verb http://www.jstor.org/stable/10.2307/20434008?origin=crossref
+  \endverb
+  \field{volume}{38}
+  \verb{file}
+  \verb {Comparative Politics 2006 Levitsky.pdf:/Users/justin/Dropbox/Papers Ap
+  \verb p/Library.papers3/Articles/2006/Levitsky/Comparative Politics 2006 Levi
+  \verb tsky.pdf:application/pdf;Comparative Politics 2006 Levitsky.pdf:/Users/
+  \verb justin/Dropbox/Papers App/Library.papers3/Articles/2006/Levitsky/Compar
+  \verb ative Politics 2006 Levitsky.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{Comparative Politics}
+  \field{month}{07}
+  \field{year}{2006}
+\endentry
+
+\entry{Adam:2007gn}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Antonis}{A.}%
+     {Adam}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fragkiskos}{F.}%
+     {Filippaios}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \keyw{democracy, globalization}
+  \strng{namehash}{AAFF1}
+  \strng{fullhash}{AAFF1}
+  \field{labelyear}{2007}
+  \field{sortinit}{2}
+  \verb{doi}
+  \verb 10.1016/j.ejpoleco.2006.08.006
+  \endverb
+  \field{number}{4}
+  \field{pages}{1038\bibrangedash 1052}
+  \field{title}{{Foreign direct investment and civil liberties: A new
+  perspective}}
+  \verb{url}
+  \verb http://linkinghub.elsevier.com/retrieve/pii/S0176268006000784
+  \endverb
+  \field{volume}{23}
+  \verb{file}
+  \verb {European Journal of Political Economy 2007 Antonis.pdf:/Users/justin/D
+  \verb ropbox/Papers App/Library.papers3/Articles/2007/Antonis/European Journa
+  \verb l of Political Economy 2007 Antonis.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{European Journal of Political Economy}
+  \field{month}{12}
+  \field{year}{2007}
+\endentry
+
+\entry{Bussmann:2007vx}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Bussmann}{B.}%
+     {Margit}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schneider}{S.}%
+     {Gerald}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BMSG1}
+  \strng{fullhash}{BMSG1}
+  \field{labelyear}{2007}
+  \field{sortinit}{2}
+  \field{pages}{1\bibrangedash 20}
+  \field{title}{{When globalization discontent turns violent : foreign economic
+  liberalization and internal war}}
+  \verb{file}
+  \verb {International Studies Quarterly 2007 Bussmann.pdf:/Users/justin/Dropbo
+  \verb x/Papers App/Library.papers3/Articles/2007/Bussmann/International Studi
+  \verb es Quarterly 2007 Bussmann.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{International Studies Quarterly}
+  \field{month}{02}
+  \field{year}{2007}
 \endentry
 
 \entry{Dreher:2008dg}{book}{}
@@ -234,7 +1111,7 @@
   media or policy circles. In business, ...%
   }
   \verb{doi}
-  \verb 10.1007/978-0-387-74069-0{\_}3
+  \verb 10.1007/978-0-387-74069-0_3
   \endverb
   \field{title}{{The Measurement of Globalisation}}
   \verb{url}
@@ -271,7 +1148,7 @@
   \list{publisher}{1}{%
     {Blackwell Publishing Ltd}%
   }
-  \keyw{democracy, globalization, trade{\_}media{\_}freedom}
+  \keyw{democracy, globalization}
   \strng{namehash}{EBLD1}
   \strng{fullhash}{EBLD1}
   \field{labelyear}{2008}
@@ -279,8 +1156,8 @@
   \field{abstract}{%
   The relationship between democracy and globalization has been a subject of
   both scholarly and policy debate. Some argue that the two go hand in
-  hand--that unrestricted international transactions encourage political
-  accountability and transparency and that politically free ...%
+  hand{\textendash}that unrestricted international transactions encourage
+  political accountability and transparency and that politically free ...%
   }
   \verb{doi}
   \verb 10.1111/j.1468-0343.2007.00329.x
@@ -302,6 +1179,269 @@
   \endverb
   \field{journaltitle}{Economics {\&} Politics}
   \field{year}{2008}
+\endentry
+
+\entry{Lewis:qDvYbWlU}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lewis}{L.}%
+     {Orion}{O.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LO1}
+  \strng{fullhash}{LO1}
+  \field{labelyear}{2008}
+  \field{sortinit}{2}
+  \field{title}{{Globalization, Domestic Stability, and Freedom of the Press}}
+  \verb{url}
+  \verb http://sobek.colorado.edu/~lewiso/Globalization%20Domestic%20Stability%
+  \verb 20and%20Freedom%20of%20the%20Press.pdf
+  \endverb
+  \verb{file}
+  \verb {4E8DFAC3-7973-49C0-95CF-75B5EB4EEE76.pdf:/Users/justin/Dropbox/Papers
+  \verb App/Library.papers3/Files/4E/4E8DFAC3-7973-49C0-95CF-75B5EB4EEE76.pdf:a
+  \verb pplication/pdf}
+  \endverb
+  \field{journaltitle}{Unpublished Manuscript}
+  \field{year}{2008}
+\endentry
+
+\entry{Milner:2009hi}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Milner}{M.}%
+     {Helen~V}{H.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mukherjee}{M.}%
+     {Bumba}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \list{publisher}{1}{%
+    {Annual Reviews}%
+  }
+  \keyw{democracy, democratization, globalization}
+  \strng{namehash}{MHVMB1}
+  \strng{fullhash}{MHVMB1}
+  \field{labelyear}{2009}
+  \field{sortinit}{2}
+  \field{abstract}{%
+  We address two questions that are central to the literature on the emergence
+  of democracy and economic globalization. First, does democratization foster
+  higher levels of trade and capital account openness? Second, do trade and
+  capital account openness increase the likelihood of democratization? We
+  review the literature in international political economy and comparative
+  politics that has theoretically and empirically addressed these questions. We
+  then conduct some empirical tests in a sample of developing countries to
+  briefly evaluate the empirical relationship between democracy and economic
+  globalization. Our analysis reveals that evidence for the claim that
+  democracy fosters trade and capital account liberalization is robust but that
+  empirical support for the predicted positive effect of economic openness on
+  democracy among developing countries is weak. More theoretical work is needed
+  to clarify the link between democracy and economic liberalization, and to
+  this end we provide possible topics for future ...%
+  }
+  \verb{doi}
+  \verb 10.1146/annurev.polisci.12.110507.114722
+  \endverb
+  \field{number}{1}
+  \field{pages}{163\bibrangedash 181}
+  \field{title}{{Democratization and Economic Globalization}}
+  \verb{url}
+  \verb http://www.annualreviews.org/doi/abs/10.1146/annurev.polisci.12.110507.
+  \verb 114722
+  \endverb
+  \field{volume}{12}
+  \verb{file}
+  \verb {AE981691-6F3F-436F-9F5A-3EE5D9FEF463.pdf:/Users/justin/Dropbox/Papers
+  \verb App/Library.papers3/Files/AE/AE981691-6F3F-436F-9F5A-3EE5D9FEF463.pdf:a
+  \verb pplication/pdf;AE981691-6F3F-436F-9F5A-3EE5D9FEF463.pdf:/Users/justin/D
+  \verb ropbox/Papers App/Library.papers3/Files/AE/AE981691-6F3F-436F-9F5A-3EE5
+  \verb D9FEF463.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{dx.doi.org.libproxy.temple.edu}
+  \field{month}{05}
+  \field{year}{2009}
+\endentry
+
+\entry{Gehlbach:2011ky}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Gehlbach}{G.}%
+     {Scott}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sonin}{S.}%
+     {Konstantin}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \keyw{media, media freedom, mobilization, political economy}
+  \strng{namehash}{GSSK1}
+  \strng{fullhash}{GSSK1}
+  \field{labelyear}{2011}
+  \field{sortinit}{2}
+  \verb{doi}
+  \verb 10.2139/ssrn.1315882
+  \endverb
+  \field{title}{{Government Control of the Media}}
+  \verb{url}
+  \verb http://www.ssrn.com/abstract=1315882
+  \endverb
+  \verb{file}
+  \verb {SSRN Journal 2011 Gehlbach.pdf:/Users/justin/Dropbox/Papers App/Librar
+  \verb y.papers3/Articles/2011/Gehlbach/SSRN Journal 2011 Gehlbach.pdf:applica
+  \verb tion/pdf;SSRN Journal 2011 Gehlbach.pdf:/Users/justin/Dropbox/Papers Ap
+  \verb p/Library.papers3/Articles/2011/Gehlbach/SSRN Journal 2011 Gehlbach.pdf
+  \verb :application/pdf}
+  \endverb
+  \field{journaltitle}{SSRN Electronic Journal}
+  \field{year}{2011}
+\endentry
+
+\entry{MacKinnon:2011id}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {MacKinnon}{M.}%
+     {Rebecca}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \list{publisher}{1}{%
+    {The Johns Hopkins University Press}%
+  }
+  \strng{namehash}{MR1}
+  \strng{fullhash}{MR1}
+  \field{labelyear}{2011}
+  \field{sortinit}{2}
+  \field{abstract}{%
+  Abstract While social networking platforms can be powerful tools in the hands
+  of activists seeking to bring down authoritarian governments, it is unwise to
+  assume that access to the Internet and social networking platforms alone is
+  sufficient for democratization of ...%
+  }
+  \verb{doi}
+  \verb 10.1353/jod.2011.0033
+  \endverb
+  \field{number}{2}
+  \field{pages}{32\bibrangedash 46}
+  \field{title}{{China's "Networked Authoritarianism"}}
+  \verb{url}
+  \verb http://muse.jhu.edu.libproxy.temple.edu/journals/journal_of_democracy/v
+  \verb 022/22.2.mackinnon.html
+  \endverb
+  \field{volume}{22}
+  \verb{file}
+  \verb {B94B0C3B-43D7-4A38-8824-2A32463FC670.pdf:/Users/justin/Dropbox/Papers
+  \verb App/Library.papers3/Files/B9/B94B0C3B-43D7-4A38-8824-2A32463FC670.pdf:a
+  \verb pplication/pdf;B94B0C3B-43D7-4A38-8824-2A32463FC670.pdf:/Users/justin/D
+  \verb ropbox/Papers App/Library.papers3/Files/B9/B94B0C3B-43D7-4A38-8824-2A32
+  \verb 463FC670.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{Journal of Democracy}
+  \field{year}{2011}
+\endentry
+
+\entry{Pearce:2012fm}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Pearce}{P.}%
+     {Katy~E}{K.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kendzior}{K.}%
+     {Sarah}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \strng{namehash}{PKEKS1}
+  \strng{fullhash}{PKEKS1}
+  \field{labelyear}{2012}
+  \field{sortinit}{2}
+  \verb{doi}
+  \verb 10.1111/j.1460-2466.2012.01633.x
+  \endverb
+  \field{number}{2}
+  \field{pages}{283\bibrangedash 298}
+  \field{title}{{Networked Authoritarianism and Social Media in Azerbaijan}}
+  \verb{url}
+  \verb http://doi.wiley.com/10.1111/j.1460-2466.2012.01633.x
+  \endverb
+  \field{volume}{62}
+  \verb{file}
+  \verb {Journal of Communication 2012 Pearce.pdf:/Users/justin/Dropbox/Papers
+  \verb App/Library.papers3/Articles/2012/Pearce/Journal of Communication 2012
+  \verb Pearce.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{Journal of Communication}
+  \field{month}{03}
+  \field{year}{2012}
+\endentry
+
+\entry{Sorens:2012hc}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Sorens}{S.}%
+     {Jason}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ruger}{R.}%
+     {William}{W.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \list{publisher}{1}{%
+    {Blackwell Publishing Ltd}%
+  }
+  \strng{namehash}{SJRW1}
+  \strng{fullhash}{SJRW1}
+  \field{labelyear}{2012}
+  \field{sortinit}{2}
+  \field{abstract}{%
+  ... There may be some range of circumstances under which foreign investment
+  does have ameliorative ... Future research might examine particular forms of
+  FDI more likely to have beneficial ... Furthermore, as Blanton and Blanton
+  (2007:149) assert, the direct effects of globalization on ...%
+  }
+  \verb{doi}
+  \verb 10.1111/j.1468-2478.2012.00722.x
+  \endverb
+  \field{number}{2}
+  \field{pages}{427\bibrangedash 436}
+  \field{title}{{Does Foreign Investment Really Reduce Repression?1}}
+  \verb{url}
+  \verb http://onlinelibrary.wiley.com.libproxy.temple.edu/doi/10.1111/j.1468-2
+  \verb 478.2012.00722.x/full
+  \endverb
+  \field{volume}{56}
+  \verb{file}
+  \verb {A24D5064-FC3C-4E86-84E6-5B661B4EA21D.pdf:/Users/justin/Dropbox/Papers
+  \verb App/Library.papers3/Files/A2/A24D5064-FC3C-4E86-84E6-5B661B4EA21D.pdf:a
+  \verb pplication/pdf}
+  \endverb
+  \field{journaltitle}{International Studies Quarterly}
+  \field{year}{2012}
 \endentry
 
 \lossort
