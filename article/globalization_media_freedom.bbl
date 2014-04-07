@@ -294,6 +294,33 @@
   \field{year}{1992}
 \endentry
 
+\entry{center1993trading}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Center for Public Integrity}}{C.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Center for Public Integrity}%
+  }
+  \strng{namehash}{C1}
+  \strng{fullhash}{C1}
+  \field{labelyear}{1993}
+  \field{sortinit}{1}
+  \field{isbn}{9781882583027}
+  \field{title}{{The Trading Game: Inside Lobbying for the North American Free
+  Trade Agreement}}
+  \verb{url}
+  \verb http://books.google.co.uk/books?id=gUG2AAAAIAAJ
+  \endverb
+  \list{location}{1}{%
+    {Washington, D.C.}%
+  }
+  \field{year}{1993}
+\endentry
+
 \entry{Ferber:1993fb}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -319,6 +346,38 @@
   \endverb
   \field{journaltitle}{IPS-Inter Press Service}
   \field{month}{07}
+  \field{year}{1993}
+\endentry
+
+\entry{Hellman:1993wa}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hellman}{H.}%
+     {Judith~Adler}{J.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HJA1}
+  \strng{fullhash}{HJA1}
+  \field{labelyear}{1993}
+  \field{sortinit}{1}
+  \field{abstract}{%
+  Much of the debate around free trade and, in particular, much of the North
+  American opposition to the North American Free Trade Agreement (NAFTA) has
+  been framed in terms that would suggest that Canadian and US losses will be
+  Mexico's gain. Even before an ...%
+  }
+  \field{title}{{Mexican perceptions of free trade: support and opposition to
+  NAFTA}}
+  \verb{url}
+  \verb http://www.yorku.ca/cerlac/jhellman/Mexican_Perceptions.pdf
+  \endverb
+  \verb{file}
+  \verb {010875DB-C9FE-4AF5-8BF8-0CB0BA1AF9B8.pdf:/Users/justin/Dropbox/Papers
+  \verb App/Library.papers3/Files/01/010875DB-C9FE-4AF5-8BF8-0CB0BA1AF9B8.pdf:a
+  \verb pplication/pdf}
+  \endverb
+  \field{journaltitle}{The Political Economy of North American Free Trade}
   \field{year}{1993}
 \endentry
 
@@ -752,6 +811,79 @@
   \field{year}{1997}
 \endentry
 
+\entry{OrmeJr:1997da}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Orme~Jr.}{O.~J.}%
+     {William~A}{W.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \list{publisher}{2}{%
+    {North-South Center, University of Miami}%
+    {the Committee to Protect Journalists}%
+  }
+  \strng{namehash}{OJWA1}
+  \strng{fullhash}{OJWA1}
+  \field{labelyear}{1997}
+  \field{sortinit}{1}
+  \field{abstract}{%
+  The book features frank, first-hand accounts of overt subsidies, pay-offs,
+  and news-as-advertising budgets that keep most Mexican dailies dependent on
+  government support; pressures on Mexican journalists covering the Chiapas
+  uprising, political assassinations, and the presidential ...%
+  }
+  \verb{doi}
+  \verb 10.2307/20048155
+  \endverb
+  \field{pages}{159}
+  \field{title}{{A Culture of Collusion: An inside Look at the Mexican Press}}
+  \verb{url}
+  \verb http://www.jstor.org/stable/10.2307/20048155?origin=crossref
+  \endverb
+  \list{location}{1}{%
+    {Miami}%
+  }
+  \field{year}{1997}
+\endentry
+
+\entry{Chabat:1997wj}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Rodolfo}{R.}%
+     {O}{O}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Velasco}{V.}%
+     {Jes{\'u}s}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ROVJ1}
+  \strng{fullhash}{ROVJ1}
+  \field{labelyear}{1997}
+  \field{sortinit}{1}
+  \field{abstract}{%
+  ... The intellectual lobby of the think tanks, Velasco notes, contributed to
+  this aspect of the ... Though that project was discontinued in 1993, Chabat
+  and de la Garza also comment on ... Mexico has resorted more proactively to
+  new international institutions and procedures to cushion the ...%
+  }
+  \field{title}{{Mexico's New Foreign Policy: States, Societies, and
+  Institutions}}
+  \verb{url}
+  \verb http://books.google.com/books?hl=en&lr=&id=-KEPr3h4LIgC&oi=fnd&pg=PA181
+  \verb &dq=chabat+(velasco+mexico+s+foreign+policy)&ots=zKBTK4gAMS&sig=zHjmuOe
+  \verb U8ZiZJz_YwSHbDZuj77Y
+  \endverb
+  \field{journaltitle}{{\ldots} Mexico-US Relations}
+  \field{year}{1997}
+\endentry
+
 \entry{Belle:1997wo}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -1146,6 +1278,48 @@
   \field{year}{2001}
 \endentry
 
+\entry{Morris:2001iy}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Morris}{M.}%
+     {Stephen~D}{S.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pass{\'e}-Smith}{P.-S.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Sage Publications, Inc.}%
+  }
+  \strng{namehash}{MSDPSJ1}
+  \strng{fullhash}{MSDPSJ1}
+  \field{labelyear}{2001}
+  \field{sortinit}{2}
+  \field{abstract}{%
+  Mexico's deep economic crisis, precipitated by the devaluation of the peso in
+  December 1994, had a far-reaching impact. It sent the Mexican economy into a
+  tailspin, unleashing extensive personal and corporate bankruptcies, a
+  deterioration of real wages, ...%
+  }
+  \verb{doi}
+  \verb 10.2307/3185152
+  \endverb
+  \field{number}{3}
+  \field{pages}{124\bibrangedash 149}
+  \field{title}{{What a Difference a Crisis Makes: NAFTA, Mexico, and the
+  United States}}
+  \verb{url}
+  \verb http://www.jstor.org/stable/3185152
+  \endverb
+  \field{volume}{28}
+  \field{journaltitle}{Latin American Perspectives}
+  \field{month}{01}
+  \field{year}{2001}
+\endentry
+
 \entry{Rodriguez:2001uw}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -1179,6 +1353,30 @@
   \verb ticles/2001/Rodriguez/2001 Rodriguez.pdf:application/pdf}
   \endverb
   \field{journaltitle}{NBER Macroeconomics Annual 2000}
+  \field{year}{2001}
+\endentry
+
+\entry{Williams:2001ux}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Williams}{W.}%
+     {Heather~L}{H.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Cambridge University Press}%
+  }
+  \strng{namehash}{WHL1}
+  \strng{fullhash}{WHL1}
+  \field{labelyear}{2001}
+  \field{sortinit}{2}
+  \field{isbn}{9780521772563}
+  \field{title}{{Social Movements and Economic Transition: Markets and
+  Distributive Conflict in Mexico}}
+  \verb{url}
+  \verb http://books.google.com/books?id=DrSP3Rko26oC
+  \endverb
   \field{year}{2001}
 \endentry
 
@@ -2625,6 +2823,58 @@
   \endverb
   \field{journaltitle}{Unpublished Manuscript}
   \field{year}{2008}
+\endentry
+
+\entry{Dominguez:2009wd}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Dominguez}{D.}%
+     {Jorge~I}{J.~I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Castro}{C.}%
+     {Rafael~Fern{\'a}ndez}{R.~F.}%
+     {de}{d.}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Taylor {\&} Francis}%
+  }
+  \strng{namehash}{DJICRFd1}
+  \strng{fullhash}{DJICRFd1}
+  \field{labelyear}{2009}
+  \field{sortinit}{2}
+  \field{isbn}{9780203879252}
+  \field{title}{{United States and Mexico: Between Partnership and Conflict}}
+  \verb{url}
+  \verb http://books.google.co.uk/books?id=j47iBJ18ie0C
+  \endverb
+  \field{journaltitle}{books.google.co.uk}
+  \field{year}{2009}
+\endentry
+
+\entry{Hayden:2009uy}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hayden}{H.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Basic Books}%
+  }
+  \strng{namehash}{HT1}
+  \strng{fullhash}{HT1}
+  \field{labelyear}{2009}
+  \field{sortinit}{2}
+  \field{isbn}{9780786747344}
+  \field{title}{{The Zapatista Reader}}
+  \verb{url}
+  \verb http://books.google.com/books?id=EMt3fwmyH3kC
+  \endverb
+  \field{year}{2009}
 \endentry
 
 \entry{Milner:2009hi}{article}{}
