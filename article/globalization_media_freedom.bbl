@@ -16,699 +16,116 @@
   {}
 \endgroup
 
-\entry{Hymer:1960vo}{book}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Hymer}{H.}%
-     {Stephen~Herbert}{S.~H.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {MIT Press}%
-  }
-  \strng{namehash}{HSH1}
-  \strng{fullhash}{HSH1}
-  \field{labelyear}{1960}
-  \field{sortinit}{1}
-  \field{title}{{The International Operations of National Firms: A Study of
-  Direct Foreign Investment}}
-  \verb{url}
-  \verb http://teaching.ust.hk/~mgto650p/meyer/readings/1/01_Hymer.pdf
-  \endverb
-  \list{location}{1}{%
-    {Cambridge, Mass.}%
-  }
-  \verb{file}
-  \verb {B751981D-D938-4A64-9D4E-117BFDDF6EFF.pdf:/Users/justin/Dropbox/Papers
-  \verb App/Library.papers3/Files/B7/B751981D-D938-4A64-9D4E-117BFDDF6EFF.pdf:a
-  \verb pplication/pdf}
-  \endverb
-  \field{month}{01}
-  \field{year}{1960}
-\endentry
-
-\entry{Huntington:1975vt}{article}{}
+\entry{Adsera:2002vt}{article}{}
   \name{author}{2}{}{%
     {{}%
-     {Dominguez}{D.}%
-     {Jorge~I}{J.~I.}%
+     {Adser{\`a}}{A.}%
+     {Al{\'\i}cia}{A.}%
      {}{}%
      {}{}}%
     {{}%
-     {Huntington}{H.}%
-     {Samuel~P}{S.~P.}%
+     {Boix}{B.}%
+     {Carles}{C.}%
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{DJIHSP1}
-  \strng{fullhash}{DJIHSP1}
-  \field{labelyear}{1975}
-  \field{sortinit}{1}
-  \field{pages}{1\bibrangedash 114}
-  \field{title}{{Political Development}}
-  \verb{url}
-  \verb http://scholar.google.com/scholar?q=related:qdG3h122KaoJ:scholar.google
-  \verb .com/&hl=en&num=20&as_sdt=0,5
-  \endverb
-  \field{volume}{3}
-  \list{location}{1}{%
-    {Reading}%
-  }
-  \field{journaltitle}{Handbook of Political Science}
-  \field{year}{1975}
-\endentry
-
-\entry{Lindblom:1977ue}{book}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Lindblom}{L.}%
-     {Charles~E}{C.~E.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Basic Books}%
-  }
-  \strng{namehash}{LCE1}
-  \strng{fullhash}{LCE1}
-  \field{labelyear}{1977}
-  \field{sortinit}{1}
-  \field{abstract}{%
-  The Wageningen UR Library Catalogue contains bibliographic data on books and
-  periodicals held by the libraries of Wageningen University and Research
-  Centre and some 15 associated libraries. Holding data are added to each
-  record.%
-  }
-  \field{title}{{Politics and Markets : The World's Political-Economic
-  Systems}}
-  \verb{url}
-  \verb http://library.wur.nl/WebQuery/clc/115879
-  \endverb
-  \list{location}{1}{%
-    {New York}%
-  }
-  \field{year}{1977}
-\endentry
-
-\entry{Cameron:1978vb}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Cameron}{C.}%
-     {David~R}{D.~R.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{CDR1}
-  \strng{fullhash}{CDR1}
-  \field{labelyear}{1978}
-  \field{sortinit}{1}
-  \field{pages}{1\bibrangedash 20}
-  \field{title}{{The Expansion of the Public Economy}}
+  \keyw{democ, democracy, globalization, regime type, trade}
+  \strng{namehash}{AABC1}
+  \strng{fullhash}{AABC1}
+  \field{labelyear}{2002}
+  \field{sortinit}{A}
+  \field{number}{2}
+  \field{pages}{229\bibrangedash 262}
+  \field{title}{{Trade, Democracy, Public Sector: The Political Underpinnings
+  of Openness}}
+  \field{volume}{56}
   \verb{file}
-  \verb {American Political Science Review 1978 Cameron.pdf:/Users/justin/Dropb
-  \verb ox/Papers App/Library.papers3/Articles/1978/Cameron/American Political
-  \verb Science Review 1978 Cameron.pdf:application/pdf}
+  \verb {International Organization 2002 Adserà.pdf:/Users/justin/Dropbox/Pape
+  \verb rs App/Library.papers3/Articles/2002/Adserà/International Organization
+  \verb  2002 Adserà.pdf:application/pdf}
   \endverb
-  \field{journaltitle}{American Political Science Review}
-  \field{month}{12}
-  \field{year}{1978}
-\endentry
-
-\entry{Kant:1983uf}{book}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Kant}{K.}%
-     {Immanuel}{I.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Hackett}%
-  }
-  \strng{namehash}{KI1}
-  \strng{fullhash}{KI1}
-  \field{labelyear}{1983}
-  \field{sortinit}{1}
-  \field{title}{{Perpetual Peace, and Other Essays on Politics, History, and
-  Morals}}
-  \verb{url}
-  \verb http://books.google.com.libproxy.temple.edu/books/about/Perpetual_Peace
-  \verb _and_Other_Essays_on_Poli.html?id=e8AarOLTngEC
-  \endverb
-  \list{location}{1}{%
-    {Indianapolis}%
-  }
-  \field{year}{1983}
-\endentry
-
-\entry{Rogowski:1987ip}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Rogowski}{R.}%
-     {Ronald}{R.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{RR2}
-  \strng{fullhash}{RR2}
-  \field{labelyear}{1987}
-  \field{sortinit}{1}
-  \verb{doi}
-  \verb 10.2307/1962581
-  \endverb
-  \field{number}{4}
-  \field{pages}{1121}
-  \field{title}{{Political Cleavages and Changing Exposure to Trade}}
-  \verb{url}
-  \verb http://www.jstor.org/stable/1962581?origin=crossref
-  \endverb
-  \field{volume}{81}
-  \verb{file}
-  \verb {The American Political Science Review 1987 Rogowski.pdf:/Users/justin/
-  \verb Dropbox/Papers App/Library.papers3/Articles/1987/Rogowski/The American
-  \verb Political Science Review 1987 Rogowski.pdf:application/pdf}
-  \endverb
-  \field{journaltitle}{The American Political Science Review}
-  \field{month}{12}
-  \field{year}{1987}
-\endentry
-
-\entry{Rogowski:1989wm}{book}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Rogowski}{R.}%
-     {Ronald}{R.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Princeton University Press}%
-  }
-  \strng{namehash}{RR2}
-  \strng{fullhash}{RR2}
-  \field{labelyear}{1989}
-  \field{sortinit}{1}
-  \field{abstract}{%
-  ... They may, however, have exaggerated agriculture's woes: see Holt 1936 and
-  Rogowski 1982. ... 5. In Argentina, of course, the populist regime of Peron
-  did not assume full power until 1946; but the cleavage (and the growing
-  strength of the labor ... Trade and Political Cleavages . 13 ...%
-  }
-  \field{title}{{Commerce and coalitions}}
-  \verb{url}
-  \verb http://isites.harvard.edu/fs/docs/icb.topic248058.files/February%2018%2
-  \verb 0readings/Rogowski.pdf
-  \endverb
-  \list{location}{1}{%
-    {Princeton, NJ}%
-  }
-  \verb{file}
-  \verb {1989 Rogowski.pdf:/Users/justin/Dropbox/Papers App/Library.papers3/Boo
-  \verb ks/1989/Rogowski/1989 Rogowski.pdf:application/pdf}
-  \endverb
-  \field{year}{1989}
-\endentry
-
-\entry{Habermas:1991vg}{book}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Habermas}{H.}%
-     {Jurgen}{J.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {MIT}%
-  }
-  \strng{namehash}{HJ1}
-  \strng{fullhash}{HJ1}
-  \field{labelyear}{1991}
-  \field{sortinit}{1}
-  \field{abstract}{%
-  " The most significant modern work on its subject.... Habermas offers perhaps
-  the richest, best developed conceptualization available of the social nature
-  and foundations of public life."--Craig J. Calhoun," Contemporary Sociology"
-  This is J{\"u} rgen Habermas's most ...%
-  }
-  \field{title}{{The Structural Transformation of the Public Sphere}}
-  \verb{url}
-  \verb http://books.google.com.libproxy.temple.edu/books/about/The_Structural_
-  \verb Transformation_of_the_Pub.html?id=e799caakIWoC
-  \endverb
-  \field{year}{1991}
-\endentry
-
-\entry{McCullough:1991cs}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {McCullough}{M.}%
-     {Ed}{E.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{ME1}
-  \strng{fullhash}{ME1}
-  \field{labelyear}{1991}
-  \field{sortinit}{1}
-  \verb{doi}
-  \verb 765 words N1 -
-  \endverb
-  \field{title}{{Hard Times on Argentina's Fertile Pampas}}
-  \verb{url}
-  \verb http://www.lexisnexis.com.libproxy.temple.edu/lnacui2api/results/shared
-  \verb /results.do?risb=21_T17518698187&topLvl=true&rand=1370195813650&origRes
-  \verb ult=true
-  \endverb
-  \field{journaltitle}{The Associated Press}
-  \field{month}{01}
-  \field{year}{1991}
-\endentry
-
-\entry{:3GmqDB3y}{article}{}
-  \field{labelyear}{1992}
-  \field{sortinit}{1}
-  \field{title}{{Menem's Miracle}}
-  \field{journaltitle}{Time International}
-  \field{month}{07}
-  \field{year}{1992}
-\endentry
-
-\entry{center1993trading}{book}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{Center for Public Integrity}}{C.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Center for Public Integrity}%
-  }
-  \strng{namehash}{C1}
-  \strng{fullhash}{C1}
-  \field{labelyear}{1993}
-  \field{sortinit}{1}
-  \field{isbn}{9781882583027}
-  \field{title}{{The Trading Game: Inside Lobbying for the North American Free
-  Trade Agreement}}
-  \verb{url}
-  \verb http://books.google.co.uk/books?id=gUG2AAAAIAAJ
-  \endverb
-  \list{location}{1}{%
-    {Washington, D.C.}%
-  }
-  \field{year}{1993}
-\endentry
-
-\entry{Ferber:1993fb}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Ferber}{F.}%
-     {Federico}{F.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{FF1}
-  \strng{fullhash}{FF1}
-  \field{labelyear}{1993}
-  \field{sortinit}{1}
-  \verb{doi}
-  \verb 541 words N1 -
-  \endverb
-  \field{title}{{ARGENTINA: FARMERS TO DEMAND CONCESSIONS IN PROTEST RALLY}}
-  \verb{url}
-  \verb http://www.lexisnexis.com.libproxy.temple.edu/hottopics/lnacademic/
-  \endverb
-  \verb{file}
-  \verb {1993 Ferber.pdf:/Users/justin/Dropbox/Papers App/Library.papers3/Artic
-  \verb les/1993/Ferber/1993 Ferber.pdf:application/pdf}
-  \endverb
-  \field{journaltitle}{IPS-Inter Press Service}
-  \field{month}{07}
-  \field{year}{1993}
-\endentry
-
-\entry{Hellman:1993wa}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Hellman}{H.}%
-     {Judith~Adler}{J.~A.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{HJA1}
-  \strng{fullhash}{HJA1}
-  \field{labelyear}{1993}
-  \field{sortinit}{1}
-  \field{abstract}{%
-  Much of the debate around free trade and, in particular, much of the North
-  American opposition to the North American Free Trade Agreement (NAFTA) has
-  been framed in terms that would suggest that Canadian and US losses will be
-  Mexico's gain. Even before an ...%
-  }
-  \field{title}{{Mexican perceptions of free trade: support and opposition to
-  NAFTA}}
-  \verb{url}
-  \verb http://www.yorku.ca/cerlac/jhellman/Mexican_Perceptions.pdf
-  \endverb
-  \verb{file}
-  \verb {010875DB-C9FE-4AF5-8BF8-0CB0BA1AF9B8.pdf:/Users/justin/Dropbox/Papers
-  \verb App/Library.papers3/Files/01/010875DB-C9FE-4AF5-8BF8-0CB0BA1AF9B8.pdf:a
-  \verb pplication/pdf}
-  \endverb
-  \field{journaltitle}{The Political Economy of North American Free Trade}
-  \field{year}{1993}
-\endentry
-
-\entry{Long:1993wb}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Long}{L.}%
-     {William~R}{W.~R.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{LWR1}
-  \strng{fullhash}{LWR1}
-  \field{labelyear}{1993}
-  \field{sortinit}{1}
-  \field{title}{{MEDIA: Threats, Assaults Complicate Argentine Journalists'
-  Jobs}}
-  \verb{url}
-  \verb http://articles.latimes.com/1993-10-02/news/mn-41457_1_journalists-jobs
-  \endverb
-  \field{journaltitle}{Los Angeles Times}
-  \field{month}{10}
-  \field{year}{1993}
-\endentry
-
-\entry{kenen1994exchange}{book}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Kenen}{K.}%
-     {Peter~B}{P.~B.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Edward Elgar}%
-  }
-  \strng{namehash}{KPB1}
-  \strng{fullhash}{KPB1}
-  \field{labelyear}{1994}
-  \field{sortinit}{1}
-  \field{isbn}{9781852789435}
-  \field{title}{{Exchange Rates and the Monetary System: Selected Essays of
-  Peter B. Kenen}}
-  \verb{url}
-  \verb http://books.google.com/books?id=Mck96D7yMO0C
-  \endverb
-  \list{location}{1}{%
-    {Aldershot}%
-  }
-  \field{year}{1994}
-\endentry
-
-\entry{Waisbord:1994kq}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Waisbord}{W.}%
-     {Silvio~R}{S.~R.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Routledge}%
-  }
-  \keyw{Argentina, media}
-  \strng{namehash}{WSR1}
-  \strng{fullhash}{WSR1}
-  \field{labelyear}{1994}
-  \field{sortinit}{1}
-  \field{abstract}{%
-  This article examines the causes for the rise of political scandals in
-  Argentina in the early 1990s. Available explanations fail to provide a
-  satisfactory answer, mainly because they ignore the interplay of forces that
-  produce media revelations of government wrongdoing. Argentine scandals cannot
-  be reduced to arguments about official corruption but rather require a
-  consideration of political and media developments. Media expos{\'e}s in
-  Argentina have resulted from particular political dynamics coupled with the
-  increasing opposition of some news media to the Menem administration.
-  Political dynamics such as democratic stability, a strong executive, and the
-  weakness of political parties as policymaking and communication institutions
-  have contributed to reinforcing the role of the press as an alternative arena
-  for acting out political confrontations. The fact that two dailies have
-  adopted a muckraking ethos and conducted investigative reporting, unusual for
-  Argentine media standards, also accounts for the growing centrality of the
-  press in mediating political battles. [ABSTRACT FROM AUTHOR]%
-  }
-  \verb{doi}
-  \verb Article
-  \endverb
-  \field{number}{1}
-  \field{pages}{19\bibrangedash 33}
-  \field{title}{{Knocking on Newsroom Doors: The Press and Political Scandals
-  in Argentina.}}
-  \verb{url}
-  \verb http://libproxy.temple.edu/login?url=http://search.ebscohost.com/login.
-  \verb aspx?direct=true&db=ufh&AN=16343043&site=ehost-live&scope=site
-  \endverb
-  \field{volume}{11}
-  \verb{file}
-  \verb {Political Communication 1994 Waisbord.pdf:/Users/justin/Dropbox/Papers
-  \verb  App/Library.papers3/Articles/1994/Waisbord/Political Communication 199
-  \verb 4 Waisbord.pdf:application/pdf}
-  \endverb
-  \field{journaltitle}{Political Communication}
-  \field{year}{1994}
-\endentry
-
-\entry{Delgado:1995tr}{book}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Delgado}{D.}%
-     {A}{A}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Asociacion Madres de Plaza de Mayo}%
-  }
-  \strng{namehash}{DA1}
-  \strng{fullhash}{DA1}
-  \field{labelyear}{1995}
-  \field{sortinit}{1}
-  \field{title}{{\emph{Agresiones a }La Prensa \emph{1991-1994}}}
-  \list{location}{1}{%
-    {Buenos Aires}%
-  }
-  \field{year}{1995}
-\endentry
-
-\entry{Silverstein:1995wc}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Silverstein}{S.}%
-     {Ken}{K.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Cockburn}{C.}%
-     {Alexander}{A.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{SKCA1}
-  \strng{fullhash}{SKCA1}
-  \field{labelyear}{1995}
-  \field{sortinit}{1}
-  \field{number}{9}
-  \field{pages}{306\bibrangedash 311}
-  \field{title}{{Who Broke Mexico? The Killers and The Killing}}
-  \verb{url}
-  \verb http://web.ebscohost.com.libproxy.temple.edu/ehost/pdfviewer/pdfviewer?
-  \verb sid=6100ae38-35b1-4779-97b5-7606f3d0d82e%40sessionmgr10&vid=6&hid=22
-  \endverb
-  \field{volume}{260}
-  \verb{file}
-  \verb {CA6E3387-D09F-43F2-876E-31EFA6228006.pdf:/Users/justin/Dropbox/Papers
-  \verb App/Library.papers3/Files/CA/CA6E3387-D09F-43F2-876E-31EFA6228006.pdf:a
-  \verb pplication/pdf;CA6E3387-D09F-43F2-876E-31EFA6228006.pdf:/Users/justin/D
-  \verb ropbox/Papers App/Library.papers3/Files/CA/CA6E3387-D09F-43F2-876E-31EF
-  \verb A6228006.pdf:application/pdf}
-  \endverb
-  \field{journaltitle}{The Nation}
+  \field{journaltitle}{International Organization}
   \field{month}{03}
-  \field{year}{1995}
+  \field{year}{2002}
 \endentry
 
-\entry{Sims:kgMPqAHd}{article}{}
+\entry{ISQU:ISQU420}{article}{}
   \name{author}{1}{}{%
     {{}%
-     {Sims}{S.}%
-     {Calvin}{C.}%
+     {Ahlquist}{A.}%
+     {John~S}{J.~S.}%
      {}{}%
      {}{}}%
   }
-  \keyw{Argentina, media}
-  \strng{namehash}{SC1}
-  \strng{fullhash}{SC1}
-  \field{labelyear}{1995}
-  \field{sortinit}{1}
-  \field{title}{{Press Protests 'Gag' Bills In Argentina}}
-  \verb{url}
-  \verb http://www.nytimes.com/1995/02/19/world/press-protests-gag-bills-in-arg
-  \verb entina.html
-  \endverb
-  \field{journaltitle}{The New York Times}
-  \field{month}{02}
-  \field{year}{1995}
-\endentry
-
-\entry{Cragg:1996iy}{article}{}
-  \name{author}{4}{}{%
-    {{}%
-     {Cragg}{C.}%
-     {Michael~Ian}{M.~I.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Cragg}{C.}%
-     {Michael~Ian}{M.~I.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Epelbaum}{E.}%
-     {Mario}{M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Epelbaum}{E.}%
-     {Mario}{M.}%
-     {}{}%
-     {}{}}%
+  \list{publisher}{1}{%
+    {Blackwell Publishing Inc}%
   }
-  \list{language}{1}{%
-    {English}%
-  }
-  \strng{namehash}{CMI+1}
-  \strng{fullhash}{CMICMIEMEM1}
-  \field{labelyear}{1996}
-  \field{sortinit}{1}
+  \strng{namehash}{AJS1}
+  \strng{fullhash}{AJS1}
+  \field{labelyear}{2006}
+  \field{sortinit}{A}
   \verb{doi}
-  \verb 10.1016/S0304-3878(96)00427-0
-  \endverb
-  \field{number}{1}
-  \field{pages}{99\bibrangedash 116}
-  \field{title}{{Why has wage dispersion grown in Mexico? Is it the incidence
-  of reforms or the growing demand for skills?}}
-  \verb{url}
-  \verb http://linkinghub.elsevier.com/retrieve/pii/S0304387896004270
-  \endverb
-  \field{volume}{51}
-  \verb{file}
-  \verb {6AD41250-80C7-4643-AFCC-BC3EB9CEBC7D.pdf:/Users/justin/Dropbox/Papers
-  \verb App/Library.papers3/Files/6A/6AD41250-80C7-4643-AFCC-BC3EB9CEBC7D.pdf:a
-  \verb pplication/pdf;6AD41250-80C7-4643-AFCC-BC3EB9CEBC7D.pdf:/Users/justin/D
-  \verb ropbox/Papers App/Library.papers3/Files/6A/6AD41250-80C7-4643-AFCC-BC3E
-  \verb B9CEBC7D.pdf:application/pdf}
-  \endverb
-  \field{journaltitle}{Journal of Development Economics}
-  \field{month}{10}
-  \field{year}{1996}
-\endentry
-
-\entry{Im:1996cl}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Im}{I.}%
-     {Hyug~Baeg}{H.~B.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{language}{1}{%
-    {English}%
-  }
-  \strng{namehash}{IHB1}
-  \strng{fullhash}{IHB1}
-  \field{labelyear}{1996}
-  \field{sortinit}{1}
-  \field{abstract}{%
-  ... 27 Roland Axtman, ' Globalization and Democracy ', paper presented at the
-  XVI World Congress of IPSA, Berlin, 1994, p.1. 285 Page 8. HYUG BAEG IM and
-  technology. ... 286 Page 9. Globalisation and Democratisation fragile new
-  democracies . ...%
-  }
-  \verb{doi}
-  \verb 10.1080/10357719608445187
+  \verb 10.1111/j.1468-2478.2006.00420.x
   \endverb
   \field{number}{3}
-  \field{pages}{279\bibrangedash 291}
-  \field{title}{{Globalisation and Democratisation: Boon Companions or Strange
-  Bedfellows?}}
+  \field{pages}{681\bibrangedash 704}
+  \field{title}{{Economic Policy, Institutions, and Capital Flows: Portfolio
+  and Direct Investment Flows in Developing Countries}}
   \verb{url}
-  \verb http://www.tandfonline.com/doi/abs/10.1080/10357719608445187
+  \verb http://dx.doi.org/10.1111/j.1468-2478.2006.00420.x
   \endverb
   \field{volume}{50}
-  \field{journaltitle}{Australian Journal of International Affairs}
-  \field{month}{11}
-  \field{year}{1996}
+  \verb{file}
+  \verb {3C800745-FFC9-44AA-AC9F-F6CDF89CE4FC.pdf:/Users/justin/Dropbox/Papers
+  \verb App/Library.papers3/Files/3C/3C800745-FFC9-44AA-AC9F-F6CDF89CE4FC.pdf:a
+  \verb pplication/pdf;3C800745-FFC9-44AA-AC9F-F6CDF89CE4FC.pdf:/Users/justin/D
+  \verb ropbox/Papers App/Library.papers3/Files/3C/3C800745-FFC9-44AA-AC9F-F6CD
+  \verb F89CE4FC.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{International Studies Quarterly}
+  \field{year}{2006}
 \endentry
 
-\entry{Limongi:1996dr}{article}{}
-  \name{author}{4}{}{%
+\entry{Adam:2007gn}{article}{}
+  \name{author}{2}{}{%
     {{}%
-     {Limongi}{L.}%
-     {Fernando}{F.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Cheibub}{C.}%
-     {Jose~Antonio}{J.~A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Alvarez}{A.}%
-     {Michael~M}{M.~M.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Przeworski}{P.}%
+     {Antonis}{A.}%
      {Adam}{A.}%
      {}{}%
      {}{}}%
+    {{}%
+     {Fragkiskos}{F.}%
+     {Filippaios}{F.}%
+     {}{}%
+     {}{}}%
   }
   \list{language}{1}{%
     {English}%
   }
-  \list{publisher}{1}{%
-    {The Johns Hopkins University Press}%
-  }
-  \strng{namehash}{LF+1}
-  \strng{fullhash}{LFCJAAMMPA1}
-  \field{labelyear}{1996}
-  \field{sortinit}{1}
-  \field{abstract}{%
-  If a country, any randomly selected country, is to have a democratic regime
-  next year, what conditions should be present in that country and around the
-  world this year? The answer is: democracy , affluence, growth with moderate
-  inflation, declining inequality, a favorable ...%
-  }
+  \keyw{democracy, globalization}
+  \strng{namehash}{AAFF1}
+  \strng{fullhash}{AAFF1}
+  \field{labelyear}{2007}
+  \field{sortinit}{A}
   \verb{doi}
-  \verb 10.1353/jod.1996.0016
+  \verb 10.1016/j.ejpoleco.2006.08.006
   \endverb
-  \field{number}{1}
-  \field{pages}{39\bibrangedash 55}
-  \field{title}{{What Makes Democracies Endure?}}
+  \field{number}{4}
+  \field{pages}{1038\bibrangedash 1052}
+  \field{title}{{Foreign direct investment and civil liberties: A new
+  perspective}}
   \verb{url}
-  \verb http://muse.jhu.edu.libproxy.temple.edu/journals/journal_of_democracy/v
-  \verb 007/7.1przeworski.html
+  \verb http://linkinghub.elsevier.com/retrieve/pii/S0176268006000784
   \endverb
-  \field{volume}{7}
-  \field{journaltitle}{Journal of Democracy}
-  \field{month}{01}
-  \field{year}{1996}
+  \field{volume}{23}
+  \verb{file}
+  \verb {European Journal of Political Economy 2007 Antonis.pdf:/Users/justin/D
+  \verb ropbox/Papers App/Library.papers3/Articles/2007/Antonis/European Journa
+  \verb l of Political Economy 2007 Antonis.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{European Journal of Political Economy}
+  \field{month}{12}
+  \field{year}{2007}
 \endentry
 
 \entry{Baghwati:1997vy}{article}{}
@@ -722,7 +139,7 @@
   \strng{namehash}{BJ1}
   \strng{fullhash}{BJ1}
   \field{labelyear}{1997}
-  \field{sortinit}{1}
+  \field{sortinit}{B}
   \field{abstract}{%
   Like everyone else, economists like to break out of the narrowness of their
   discipline and speculate on a larger theme, painting on a bigger canvas. Like
@@ -738,201 +155,46 @@
   \field{year}{1997}
 \endentry
 
-\entry{Clark:1997jg}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Clark}{C.}%
-     {Ephraim}{E.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{language}{1}{%
-    {English}%
-  }
-  \strng{namehash}{CE1}
-  \strng{fullhash}{CE1}
-  \field{labelyear}{1997}
-  \field{sortinit}{1}
-  \verb{doi}
-  \verb 10.1016/S0261-5606(97)00008-9
-  \endverb
-  \field{number}{3}
-  \field{pages}{477\bibrangedash 490}
-  \field{title}{{Valuing political risk}}
-  \verb{url}
-  \verb http://linkinghub.elsevier.com/retrieve/pii/S0261560697000089
-  \endverb
-  \field{volume}{16}
-  \field{journaltitle}{Journal of International Money and Finance}
-  \field{month}{06}
-  \field{year}{1997}
-\endentry
-
-\entry{Feenstra:1997kx}{article}{}
+\entry{Basu:2007ir}{article}{}
   \name{author}{2}{}{%
     {{}%
-     {Feenstra}{F.}%
-     {Robert~C}{R.~C.}%
+     {Basu}{B.}%
+     {Parantap}{P.}%
      {}{}%
      {}{}}%
     {{}%
-     {Hanson}{H.}%
-     {Gordon~H}{G.~H.}%
+     {Guariglia}{G.}%
+     {Alessandra}{A.}%
      {}{}%
      {}{}}%
   }
   \list{language}{1}{%
     {English}%
   }
-  \strng{namehash}{FRCHGH1}
-  \strng{fullhash}{FRCHGH1}
-  \field{labelyear}{1997}
-  \field{sortinit}{1}
+  \strng{namehash}{BPGA1}
+  \strng{fullhash}{BPGA1}
+  \field{labelyear}{2007}
+  \field{sortinit}{B}
   \verb{doi}
-  \verb 10.1016/S0022-1996(96)01475-4
+  \verb 10.1016/j.jmacro.2006.02.004
   \endverb
-  \field{number}{3-4}
-  \field{pages}{371\bibrangedash 393}
-  \field{title}{{Foreign direct investment and relative wages: Evidence from
-  Mexico's maquiladoras}}
-  \verb{url}
-  \verb http://linkinghub.elsevier.com/retrieve/pii/S0022199696014754
-  \endverb
-  \field{volume}{42}
-  \verb{file}
-  \verb {27209723-78BB-42FC-AE7A-7626E8798661.pdf:/Users/justin/Dropbox/Papers
-  \verb App/Library.papers3/Files/27/27209723-78BB-42FC-AE7A-7626E8798661.pdf:a
-  \verb pplication/pdf;27209723-78BB-42FC-AE7A-7626E8798661.pdf:/Users/justin/D
-  \verb ropbox/Papers App/Library.papers3/Files/27/27209723-78BB-42FC-AE7A-7626
-  \verb E8798661.pdf:application/pdf}
-  \endverb
-  \field{journaltitle}{Journal of International Economics}
-  \field{month}{05}
-  \field{year}{1997}
-\endentry
-
-\entry{OrmeJr:1997da}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Orme~Jr.}{O.~J.}%
-     {William~A}{W.~A.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{language}{1}{%
-    {English}%
-  }
-  \list{publisher}{2}{%
-    {North-South Center, University of Miami}%
-    {the Committee to Protect Journalists}%
-  }
-  \strng{namehash}{OJWA1}
-  \strng{fullhash}{OJWA1}
-  \field{labelyear}{1997}
-  \field{sortinit}{1}
-  \field{abstract}{%
-  The book features frank, first-hand accounts of overt subsidies, pay-offs,
-  and news-as-advertising budgets that keep most Mexican dailies dependent on
-  government support; pressures on Mexican journalists covering the Chiapas
-  uprising, political assassinations, and the presidential ...%
-  }
-  \verb{doi}
-  \verb 10.2307/20048155
-  \endverb
-  \field{pages}{159}
-  \field{title}{{A Culture of Collusion: An inside Look at the Mexican Press}}
-  \verb{url}
-  \verb http://www.jstor.org/stable/10.2307/20048155?origin=crossref
-  \endverb
-  \list{location}{1}{%
-    {Miami}%
-  }
-  \field{year}{1997}
-\endentry
-
-\entry{Chabat:1997wj}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Rodolfo}{R.}%
-     {O}{O}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Velasco}{V.}%
-     {Jes{\'u}s}{J.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{ROVJ1}
-  \strng{fullhash}{ROVJ1}
-  \field{labelyear}{1997}
-  \field{sortinit}{1}
-  \field{abstract}{%
-  ... The intellectual lobby of the think tanks, Velasco notes, contributed to
-  this aspect of the ... Though that project was discontinued in 1993, Chabat
-  and de la Garza also comment on ... Mexico has resorted more proactively to
-  new international institutions and procedures to cushion the ...%
-  }
-  \field{title}{{Mexico's New Foreign Policy: States, Societies, and
-  Institutions}}
-  \verb{url}
-  \verb http://books.google.com/books?hl=en&lr=&id=-KEPr3h4LIgC&oi=fnd&pg=PA181
-  \verb &dq=chabat+(velasco+mexico+s+foreign+policy)&ots=zKBTK4gAMS&sig=zHjmuOe
-  \verb U8ZiZJz_YwSHbDZuj77Y
-  \endverb
-  \field{journaltitle}{{\ldots} Mexico-US Relations}
-  \field{year}{1997}
-\endentry
-
-\entry{Belle:1997wo}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Van~Belle}{V.~B.}%
-     {Douglas~A}{D.~A.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{VBDA1}
-  \strng{fullhash}{VBDA1}
-  \field{labelyear}{1997}
-  \field{sortinit}{1}
   \field{number}{4}
-  \field{pages}{405\bibrangedash 414}
-  \field{title}{{Press Freedom and the Democratic Peace}}
-  \field{volume}{34}
-  \verb{file}
-  \verb {Journal of Peace Research 1997 Belle.pdf:/Users/justin/Dropbox/Papers
-  \verb App/Library.papers3/Articles/1997/Belle/Journal of Peace Research 1997
-  \verb Belle.pdf:application/pdf}
-  \endverb
-  \field{journaltitle}{Journal of Peace Research}
-  \field{month}{01}
-  \field{year}{1997}
-\endentry
-
-\entry{Walther:1997wf}{book}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Walther}{W.}%
-     {Ted}{T.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Wiley}%
-  }
-  \strng{namehash}{WT1}
-  \strng{fullhash}{WT1}
-  \field{labelyear}{1997}
-  \field{sortinit}{1}
-  \field{title}{{The World Economy}}
+  \field{pages}{824\bibrangedash 839}
+  \field{title}{{Foreign Direct Investment, inequality, and growth}}
   \verb{url}
-  \verb http://www.getcited.org/pub/100136677
+  \verb http://linkinghub.elsevier.com/retrieve/pii/S016407040700033X
   \endverb
-  \list{location}{1}{%
-    {New York}%
-  }
-  \field{year}{1997}
+  \field{volume}{29}
+  \verb{file}
+  \verb {480A39C0-CF25-44E3-8ECC-66254B8B9DBF.pdf:/Users/justin/Dropbox/Papers
+  \verb App/Library.papers3/Files/48/480A39C0-CF25-44E3-8ECC-66254B8B9DBF.pdf:a
+  \verb pplication/pdf;480A39C0-CF25-44E3-8ECC-66254B8B9DBF.pdf:/Users/justin/D
+  \verb ropbox/Papers App/Library.papers3/Files/48/480A39C0-CF25-44E3-8ECC-6625
+  \verb 4B8B9DBF.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{Journal of Macroeconomics}
+  \field{month}{12}
+  \field{year}{2007}
 \endentry
 
 \entry{Beck:1998wg}{article}{}
@@ -956,7 +218,7 @@
   \strng{namehash}{BNKJNTR1}
   \strng{fullhash}{BNKJNTR1}
   \field{labelyear}{1998}
-  \field{sortinit}{1}
+  \field{sortinit}{B}
   \field{abstract}{%
   ... Page 3. 1262 N. Beck , J. Katz , and R. Tucker interstate interactions
   (eg, Bueno de Mesquita and Lalman 1992; Goertz and Diehl 1993; Vasquez 1993)
@@ -977,696 +239,28 @@
   \field{year}{1998}
 \endentry
 
-\entry{Cammack:1998gf}{article}{}
+\entry{Beker:2011vq}{article}{}
   \name{author}{1}{}{%
     {{}%
-     {Cammack}{C.}%
-     {Paul}{P.}%
+     {Beker}{B.}%
+     {Victor~A}{V.~A.}%
      {}{}%
      {}{}}%
   }
-  \list{language}{1}{%
-    {English}%
-  }
-  \list{publisher}{1}{%
-    {Cambridge University Press}%
-  }
-  \strng{namehash}{CP1}
-  \strng{fullhash}{CP1}
-  \field{labelyear}{1998}
-  \field{sortinit}{1}
-  \field{abstract}{%
-  ... Printed in the United Kingdom Globalization and the death of liberal
-  democracy PAUL CAMMACK * It is doubtful as to whether the countries of the
-  Third World are likely to move to the kind of liberal democracy that is
-  regarded as characteristic of the West. ...%
-  }
-  \verb{doi}
-  \verb 10.1017/S1062798700003264
-  \endverb
-  \field{number}{02}
-  \field{pages}{249\bibrangedash 263}
-  \field{title}{{Globalization and the death of liberal democracy}}
-  \verb{url}
-  \verb http://journals.cambridge.org.libproxy.temple.edu/action/displayAbstrac
-  \verb t?aid=5307236
-  \endverb
-  \field{volume}{6}
-  \field{journaltitle}{European Review}
-  \field{year}{1998}
-\endentry
-
-\entry{Rodrik:1998te}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Rodrik}{R.}%
-     {Dani}{D.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{RD1}
-  \strng{fullhash}{RD1}
-  \field{labelyear}{1998}
-  \field{sortinit}{1}
-  \field{pages}{1\bibrangedash 37}
-  \field{title}{{Why Do More Open Economies Have Bigger Governments?}}
-  \verb{file}
-  \verb {Journal of Political Economy 1998 Rodrik.pdf:/Users/justin/Dropbox/Pap
-  \verb ers App/Library.papers3/Articles/1998/Rodrik/Journal of Political Econo
-  \verb my 1998 Rodrik.pdf:application/pdf}
-  \endverb
-  \field{journaltitle}{Journal of Political Economy}
-  \field{month}{10}
-  \field{year}{1998}
-\endentry
-
-\entry{Lipsey:1999tn}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Lipsey}{L.}%
-     {R~E}{R.~E.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{LRE1}
-  \strng{fullhash}{LRE1}
-  \field{labelyear}{1999}
-  \field{sortinit}{1}
-  \field{abstract}{%
-  The purpose of this essay is to provide some quantitative historical
-  background to the question of what role direct investment plays in the
-  broader story of international capital flows . The essay examines whether
-  that role has changed over time, or changed for some ...%
-  }
-  \field{title}{{The role of foreign direct investment in international capital
-  flows}}
-  \verb{url}
-  \verb http://www.nber.org/chapters/c9801.pdf
-  \endverb
-  \verb{file}
-  \verb {A940AC87-B9C5-4480-A708-2514A7DB5F84.pdf:/Users/justin/Dropbox/Papers
-  \verb App/Library.papers3/Files/A9/A940AC87-B9C5-4480-A708-2514A7DB5F84.pdf:a
-  \verb pplication/pdf}
-  \endverb
-  \field{journaltitle}{International capital {\ldots}}
-  \field{year}{1999}
-\endentry
-
-\entry{Oneal:1999fc}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Oneal}{O.}%
-     {John~R}{J.~R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Russett}{R.}%
-     {Bruce}{B.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{language}{1}{%
-    {English}%
-  }
-  \strng{namehash}{OJRRB1}
-  \strng{fullhash}{OJRRB1}
-  \field{labelyear}{1999}
-  \field{sortinit}{1}
-  \field{abstract}{%
-  Abstract Some recent analyses challenge previous reports which show that
-  economically important trade significantly reduces the probability of
-  militarized disputes between countries. Beck et al.(1998) address the effect
-  of temporal dependence in the time-series ...%
-  }
-  \verb{doi}
-  \verb 10.1177/0022343399036004003
-  \endverb
-  \field{number}{4}
-  \field{pages}{423\bibrangedash 442}
-  \field{title}{{Assessing the Liberal Peace with Alternative Specifications:
-  Trade Still Reduces Conflict}}
-  \verb{url}
-  \verb http://jpr.sagepub.com/cgi/doi/10.1177/0022343399036004003
-  \endverb
-  \field{volume}{36}
-  \field{journaltitle}{Journal of Peace Research}
-  \field{month}{07}
-  \field{year}{1999}
-\endentry
-
-\entry{Ros:2000vy}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Ros}{R.}%
-     {Jaime}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Lustig}{L.}%
-     {Nora~Claudia}{N.~C.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Schwartz Center for Economic Policy Analysis (SCEPA), The New School}%
-  }
-  \strng{namehash}{RJLNC1}
-  \strng{fullhash}{RJLNC1}
-  \field{labelyear}{2000}
-  \field{sortinit}{2}
-  \field{abstract}{%
-  No abstract is available for this item.%
-  }
-  \field{title}{{Trade and Financial Liberalization with Volatile Capital
-  Inflows: Macroeconomic Consequences and Social Impacts in Mexico during the
-  1990s}}
-  \verb{url}
-  \verb http://ideas.repec.org/p/epa/cepawp/2000-08.html
-  \endverb
-  \verb{file}
-  \verb {8BCBB0ED-A50E-4EDC-B76B-35DFDF93D694.pdf:/Users/justin/Dropbox/Papers
-  \verb App/Library.papers3/Files/8B/8BCBB0ED-A50E-4EDC-B76B-35DFDF93D694.pdf:a
-  \verb pplication/pdf}
-  \endverb
-  \field{journaltitle}{SCEPA Working Papers}
-  \field{year}{2000}
-\endentry
-
-\entry{van2000press}{book}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Van~Belle}{V.~B.}%
-     {Douglas~A}{D.~A.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Praeger}%
-  }
-  \keyw{international politics, media, media freedom, press freedom}
-  \strng{namehash}{VBDA1}
-  \strng{fullhash}{VBDA1}
-  \field{labelyear}{2000}
-  \field{sortinit}{2}
-  \field{abstract}{%
-  Van Belle provides the first systematic analysis of the effects that press
-  freedom has on the conduct of international politics . The
-  institutionalization of press freedoms within a state and the free flow of
-  information between the free presses of different nations creates a foreign
-  ...%
-  }
-  \field{isbn}{9780275967901}
-  \field{title}{{Press Freedom and Global Politics}}
-  \verb{url}
-  \verb http://books.google.com/books?id=ftSNriNThFYC
-  \endverb
-  \field{year}{2000}
-\endentry
-
-\entry{Burgoon:2001dp}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Burgoon}{B.}%
-     {Brian}{B.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{BB1}
-  \strng{fullhash}{BB1}
-  \field{labelyear}{2001}
-  \field{sortinit}{2}
-  \field{abstract}{%
-  The relationship between economic openness and welfare policies in
-  industrialized countries has long been of interest to and increasingly
-  divides students of politics and economics. Several lines of research once
-  suggested that greater openness poses ...%
-  }
-  \verb{doi}
-  \verb 10.1162/00208180152507542
-  \endverb
+  \keyw{Argentina, trade}
+  \strng{namehash}{BVA1}
+  \strng{fullhash}{BVA1}
+  \field{labelyear}{2011}
+  \field{sortinit}{B}
   \field{number}{3}
-  \field{pages}{509\bibrangedash 551}
-  \field{title}{{Globalization and Welfare Compensation: Disentangling the Ties
-  that Bind}}
-  \verb{url}
-  \verb http://journals.cambridge.org/abstract_S0020818301441403
-  \endverb
-  \field{volume}{55}
+  \field{title}{{A Case Study on Trade Liberalization: Argentina in the 1990s}}
   \verb{file}
-  \verb {International Organization 2001 Burgoon.pdf:/Users/justin/Dropbox/Pape
-  \verb rs App/Library.papers3/Articles/2001/Burgoon/International Organization
-  \verb  2001 Burgoon.pdf:application/pdf}
+  \verb {Economics 2011 Beker.pdf:/Users/justin/Dropbox/Papers App/Library.pape
+  \verb rs3/Articles/2011/Beker/Economics 2011 Beker.pdf:application/pdf}
   \endverb
-  \field{journaltitle}{International Organization}
-  \field{month}{09}
-  \field{year}{2001}
-\endentry
-
-\entry{Echegaray:2001tf}{incollection}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Echegaray}{E.}%
-     {Fabian}{F.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Elordi}{E.}%
-     {Carlos}{C.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Cambridge University Press}%
-  }
-  \strng{namehash}{EFEC1}
-  \strng{fullhash}{EFEC1}
-  \field{labelyear}{2001}
-  \field{sortinit}{2}
-  \field{booktitle}{Public Support for Market Reforms in New Democracies}
-  \field{isbn}{9780521663410}
-  \field{title}{{Public Opinion, Presidential Popularity, and Economic Reform
-  in Argentina, 1989-1996}}
-  \field{year}{2001}
-\endentry
-
-\entry{eckstein2001power}{book}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Eckstein}{E.}%
-     {S}{S}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Merino}{M.}%
-     {M~A~G}{M.~A.~G.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {University of California Press}%
-  }
-  \keyw{Argentina, protest, trade}
-  \strng{namehash}{ESMMAG1}
-  \strng{fullhash}{ESMMAG1}
-  \field{labelyear}{2001}
-  \field{sortinit}{2}
-  \field{isbn}{9780520227057}
-  \field{title}{{Power and popular protest: Latin American social movements}}
-  \verb{url}
-  \verb http://books.google.com/books?id=V0o7\_lLFOMwC
-  \endverb
-  \field{year}{2001}
-\endentry
-
-\entry{Morris:2001iy}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Morris}{M.}%
-     {Stephen~D}{S.~D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Pass{\'e}-Smith}{P.-S.}%
-     {John}{J.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Sage Publications, Inc.}%
-  }
-  \strng{namehash}{MSDPSJ1}
-  \strng{fullhash}{MSDPSJ1}
-  \field{labelyear}{2001}
-  \field{sortinit}{2}
-  \field{abstract}{%
-  Mexico's deep economic crisis, precipitated by the devaluation of the peso in
-  December 1994, had a far-reaching impact. It sent the Mexican economy into a
-  tailspin, unleashing extensive personal and corporate bankruptcies, a
-  deterioration of real wages, ...%
-  }
-  \verb{doi}
-  \verb 10.2307/3185152
-  \endverb
-  \field{number}{3}
-  \field{pages}{124\bibrangedash 149}
-  \field{title}{{What a Difference a Crisis Makes: NAFTA, Mexico, and the
-  United States}}
-  \verb{url}
-  \verb http://www.jstor.org/stable/3185152
-  \endverb
-  \field{volume}{28}
-  \field{journaltitle}{Latin American Perspectives}
+  \field{journaltitle}{Economic and Industrial Democracy}
   \field{month}{01}
-  \field{year}{2001}
-\endentry
-
-\entry{Rodriguez:2001uw}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Rodriguez}{R.}%
-     {F}{F}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Rodrik}{R.}%
-     {D}{D}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{RFRD1}
-  \strng{fullhash}{RFRD1}
-  \field{labelyear}{2001}
-  \field{sortinit}{2}
-  \field{abstract}{%
-  ... Sachs and Warner (1995) is a close second, and the index of openness
-  constructed therein has now been widely used in the ... Ben-David (1993)
-  considers income convergence in countries that have integrated with each
-  other (such as the European Community coun- tries). ...%
-  }
-  \field{title}{{Trade policy and economic growth: a skeptic's guide to the
-  cross-national evidence}}
-  \verb{url}
-  \verb http://www.nber.org/chapters/c11058.pdf
-  \endverb
-  \verb{file}
-  \verb {2001 Rodriguez.pdf:/Users/justin/Dropbox/Papers App/Library.papers3/Ar
-  \verb ticles/2001/Rodriguez/2001 Rodriguez.pdf:application/pdf}
-  \endverb
-  \field{journaltitle}{NBER Macroeconomics Annual 2000}
-  \field{year}{2001}
-\endentry
-
-\entry{Williams:2001ux}{book}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Williams}{W.}%
-     {Heather~L}{H.~L.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Cambridge University Press}%
-  }
-  \strng{namehash}{WHL1}
-  \strng{fullhash}{WHL1}
-  \field{labelyear}{2001}
-  \field{sortinit}{2}
-  \field{isbn}{9780521772563}
-  \field{title}{{Social Movements and Economic Transition: Markets and
-  Distributive Conflict in Mexico}}
-  \verb{url}
-  \verb http://books.google.com/books?id=DrSP3Rko26oC
-  \endverb
-  \field{year}{2001}
-\endentry
-
-\entry{Adsera:2002vt}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Adser{\`a}}{A.}%
-     {Al{\'\i}cia}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Boix}{B.}%
-     {Carles}{C.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{democ, democracy, globalization, regime type, trade}
-  \strng{namehash}{AABC1}
-  \strng{fullhash}{AABC1}
-  \field{labelyear}{2002}
-  \field{sortinit}{2}
-  \field{number}{2}
-  \field{pages}{229\bibrangedash 262}
-  \field{title}{{Trade, Democracy, Public Sector: The Political Underpinnings
-  of Openness}}
-  \field{volume}{56}
-  \verb{file}
-  \verb {International Organization 2002 Adserà.pdf:/Users/justin/Dropbox/Pape
-  \verb rs App/Library.papers3/Articles/2002/Adserà/International Organization
-  \verb  2002 Adserà.pdf:application/pdf}
-  \endverb
-  \field{journaltitle}{International Organization}
-  \field{month}{03}
-  \field{year}{2002}
-\endentry
-
-\entry{Hiscox:2002us}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Hiscox}{H.}%
-     {M~J}{M.~J.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{HMJ1}
-  \strng{fullhash}{HMJ1}
-  \field{labelyear}{2002}
-  \field{extrayear}{1}
-  \field{sortinit}{2}
-  \field{abstract}{%
-  The extent to which political conflict over US trade policy has led to
-  clashes between broad- based class coalitions has varied significantly over
-  time during the past two centuries. I argue that much of this variation can
-  be explained by changes in economywide levels of ...%
-  }
-  \field{title}{{Commerce, coalitions, and factor mobility: Evidence from
-  congressional votes on trade legislation}}
-  \verb{url}
-  \verb http://journals.cambridge.org/production/action/cjoGetFulltext?fulltext
-  \verb id=130762
-  \endverb
-  \verb{file}
-  \verb {American Political Science Review 2002 Hiscox.pdf:/Users/justin/Dropbo
-  \verb x/Papers App/Library.papers3/Articles/2002/Hiscox/American Political Sc
-  \verb ience Review 2002 Hiscox.pdf:application/pdf}
-  \endverb
-  \field{journaltitle}{American Political Science Review}
-  \field{year}{2002}
-\endentry
-
-\entry{hiscox2002international}{book}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Hiscox}{H.}%
-     {M~J}{M.~J.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Princeton University Press}%
-  }
-  \strng{namehash}{HMJ1}
-  \strng{fullhash}{HMJ1}
-  \field{labelyear}{2002}
-  \field{extrayear}{2}
-  \field{sortinit}{2}
-  \field{abstract}{%
-  ... I am especially indebted to Mike and Daniel since I drew very heavily
-  from their own ... James Alt and Michael Gilligan (1994) have suggested that
-  rules under which policy is made by a ... ments Act of 1934) about how
-  coalitions can shape policymaking institutions, see Hiscox 1999 ...%
-  }
-  \field{isbn}{9780691088556}
-  \field{title}{{International Trade and Political Conflict: Commerce,
-  Coalitions, and Mobility}}
-  \verb{url}
-  \verb http://books.google.com/books?id=PLaWP6tJOE4C
-  \endverb
-  \field{year}{2002}
-\endentry
-
-\entry{Islam:2002uc}{book}{}
-  \name{editor}{1}{}{%
-    {{}%
-     {Islam}{I.}%
-     {Roumeen}{R.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {World Bank Publications}%
-  }
-  \strng{namehash}{IR1}
-  \strng{fullhash}{IR1}
-  \field{labelyear}{2002}
-  \field{sortinit}{2}
-  \field{abstract}{%
-  An independent press is essential to sound and equitable economic
-  development. The media helps to give a voice to the poor and the
-  disenfranchised. An independent press also provides a solid foundation for a
-  free and transparent society.'The Right to Tell'contains an ...%
-  }
-  \field{series}{The Role of Mass Media in Economic Development}
-  \field{title}{{The Right to Tell}}
-  \verb{url}
-  \verb http://books.google.com.libproxy.temple.edu/books/about/The_Right_to_Te
-  \verb ll.html?id=56punueI7G0C
-  \endverb
-  \field{year}{2002}
-\endentry
-
-\entry{Klein:2002vg}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Klein}{K.}%
-     {Naomi}{N.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{KN1}
-  \strng{fullhash}{KN1}
-  \field{labelyear}{2002}
-  \field{sortinit}{2}
-  \field{abstract}{%
-  Naomi Klein: Argentina was a model IMF student. And it's still suffering as a
-  result.%
-  }
-  \field{title}{{Revolt of the wronged}}
-  \verb{url}
-  \verb http://www.theguardian.com/world/2002/mar/28/argentina.comment
-  \endverb
-  \field{journaltitle}{The Guardian}
-  \field{month}{03}
-  \field{year}{2002}
-\endentry
-
-\entry{lawson2002building}{book}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Lawson}{L.}%
-     {Chappell~H}{C.~H.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {University of California Press}%
-  }
-  \strng{namehash}{LCH1}
-  \strng{fullhash}{LCH1}
-  \field{labelyear}{2002}
-  \field{sortinit}{2}
-  \field{isbn}{9780520231719}
-  \field{title}{{Building the Fourth Estate: Democratization and the Rise of a
-  Free Press in Mexico}}
-  \verb{url}
-  \verb http://books.google.com/books?id=zA29Hh6ohTUC
-  \endverb
-  \list{location}{1}{%
-    {Berkeley}%
-  }
-  \field{year}{2002}
-\endentry
-
-\entry{Levitsky:2002gx}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Levitsky}{L.}%
-     {Steven}{S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Way}{W.}%
-     {Lucan}{L.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{language}{1}{%
-    {English}%
-  }
-  \list{publisher}{1}{%
-    {The Johns Hopkins University Press}%
-  }
-  \strng{namehash}{LSWL1}
-  \strng{fullhash}{LSWL1}
-  \field{labelyear}{2002}
-  \field{sortinit}{2}
-  \field{abstract}{%
-  ... Leonid Kuchma, Peru under Alberto Fujimori, and post-1995 Haiti, as well
-  as Albania, Armenia, Ghana, Kenya, Malaysia, Mexico , and Zambia ... 2)
-  virtually all adults possess the right to vote; 3) political rights and civil
-  liberties, including freedom of the press , freedom of association ...%
-  }
-  \verb{doi}
-  \verb 10.1353/jod.2002.0026
-  \endverb
-  \field{number}{2}
-  \field{pages}{51\bibrangedash 65}
-  \field{title}{{The Rise of Competitive Authoritarianism}}
-  \verb{url}
-  \verb http://muse.jhu.edu/content/crossref/journals/journal_of_democracy/v013
-  \verb /13.2levitsky.html
-  \endverb
-  \field{volume}{13}
-  \verb{file}
-  \verb {Journal of Democracy 2002 Levitsky.pdf:/Users/justin/Dropbox/Papers Ap
-  \verb p/Library.papers3/Articles/2002/Levitsky/Journal of Democracy 2002 Levi
-  \verb tsky.pdf:application/pdf}
-  \endverb
-  \field{journaltitle}{Journal of Democracy}
-  \field{year}{2002}
-\endentry
-
-\entry{Park:2002io}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Park}{P.}%
-     {D~J}{D.~J.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{language}{1}{%
-    {English}%
-  }
-  \strng{namehash}{PDJ1}
-  \strng{fullhash}{PDJ1}
-  \field{labelyear}{2002}
-  \field{sortinit}{2}
-  \verb{doi}
-  \verb 10.1177/0196859902026003001
-  \endverb
-  \field{number}{3}
-  \field{pages}{237\bibrangedash 260}
-  \field{title}{{Media, Democracy, and Human Rights in Argentina}}
-  \verb{url}
-  \verb http://jci.sagepub.com/cgi/doi/10.1177/0196859902026003001
-  \endverb
-  \field{volume}{26}
-  \verb{file}
-  \verb {Journal of Communication Inquiry 2002 Park.pdf:/Users/justin/Dropbox/P
-  \verb apers App/Library.papers3/Articles/2002/Park/Journal of Communication I
-  \verb nquiry 2002 Park.pdf:application/pdf}
-  \endverb
-  \field{journaltitle}{Journal of Communication Inquiry}
-  \field{month}{07}
-  \field{year}{2002}
-\endentry
-
-\entry{Silverstein:2002wm}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Silverstein}{S.}%
-     {Ken}{K.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{SK1}
-  \strng{fullhash}{SK1}
-  \field{labelyear}{2002}
-  \field{sortinit}{2}
-  \field{abstract}{%
-  As Argentina sank into its worst economic crisis ever, a January 9,
-  Associated Press story blamed {\&}quot;the greed of international investors
-  and bad timing by the International Monetary Fund and the U.S. T%
-  }
-  \field{title}{{Stop the Press:}}
-  \verb{url}
-  \verb http://prospect.org/article/stop-press
-  \endverb
-  \field{journaltitle}{The American Prospect}
-  \field{year}{2002}
+  \field{year}{2011}
 \endentry
 
 \entry{Bernhard:2003kb}{article}{}
@@ -1691,7 +285,7 @@
   \strng{namehash}{BWLD1}
   \strng{fullhash}{BWLD1}
   \field{labelyear}{2003}
-  \field{sortinit}{2}
+  \field{sortinit}{B}
   \verb{doi}
   \verb 10.1162/002081899550814
   \endverb
@@ -1714,784 +308,6 @@
   \field{year}{2003}
 \endentry
 
-\entry{Islam:2003tu}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Islam}{I.}%
-     {Roumeen}{R.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{IR1}
-  \strng{fullhash}{IR1}
-  \field{labelyear}{2003}
-  \field{sortinit}{2}
-  \field{abstract}{%
-  ... More recently, papers have looked at the empirical evidence linking the
-  responsiveness of governments as well as private actors to better information
-  provided by the media ( Islam 2002, World Bank, 2002). For example, Besley
-  and Burgess (2001, 2002) find that regions in ...%
-  }
-  \field{title}{{Do More Transparent Governments Govern Better?}}
-  \verb{url}
-  \verb http://papers.ssrn.com/abstract=636439
-  \endverb
-  \verb{file}
-  \verb {2003 Islam.pdf:/Users/justin/Dropbox/Papers App/Library.papers3/Articl
-  \verb es/2003/Islam/2003 Islam.pdf:application/pdf}
-  \endverb
-  \field{journaltitle}{World Bank Policy Research Working Paper}
-  \field{year}{2003}
-\endentry
-
-\entry{Jensen:2003to}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Jensen}{J.}%
-     {Nathan~M}{N.~M.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{language}{1}{%
-    {English}%
-  }
-  \list{publisher}{1}{%
-    {International Organization Foundation}%
-  }
-  \strng{namehash}{JNM1}
-  \strng{fullhash}{JNM1}
-  \field{labelyear}{2003}
-  \field{sortinit}{2}
-  \field{abstract}{%
-  Foreign direct investment (FDI) is an important element of the global economy
-  and a central component of economic development strategies of both developed
-  and developing countries. Numerous scholars theorize that the economic
-  benefits of attracting multinational corporations come at tremendous
-  political costs, arguing that democratic political systems attract lower
-  levels of international investment than their authoritarian counterparts.
-  Using both cross-sectional and time-series cross-sectional tests of the
-  determinants of FDI for more than 100 countries, I generate results that are
-  inconsistent with these dire predictions. Democratic political systems
-  attract higher levels of FDI inflows both across countries and within
-  countries over time. Democratic countries are predicted to attract as much as
-  70 percent more FDI than their authoritarian counterparts. In a final
-  empirical test, I examine how democratic institutions affect country
-  credibility by empirically analyzing the link between democracy and sovereign
-  debt risk for about eighty countries from 1980 to 1998. These empirical tests
-  challenge the conventional wisdom on the preferences of multinationals for
-  authoritarian regimes.%
-  }
-  \field{number}{3}
-  \field{pages}{587\bibrangedash 616}
-  \field{title}{{Democratic Governance and Multinational Corporations:
-  Political Regimes and Inflows of Foreign Direct Investment}}
-  \verb{url}
-  \verb http://journals.cambridge.org/production/action/cjoGetFulltext?fulltext
-  \verb id=138660
-  \endverb
-  \field{volume}{57}
-  \verb{file}
-  \verb {8852EB0D-F3D9-4555-9025-96BC256A452F.pdf:/Users/justin/Dropbox/Papers
-  \verb App/Library.papers3/Files/88/8852EB0D-F3D9-4555-9025-96BC256A452F.pdf:a
-  \verb pplication/pdf;8852EB0D-F3D9-4555-9025-96BC256A452F.pdf:/Users/justin/D
-  \verb ropbox/Papers App/Library.papers3/Files/88/8852EB0D-F3D9-4555-9025-96BC
-  \verb 256A452F.pdf:application/pdf}
-  \endverb
-  \field{journaltitle}{International Organization}
-  \field{month}{07}
-  \field{year}{2003}
-\endentry
-
-\entry{Li:2003vj}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Li}{L.}%
-     {Quan}{Q.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Reuveny}{R.}%
-     {Rafael}{R.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{democracy, globalization}
-  \strng{namehash}{LQRR1}
-  \strng{fullhash}{LQRR1}
-  \field{labelyear}{2003}
-  \field{sortinit}{2}
-  \field{number}{1}
-  \field{pages}{29\bibrangedash 54}
-  \field{title}{{Economic Globalization and Democracy: An Empirical Analysis}}
-  \verb{url}
-  \verb http://www.jstor.org.libproxy.temple.edu/stable/pdfplus/4092267.pdf
-  \endverb
-  \field{volume}{33}
-  \verb{file}
-  \verb {British Journal of Political Science 2003 Li.pdf:/Users/justin/Dropbox
-  \verb /Papers App/Library.papers3/Articles/2003/Li/British Journal of Politic
-  \verb al Science 2003 Li.pdf:application/pdf}
-  \endverb
-  \field{journaltitle}{British Journal of Political Science}
-  \field{month}{01}
-  \field{year}{2003}
-\endentry
-
-\entry{MarcusDelgado:2003gn}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Marcus-Delgado}{M.-D.}%
-     {Jane}{J.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{language}{1}{%
-    {English}%
-  }
-  \list{publisher}{1}{%
-    {Duke University Press}%
-  }
-  \strng{namehash}{MDJ1}
-  \strng{fullhash}{MDJ1}
-  \field{labelyear}{2003}
-  \field{sortinit}{2}
-  \verb{doi}
-  \verb 10.1215/01642472-21-4_77-139
-  \endverb
-  \field{number}{4}
-  \field{pages}{139\bibrangedash 153}
-  \field{title}{{Trust, Corruption, and the Globalization Tango}}
-  \verb{url}
-  \verb http://muse.jhu.edu.libproxy.temple.edu/journals/social_text/v021/21.4m
-  \verb arcus-delgado.html
-  \endverb
-  \field{volume}{21}
-  \verb{file}
-  \verb {C55360A0-309F-40C3-B2D6-60446AC29DA2.pdf:/Users/justin/Dropbox/Papers
-  \verb App/Library.papers3/Files/C5/C55360A0-309F-40C3-B2D6-60446AC29DA2.pdf:a
-  \verb pplication/pdf;C55360A0-309F-40C3-B2D6-60446AC29DA2.pdf:/Users/justin/D
-  \verb ropbox/Papers App/Library.papers3/Files/C5/C55360A0-309F-40C3-B2D6-6044
-  \verb 6AC29DA2.pdf:application/pdf}
-  \endverb
-  \field{journaltitle}{Social Text}
-  \field{year}{2003}
-\endentry
-
-\entry{McDaniel:2003kw}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {McDaniel}{M.}%
-     {Christine~A}{C.~A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Agama}{A.}%
-     {Laurie-Ann}{L.-A.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{language}{1}{%
-    {English}%
-  }
-  \strng{namehash}{MCAALA1}
-  \strng{fullhash}{MCAALA1}
-  \field{labelyear}{2003}
-  \field{sortinit}{2}
-  \verb{doi}
-  \verb 10.1111/1467-9701.00557
-  \endverb
-  \field{number}{7}
-  \field{pages}{939\bibrangedash 955}
-  \field{title}{{The NAFTA Preference and US-Mexico Trade: Aggregate-Level
-  Analysis}}
-  \verb{url}
-  \verb http://doi.wiley.com/10.1111/1467-9701.00557
-  \endverb
-  \field{volume}{26}
-  \verb{file}
-  \verb {World Economy 2003 McDaniel.pdf:/Users/justin/Dropbox/Papers App/Libra
-  \verb ry.papers3/Articles/2003/McDaniel/World Economy 2003 McDaniel.pdf:appli
-  \verb cation/pdf}
-  \endverb
-  \field{journaltitle}{The World Economy}
-  \field{month}{07}
-  \field{year}{2003}
-\endentry
-
-\entry{mosley2003global}{book}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Mosley}{M.}%
-     {Layna}{L.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Cambridge University Press}%
-  }
-  \strng{namehash}{ML1}
-  \strng{fullhash}{ML1}
-  \field{labelyear}{2003}
-  \field{sortinit}{2}
-  \field{abstract}{%
-  Global Capital and National Governments suggests that international financial
-  integration does not mean the end of social democratic welfare policies.
-  Capital market openness allows participants to react swiftly and severely to
-  government policy; but in the developed ...%
-  }
-  \field{isbn}{9780521521628}
-  \field{title}{{Global Capital and National Governments}}
-  \verb{url}
-  \verb http://books.google.com/books?id=pYykNVRMpKAC
-  \endverb
-  \field{year}{2003}
-\endentry
-
-\entry{Cavallo:2004bf}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Cavallo}{C.}%
-     {Domingo~F}{D.~F.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{language}{1}{%
-    {English}%
-  }
-  \list{publisher}{1}{%
-    {Blackwell Publishing}%
-  }
-  \strng{namehash}{CDF1}
-  \strng{fullhash}{CDF1}
-  \field{labelyear}{2004}
-  \field{extrayear}{1}
-  \field{sortinit}{2}
-  \field{abstract}{%
-  The economic history of Argentina from the mid-1940s, when Juan Domingo Peron
-  came to power, to the end of the 1980s can be narrated without any
-  significant reference to the role of the US government. However, since 1989,
-  when Carlos Saul Menem became the first ...%
-  }
-  \verb{doi}
-  \verb 10.1111/j.1367-0271.2004.00133.x
-  \endverb
-  \field{number}{1}
-  \field{pages}{137\bibrangedash 150}
-  \field{title}{{Argentina and the IMF During the Two Bush Administrations}}
-  \verb{url}
-  \verb http://doi.wiley.com/10.1111/j.1367-0271.2004.00133.x
-  \endverb
-  \field{volume}{7}
-  \verb{file}
-  \verb {1D8D4266-A5D2-4030-9C51-B1DEECF12DA0.pdf:/Users/justin/Dropbox/Papers
-  \verb App/Library.papers3/Files/1D/1D8D4266-A5D2-4030-9C51-B1DEECF12DA0.pdf:a
-  \verb pplication/pdf;1D8D4266-A5D2-4030-9C51-B1DEECF12DA0.pdf:/Users/justin/D
-  \verb ropbox/Papers App/Library.papers3/Files/1D/1D8D4266-A5D2-4030-9C51-B1DE
-  \verb ECF12DA0.pdf:application/pdf}
-  \endverb
-  \field{journaltitle}{International Finance}
-  \field{year}{2004}
-\endentry
-
-\entry{Cavallo:2004ta}{report}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Cavallo}{C.}%
-     {Domingo~F}{D.~F.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{CDF1}
-  \strng{fullhash}{CDF1}
-  \field{labelyear}{2004}
-  \field{extrayear}{2}
-  \field{sortinit}{2}
-  \field{number}{6}
-  \field{title}{{Clase N{\textordmasculine} 6. Argentina hasta la crisis
-  brasile{\~n}a}}
-  \verb{url}
-  \verb http://www.cavallo.com.ar/wp-content/uploads/C6.pdf
-  \endverb
-  \list{location}{1}{%
-    {Cambridge, Mass}%
-  }
-  \list{institution}{1}{%
-    {Harvard University}%
-  }
-  \verb{file}
-  \verb {3FBA3BB0-F089-46BA-9692-CB3D09F1C396.pdf:/Users/justin/Dropbox/Papers
-  \verb App/Library.papers3/Files/3F/3FBA3BB0-F089-46BA-9692-CB3D09F1C396.pdf:a
-  \verb pplication/pdf}
-  \endverb
-  \field{type}{techreport}
-  \field{year}{2004}
-\endentry
-
-\entry{Coyne:2004bq}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Coyne}{C.}%
-     {Christopher~J}{C.~J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Leeson}{L.}%
-     {Peter~T}{P.~T.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{language}{1}{%
-    {English}%
-  }
-  \strng{namehash}{CCJLPT1}
-  \strng{fullhash}{CCJLPT1}
-  \field{labelyear}{2004}
-  \field{sortinit}{2}
-  \verb{doi}
-  \verb 10.1111/j.0023-5962.2004.00241.x
-  \endverb
-  \field{number}{1}
-  \field{pages}{21\bibrangedash 44}
-  \field{title}{{Read All About It! Understanding the Role of Media in Economic
-  Development}}
-  \verb{url}
-  \verb http://doi.wiley.com/10.1111/j.0023-5962.2004.00241.x
-  \endverb
-  \field{volume}{57}
-  \verb{file}
-  \verb {Kyklos 2004 Coyne.pdf:/Users/justin/Dropbox/Papers App/Library.papers3
-  \verb /Articles/2004/Coyne/Kyklos 2004 Coyne.pdf:application/pdf}
-  \endverb
-  \field{journaltitle}{Kyklos}
-  \field{month}{02}
-  \field{year}{2004}
-\endentry
-
-\entry{DirectInvestmentTechnicalExpertGroupDITEG:2004wa}{inproceedings}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Group}{G.}%
-     {Direct Investment Technical~Expert}{D.~I. T.~E.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{organization}{2}{%
-    {IMF Committee on Balance of Payments Statistics}%
-    {OECD Workshop on International Investment Statistics}%
-  }
-  \strng{namehash}{GDITE1}
-  \strng{fullhash}{GDITE1}
-  \field{labelyear}{2004}
-  \field{sortinit}{2}
-  \field{booktitle}{IMF Committee on Balance of Payments Statistics and OECD
-  Workshop on International Investment Statistics}
-  \field{title}{{Definition of Foreign Direct Investment (FDI) Terms}}
-  \verb{url}
-  \verb http://www.imf.org/external/np/sta/bop/pdf/diteg20.pdf
-  \endverb
-  \verb{file}
-  \verb {414CA1D5-354B-4BF6-96A5-1B7F7D81AC5B.pdf:/Users/justin/Dropbox/Papers
-  \verb App/Library.papers3/Files/41/414CA1D5-354B-4BF6-96A5-1B7F7D81AC5B.pdf:a
-  \verb pplication/pdf}
-  \endverb
-  \field{month}{11}
-  \field{year}{2004}
-\endentry
-
-\entry{Moore:2004gy}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Moore}{M.}%
-     {Geoff}{G.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{language}{1}{%
-    {English}%
-  }
-  \list{publisher}{1}{%
-    {Kluwer Academic Publishers}%
-  }
-  \strng{namehash}{MG1}
-  \strng{fullhash}{MG1}
-  \field{labelyear}{2004}
-  \field{sortinit}{2}
-  \field{abstract}{%
-  ... by the Fair Trade movement, between free trade and protec- tionism, the
-  economics literature asks ... as Nicholls notes, ''[t]here is currently
-  little or no coherence across fair trade brands in the ... only consistent
-  feature on several {\textendash} but not all {\textendash} products is the
-  FairTrade Foundation cer ...%
-  }
-  \verb{doi}
-  \verb 10.1023/B:BUSI.0000039400.57827.c3
-  \endverb
-  \field{number}{1-2}
-  \field{pages}{73\bibrangedash 86}
-  \field{title}{{The Fair Trade Movement: Parameters, Issues and Future
-  Research}}
-  \verb{url}
-  \verb http://link.springer.com/10.1023/B:BUSI.0000039400.57827.c3
-  \endverb
-  \field{volume}{53}
-  \verb{file}
-  \verb {96D192E4-357D-42ED-B8E9-6E8C959343B5.pdf:/Users/justin/Dropbox/Papers
-  \verb App/Library.papers3/Files/96/96D192E4-357D-42ED-B8E9-6E8C959343B5.pdf:a
-  \verb pplication/pdf;96D192E4-357D-42ED-B8E9-6E8C959343B5.pdf:/Users/justin/D
-  \verb ropbox/Papers App/Library.papers3/Files/96/96D192E4-357D-42ED-B8E9-6E8C
-  \verb 959343B5.pdf:application/pdf}
-  \endverb
-  \field{journaltitle}{Journal of Business Ethics}
-  \field{year}{2004}
-\endentry
-
-\entry{george2005case}{book}{}
-  \name{author}{2}{}{%
-    {{}%
-     {George}{G.}%
-     {A~L}{A.~L.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Bennett}{B.}%
-     {A}{A}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {MIT Press}%
-  }
-  \strng{namehash}{GALBA1}
-  \strng{fullhash}{GALBA1}
-  \field{labelyear}{2005}
-  \field{sortinit}{2}
-  \field{abstract}{%
-  < p> The use of case studies to build and test theories in political science
-  and the other social sciences has increased in recent years. Many scholars
-  have argued that the social sciences rely too heavily on quantitative
-  research and formal models and have attempted ...%
-  }
-  \field{isbn}{9780262572224}
-  \field{title}{{Case Studies and Theory Development in the Social Sciences}}
-  \verb{url}
-  \verb http://books.google.com/books?id=JEGzE6ExN-gC
-  \endverb
-  \list{location}{1}{%
-    {Cambridge}%
-  }
-  \field{year}{2005}
-\endentry
-
-\entry{Hufbauer:2005vh}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Hufbauer}{H.}%
-     {G~C}{G.~C.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Schott}{S.}%
-     {J~J}{J.~J.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{HGCSJJ1}
-  \strng{fullhash}{HGCSJJ1}
-  \field{labelyear}{2005}
-  \field{sortinit}{2}
-  \field{abstract}{%
-  NAFTA entered into force in 1994 after a bitter Congressional debate. But
-  NAFTA in operation has proved no less controversial than NAFTA before
-  ratification, for both supporters and opponents of trade liberalization have
-  cited experience with the ...%
-  }
-  \field{title}{{NAFTA revisited: Achievements and challenges}}
-  \verb{url}
-  \verb http://books.google.com/books?hl=en&lr=&id=Hf12VNRekqEC&oi=fnd&pg=PR13&
-  \verb dq=NAFTA+revisited+Achievements+and+challenges&ots=CaxTZEON4W&sig=lzfNm
-  \verb D-rjefB2wdNIlhWrIeu0Nk
-  \endverb
-  \field{year}{2005}
-\endentry
-
-\entry{Milner:2005ci}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Milner}{M.}%
-     {Helen~V}{H.~V.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Kubota}{K.}%
-     {Keiko}{K.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{language}{1}{%
-    {English}%
-  }
-  \list{publisher}{1}{%
-    {Cambridge University Press}%
-  }
-  \strng{namehash}{MHVKK1}
-  \strng{fullhash}{MHVKK1}
-  \field{labelyear}{2005}
-  \field{sortinit}{2}
-  \field{abstract}{%
-  Abstract Rising international trade flows are a primary component of
-  globalization. The liberalization of trade policy in many developing
-  countries has helped foster the growth of these flows. Preceding and
-  concurrent with this move to free trade , there has been a ...%
-  }
-  \verb{doi}
-  \verb 10.1017/S002081830505006X
-  \endverb
-  \field{number}{01}
-  \field{pages}{107\bibrangedash 143}
-  \field{title}{{Why the Move to Free Trade? Democracy and Trade Policy in the
-  Developing Countries}}
-  \verb{url}
-  \verb http://www.journals.cambridge.org/abstract_S002081830505006X
-  \endverb
-  \field{volume}{59}
-  \verb{file}
-  \verb {International Organization 2005 Milner.pdf:/Users/justin/Dropbox/Paper
-  \verb s App/Library.papers3/Articles/2005/Milner/International Organization 2
-  \verb 005 Milner.pdf:application/pdf}
-  \endverb
-  \field{journaltitle}{International Organization}
-  \field{month}{02}
-  \field{year}{2005}
-\endentry
-
-\entry{Barbieri:2005uk}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Reuveny}{R.}%
-     {Rafael}{R.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{RR1}
-  \strng{fullhash}{RR1}
-  \field{labelyear}{2005}
-  \field{sortinit}{2}
-  \field{number}{4}
-  \field{title}{{Economic Globalization and Civil War}}
-  \verb{url}
-  \verb http://www.jstor.org.libproxy.temple.edu/stable/3449903?&Search=yes&sea
-  \verb rchText=sector&searchText=globalization&searchText=public&searchText=de
-  \verb mocracy&list=hide&searchUri=%2Faction%2FdoBasicSearch%3FQuery%3Dglobali
-  \verb zation%2Bdemocracy%2Bpublic%2Bsector%26fromHomePage%3Dtrue%26acc%3Don%2
-  \verb 6wc%3Don%26fc%3Doff&prevSearch=&item=12&ttl=7413&returnArticleService=s
-  \verb howFullText
-  \endverb
-  \field{volume}{67}
-  \verb{file}
-  \verb {The Journal of Politics 2005 Barbieri.pdf:/Users/justin/Dropbox/Papers
-  \verb  App/Library.papers3/Articles/2005/Barbieri/The Journal of Politics 200
-  \verb 5 Barbieri.pdf:application/pdf}
-  \endverb
-  \field{journaltitle}{The Journal of Politics}
-  \field{annotation}{%
-  1232- liberalization induces protest, repression, and then war%
-  }
-  \field{month}{11}
-  \field{year}{2005}
-\endentry
-
-\entry{ISQU:ISQU420}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Ahlquist}{A.}%
-     {John~S}{J.~S.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {Blackwell Publishing Inc}%
-  }
-  \strng{namehash}{AJS1}
-  \strng{fullhash}{AJS1}
-  \field{labelyear}{2006}
-  \field{sortinit}{2}
-  \verb{doi}
-  \verb 10.1111/j.1468-2478.2006.00420.x
-  \endverb
-  \field{number}{3}
-  \field{pages}{681\bibrangedash 704}
-  \field{title}{{Economic Policy, Institutions, and Capital Flows: Portfolio
-  and Direct Investment Flows in Developing Countries}}
-  \verb{url}
-  \verb http://dx.doi.org/10.1111/j.1468-2478.2006.00420.x
-  \endverb
-  \field{volume}{50}
-  \verb{file}
-  \verb {3C800745-FFC9-44AA-AC9F-F6CDF89CE4FC.pdf:/Users/justin/Dropbox/Papers
-  \verb App/Library.papers3/Files/3C/3C800745-FFC9-44AA-AC9F-F6CDF89CE4FC.pdf:a
-  \verb pplication/pdf;3C800745-FFC9-44AA-AC9F-F6CDF89CE4FC.pdf:/Users/justin/D
-  \verb ropbox/Papers App/Library.papers3/Files/3C/3C800745-FFC9-44AA-AC9F-F6CD
-  \verb F89CE4FC.pdf:application/pdf}
-  \endverb
-  \field{journaltitle}{International Studies Quarterly}
-  \field{year}{2006}
-\endentry
-
-\entry{Corrales:2006vz}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Corrales}{C.}%
-     {Javier}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Westhoff}{W.}%
-     {Frank}{F.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{CJWF1}
-  \strng{fullhash}{CJWF1}
-  \field{labelyear}{2006}
-  \field{sortinit}{2}
-  \field{pages}{1\bibrangedash 24}
-  \field{title}{{IT Adoption and Political Regimes}}
-  \verb{file}
-  \verb {2006 Corrales.pdf:/Users/justin/Dropbox/Papers App/Library.papers3/Art
-  \verb icles/2006/Corrales/2006 Corrales.pdf:application/pdf}
-  \endverb
-  \field{month}{10}
-  \field{year}{2006}
-\endentry
-
-\entry{Levitsky:2006ex}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Levitsky}{L.}%
-     {Steven}{S.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Way}{W.}%
-     {Lucan~A}{L.~A.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{language}{1}{%
-    {English}%
-  }
-  \keyw{democratization, needtoread, regime change}
-  \strng{namehash}{LSWLA1}
-  \strng{fullhash}{LSWLA1}
-  \field{labelyear}{2006}
-  \field{sortinit}{2}
-  \verb{doi}
-  \verb 10.2307/20434008
-  \endverb
-  \field{number}{4}
-  \field{pages}{379}
-  \field{title}{{Linkage versus Leverage. Rethinking the International
-  Dimension of Regime Change}}
-  \verb{url}
-  \verb http://www.jstor.org/stable/10.2307/20434008?origin=crossref
-  \endverb
-  \field{volume}{38}
-  \verb{file}
-  \verb {Comparative Politics 2006 Levitsky.pdf:/Users/justin/Dropbox/Papers Ap
-  \verb p/Library.papers3/Articles/2006/Levitsky/Comparative Politics 2006 Levi
-  \verb tsky.pdf:application/pdf;Comparative Politics 2006 Levitsky.pdf:/Users/
-  \verb justin/Dropbox/Papers App/Library.papers3/Articles/2006/Levitsky/Compar
-  \verb ative Politics 2006 Levitsky.pdf:application/pdf}
-  \endverb
-  \field{journaltitle}{Comparative Politics}
-  \field{month}{07}
-  \field{year}{2006}
-\endentry
-
-\entry{Adam:2007gn}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Antonis}{A.}%
-     {Adam}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Fragkiskos}{F.}%
-     {Filippaios}{F.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{language}{1}{%
-    {English}%
-  }
-  \keyw{democracy, globalization}
-  \strng{namehash}{AAFF1}
-  \strng{fullhash}{AAFF1}
-  \field{labelyear}{2007}
-  \field{sortinit}{2}
-  \verb{doi}
-  \verb 10.1016/j.ejpoleco.2006.08.006
-  \endverb
-  \field{number}{4}
-  \field{pages}{1038\bibrangedash 1052}
-  \field{title}{{Foreign direct investment and civil liberties: A new
-  perspective}}
-  \verb{url}
-  \verb http://linkinghub.elsevier.com/retrieve/pii/S0176268006000784
-  \endverb
-  \field{volume}{23}
-  \verb{file}
-  \verb {European Journal of Political Economy 2007 Antonis.pdf:/Users/justin/D
-  \verb ropbox/Papers App/Library.papers3/Articles/2007/Antonis/European Journa
-  \verb l of Political Economy 2007 Antonis.pdf:application/pdf}
-  \endverb
-  \field{journaltitle}{European Journal of Political Economy}
-  \field{month}{12}
-  \field{year}{2007}
-\endentry
-
-\entry{Basu:2007ir}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Basu}{B.}%
-     {Parantap}{P.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Guariglia}{G.}%
-     {Alessandra}{A.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{language}{1}{%
-    {English}%
-  }
-  \strng{namehash}{BPGA1}
-  \strng{fullhash}{BPGA1}
-  \field{labelyear}{2007}
-  \field{sortinit}{2}
-  \verb{doi}
-  \verb 10.1016/j.jmacro.2006.02.004
-  \endverb
-  \field{number}{4}
-  \field{pages}{824\bibrangedash 839}
-  \field{title}{{Foreign Direct Investment, inequality, and growth}}
-  \verb{url}
-  \verb http://linkinghub.elsevier.com/retrieve/pii/S016407040700033X
-  \endverb
-  \field{volume}{29}
-  \verb{file}
-  \verb {480A39C0-CF25-44E3-8ECC-66254B8B9DBF.pdf:/Users/justin/Dropbox/Papers
-  \verb App/Library.papers3/Files/48/480A39C0-CF25-44E3-8ECC-66254B8B9DBF.pdf:a
-  \verb pplication/pdf;480A39C0-CF25-44E3-8ECC-66254B8B9DBF.pdf:/Users/justin/D
-  \verb ropbox/Papers App/Library.papers3/Files/48/480A39C0-CF25-44E3-8ECC-6625
-  \verb 4B8B9DBF.pdf:application/pdf}
-  \endverb
-  \field{journaltitle}{Journal of Macroeconomics}
-  \field{month}{12}
-  \field{year}{2007}
-\endentry
-
 \entry{Blanton:2007gu}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -2508,7 +324,7 @@
   \strng{namehash}{BRGAC1}
   \strng{fullhash}{BRGAC1}
   \field{labelyear}{2007}
-  \field{sortinit}{2}
+  \field{sortinit}{B}
   \field{abstract}{%
   There has been little systematic assessment of the impact of globalization on
   armed conflict within states. Drawing from bargaining theories of conflict,
@@ -2549,7 +365,7 @@
   \strng{namehash}{BSML1}
   \strng{fullhash}{BSML1}
   \field{labelyear}{2007}
-  \field{sortinit}{2}
+  \field{sortinit}{B}
   \field{abstract}{%
   2 Hardie (2005), however, argues that investors in Brazil did not act in a
   unified fashion{\textendash} many international bond market actors remained
@@ -2570,6 +386,45 @@
   \field{year}{2007}
 \endentry
 
+\entry{Burgoon:2001dp}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Burgoon}{B.}%
+     {Brian}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BB1}
+  \strng{fullhash}{BB1}
+  \field{labelyear}{2001}
+  \field{sortinit}{B}
+  \field{abstract}{%
+  The relationship between economic openness and welfare policies in
+  industrialized countries has long been of interest to and increasingly
+  divides students of politics and economics. Several lines of research once
+  suggested that greater openness poses ...%
+  }
+  \verb{doi}
+  \verb 10.1162/00208180152507542
+  \endverb
+  \field{number}{3}
+  \field{pages}{509\bibrangedash 551}
+  \field{title}{{Globalization and Welfare Compensation: Disentangling the Ties
+  that Bind}}
+  \verb{url}
+  \verb http://journals.cambridge.org/abstract_S0020818301441403
+  \endverb
+  \field{volume}{55}
+  \verb{file}
+  \verb {International Organization 2001 Burgoon.pdf:/Users/justin/Dropbox/Pape
+  \verb rs App/Library.papers3/Articles/2001/Burgoon/International Organization
+  \verb  2001 Burgoon.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{International Organization}
+  \field{month}{09}
+  \field{year}{2001}
+\endentry
+
 \entry{Bussmann:2007vx}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -2586,7 +441,7 @@
   \strng{namehash}{BMSG1}
   \strng{fullhash}{BMSG1}
   \field{labelyear}{2007}
-  \field{sortinit}{2}
+  \field{sortinit}{B}
   \field{pages}{1\bibrangedash 20}
   \field{title}{{When globalization discontent turns violent : foreign economic
   liberalization and internal war}}
@@ -2598,6 +453,1254 @@
   \field{journaltitle}{International Studies Quarterly}
   \field{month}{02}
   \field{year}{2007}
+\endentry
+
+\entry{Cameron:1978vb}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Cameron}{C.}%
+     {David~R}{D.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CDR1}
+  \strng{fullhash}{CDR1}
+  \field{labelyear}{1978}
+  \field{sortinit}{C}
+  \field{pages}{1\bibrangedash 20}
+  \field{title}{{The Expansion of the Public Economy}}
+  \verb{file}
+  \verb {American Political Science Review 1978 Cameron.pdf:/Users/justin/Dropb
+  \verb ox/Papers App/Library.papers3/Articles/1978/Cameron/American Political
+  \verb Science Review 1978 Cameron.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{American Political Science Review}
+  \field{month}{12}
+  \field{year}{1978}
+\endentry
+
+\entry{Cammack:1998gf}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Cammack}{C.}%
+     {Paul}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \list{publisher}{1}{%
+    {Cambridge University Press}%
+  }
+  \strng{namehash}{CP1}
+  \strng{fullhash}{CP1}
+  \field{labelyear}{1998}
+  \field{sortinit}{C}
+  \field{abstract}{%
+  ... Printed in the United Kingdom Globalization and the death of liberal
+  democracy PAUL CAMMACK * It is doubtful as to whether the countries of the
+  Third World are likely to move to the kind of liberal democracy that is
+  regarded as characteristic of the West. ...%
+  }
+  \verb{doi}
+  \verb 10.1017/S1062798700003264
+  \endverb
+  \field{number}{02}
+  \field{pages}{249\bibrangedash 263}
+  \field{title}{{Globalization and the death of liberal democracy}}
+  \verb{url}
+  \verb http://journals.cambridge.org.libproxy.temple.edu/action/displayAbstrac
+  \verb t?aid=5307236
+  \endverb
+  \field{volume}{6}
+  \field{journaltitle}{European Review}
+  \field{year}{1998}
+\endentry
+
+\entry{Cavallo:2004bf}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Cavallo}{C.}%
+     {Domingo~F}{D.~F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \list{publisher}{1}{%
+    {Blackwell Publishing}%
+  }
+  \strng{namehash}{CDF1}
+  \strng{fullhash}{CDF1}
+  \field{labelyear}{2004}
+  \field{extrayear}{1}
+  \field{sortinit}{C}
+  \field{abstract}{%
+  The economic history of Argentina from the mid-1940s, when Juan Domingo Peron
+  came to power, to the end of the 1980s can be narrated without any
+  significant reference to the role of the US government. However, since 1989,
+  when Carlos Saul Menem became the first ...%
+  }
+  \verb{doi}
+  \verb 10.1111/j.1367-0271.2004.00133.x
+  \endverb
+  \field{number}{1}
+  \field{pages}{137\bibrangedash 150}
+  \field{title}{{Argentina and the IMF During the Two Bush Administrations}}
+  \verb{url}
+  \verb http://doi.wiley.com/10.1111/j.1367-0271.2004.00133.x
+  \endverb
+  \field{volume}{7}
+  \verb{file}
+  \verb {1D8D4266-A5D2-4030-9C51-B1DEECF12DA0.pdf:/Users/justin/Dropbox/Papers
+  \verb App/Library.papers3/Files/1D/1D8D4266-A5D2-4030-9C51-B1DEECF12DA0.pdf:a
+  \verb pplication/pdf;1D8D4266-A5D2-4030-9C51-B1DEECF12DA0.pdf:/Users/justin/D
+  \verb ropbox/Papers App/Library.papers3/Files/1D/1D8D4266-A5D2-4030-9C51-B1DE
+  \verb ECF12DA0.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{International Finance}
+  \field{year}{2004}
+\endentry
+
+\entry{Cavallo:2004ta}{report}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Cavallo}{C.}%
+     {Domingo~F}{D.~F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CDF1}
+  \strng{fullhash}{CDF1}
+  \field{labelyear}{2004}
+  \field{extrayear}{2}
+  \field{sortinit}{C}
+  \field{number}{6}
+  \field{title}{{Clase N{\textordmasculine} 6. Argentina hasta la crisis
+  brasile{\~n}a}}
+  \verb{url}
+  \verb http://www.cavallo.com.ar/wp-content/uploads/C6.pdf
+  \endverb
+  \list{location}{1}{%
+    {Cambridge, Mass}%
+  }
+  \list{institution}{1}{%
+    {Harvard University}%
+  }
+  \verb{file}
+  \verb {3FBA3BB0-F089-46BA-9692-CB3D09F1C396.pdf:/Users/justin/Dropbox/Papers
+  \verb App/Library.papers3/Files/3F/3FBA3BB0-F089-46BA-9692-CB3D09F1C396.pdf:a
+  \verb pplication/pdf}
+  \endverb
+  \field{type}{techreport}
+  \field{year}{2004}
+\endentry
+
+\entry{center1993trading}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Center for Public Integrity}}{C.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Center for Public Integrity}%
+  }
+  \strng{namehash}{C1}
+  \strng{fullhash}{C1}
+  \field{labelyear}{1993}
+  \field{sortinit}{C}
+  \field{isbn}{9781882583027}
+  \field{title}{{The Trading Game: Inside Lobbying for the North American Free
+  Trade Agreement}}
+  \verb{url}
+  \verb http://books.google.co.uk/books?id=gUG2AAAAIAAJ
+  \endverb
+  \list{location}{1}{%
+    {Washington, D.C.}%
+  }
+  \field{year}{1993}
+\endentry
+
+\entry{Clark:1997jg}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Clark}{C.}%
+     {Ephraim}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \strng{namehash}{CE1}
+  \strng{fullhash}{CE1}
+  \field{labelyear}{1997}
+  \field{sortinit}{C}
+  \verb{doi}
+  \verb 10.1016/S0261-5606(97)00008-9
+  \endverb
+  \field{number}{3}
+  \field{pages}{477\bibrangedash 490}
+  \field{title}{{Valuing political risk}}
+  \verb{url}
+  \verb http://linkinghub.elsevier.com/retrieve/pii/S0261560697000089
+  \endverb
+  \field{volume}{16}
+  \field{journaltitle}{Journal of International Money and Finance}
+  \field{month}{06}
+  \field{year}{1997}
+\endentry
+
+\entry{Corrales:2006vz}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Corrales}{C.}%
+     {Javier}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Westhoff}{W.}%
+     {Frank}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CJWF1}
+  \strng{fullhash}{CJWF1}
+  \field{labelyear}{2006}
+  \field{sortinit}{C}
+  \field{pages}{1\bibrangedash 24}
+  \field{title}{{IT Adoption and Political Regimes}}
+  \verb{file}
+  \verb {2006 Corrales.pdf:/Users/justin/Dropbox/Papers App/Library.papers3/Art
+  \verb icles/2006/Corrales/2006 Corrales.pdf:application/pdf}
+  \endverb
+  \field{month}{10}
+  \field{year}{2006}
+\endentry
+
+\entry{Coyne:2004bq}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Coyne}{C.}%
+     {Christopher~J}{C.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Leeson}{L.}%
+     {Peter~T}{P.~T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \strng{namehash}{CCJLPT1}
+  \strng{fullhash}{CCJLPT1}
+  \field{labelyear}{2004}
+  \field{sortinit}{C}
+  \verb{doi}
+  \verb 10.1111/j.0023-5962.2004.00241.x
+  \endverb
+  \field{number}{1}
+  \field{pages}{21\bibrangedash 44}
+  \field{title}{{Read All About It! Understanding the Role of Media in Economic
+  Development}}
+  \verb{url}
+  \verb http://doi.wiley.com/10.1111/j.0023-5962.2004.00241.x
+  \endverb
+  \field{volume}{57}
+  \verb{file}
+  \verb {Kyklos 2004 Coyne.pdf:/Users/justin/Dropbox/Papers App/Library.papers3
+  \verb /Articles/2004/Coyne/Kyklos 2004 Coyne.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{Kyklos}
+  \field{month}{02}
+  \field{year}{2004}
+\endentry
+
+\entry{Cragg:1996iy}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Cragg}{C.}%
+     {Michael~Ian}{M.~I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cragg}{C.}%
+     {Michael~Ian}{M.~I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Epelbaum}{E.}%
+     {Mario}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Epelbaum}{E.}%
+     {Mario}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \strng{namehash}{CMI+1}
+  \strng{fullhash}{CMICMIEMEM1}
+  \field{labelyear}{1996}
+  \field{sortinit}{C}
+  \verb{doi}
+  \verb 10.1016/S0304-3878(96)00427-0
+  \endverb
+  \field{number}{1}
+  \field{pages}{99\bibrangedash 116}
+  \field{title}{{Why has wage dispersion grown in Mexico? Is it the incidence
+  of reforms or the growing demand for skills?}}
+  \verb{url}
+  \verb http://linkinghub.elsevier.com/retrieve/pii/S0304387896004270
+  \endverb
+  \field{volume}{51}
+  \verb{file}
+  \verb {6AD41250-80C7-4643-AFCC-BC3EB9CEBC7D.pdf:/Users/justin/Dropbox/Papers
+  \verb App/Library.papers3/Files/6A/6AD41250-80C7-4643-AFCC-BC3EB9CEBC7D.pdf:a
+  \verb pplication/pdf;6AD41250-80C7-4643-AFCC-BC3EB9CEBC7D.pdf:/Users/justin/D
+  \verb ropbox/Papers App/Library.papers3/Files/6A/6AD41250-80C7-4643-AFCC-BC3E
+  \verb B9CEBC7D.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{Journal of Development Economics}
+  \field{month}{10}
+  \field{year}{1996}
+\endentry
+
+\entry{Delgado:1995tr}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Delgado}{D.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Asociacion Madres de Plaza de Mayo}%
+  }
+  \strng{namehash}{DA1}
+  \strng{fullhash}{DA1}
+  \field{labelyear}{1995}
+  \field{sortinit}{D}
+  \field{title}{{\emph{Agresiones a }La Prensa \emph{1991-1994}}}
+  \list{location}{1}{%
+    {Buenos Aires}%
+  }
+  \field{year}{1995}
+\endentry
+
+\entry{Dominguez:2009wd}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Dominguez}{D.}%
+     {Jorge~I}{J.~I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Castro}{C.}%
+     {Rafael~Fern{\'a}ndez}{R.~F.}%
+     {de}{d.}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Taylor {\&} Francis}%
+  }
+  \strng{namehash}{DJICRFd1}
+  \strng{fullhash}{DJICRFd1}
+  \field{labelyear}{2009}
+  \field{sortinit}{D}
+  \field{isbn}{9780203879252}
+  \field{title}{{United States and Mexico: Between Partnership and Conflict}}
+  \verb{url}
+  \verb http://books.google.co.uk/books?id=j47iBJ18ie0C
+  \endverb
+  \field{journaltitle}{books.google.co.uk}
+  \field{year}{2009}
+\endentry
+
+\entry{Huntington:1975vt}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Dominguez}{D.}%
+     {Jorge~I}{J.~I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Huntington}{H.}%
+     {Samuel~P}{S.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{DJIHSP1}
+  \strng{fullhash}{DJIHSP1}
+  \field{labelyear}{1975}
+  \field{sortinit}{D}
+  \field{pages}{1\bibrangedash 114}
+  \field{title}{{Political Development}}
+  \verb{url}
+  \verb http://scholar.google.com/scholar?q=related:qdG3h122KaoJ:scholar.google
+  \verb .com/&hl=en&num=20&as_sdt=0,5
+  \endverb
+  \field{volume}{3}
+  \list{location}{1}{%
+    {Reading}%
+  }
+  \field{journaltitle}{Handbook of Political Science}
+  \field{year}{1975}
+\endentry
+
+\entry{Dreher:2008dg}{book}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Dreher}{D.}%
+     {Axel}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gaston}{G.}%
+     {Noel}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Martens}{M.}%
+     {Pim}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{DAGNMP1}
+  \strng{fullhash}{DAGNMP1}
+  \field{labelyear}{2008}
+  \field{sortinit}{D}
+  \field{abstract}{%
+  Globalisation has become to be far more than a social commentator's buzzword
+  in contemporary times. Consequently, the measurement of globalisation is now
+  of central concern, whether for academe, business, the mass and specialised
+  media or policy circles. In business, ...%
+  }
+  \verb{doi}
+  \verb 10.1007/978-0-387-74069-0_3
+  \endverb
+  \field{title}{{The Measurement of Globalisation}}
+  \verb{url}
+  \verb http://link.springer.com.libproxy.temple.edu/chapter/10.1007/978-0-387-
+  \verb 74069-0_3/fulltext.html
+  \endverb
+  \list{location}{1}{%
+    {New York}%
+  }
+  \verb{file}
+  \verb {D2F5093B-1068-47E6-9B55-A5F1B21CAD01.pdf:/Users/justin/Dropbox/Papers
+  \verb App/Library.papers3/Files/D2/D2F5093B-1068-47E6-9B55-A5F1B21CAD01.pdf:a
+  \verb pplication/pdf}
+  \endverb
+  \field{year}{2008}
+\endentry
+
+\entry{Dube:2011ir}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Dube}{D.}%
+     {Arindrajit}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kaplan}{K.}%
+     {Ethan}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Naidu}{N.}%
+     {Suresh}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \list{publisher}{1}{%
+    {Oxford University Press}%
+  }
+  \strng{namehash}{DAKENS1}
+  \strng{fullhash}{DAKENS1}
+  \field{labelyear}{2011}
+  \field{sortinit}{D}
+  \field{abstract}{%
+  Abstract We estimate the impact of coups and top-secret coup authorizations
+  on asset prices of partially nationalized multinational companies that stood
+  to benefit from US-backed coups . Stock returns of highly exposed firms
+  reacted to coup authorizations classified as ...%
+  }
+  \verb{doi}
+  \verb 10.1093/qje/qjr030
+  \endverb
+  \field{number}{3}
+  \field{pages}{1375\bibrangedash 1409}
+  \field{title}{{Coups, Corporations, and Classified Information}}
+  \verb{url}
+  \verb http://qje.oxfordjournals.org.libproxy.temple.edu/content/126/3/1375.fu
+  \verb ll
+  \endverb
+  \field{volume}{126}
+  \verb{file}
+  \verb {EE65DC7E-9DD2-444E-949A-6201A55E8A33.pdf:/Users/justin/Dropbox/Papers
+  \verb App/Library.papers3/Files/EE/EE65DC7E-9DD2-444E-949A-6201A55E8A33.pdf:a
+  \verb pplication/pdf;EE65DC7E-9DD2-444E-949A-6201A55E8A33.pdf:/Users/justin/D
+  \verb ropbox/Papers App/Library.papers3/Files/EE/EE65DC7E-9DD2-444E-949A-6201
+  \verb A55E8A33.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{The Quarterly Journal of Economics}
+  \field{month}{08}
+  \field{year}{2011}
+\endentry
+
+\entry{dunning2013international}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Dunning}{D.}%
+     {John~H}{J.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Taylor {\&} Francis}%
+  }
+  \strng{namehash}{DJH1}
+  \strng{fullhash}{DJH1}
+  \field{labelyear}{2013}
+  \field{sortinit}{D}
+  \field{isbn}{9780415643139}
+  \field{title}{{International Production and the Multinational Enterprise}}
+  \verb{url}
+  \verb http://books.google.co.uk/books?id=6xbsFBXt1G0C
+  \endverb
+  \field{year}{2013}
+\endentry
+
+\entry{Echegaray:2001tf}{incollection}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Echegaray}{E.}%
+     {Fabian}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Elordi}{E.}%
+     {Carlos}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Cambridge University Press}%
+  }
+  \strng{namehash}{EFEC1}
+  \strng{fullhash}{EFEC1}
+  \field{labelyear}{2001}
+  \field{sortinit}{E}
+  \field{booktitle}{Public Support for Market Reforms in New Democracies}
+  \field{isbn}{9780521663410}
+  \field{title}{{Public Opinion, Presidential Popularity, and Economic Reform
+  in Argentina, 1989-1996}}
+  \field{year}{2001}
+\endentry
+
+\entry{eckstein2001power}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Eckstein}{E.}%
+     {S}{S}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Merino}{M.}%
+     {M~A~G}{M.~A.~G.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {University of California Press}%
+  }
+  \keyw{Argentina, protest, trade}
+  \strng{namehash}{ESMMAG1}
+  \strng{fullhash}{ESMMAG1}
+  \field{labelyear}{2001}
+  \field{sortinit}{E}
+  \field{isbn}{9780520227057}
+  \field{title}{{Power and popular protest: Latin American social movements}}
+  \verb{url}
+  \verb http://books.google.com/books?id=V0o7\_lLFOMwC
+  \endverb
+  \field{year}{2001}
+\endentry
+
+\entry{EICHENGREEN:2008gg}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Eichengreen}{E.}%
+     {Barry}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Leblang}{L.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \list{publisher}{1}{%
+    {Blackwell Publishing Ltd}%
+  }
+  \keyw{democracy, globalization}
+  \strng{namehash}{EBLD1}
+  \strng{fullhash}{EBLD1}
+  \field{labelyear}{2008}
+  \field{sortinit}{E}
+  \field{abstract}{%
+  The relationship between democracy and globalization has been a subject of
+  both scholarly and policy debate. Some argue that the two go hand in
+  hand{\textendash}that unrestricted international transactions encourage
+  political accountability and transparency and that politically free ...%
+  }
+  \verb{doi}
+  \verb 10.1111/j.1468-0343.2007.00329.x
+  \endverb
+  \field{number}{3}
+  \field{pages}{289\bibrangedash 334}
+  \field{title}{{Democracy and Globalization}}
+  \verb{url}
+  \verb http://onlinelibrary.wiley.com.libproxy.temple.edu/doi/10.1111/j.1468-0
+  \verb 343.2007.00329.x/full
+  \endverb
+  \field{volume}{20}
+  \verb{file}
+  \verb {Economics & Politics 2008 Eichengreen.pdf:/Users/justin/Dropbox/Papers
+  \verb  App/Library.papers3/Articles/2008/Eichengreen/Economics & Politics 200
+  \verb 8 Eichengreen.pdf:application/pdf;Economics & Politics 2008 Eichengreen
+  \verb .pdf:/Users/justin/Dropbox/Papers App/Library.papers3/Articles/2008/Eic
+  \verb hengreen/Economics & Politics 2008 Eichengreen.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{Economics {\&} Politics}
+  \field{year}{2008}
+\endentry
+
+\entry{Feenstra:1997kx}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Feenstra}{F.}%
+     {Robert~C}{R.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hanson}{H.}%
+     {Gordon~H}{G.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \strng{namehash}{FRCHGH1}
+  \strng{fullhash}{FRCHGH1}
+  \field{labelyear}{1997}
+  \field{sortinit}{F}
+  \verb{doi}
+  \verb 10.1016/S0022-1996(96)01475-4
+  \endverb
+  \field{number}{3-4}
+  \field{pages}{371\bibrangedash 393}
+  \field{title}{{Foreign direct investment and relative wages: Evidence from
+  Mexico's maquiladoras}}
+  \verb{url}
+  \verb http://linkinghub.elsevier.com/retrieve/pii/S0022199696014754
+  \endverb
+  \field{volume}{42}
+  \verb{file}
+  \verb {27209723-78BB-42FC-AE7A-7626E8798661.pdf:/Users/justin/Dropbox/Papers
+  \verb App/Library.papers3/Files/27/27209723-78BB-42FC-AE7A-7626E8798661.pdf:a
+  \verb pplication/pdf;27209723-78BB-42FC-AE7A-7626E8798661.pdf:/Users/justin/D
+  \verb ropbox/Papers App/Library.papers3/Files/27/27209723-78BB-42FC-AE7A-7626
+  \verb E8798661.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{Journal of International Economics}
+  \field{month}{05}
+  \field{year}{1997}
+\endentry
+
+\entry{Ferber:1993fb}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Ferber}{F.}%
+     {Federico}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FF1}
+  \strng{fullhash}{FF1}
+  \field{labelyear}{1993}
+  \field{sortinit}{F}
+  \verb{doi}
+  \verb 541 words N1 -
+  \endverb
+  \field{title}{{ARGENTINA: FARMERS TO DEMAND CONCESSIONS IN PROTEST RALLY}}
+  \verb{url}
+  \verb http://www.lexisnexis.com.libproxy.temple.edu/hottopics/lnacademic/
+  \endverb
+  \verb{file}
+  \verb {1993 Ferber.pdf:/Users/justin/Dropbox/Papers App/Library.papers3/Artic
+  \verb les/1993/Ferber/1993 Ferber.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{IPS-Inter Press Service}
+  \field{month}{07}
+  \field{year}{1993}
+\endentry
+
+\entry{FreedomHouse:2011vv}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Freedom House}}{F.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{F1}
+  \strng{fullhash}{F1}
+  \field{labelyear}{2011}
+  \field{sortinit}{F}
+  \field{title}{{Freedom of the World}}
+  \verb{url}
+  \verb http://www.freedomhouse.org/
+  \endverb
+  \field{year}{2011}
+\endentry
+
+\entry{Gehlbach:2011ky}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Gehlbach}{G.}%
+     {Scott}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sonin}{S.}%
+     {Konstantin}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \keyw{media, media freedom, mobilization, political economy}
+  \strng{namehash}{GSSK1}
+  \strng{fullhash}{GSSK1}
+  \field{labelyear}{2011}
+  \field{sortinit}{G}
+  \verb{doi}
+  \verb 10.2139/ssrn.1315882
+  \endverb
+  \field{title}{{Government Control of the Media}}
+  \verb{url}
+  \verb http://www.ssrn.com/abstract=1315882
+  \endverb
+  \verb{file}
+  \verb {SSRN Journal 2011 Gehlbach.pdf:/Users/justin/Dropbox/Papers App/Librar
+  \verb y.papers3/Articles/2011/Gehlbach/SSRN Journal 2011 Gehlbach.pdf:applica
+  \verb tion/pdf;SSRN Journal 2011 Gehlbach.pdf:/Users/justin/Dropbox/Papers Ap
+  \verb p/Library.papers3/Articles/2011/Gehlbach/SSRN Journal 2011 Gehlbach.pdf
+  \verb :application/pdf}
+  \endverb
+  \field{journaltitle}{SSRN Electronic Journal}
+  \field{year}{2011}
+\endentry
+
+\entry{Gelman:2008gz}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Gelman}{G.}%
+     {Andrew}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \list{publisher}{1}{%
+    {John Wiley {\&} Sons, Ltd.}%
+  }
+  \strng{namehash}{GA1}
+  \strng{fullhash}{GA1}
+  \field{labelyear}{2008}
+  \field{sortinit}{G}
+  \verb{doi}
+  \verb 10.1002/sim.3107
+  \endverb
+  \field{number}{15}
+  \field{pages}{2865\bibrangedash 2873}
+  \field{title}{{Scaling regression inputs by dividing by two standard
+  deviations}}
+  \verb{url}
+  \verb http://doi.wiley.com/10.1002/sim.3107
+  \endverb
+  \field{volume}{27}
+  \verb{file}
+  \verb {94C119AF-8CBE-49E8-8FF6-C43B2CE85574.pdf:/Users/justin/Dropbox/Papers
+  \verb App/Library.papers3/Files/94/94C119AF-8CBE-49E8-8FF6-C43B2CE85574.pdf:a
+  \verb pplication/pdf;94C119AF-8CBE-49E8-8FF6-C43B2CE85574.pdf:/Users/justin/D
+  \verb ropbox/Papers App/Library.papers3/Files/94/94C119AF-8CBE-49E8-8FF6-C43B
+  \verb 2CE85574.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{Statistics in Medicine}
+  \field{year}{2008}
+\endentry
+
+\entry{george2005case}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {George}{G.}%
+     {A~L}{A.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bennett}{B.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {MIT Press}%
+  }
+  \strng{namehash}{GALBA1}
+  \strng{fullhash}{GALBA1}
+  \field{labelyear}{2005}
+  \field{sortinit}{G}
+  \field{abstract}{%
+  < p> The use of case studies to build and test theories in political science
+  and the other social sciences has increased in recent years. Many scholars
+  have argued that the social sciences rely too heavily on quantitative
+  research and formal models and have attempted ...%
+  }
+  \field{isbn}{9780262572224}
+  \field{title}{{Case Studies and Theory Development in the Social Sciences}}
+  \verb{url}
+  \verb http://books.google.com/books?id=JEGzE6ExN-gC
+  \endverb
+  \list{location}{1}{%
+    {Cambridge}%
+  }
+  \field{year}{2005}
+\endentry
+
+\entry{DirectInvestmentTechnicalExpertGroupDITEG:2004wa}{inproceedings}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Group}{G.}%
+     {Direct Investment Technical~Expert}{D.~I. T.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{2}{%
+    {IMF Committee on Balance of Payments Statistics}%
+    {OECD Workshop on International Investment Statistics}%
+  }
+  \strng{namehash}{GDITE1}
+  \strng{fullhash}{GDITE1}
+  \field{labelyear}{2004}
+  \field{sortinit}{G}
+  \field{booktitle}{IMF Committee on Balance of Payments Statistics and OECD
+  Workshop on International Investment Statistics}
+  \field{title}{{Definition of Foreign Direct Investment (FDI) Terms}}
+  \verb{url}
+  \verb http://www.imf.org/external/np/sta/bop/pdf/diteg20.pdf
+  \endverb
+  \verb{file}
+  \verb {414CA1D5-354B-4BF6-96A5-1B7F7D81AC5B.pdf:/Users/justin/Dropbox/Papers
+  \verb App/Library.papers3/Files/41/414CA1D5-354B-4BF6-96A5-1B7F7D81AC5B.pdf:a
+  \verb pplication/pdf}
+  \endverb
+  \field{month}{11}
+  \field{year}{2004}
+\endentry
+
+\entry{Habermas:1991vg}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Habermas}{H.}%
+     {Jurgen}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {MIT}%
+  }
+  \strng{namehash}{HJ1}
+  \strng{fullhash}{HJ1}
+  \field{labelyear}{1991}
+  \field{sortinit}{H}
+  \field{abstract}{%
+  " The most significant modern work on its subject.... Habermas offers perhaps
+  the richest, best developed conceptualization available of the social nature
+  and foundations of public life."--Craig J. Calhoun," Contemporary Sociology"
+  This is J{\"u} rgen Habermas's most ...%
+  }
+  \field{title}{{The Structural Transformation of the Public Sphere}}
+  \verb{url}
+  \verb http://books.google.com.libproxy.temple.edu/books/about/The_Structural_
+  \verb Transformation_of_the_Pub.html?id=e799caakIWoC
+  \endverb
+  \field{year}{1991}
+\endentry
+
+\entry{Hayden:2009uy}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hayden}{H.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Basic Books}%
+  }
+  \strng{namehash}{HT1}
+  \strng{fullhash}{HT1}
+  \field{labelyear}{2009}
+  \field{sortinit}{H}
+  \field{isbn}{9780786747344}
+  \field{title}{{The Zapatista Reader}}
+  \verb{url}
+  \verb http://books.google.com/books?id=EMt3fwmyH3kC
+  \endverb
+  \field{year}{2009}
+\endentry
+
+\entry{Hellman:1993wa}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hellman}{H.}%
+     {Judith~Adler}{J.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HJA1}
+  \strng{fullhash}{HJA1}
+  \field{labelyear}{1993}
+  \field{sortinit}{H}
+  \field{abstract}{%
+  Much of the debate around free trade and, in particular, much of the North
+  American opposition to the North American Free Trade Agreement (NAFTA) has
+  been framed in terms that would suggest that Canadian and US losses will be
+  Mexico's gain. Even before an ...%
+  }
+  \field{title}{{Mexican perceptions of free trade: support and opposition to
+  NAFTA}}
+  \verb{url}
+  \verb http://www.yorku.ca/cerlac/jhellman/Mexican_Perceptions.pdf
+  \endverb
+  \verb{file}
+  \verb {010875DB-C9FE-4AF5-8BF8-0CB0BA1AF9B8.pdf:/Users/justin/Dropbox/Papers
+  \verb App/Library.papers3/Files/01/010875DB-C9FE-4AF5-8BF8-0CB0BA1AF9B8.pdf:a
+  \verb pplication/pdf}
+  \endverb
+  \field{journaltitle}{The Political Economy of North American Free Trade}
+  \field{year}{1993}
+\endentry
+
+\entry{Hiscox:2002us}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hiscox}{H.}%
+     {M~J}{M.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HMJ1}
+  \strng{fullhash}{HMJ1}
+  \field{labelyear}{2002}
+  \field{extrayear}{1}
+  \field{sortinit}{H}
+  \field{abstract}{%
+  The extent to which political conflict over US trade policy has led to
+  clashes between broad- based class coalitions has varied significantly over
+  time during the past two centuries. I argue that much of this variation can
+  be explained by changes in economywide levels of ...%
+  }
+  \field{title}{{Commerce, coalitions, and factor mobility: Evidence from
+  congressional votes on trade legislation}}
+  \verb{url}
+  \verb http://journals.cambridge.org/production/action/cjoGetFulltext?fulltext
+  \verb id=130762
+  \endverb
+  \verb{file}
+  \verb {American Political Science Review 2002 Hiscox.pdf:/Users/justin/Dropbo
+  \verb x/Papers App/Library.papers3/Articles/2002/Hiscox/American Political Sc
+  \verb ience Review 2002 Hiscox.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{American Political Science Review}
+  \field{year}{2002}
+\endentry
+
+\entry{hiscox2002international}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hiscox}{H.}%
+     {M~J}{M.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Princeton University Press}%
+  }
+  \strng{namehash}{HMJ1}
+  \strng{fullhash}{HMJ1}
+  \field{labelyear}{2002}
+  \field{extrayear}{2}
+  \field{sortinit}{H}
+  \field{abstract}{%
+  ... I am especially indebted to Mike and Daniel since I drew very heavily
+  from their own ... James Alt and Michael Gilligan (1994) have suggested that
+  rules under which policy is made by a ... ments Act of 1934) about how
+  coalitions can shape policymaking institutions, see Hiscox 1999 ...%
+  }
+  \field{isbn}{9780691088556}
+  \field{title}{{International Trade and Political Conflict: Commerce,
+  Coalitions, and Mobility}}
+  \verb{url}
+  \verb http://books.google.com/books?id=PLaWP6tJOE4C
+  \endverb
+  \field{year}{2002}
+\endentry
+
+\entry{Hufbauer:2005vh}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Hufbauer}{H.}%
+     {G~C}{G.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schott}{S.}%
+     {J~J}{J.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HGCSJJ1}
+  \strng{fullhash}{HGCSJJ1}
+  \field{labelyear}{2005}
+  \field{sortinit}{H}
+  \field{abstract}{%
+  NAFTA entered into force in 1994 after a bitter Congressional debate. But
+  NAFTA in operation has proved no less controversial than NAFTA before
+  ratification, for both supporters and opponents of trade liberalization have
+  cited experience with the ...%
+  }
+  \field{title}{{NAFTA revisited: Achievements and challenges}}
+  \verb{url}
+  \verb http://books.google.com/books?hl=en&lr=&id=Hf12VNRekqEC&oi=fnd&pg=PR13&
+  \verb dq=NAFTA+revisited+Achievements+and+challenges&ots=CaxTZEON4W&sig=lzfNm
+  \verb D-rjefB2wdNIlhWrIeu0Nk
+  \endverb
+  \field{year}{2005}
+\endentry
+
+\entry{Hymer:1960vo}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hymer}{H.}%
+     {Stephen~Herbert}{S.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {MIT Press}%
+  }
+  \strng{namehash}{HSH1}
+  \strng{fullhash}{HSH1}
+  \field{labelyear}{1960}
+  \field{sortinit}{H}
+  \field{title}{{The International Operations of National Firms: A Study of
+  Direct Foreign Investment}}
+  \verb{url}
+  \verb http://teaching.ust.hk/~mgto650p/meyer/readings/1/01_Hymer.pdf
+  \endverb
+  \list{location}{1}{%
+    {Cambridge, Mass.}%
+  }
+  \verb{file}
+  \verb {B751981D-D938-4A64-9D4E-117BFDDF6EFF.pdf:/Users/justin/Dropbox/Papers
+  \verb App/Library.papers3/Files/B7/B751981D-D938-4A64-9D4E-117BFDDF6EFF.pdf:a
+  \verb pplication/pdf}
+  \endverb
+  \field{month}{01}
+  \field{year}{1960}
+\endentry
+
+\entry{Im:1996cl}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Im}{I.}%
+     {Hyug~Baeg}{H.~B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \strng{namehash}{IHB1}
+  \strng{fullhash}{IHB1}
+  \field{labelyear}{1996}
+  \field{sortinit}{I}
+  \field{abstract}{%
+  ... 27 Roland Axtman, ' Globalization and Democracy ', paper presented at the
+  XVI World Congress of IPSA, Berlin, 1994, p.1. 285 Page 8. HYUG BAEG IM and
+  technology. ... 286 Page 9. Globalisation and Democratisation fragile new
+  democracies . ...%
+  }
+  \verb{doi}
+  \verb 10.1080/10357719608445187
+  \endverb
+  \field{number}{3}
+  \field{pages}{279\bibrangedash 291}
+  \field{title}{{Globalisation and Democratisation: Boon Companions or Strange
+  Bedfellows?}}
+  \verb{url}
+  \verb http://www.tandfonline.com/doi/abs/10.1080/10357719608445187
+  \endverb
+  \field{volume}{50}
+  \field{journaltitle}{Australian Journal of International Affairs}
+  \field{month}{11}
+  \field{year}{1996}
+\endentry
+
+\entry{Islam:2002uc}{book}{}
+  \name{editor}{1}{}{%
+    {{}%
+     {Islam}{I.}%
+     {Roumeen}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {World Bank Publications}%
+  }
+  \strng{namehash}{IR1}
+  \strng{fullhash}{IR1}
+  \field{labelyear}{2002}
+  \field{sortinit}{I}
+  \field{abstract}{%
+  An independent press is essential to sound and equitable economic
+  development. The media helps to give a voice to the poor and the
+  disenfranchised. An independent press also provides a solid foundation for a
+  free and transparent society.'The Right to Tell'contains an ...%
+  }
+  \field{series}{The Role of Mass Media in Economic Development}
+  \field{title}{{The Right to Tell}}
+  \verb{url}
+  \verb http://books.google.com.libproxy.temple.edu/books/about/The_Right_to_Te
+  \verb ll.html?id=56punueI7G0C
+  \endverb
+  \field{year}{2002}
+\endentry
+
+\entry{Islam:2003tu}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Islam}{I.}%
+     {Roumeen}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{IR1}
+  \strng{fullhash}{IR1}
+  \field{labelyear}{2003}
+  \field{sortinit}{I}
+  \field{abstract}{%
+  ... More recently, papers have looked at the empirical evidence linking the
+  responsiveness of governments as well as private actors to better information
+  provided by the media ( Islam 2002, World Bank, 2002). For example, Besley
+  and Burgess (2001, 2002) find that regions in ...%
+  }
+  \field{title}{{Do More Transparent Governments Govern Better?}}
+  \verb{url}
+  \verb http://papers.ssrn.com/abstract=636439
+  \endverb
+  \verb{file}
+  \verb {2003 Islam.pdf:/Users/justin/Dropbox/Papers App/Library.papers3/Articl
+  \verb es/2003/Islam/2003 Islam.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{World Bank Policy Research Working Paper}
+  \field{year}{2003}
+\endentry
+
+\entry{Jensen:2003to}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Jensen}{J.}%
+     {Nathan~M}{N.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \list{publisher}{1}{%
+    {International Organization Foundation}%
+  }
+  \strng{namehash}{JNM1}
+  \strng{fullhash}{JNM1}
+  \field{labelyear}{2003}
+  \field{sortinit}{J}
+  \field{abstract}{%
+  Foreign direct investment (FDI) is an important element of the global economy
+  and a central component of economic development strategies of both developed
+  and developing countries. Numerous scholars theorize that the economic
+  benefits of attracting multinational corporations come at tremendous
+  political costs, arguing that democratic political systems attract lower
+  levels of international investment than their authoritarian counterparts.
+  Using both cross-sectional and time-series cross-sectional tests of the
+  determinants of FDI for more than 100 countries, I generate results that are
+  inconsistent with these dire predictions. Democratic political systems
+  attract higher levels of FDI inflows both across countries and within
+  countries over time. Democratic countries are predicted to attract as much as
+  70 percent more FDI than their authoritarian counterparts. In a final
+  empirical test, I examine how democratic institutions affect country
+  credibility by empirically analyzing the link between democracy and sovereign
+  debt risk for about eighty countries from 1980 to 1998. These empirical tests
+  challenge the conventional wisdom on the preferences of multinationals for
+  authoritarian regimes.%
+  }
+  \field{number}{3}
+  \field{pages}{587\bibrangedash 616}
+  \field{title}{{Democratic Governance and Multinational Corporations:
+  Political Regimes and Inflows of Foreign Direct Investment}}
+  \verb{url}
+  \verb http://journals.cambridge.org/production/action/cjoGetFulltext?fulltext
+  \verb id=138660
+  \endverb
+  \field{volume}{57}
+  \verb{file}
+  \verb {8852EB0D-F3D9-4555-9025-96BC256A452F.pdf:/Users/justin/Dropbox/Papers
+  \verb App/Library.papers3/Files/88/8852EB0D-F3D9-4555-9025-96BC256A452F.pdf:a
+  \verb pplication/pdf;8852EB0D-F3D9-4555-9025-96BC256A452F.pdf:/Users/justin/D
+  \verb ropbox/Papers App/Library.papers3/Files/88/8852EB0D-F3D9-4555-9025-96BC
+  \verb 256A452F.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{International Organization}
+  \field{month}{07}
+  \field{year}{2003}
 \endentry
 
 \entry{Jensen:2007fr}{article}{}
@@ -2620,7 +1723,7 @@
   \strng{namehash}{JNMRG1}
   \strng{fullhash}{JNMRG1}
   \field{labelyear}{2007}
-  \field{sortinit}{2}
+  \field{sortinit}{J}
   \field{abstract}{%
   In this article we explore the relationship between the investments of
   multinational corporations (foreign direct investment) and income inequality
@@ -2654,116 +1757,122 @@
   \field{year}{2007}
 \endentry
 
-\entry{Dreher:2008dg}{book}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Dreher}{D.}%
-     {Axel}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Gaston}{G.}%
-     {Noel}{N.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Martens}{M.}%
-     {Pim}{P.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{language}{1}{%
-    {English}%
-  }
-  \list{publisher}{1}{%
-    {Springer}%
-  }
-  \strng{namehash}{DAGNMP1}
-  \strng{fullhash}{DAGNMP1}
-  \field{labelyear}{2008}
-  \field{sortinit}{2}
-  \field{abstract}{%
-  Globalisation has become to be far more than a social commentator's buzzword
-  in contemporary times. Consequently, the measurement of globalisation is now
-  of central concern, whether for academe, business, the mass and specialised
-  media or policy circles. In business, ...%
-  }
-  \verb{doi}
-  \verb 10.1007/978-0-387-74069-0_3
-  \endverb
-  \field{title}{{The Measurement of Globalisation}}
-  \verb{url}
-  \verb http://link.springer.com.libproxy.temple.edu/chapter/10.1007/978-0-387-
-  \verb 74069-0_3/fulltext.html
-  \endverb
-  \list{location}{1}{%
-    {New York}%
-  }
-  \verb{file}
-  \verb {D2F5093B-1068-47E6-9B55-A5F1B21CAD01.pdf:/Users/justin/Dropbox/Papers
-  \verb App/Library.papers3/Files/D2/D2F5093B-1068-47E6-9B55-A5F1B21CAD01.pdf:a
-  \verb pplication/pdf}
-  \endverb
-  \field{year}{2008}
-\endentry
-
-\entry{EICHENGREEN:2008gg}{article}{}
-  \name{author}{2}{}{%
-    {{}%
-     {Eichengreen}{E.}%
-     {Barry}{B.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Leblang}{L.}%
-     {David}{D.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{language}{1}{%
-    {English}%
-  }
-  \list{publisher}{1}{%
-    {Blackwell Publishing Ltd}%
-  }
-  \keyw{democracy, globalization}
-  \strng{namehash}{EBLD1}
-  \strng{fullhash}{EBLD1}
-  \field{labelyear}{2008}
-  \field{sortinit}{2}
-  \field{abstract}{%
-  The relationship between democracy and globalization has been a subject of
-  both scholarly and policy debate. Some argue that the two go hand in
-  hand{\textendash}that unrestricted international transactions encourage
-  political accountability and transparency and that politically free ...%
-  }
-  \verb{doi}
-  \verb 10.1111/j.1468-0343.2007.00329.x
-  \endverb
-  \field{number}{3}
-  \field{pages}{289\bibrangedash 334}
-  \field{title}{{Democracy and Globalization}}
-  \verb{url}
-  \verb http://onlinelibrary.wiley.com.libproxy.temple.edu/doi/10.1111/j.1468-0
-  \verb 343.2007.00329.x/full
-  \endverb
-  \field{volume}{20}
-  \verb{file}
-  \verb {Economics & Politics 2008 Eichengreen.pdf:/Users/justin/Dropbox/Papers
-  \verb  App/Library.papers3/Articles/2008/Eichengreen/Economics & Politics 200
-  \verb 8 Eichengreen.pdf:application/pdf;Economics & Politics 2008 Eichengreen
-  \verb .pdf:/Users/justin/Dropbox/Papers App/Library.papers3/Articles/2008/Eic
-  \verb hengreen/Economics & Politics 2008 Eichengreen.pdf:application/pdf}
-  \endverb
-  \field{journaltitle}{Economics {\&} Politics}
-  \field{year}{2008}
-\endentry
-
-\entry{Gelman:2008gz}{article}{}
+\entry{Kant:1983uf}{book}{}
   \name{author}{1}{}{%
     {{}%
-     {Gelman}{G.}%
-     {Andrew}{A.}%
+     {Kant}{K.}%
+     {Immanuel}{I.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Hackett}%
+  }
+  \strng{namehash}{KI1}
+  \strng{fullhash}{KI1}
+  \field{labelyear}{1983}
+  \field{sortinit}{K}
+  \field{title}{{Perpetual Peace, and Other Essays on Politics, History, and
+  Morals}}
+  \verb{url}
+  \verb http://books.google.com.libproxy.temple.edu/books/about/Perpetual_Peace
+  \verb _and_Other_Essays_on_Poli.html?id=e8AarOLTngEC
+  \endverb
+  \list{location}{1}{%
+    {Indianapolis}%
+  }
+  \field{year}{1983}
+\endentry
+
+\entry{kenen1994exchange}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kenen}{K.}%
+     {Peter~B}{P.~B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Edward Elgar}%
+  }
+  \strng{namehash}{KPB1}
+  \strng{fullhash}{KPB1}
+  \field{labelyear}{1994}
+  \field{sortinit}{K}
+  \field{isbn}{9781852789435}
+  \field{title}{{Exchange Rates and the Monetary System: Selected Essays of
+  Peter B. Kenen}}
+  \verb{url}
+  \verb http://books.google.com/books?id=Mck96D7yMO0C
+  \endverb
+  \list{location}{1}{%
+    {Aldershot}%
+  }
+  \field{year}{1994}
+\endentry
+
+\entry{Klein:2002vg}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Klein}{K.}%
+     {Naomi}{N.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KN1}
+  \strng{fullhash}{KN1}
+  \field{labelyear}{2002}
+  \field{sortinit}{K}
+  \field{abstract}{%
+  Naomi Klein: Argentina was a model IMF student. And it's still suffering as a
+  result.%
+  }
+  \field{title}{{Revolt of the wronged}}
+  \verb{url}
+  \verb http://www.theguardian.com/world/2002/mar/28/argentina.comment
+  \endverb
+  \field{journaltitle}{The Guardian}
+  \field{month}{03}
+  \field{year}{2002}
+\endentry
+
+\entry{lawson2002building}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lawson}{L.}%
+     {Chappell~H}{C.~H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {University of California Press}%
+  }
+  \strng{namehash}{LCH1}
+  \strng{fullhash}{LCH1}
+  \field{labelyear}{2002}
+  \field{sortinit}{L}
+  \field{isbn}{9780520231719}
+  \field{title}{{Building the Fourth Estate: Democratization and the Rise of a
+  Free Press in Mexico}}
+  \verb{url}
+  \verb http://books.google.com/books?id=zA29Hh6ohTUC
+  \endverb
+  \list{location}{1}{%
+    {Berkeley}%
+  }
+  \field{year}{2002}
+\endentry
+
+\entry{Levitsky:2002gx}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Levitsky}{L.}%
+     {Steven}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Way}{W.}%
+     {Lucan}{L.}%
      {}{}%
      {}{}}%
   }
@@ -2771,32 +1880,80 @@
     {English}%
   }
   \list{publisher}{1}{%
-    {John Wiley {\&} Sons, Ltd.}%
+    {The Johns Hopkins University Press}%
   }
-  \strng{namehash}{GA1}
-  \strng{fullhash}{GA1}
-  \field{labelyear}{2008}
-  \field{sortinit}{2}
+  \strng{namehash}{LSWL1}
+  \strng{fullhash}{LSWL1}
+  \field{labelyear}{2002}
+  \field{sortinit}{L}
+  \field{abstract}{%
+  ... Leonid Kuchma, Peru under Alberto Fujimori, and post-1995 Haiti, as well
+  as Albania, Armenia, Ghana, Kenya, Malaysia, Mexico , and Zambia ... 2)
+  virtually all adults possess the right to vote; 3) political rights and civil
+  liberties, including freedom of the press , freedom of association ...%
+  }
   \verb{doi}
-  \verb 10.1002/sim.3107
+  \verb 10.1353/jod.2002.0026
   \endverb
-  \field{number}{15}
-  \field{pages}{2865\bibrangedash 2873}
-  \field{title}{{Scaling regression inputs by dividing by two standard
-  deviations}}
+  \field{number}{2}
+  \field{pages}{51\bibrangedash 65}
+  \field{title}{{The Rise of Competitive Authoritarianism}}
   \verb{url}
-  \verb http://doi.wiley.com/10.1002/sim.3107
+  \verb http://muse.jhu.edu/content/crossref/journals/journal_of_democracy/v013
+  \verb /13.2levitsky.html
   \endverb
-  \field{volume}{27}
+  \field{volume}{13}
   \verb{file}
-  \verb {94C119AF-8CBE-49E8-8FF6-C43B2CE85574.pdf:/Users/justin/Dropbox/Papers
-  \verb App/Library.papers3/Files/94/94C119AF-8CBE-49E8-8FF6-C43B2CE85574.pdf:a
-  \verb pplication/pdf;94C119AF-8CBE-49E8-8FF6-C43B2CE85574.pdf:/Users/justin/D
-  \verb ropbox/Papers App/Library.papers3/Files/94/94C119AF-8CBE-49E8-8FF6-C43B
-  \verb 2CE85574.pdf:application/pdf}
+  \verb {Journal of Democracy 2002 Levitsky.pdf:/Users/justin/Dropbox/Papers Ap
+  \verb p/Library.papers3/Articles/2002/Levitsky/Journal of Democracy 2002 Levi
+  \verb tsky.pdf:application/pdf}
   \endverb
-  \field{journaltitle}{Statistics in Medicine}
-  \field{year}{2008}
+  \field{journaltitle}{Journal of Democracy}
+  \field{year}{2002}
+\endentry
+
+\entry{Levitsky:2006ex}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Levitsky}{L.}%
+     {Steven}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Way}{W.}%
+     {Lucan~A}{L.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \keyw{democratization, needtoread, regime change}
+  \strng{namehash}{LSWLA1}
+  \strng{fullhash}{LSWLA1}
+  \field{labelyear}{2006}
+  \field{sortinit}{L}
+  \verb{doi}
+  \verb 10.2307/20434008
+  \endverb
+  \field{number}{4}
+  \field{pages}{379}
+  \field{title}{{Linkage versus Leverage. Rethinking the International
+  Dimension of Regime Change}}
+  \verb{url}
+  \verb http://www.jstor.org/stable/10.2307/20434008?origin=crossref
+  \endverb
+  \field{volume}{38}
+  \verb{file}
+  \verb {Comparative Politics 2006 Levitsky.pdf:/Users/justin/Dropbox/Papers Ap
+  \verb p/Library.papers3/Articles/2006/Levitsky/Comparative Politics 2006 Levi
+  \verb tsky.pdf:application/pdf;Comparative Politics 2006 Levitsky.pdf:/Users/
+  \verb justin/Dropbox/Papers App/Library.papers3/Articles/2006/Levitsky/Compar
+  \verb ative Politics 2006 Levitsky.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{Comparative Politics}
+  \field{month}{07}
+  \field{year}{2006}
 \endentry
 
 \entry{Lewis:qDvYbWlU}{article}{}
@@ -2810,7 +1967,7 @@
   \strng{namehash}{LO1}
   \strng{fullhash}{LO1}
   \field{labelyear}{2008}
-  \field{sortinit}{2}
+  \field{sortinit}{L}
   \field{title}{{Globalization, Domestic Stability, and Freedom of the Press}}
   \verb{url}
   \verb http://sobek.colorado.edu/~lewiso/Globalization%20Domestic%20Stability%
@@ -2825,56 +1982,392 @@
   \field{year}{2008}
 \endentry
 
-\entry{Dominguez:2009wd}{article}{}
+\entry{Li:2003vj}{article}{}
   \name{author}{2}{}{%
     {{}%
-     {Dominguez}{D.}%
-     {Jorge~I}{J.~I.}%
+     {Li}{L.}%
+     {Quan}{Q.}%
      {}{}%
      {}{}}%
     {{}%
-     {Castro}{C.}%
-     {Rafael~Fern{\'a}ndez}{R.~F.}%
-     {de}{d.}%
+     {Reuveny}{R.}%
+     {Rafael}{R.}%
+     {}{}%
      {}{}}%
   }
-  \list{publisher}{1}{%
-    {Taylor {\&} Francis}%
-  }
-  \strng{namehash}{DJICRFd1}
-  \strng{fullhash}{DJICRFd1}
-  \field{labelyear}{2009}
-  \field{sortinit}{2}
-  \field{isbn}{9780203879252}
-  \field{title}{{United States and Mexico: Between Partnership and Conflict}}
+  \keyw{democracy, globalization}
+  \strng{namehash}{LQRR1}
+  \strng{fullhash}{LQRR1}
+  \field{labelyear}{2003}
+  \field{sortinit}{L}
+  \field{number}{1}
+  \field{pages}{29\bibrangedash 54}
+  \field{title}{{Economic Globalization and Democracy: An Empirical Analysis}}
   \verb{url}
-  \verb http://books.google.co.uk/books?id=j47iBJ18ie0C
+  \verb http://www.jstor.org.libproxy.temple.edu/stable/pdfplus/4092267.pdf
   \endverb
-  \field{journaltitle}{books.google.co.uk}
-  \field{year}{2009}
+  \field{volume}{33}
+  \verb{file}
+  \verb {British Journal of Political Science 2003 Li.pdf:/Users/justin/Dropbox
+  \verb /Papers App/Library.papers3/Articles/2003/Li/British Journal of Politic
+  \verb al Science 2003 Li.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{British Journal of Political Science}
+  \field{month}{01}
+  \field{year}{2003}
 \endentry
 
-\entry{Hayden:2009uy}{book}{}
+\entry{Limongi:1996dr}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Limongi}{L.}%
+     {Fernando}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cheibub}{C.}%
+     {Jose~Antonio}{J.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alvarez}{A.}%
+     {Michael~M}{M.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Przeworski}{P.}%
+     {Adam}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \list{publisher}{1}{%
+    {The Johns Hopkins University Press}%
+  }
+  \strng{namehash}{LF+1}
+  \strng{fullhash}{LFCJAAMMPA1}
+  \field{labelyear}{1996}
+  \field{sortinit}{L}
+  \field{abstract}{%
+  If a country, any randomly selected country, is to have a democratic regime
+  next year, what conditions should be present in that country and around the
+  world this year? The answer is: democracy , affluence, growth with moderate
+  inflation, declining inequality, a favorable ...%
+  }
+  \verb{doi}
+  \verb 10.1353/jod.1996.0016
+  \endverb
+  \field{number}{1}
+  \field{pages}{39\bibrangedash 55}
+  \field{title}{{What Makes Democracies Endure?}}
+  \verb{url}
+  \verb http://muse.jhu.edu.libproxy.temple.edu/journals/journal_of_democracy/v
+  \verb 007/7.1przeworski.html
+  \endverb
+  \field{volume}{7}
+  \field{journaltitle}{Journal of Democracy}
+  \field{month}{01}
+  \field{year}{1996}
+\endentry
+
+\entry{Lindblom:1977ue}{book}{}
   \name{author}{1}{}{%
     {{}%
-     {Hayden}{H.}%
-     {T}{T}%
+     {Lindblom}{L.}%
+     {Charles~E}{C.~E.}%
      {}{}%
      {}{}}%
   }
   \list{publisher}{1}{%
     {Basic Books}%
   }
-  \strng{namehash}{HT1}
-  \strng{fullhash}{HT1}
-  \field{labelyear}{2009}
-  \field{sortinit}{2}
-  \field{isbn}{9780786747344}
-  \field{title}{{The Zapatista Reader}}
+  \strng{namehash}{LCE1}
+  \strng{fullhash}{LCE1}
+  \field{labelyear}{1977}
+  \field{sortinit}{L}
+  \field{abstract}{%
+  The Wageningen UR Library Catalogue contains bibliographic data on books and
+  periodicals held by the libraries of Wageningen University and Research
+  Centre and some 15 associated libraries. Holding data are added to each
+  record.%
+  }
+  \field{title}{{Politics and Markets : The World's Political-Economic
+  Systems}}
   \verb{url}
-  \verb http://books.google.com/books?id=EMt3fwmyH3kC
+  \verb http://library.wur.nl/WebQuery/clc/115879
   \endverb
-  \field{year}{2009}
+  \list{location}{1}{%
+    {New York}%
+  }
+  \field{year}{1977}
+\endentry
+
+\entry{Lipsey:1999tn}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lipsey}{L.}%
+     {R~E}{R.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LRE1}
+  \strng{fullhash}{LRE1}
+  \field{labelyear}{1999}
+  \field{sortinit}{L}
+  \field{abstract}{%
+  The purpose of this essay is to provide some quantitative historical
+  background to the question of what role direct investment plays in the
+  broader story of international capital flows . The essay examines whether
+  that role has changed over time, or changed for some ...%
+  }
+  \field{title}{{The role of foreign direct investment in international capital
+  flows}}
+  \verb{url}
+  \verb http://www.nber.org/chapters/c9801.pdf
+  \endverb
+  \verb{file}
+  \verb {A940AC87-B9C5-4480-A708-2514A7DB5F84.pdf:/Users/justin/Dropbox/Papers
+  \verb App/Library.papers3/Files/A9/A940AC87-B9C5-4480-A708-2514A7DB5F84.pdf:a
+  \verb pplication/pdf}
+  \endverb
+  \field{journaltitle}{International capital {\ldots}}
+  \field{year}{1999}
+\endentry
+
+\entry{Long:1993wb}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Long}{L.}%
+     {William~R}{W.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LWR1}
+  \strng{fullhash}{LWR1}
+  \field{labelyear}{1993}
+  \field{sortinit}{L}
+  \field{title}{{MEDIA: Threats, Assaults Complicate Argentine Journalists'
+  Jobs}}
+  \verb{url}
+  \verb http://articles.latimes.com/1993-10-02/news/mn-41457_1_journalists-jobs
+  \endverb
+  \field{journaltitle}{Los Angeles Times}
+  \field{month}{10}
+  \field{year}{1993}
+\endentry
+
+\entry{MacKinnon:2011id}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {MacKinnon}{M.}%
+     {Rebecca}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \list{publisher}{1}{%
+    {The Johns Hopkins University Press}%
+  }
+  \strng{namehash}{MR1}
+  \strng{fullhash}{MR1}
+  \field{labelyear}{2011}
+  \field{sortinit}{M}
+  \field{abstract}{%
+  Abstract While social networking platforms can be powerful tools in the hands
+  of activists seeking to bring down authoritarian governments, it is unwise to
+  assume that access to the Internet and social networking platforms alone is
+  sufficient for democratization of ...%
+  }
+  \verb{doi}
+  \verb 10.1353/jod.2011.0033
+  \endverb
+  \field{number}{2}
+  \field{pages}{32\bibrangedash 46}
+  \field{title}{{China's "Networked Authoritarianism"}}
+  \verb{url}
+  \verb http://muse.jhu.edu.libproxy.temple.edu/journals/journal_of_democracy/v
+  \verb 022/22.2.mackinnon.html
+  \endverb
+  \field{volume}{22}
+  \verb{file}
+  \verb {B94B0C3B-43D7-4A38-8824-2A32463FC670.pdf:/Users/justin/Dropbox/Papers
+  \verb App/Library.papers3/Files/B9/B94B0C3B-43D7-4A38-8824-2A32463FC670.pdf:a
+  \verb pplication/pdf;B94B0C3B-43D7-4A38-8824-2A32463FC670.pdf:/Users/justin/D
+  \verb ropbox/Papers App/Library.papers3/Files/B9/B94B0C3B-43D7-4A38-8824-2A32
+  \verb 463FC670.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{Journal of Democracy}
+  \field{year}{2011}
+\endentry
+
+\entry{MarcusDelgado:2003gn}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Marcus-Delgado}{M.-D.}%
+     {Jane}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \list{publisher}{1}{%
+    {Duke University Press}%
+  }
+  \strng{namehash}{MDJ1}
+  \strng{fullhash}{MDJ1}
+  \field{labelyear}{2003}
+  \field{sortinit}{M}
+  \verb{doi}
+  \verb 10.1215/01642472-21-4_77-139
+  \endverb
+  \field{number}{4}
+  \field{pages}{139\bibrangedash 153}
+  \field{title}{{Trust, Corruption, and the Globalization Tango}}
+  \verb{url}
+  \verb http://muse.jhu.edu.libproxy.temple.edu/journals/social_text/v021/21.4m
+  \verb arcus-delgado.html
+  \endverb
+  \field{volume}{21}
+  \verb{file}
+  \verb {C55360A0-309F-40C3-B2D6-60446AC29DA2.pdf:/Users/justin/Dropbox/Papers
+  \verb App/Library.papers3/Files/C5/C55360A0-309F-40C3-B2D6-60446AC29DA2.pdf:a
+  \verb pplication/pdf;C55360A0-309F-40C3-B2D6-60446AC29DA2.pdf:/Users/justin/D
+  \verb ropbox/Papers App/Library.papers3/Files/C5/C55360A0-309F-40C3-B2D6-6044
+  \verb 6AC29DA2.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{Social Text}
+  \field{year}{2003}
+\endentry
+
+\entry{McCullough:1991cs}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {McCullough}{M.}%
+     {Ed}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ME1}
+  \strng{fullhash}{ME1}
+  \field{labelyear}{1991}
+  \field{sortinit}{M}
+  \verb{doi}
+  \verb 765 words N1 -
+  \endverb
+  \field{title}{{Hard Times on Argentina's Fertile Pampas}}
+  \verb{url}
+  \verb http://www.lexisnexis.com.libproxy.temple.edu/lnacui2api/results/shared
+  \verb /results.do?risb=21_T17518698187&topLvl=true&rand=1370195813650&origRes
+  \verb ult=true
+  \endverb
+  \field{journaltitle}{The Associated Press}
+  \field{month}{01}
+  \field{year}{1991}
+\endentry
+
+\entry{McDaniel:2003kw}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {McDaniel}{M.}%
+     {Christine~A}{C.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Agama}{A.}%
+     {Laurie-Ann}{L.-A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \strng{namehash}{MCAALA1}
+  \strng{fullhash}{MCAALA1}
+  \field{labelyear}{2003}
+  \field{sortinit}{M}
+  \verb{doi}
+  \verb 10.1111/1467-9701.00557
+  \endverb
+  \field{number}{7}
+  \field{pages}{939\bibrangedash 955}
+  \field{title}{{The NAFTA Preference and US-Mexico Trade: Aggregate-Level
+  Analysis}}
+  \verb{url}
+  \verb http://doi.wiley.com/10.1111/1467-9701.00557
+  \endverb
+  \field{volume}{26}
+  \verb{file}
+  \verb {World Economy 2003 McDaniel.pdf:/Users/justin/Dropbox/Papers App/Libra
+  \verb ry.papers3/Articles/2003/McDaniel/World Economy 2003 McDaniel.pdf:appli
+  \verb cation/pdf}
+  \endverb
+  \field{journaltitle}{The World Economy}
+  \field{month}{07}
+  \field{year}{2003}
+\endentry
+
+\entry{:3GmqDB3y}{article}{}
+  \field{labelyear}{1992}
+  \field{sortinit}{M}
+  \field{title}{{Menem's Miracle}}
+  \field{journaltitle}{Time International}
+  \field{month}{07}
+  \field{year}{1992}
+\endentry
+
+\entry{Milner:2005ci}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Milner}{M.}%
+     {Helen~V}{H.~V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kubota}{K.}%
+     {Keiko}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \list{publisher}{1}{%
+    {Cambridge University Press}%
+  }
+  \strng{namehash}{MHVKK1}
+  \strng{fullhash}{MHVKK1}
+  \field{labelyear}{2005}
+  \field{sortinit}{M}
+  \field{abstract}{%
+  Abstract Rising international trade flows are a primary component of
+  globalization. The liberalization of trade policy in many developing
+  countries has helped foster the growth of these flows. Preceding and
+  concurrent with this move to free trade , there has been a ...%
+  }
+  \verb{doi}
+  \verb 10.1017/S002081830505006X
+  \endverb
+  \field{number}{01}
+  \field{pages}{107\bibrangedash 143}
+  \field{title}{{Why the Move to Free Trade? Democracy and Trade Policy in the
+  Developing Countries}}
+  \verb{url}
+  \verb http://www.journals.cambridge.org/abstract_S002081830505006X
+  \endverb
+  \field{volume}{59}
+  \verb{file}
+  \verb {International Organization 2005 Milner.pdf:/Users/justin/Dropbox/Paper
+  \verb s App/Library.papers3/Articles/2005/Milner/International Organization 2
+  \verb 005 Milner.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{International Organization}
+  \field{month}{02}
+  \field{year}{2005}
 \endentry
 
 \entry{Milner:2009hi}{article}{}
@@ -2900,7 +2393,7 @@
   \strng{namehash}{MHVMB1}
   \strng{fullhash}{MHVMB1}
   \field{labelyear}{2009}
-  \field{sortinit}{2}
+  \field{sortinit}{M}
   \field{abstract}{%
   We address two questions that are central to the literature on the emergence
   of democracy and economic globalization. First, does democratization foster
@@ -2940,71 +2433,11 @@
   \field{year}{2009}
 \endentry
 
-\entry{Villareal:2010vk}{article}{}
+\entry{Moore:2004gy}{article}{}
   \name{author}{1}{}{%
     {{}%
-     {Villareal}{V.}%
-     {Angeles~M}{A.~M.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{VAM1}
-  \strng{fullhash}{VAM1}
-  \field{labelyear}{2010}
-  \field{sortinit}{2}
-  \field{title}{{NAFTA and the Mexican Economy}}
-  \verb{url}
-  \verb http://www.fas.org/sgp/crs/row/RL34733.pdf
-  \endverb
-  \verb{file}
-  \verb {Congressional Research Service 2010 Villareal.pdf:/Users/justin/Dropbo
-  \verb x/Papers App/Library.papers3/Articles/2010/Villareal/Congressional Rese
-  \verb arch Service 2010 Villareal.pdf:application/pdf}
-  \endverb
-  \field{journaltitle}{Congressional Research Service}
-  \field{month}{06}
-  \field{year}{2010}
-\endentry
-
-\entry{Beker:2011vq}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Beker}{B.}%
-     {Victor~A}{V.~A.}%
-     {}{}%
-     {}{}}%
-  }
-  \keyw{Argentina, trade}
-  \strng{namehash}{BVA1}
-  \strng{fullhash}{BVA1}
-  \field{labelyear}{2011}
-  \field{sortinit}{2}
-  \field{number}{3}
-  \field{title}{{A Case Study on Trade Liberalization: Argentina in the 1990s}}
-  \verb{file}
-  \verb {Economics 2011 Beker.pdf:/Users/justin/Dropbox/Papers App/Library.pape
-  \verb rs3/Articles/2011/Beker/Economics 2011 Beker.pdf:application/pdf}
-  \endverb
-  \field{journaltitle}{Economic and Industrial Democracy}
-  \field{month}{01}
-  \field{year}{2011}
-\endentry
-
-\entry{Dube:2011ir}{article}{}
-  \name{author}{3}{}{%
-    {{}%
-     {Dube}{D.}%
-     {Arindrajit}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Kaplan}{K.}%
-     {Ethan}{E.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Naidu}{N.}%
-     {Suresh}{S.}%
+     {Moore}{M.}%
+     {Geoff}{G.}%
      {}{}%
      {}{}}%
   }
@@ -3012,143 +2445,226 @@
     {English}%
   }
   \list{publisher}{1}{%
-    {Oxford University Press}%
+    {Kluwer Academic Publishers}%
   }
-  \strng{namehash}{DAKENS1}
-  \strng{fullhash}{DAKENS1}
-  \field{labelyear}{2011}
-  \field{sortinit}{2}
+  \strng{namehash}{MG1}
+  \strng{fullhash}{MG1}
+  \field{labelyear}{2004}
+  \field{sortinit}{M}
   \field{abstract}{%
-  Abstract We estimate the impact of coups and top-secret coup authorizations
-  on asset prices of partially nationalized multinational companies that stood
-  to benefit from US-backed coups . Stock returns of highly exposed firms
-  reacted to coup authorizations classified as ...%
+  ... by the Fair Trade movement, between free trade and protec- tionism, the
+  economics literature asks ... as Nicholls notes, ''[t]here is currently
+  little or no coherence across fair trade brands in the ... only consistent
+  feature on several {\textendash} but not all {\textendash} products is the
+  FairTrade Foundation cer ...%
   }
   \verb{doi}
-  \verb 10.1093/qje/qjr030
+  \verb 10.1023/B:BUSI.0000039400.57827.c3
   \endverb
-  \field{number}{3}
-  \field{pages}{1375\bibrangedash 1409}
-  \field{title}{{Coups, Corporations, and Classified Information}}
+  \field{number}{1-2}
+  \field{pages}{73\bibrangedash 86}
+  \field{title}{{The Fair Trade Movement: Parameters, Issues and Future
+  Research}}
   \verb{url}
-  \verb http://qje.oxfordjournals.org.libproxy.temple.edu/content/126/3/1375.fu
-  \verb ll
+  \verb http://link.springer.com/10.1023/B:BUSI.0000039400.57827.c3
   \endverb
-  \field{volume}{126}
+  \field{volume}{53}
   \verb{file}
-  \verb {EE65DC7E-9DD2-444E-949A-6201A55E8A33.pdf:/Users/justin/Dropbox/Papers
-  \verb App/Library.papers3/Files/EE/EE65DC7E-9DD2-444E-949A-6201A55E8A33.pdf:a
-  \verb pplication/pdf;EE65DC7E-9DD2-444E-949A-6201A55E8A33.pdf:/Users/justin/D
-  \verb ropbox/Papers App/Library.papers3/Files/EE/EE65DC7E-9DD2-444E-949A-6201
-  \verb A55E8A33.pdf:application/pdf}
+  \verb {96D192E4-357D-42ED-B8E9-6E8C959343B5.pdf:/Users/justin/Dropbox/Papers
+  \verb App/Library.papers3/Files/96/96D192E4-357D-42ED-B8E9-6E8C959343B5.pdf:a
+  \verb pplication/pdf;96D192E4-357D-42ED-B8E9-6E8C959343B5.pdf:/Users/justin/D
+  \verb ropbox/Papers App/Library.papers3/Files/96/96D192E4-357D-42ED-B8E9-6E8C
+  \verb 959343B5.pdf:application/pdf}
   \endverb
-  \field{journaltitle}{The Quarterly Journal of Economics}
-  \field{month}{08}
-  \field{year}{2011}
+  \field{journaltitle}{Journal of Business Ethics}
+  \field{year}{2004}
 \endentry
 
-\entry{FreedomHouse:2011vv}{book}{}
-  \name{author}{1}{}{%
-    {{}%
-     {{Freedom House}}{F.}%
-     {}{}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{F1}
-  \strng{fullhash}{F1}
-  \field{labelyear}{2011}
-  \field{sortinit}{2}
-  \field{title}{{Freedom of the World}}
-  \verb{url}
-  \verb http://www.freedomhouse.org/
-  \endverb
-  \field{year}{2011}
-\endentry
-
-\entry{Gehlbach:2011ky}{article}{}
+\entry{Morris:2001iy}{article}{}
   \name{author}{2}{}{%
     {{}%
-     {Gehlbach}{G.}%
-     {Scott}{S.}%
+     {Morris}{M.}%
+     {Stephen~D}{S.~D.}%
      {}{}%
      {}{}}%
     {{}%
-     {Sonin}{S.}%
-     {Konstantin}{K.}%
+     {Pass{\'e}-Smith}{P.-S.}%
+     {John}{J.}%
      {}{}%
      {}{}}%
-  }
-  \list{language}{1}{%
-    {English}%
-  }
-  \keyw{media, media freedom, mobilization, political economy}
-  \strng{namehash}{GSSK1}
-  \strng{fullhash}{GSSK1}
-  \field{labelyear}{2011}
-  \field{sortinit}{2}
-  \verb{doi}
-  \verb 10.2139/ssrn.1315882
-  \endverb
-  \field{title}{{Government Control of the Media}}
-  \verb{url}
-  \verb http://www.ssrn.com/abstract=1315882
-  \endverb
-  \verb{file}
-  \verb {SSRN Journal 2011 Gehlbach.pdf:/Users/justin/Dropbox/Papers App/Librar
-  \verb y.papers3/Articles/2011/Gehlbach/SSRN Journal 2011 Gehlbach.pdf:applica
-  \verb tion/pdf;SSRN Journal 2011 Gehlbach.pdf:/Users/justin/Dropbox/Papers Ap
-  \verb p/Library.papers3/Articles/2011/Gehlbach/SSRN Journal 2011 Gehlbach.pdf
-  \verb :application/pdf}
-  \endverb
-  \field{journaltitle}{SSRN Electronic Journal}
-  \field{year}{2011}
-\endentry
-
-\entry{MacKinnon:2011id}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {MacKinnon}{M.}%
-     {Rebecca}{R.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{language}{1}{%
-    {English}%
   }
   \list{publisher}{1}{%
-    {The Johns Hopkins University Press}%
+    {Sage Publications, Inc.}%
   }
-  \strng{namehash}{MR1}
-  \strng{fullhash}{MR1}
-  \field{labelyear}{2011}
-  \field{sortinit}{2}
+  \strng{namehash}{MSDPSJ1}
+  \strng{fullhash}{MSDPSJ1}
+  \field{labelyear}{2001}
+  \field{sortinit}{M}
   \field{abstract}{%
-  Abstract While social networking platforms can be powerful tools in the hands
-  of activists seeking to bring down authoritarian governments, it is unwise to
-  assume that access to the Internet and social networking platforms alone is
-  sufficient for democratization of ...%
+  Mexico's deep economic crisis, precipitated by the devaluation of the peso in
+  December 1994, had a far-reaching impact. It sent the Mexican economy into a
+  tailspin, unleashing extensive personal and corporate bankruptcies, a
+  deterioration of real wages, ...%
   }
   \verb{doi}
-  \verb 10.1353/jod.2011.0033
+  \verb 10.2307/3185152
   \endverb
-  \field{number}{2}
-  \field{pages}{32\bibrangedash 46}
-  \field{title}{{China's "Networked Authoritarianism"}}
+  \field{number}{3}
+  \field{pages}{124\bibrangedash 149}
+  \field{title}{{What a Difference a Crisis Makes: NAFTA, Mexico, and the
+  United States}}
   \verb{url}
-  \verb http://muse.jhu.edu.libproxy.temple.edu/journals/journal_of_democracy/v
-  \verb 022/22.2.mackinnon.html
+  \verb http://www.jstor.org/stable/3185152
   \endverb
-  \field{volume}{22}
+  \field{volume}{28}
+  \field{journaltitle}{Latin American Perspectives}
+  \field{month}{01}
+  \field{year}{2001}
+\endentry
+
+\entry{mosley2003global}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Mosley}{M.}%
+     {Layna}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Cambridge University Press}%
+  }
+  \strng{namehash}{ML1}
+  \strng{fullhash}{ML1}
+  \field{labelyear}{2003}
+  \field{sortinit}{M}
+  \field{abstract}{%
+  Global Capital and National Governments suggests that international financial
+  integration does not mean the end of social democratic welfare policies.
+  Capital market openness allows participants to react swiftly and severely to
+  government policy; but in the developed ...%
+  }
+  \field{isbn}{9780521521628}
+  \field{title}{{Global Capital and National Governments}}
+  \verb{url}
+  \verb http://books.google.com/books?id=pYykNVRMpKAC
+  \endverb
+  \field{year}{2003}
+\endentry
+
+\entry{Oneal:1999fc}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Oneal}{O.}%
+     {John~R}{J.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Russett}{R.}%
+     {Bruce}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \strng{namehash}{OJRRB1}
+  \strng{fullhash}{OJRRB1}
+  \field{labelyear}{1999}
+  \field{sortinit}{O}
+  \field{abstract}{%
+  Abstract Some recent analyses challenge previous reports which show that
+  economically important trade significantly reduces the probability of
+  militarized disputes between countries. Beck et al.(1998) address the effect
+  of temporal dependence in the time-series ...%
+  }
+  \verb{doi}
+  \verb 10.1177/0022343399036004003
+  \endverb
+  \field{number}{4}
+  \field{pages}{423\bibrangedash 442}
+  \field{title}{{Assessing the Liberal Peace with Alternative Specifications:
+  Trade Still Reduces Conflict}}
+  \verb{url}
+  \verb http://jpr.sagepub.com/cgi/doi/10.1177/0022343399036004003
+  \endverb
+  \field{volume}{36}
+  \field{journaltitle}{Journal of Peace Research}
+  \field{month}{07}
+  \field{year}{1999}
+\endentry
+
+\entry{OrmeJr:1997da}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Orme~Jr.}{O.~J.}%
+     {William~A}{W.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \list{publisher}{2}{%
+    {North-South Center, University of Miami}%
+    {the Committee to Protect Journalists}%
+  }
+  \strng{namehash}{OJWA1}
+  \strng{fullhash}{OJWA1}
+  \field{labelyear}{1997}
+  \field{sortinit}{O}
+  \field{abstract}{%
+  The book features frank, first-hand accounts of overt subsidies, pay-offs,
+  and news-as-advertising budgets that keep most Mexican dailies dependent on
+  government support; pressures on Mexican journalists covering the Chiapas
+  uprising, political assassinations, and the presidential ...%
+  }
+  \verb{doi}
+  \verb 10.2307/20048155
+  \endverb
+  \field{pages}{159}
+  \field{title}{{A Culture of Collusion: An inside Look at the Mexican Press}}
+  \verb{url}
+  \verb http://www.jstor.org/stable/10.2307/20048155?origin=crossref
+  \endverb
+  \list{location}{1}{%
+    {Miami}%
+  }
+  \field{year}{1997}
+\endentry
+
+\entry{Park:2002io}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Park}{P.}%
+     {D~J}{D.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {English}%
+  }
+  \strng{namehash}{PDJ1}
+  \strng{fullhash}{PDJ1}
+  \field{labelyear}{2002}
+  \field{sortinit}{P}
+  \verb{doi}
+  \verb 10.1177/0196859902026003001
+  \endverb
+  \field{number}{3}
+  \field{pages}{237\bibrangedash 260}
+  \field{title}{{Media, Democracy, and Human Rights in Argentina}}
+  \verb{url}
+  \verb http://jci.sagepub.com/cgi/doi/10.1177/0196859902026003001
+  \endverb
+  \field{volume}{26}
   \verb{file}
-  \verb {B94B0C3B-43D7-4A38-8824-2A32463FC670.pdf:/Users/justin/Dropbox/Papers
-  \verb App/Library.papers3/Files/B9/B94B0C3B-43D7-4A38-8824-2A32463FC670.pdf:a
-  \verb pplication/pdf;B94B0C3B-43D7-4A38-8824-2A32463FC670.pdf:/Users/justin/D
-  \verb ropbox/Papers App/Library.papers3/Files/B9/B94B0C3B-43D7-4A38-8824-2A32
-  \verb 463FC670.pdf:application/pdf}
+  \verb {Journal of Communication Inquiry 2002 Park.pdf:/Users/justin/Dropbox/P
+  \verb apers App/Library.papers3/Articles/2002/Park/Journal of Communication I
+  \verb nquiry 2002 Park.pdf:application/pdf}
   \endverb
-  \field{journaltitle}{Journal of Democracy}
-  \field{year}{2011}
+  \field{journaltitle}{Journal of Communication Inquiry}
+  \field{month}{07}
+  \field{year}{2002}
 \endentry
 
 \entry{Pearce:2012fm}{article}{}
@@ -3170,7 +2686,7 @@
   \strng{namehash}{PKEKS1}
   \strng{fullhash}{PKEKS1}
   \field{labelyear}{2012}
-  \field{sortinit}{2}
+  \field{sortinit}{P}
   \verb{doi}
   \verb 10.1111/j.1460-2466.2012.01633.x
   \endverb
@@ -3189,6 +2705,327 @@
   \field{journaltitle}{Journal of Communication}
   \field{month}{03}
   \field{year}{2012}
+\endentry
+
+\entry{Barbieri:2005uk}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Reuveny}{R.}%
+     {Rafael}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RR1}
+  \strng{fullhash}{RR1}
+  \field{labelyear}{2005}
+  \field{sortinit}{R}
+  \field{number}{4}
+  \field{title}{{Economic Globalization and Civil War}}
+  \verb{url}
+  \verb http://www.jstor.org.libproxy.temple.edu/stable/3449903?&Search=yes&sea
+  \verb rchText=sector&searchText=globalization&searchText=public&searchText=de
+  \verb mocracy&list=hide&searchUri=%2Faction%2FdoBasicSearch%3FQuery%3Dglobali
+  \verb zation%2Bdemocracy%2Bpublic%2Bsector%26fromHomePage%3Dtrue%26acc%3Don%2
+  \verb 6wc%3Don%26fc%3Doff&prevSearch=&item=12&ttl=7413&returnArticleService=s
+  \verb howFullText
+  \endverb
+  \field{volume}{67}
+  \verb{file}
+  \verb {The Journal of Politics 2005 Barbieri.pdf:/Users/justin/Dropbox/Papers
+  \verb  App/Library.papers3/Articles/2005/Barbieri/The Journal of Politics 200
+  \verb 5 Barbieri.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{The Journal of Politics}
+  \field{annotation}{%
+  1232- liberalization induces protest, repression, and then war%
+  }
+  \field{month}{11}
+  \field{year}{2005}
+\endentry
+
+\entry{Chabat:1997wj}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Rodolfo}{R.}%
+     {O}{O}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Velasco}{V.}%
+     {Jes{\'u}s}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ROVJ1}
+  \strng{fullhash}{ROVJ1}
+  \field{labelyear}{1997}
+  \field{sortinit}{R}
+  \field{abstract}{%
+  ... The intellectual lobby of the think tanks, Velasco notes, contributed to
+  this aspect of the ... Though that project was discontinued in 1993, Chabat
+  and de la Garza also comment on ... Mexico has resorted more proactively to
+  new international institutions and procedures to cushion the ...%
+  }
+  \field{title}{{Mexico's New Foreign Policy: States, Societies, and
+  Institutions}}
+  \verb{url}
+  \verb http://books.google.com/books?hl=en&lr=&id=-KEPr3h4LIgC&oi=fnd&pg=PA181
+  \verb &dq=chabat+(velasco+mexico+s+foreign+policy)&ots=zKBTK4gAMS&sig=zHjmuOe
+  \verb U8ZiZJz_YwSHbDZuj77Y
+  \endverb
+  \field{journaltitle}{{\ldots} Mexico-US Relations}
+  \field{year}{1997}
+\endentry
+
+\entry{Rodriguez:2001uw}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Rodriguez}{R.}%
+     {F}{F}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rodrik}{R.}%
+     {D}{D}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RFRD1}
+  \strng{fullhash}{RFRD1}
+  \field{labelyear}{2001}
+  \field{sortinit}{R}
+  \field{abstract}{%
+  ... Sachs and Warner (1995) is a close second, and the index of openness
+  constructed therein has now been widely used in the ... Ben-David (1993)
+  considers income convergence in countries that have integrated with each
+  other (such as the European Community coun- tries). ...%
+  }
+  \field{title}{{Trade policy and economic growth: a skeptic's guide to the
+  cross-national evidence}}
+  \verb{url}
+  \verb http://www.nber.org/chapters/c11058.pdf
+  \endverb
+  \verb{file}
+  \verb {2001 Rodriguez.pdf:/Users/justin/Dropbox/Papers App/Library.papers3/Ar
+  \verb ticles/2001/Rodriguez/2001 Rodriguez.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{NBER Macroeconomics Annual 2000}
+  \field{year}{2001}
+\endentry
+
+\entry{Rodrik:1998te}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Rodrik}{R.}%
+     {Dani}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RD1}
+  \strng{fullhash}{RD1}
+  \field{labelyear}{1998}
+  \field{sortinit}{R}
+  \field{pages}{1\bibrangedash 37}
+  \field{title}{{Why Do More Open Economies Have Bigger Governments?}}
+  \verb{file}
+  \verb {Journal of Political Economy 1998 Rodrik.pdf:/Users/justin/Dropbox/Pap
+  \verb ers App/Library.papers3/Articles/1998/Rodrik/Journal of Political Econo
+  \verb my 1998 Rodrik.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{Journal of Political Economy}
+  \field{month}{10}
+  \field{year}{1998}
+\endentry
+
+\entry{Rogowski:1987ip}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Rogowski}{R.}%
+     {Ronald}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RR2}
+  \strng{fullhash}{RR2}
+  \field{labelyear}{1987}
+  \field{sortinit}{R}
+  \verb{doi}
+  \verb 10.2307/1962581
+  \endverb
+  \field{number}{4}
+  \field{pages}{1121}
+  \field{title}{{Political Cleavages and Changing Exposure to Trade}}
+  \verb{url}
+  \verb http://www.jstor.org/stable/1962581?origin=crossref
+  \endverb
+  \field{volume}{81}
+  \verb{file}
+  \verb {The American Political Science Review 1987 Rogowski.pdf:/Users/justin/
+  \verb Dropbox/Papers App/Library.papers3/Articles/1987/Rogowski/The American
+  \verb Political Science Review 1987 Rogowski.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{The American Political Science Review}
+  \field{month}{12}
+  \field{year}{1987}
+\endentry
+
+\entry{Rogowski:1989wm}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Rogowski}{R.}%
+     {Ronald}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Princeton University Press}%
+  }
+  \strng{namehash}{RR2}
+  \strng{fullhash}{RR2}
+  \field{labelyear}{1989}
+  \field{sortinit}{R}
+  \field{abstract}{%
+  ... They may, however, have exaggerated agriculture's woes: see Holt 1936 and
+  Rogowski 1982. ... 5. In Argentina, of course, the populist regime of Peron
+  did not assume full power until 1946; but the cleavage (and the growing
+  strength of the labor ... Trade and Political Cleavages . 13 ...%
+  }
+  \field{title}{{Commerce and coalitions}}
+  \verb{url}
+  \verb http://isites.harvard.edu/fs/docs/icb.topic248058.files/February%2018%2
+  \verb 0readings/Rogowski.pdf
+  \endverb
+  \list{location}{1}{%
+    {Princeton, NJ}%
+  }
+  \verb{file}
+  \verb {1989 Rogowski.pdf:/Users/justin/Dropbox/Papers App/Library.papers3/Boo
+  \verb ks/1989/Rogowski/1989 Rogowski.pdf:application/pdf}
+  \endverb
+  \field{year}{1989}
+\endentry
+
+\entry{Ros:2000vy}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Ros}{R.}%
+     {Jaime}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lustig}{L.}%
+     {Nora~Claudia}{N.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Schwartz Center for Economic Policy Analysis (SCEPA), The New School}%
+  }
+  \strng{namehash}{RJLNC1}
+  \strng{fullhash}{RJLNC1}
+  \field{labelyear}{2000}
+  \field{sortinit}{R}
+  \field{abstract}{%
+  No abstract is available for this item.%
+  }
+  \field{title}{{Trade and Financial Liberalization with Volatile Capital
+  Inflows: Macroeconomic Consequences and Social Impacts in Mexico during the
+  1990s}}
+  \verb{url}
+  \verb http://ideas.repec.org/p/epa/cepawp/2000-08.html
+  \endverb
+  \verb{file}
+  \verb {8BCBB0ED-A50E-4EDC-B76B-35DFDF93D694.pdf:/Users/justin/Dropbox/Papers
+  \verb App/Library.papers3/Files/8B/8BCBB0ED-A50E-4EDC-B76B-35DFDF93D694.pdf:a
+  \verb pplication/pdf}
+  \endverb
+  \field{journaltitle}{SCEPA Working Papers}
+  \field{year}{2000}
+\endentry
+
+\entry{Silverstein:2002wm}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Silverstein}{S.}%
+     {Ken}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SK1}
+  \strng{fullhash}{SK1}
+  \field{labelyear}{2002}
+  \field{sortinit}{S}
+  \field{abstract}{%
+  As Argentina sank into its worst economic crisis ever, a January 9,
+  Associated Press story blamed {\&}quot;the greed of international investors
+  and bad timing by the International Monetary Fund and the U.S. T%
+  }
+  \field{title}{{Stop the Press:}}
+  \verb{url}
+  \verb http://prospect.org/article/stop-press
+  \endverb
+  \field{journaltitle}{The American Prospect}
+  \field{year}{2002}
+\endentry
+
+\entry{Silverstein:1995wc}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Silverstein}{S.}%
+     {Ken}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cockburn}{C.}%
+     {Alexander}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SKCA1}
+  \strng{fullhash}{SKCA1}
+  \field{labelyear}{1995}
+  \field{sortinit}{S}
+  \field{number}{9}
+  \field{pages}{306\bibrangedash 311}
+  \field{title}{{Who Broke Mexico? The Killers and The Killing}}
+  \verb{url}
+  \verb http://web.ebscohost.com.libproxy.temple.edu/ehost/pdfviewer/pdfviewer?
+  \verb sid=6100ae38-35b1-4779-97b5-7606f3d0d82e%40sessionmgr10&vid=6&hid=22
+  \endverb
+  \field{volume}{260}
+  \verb{file}
+  \verb {CA6E3387-D09F-43F2-876E-31EFA6228006.pdf:/Users/justin/Dropbox/Papers
+  \verb App/Library.papers3/Files/CA/CA6E3387-D09F-43F2-876E-31EFA6228006.pdf:a
+  \verb pplication/pdf;CA6E3387-D09F-43F2-876E-31EFA6228006.pdf:/Users/justin/D
+  \verb ropbox/Papers App/Library.papers3/Files/CA/CA6E3387-D09F-43F2-876E-31EF
+  \verb A6228006.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{The Nation}
+  \field{month}{03}
+  \field{year}{1995}
+\endentry
+
+\entry{Sims:kgMPqAHd}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Sims}{S.}%
+     {Calvin}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{Argentina, media}
+  \strng{namehash}{SC1}
+  \strng{fullhash}{SC1}
+  \field{labelyear}{1995}
+  \field{sortinit}{S}
+  \field{title}{{Press Protests 'Gag' Bills In Argentina}}
+  \verb{url}
+  \verb http://www.nytimes.com/1995/02/19/world/press-protests-gag-bills-in-arg
+  \verb entina.html
+  \endverb
+  \field{journaltitle}{The New York Times}
+  \field{month}{02}
+  \field{year}{1995}
 \endentry
 
 \entry{Sorens:2012hc}{article}{}
@@ -3213,7 +3050,7 @@
   \strng{namehash}{SJRW1}
   \strng{fullhash}{SJRW1}
   \field{labelyear}{2012}
-  \field{sortinit}{2}
+  \field{sortinit}{S}
   \field{abstract}{%
   ... There may be some range of circumstances under which foreign investment
   does have ameliorative ... Future research might examine particular forms of
@@ -3240,27 +3077,190 @@
   \field{year}{2012}
 \endentry
 
-\entry{dunning2013international}{book}{}
+\entry{Belle:1997wo}{article}{}
   \name{author}{1}{}{%
     {{}%
-     {Dunning}{D.}%
-     {John~H}{J.~H.}%
+     {Van~Belle}{V.~B.}%
+     {Douglas~A}{D.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{VBDA1}
+  \strng{fullhash}{VBDA1}
+  \field{labelyear}{1997}
+  \field{sortinit}{V}
+  \field{number}{4}
+  \field{pages}{405\bibrangedash 414}
+  \field{title}{{Press Freedom and the Democratic Peace}}
+  \field{volume}{34}
+  \verb{file}
+  \verb {Journal of Peace Research 1997 Belle.pdf:/Users/justin/Dropbox/Papers
+  \verb App/Library.papers3/Articles/1997/Belle/Journal of Peace Research 1997
+  \verb Belle.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{Journal of Peace Research}
+  \field{month}{01}
+  \field{year}{1997}
+\endentry
+
+\entry{van2000press}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Van~Belle}{V.~B.}%
+     {Douglas~A}{D.~A.}%
      {}{}%
      {}{}}%
   }
   \list{publisher}{1}{%
-    {Taylor {\&} Francis}%
+    {Praeger}%
   }
-  \strng{namehash}{DJH1}
-  \strng{fullhash}{DJH1}
-  \field{labelyear}{2013}
-  \field{sortinit}{2}
-  \field{isbn}{9780415643139}
-  \field{title}{{International Production and the Multinational Enterprise}}
+  \keyw{international politics, media, media freedom, press freedom}
+  \strng{namehash}{VBDA1}
+  \strng{fullhash}{VBDA1}
+  \field{labelyear}{2000}
+  \field{sortinit}{V}
+  \field{abstract}{%
+  Van Belle provides the first systematic analysis of the effects that press
+  freedom has on the conduct of international politics . The
+  institutionalization of press freedoms within a state and the free flow of
+  information between the free presses of different nations creates a foreign
+  ...%
+  }
+  \field{isbn}{9780275967901}
+  \field{title}{{Press Freedom and Global Politics}}
   \verb{url}
-  \verb http://books.google.co.uk/books?id=6xbsFBXt1G0C
+  \verb http://books.google.com/books?id=ftSNriNThFYC
   \endverb
-  \field{year}{2013}
+  \field{year}{2000}
+\endentry
+
+\entry{Villareal:2010vk}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Villareal}{V.}%
+     {Angeles~M}{A.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{VAM1}
+  \strng{fullhash}{VAM1}
+  \field{labelyear}{2010}
+  \field{sortinit}{V}
+  \field{title}{{NAFTA and the Mexican Economy}}
+  \verb{url}
+  \verb http://www.fas.org/sgp/crs/row/RL34733.pdf
+  \endverb
+  \verb{file}
+  \verb {Congressional Research Service 2010 Villareal.pdf:/Users/justin/Dropbo
+  \verb x/Papers App/Library.papers3/Articles/2010/Villareal/Congressional Rese
+  \verb arch Service 2010 Villareal.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{Congressional Research Service}
+  \field{month}{06}
+  \field{year}{2010}
+\endentry
+
+\entry{Waisbord:1994kq}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Waisbord}{W.}%
+     {Silvio~R}{S.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Routledge}%
+  }
+  \keyw{Argentina, media}
+  \strng{namehash}{WSR1}
+  \strng{fullhash}{WSR1}
+  \field{labelyear}{1994}
+  \field{sortinit}{W}
+  \field{abstract}{%
+  This article examines the causes for the rise of political scandals in
+  Argentina in the early 1990s. Available explanations fail to provide a
+  satisfactory answer, mainly because they ignore the interplay of forces that
+  produce media revelations of government wrongdoing. Argentine scandals cannot
+  be reduced to arguments about official corruption but rather require a
+  consideration of political and media developments. Media expos{\'e}s in
+  Argentina have resulted from particular political dynamics coupled with the
+  increasing opposition of some news media to the Menem administration.
+  Political dynamics such as democratic stability, a strong executive, and the
+  weakness of political parties as policymaking and communication institutions
+  have contributed to reinforcing the role of the press as an alternative arena
+  for acting out political confrontations. The fact that two dailies have
+  adopted a muckraking ethos and conducted investigative reporting, unusual for
+  Argentine media standards, also accounts for the growing centrality of the
+  press in mediating political battles. [ABSTRACT FROM AUTHOR]%
+  }
+  \verb{doi}
+  \verb Article
+  \endverb
+  \field{number}{1}
+  \field{pages}{19\bibrangedash 33}
+  \field{title}{{Knocking on Newsroom Doors: The Press and Political Scandals
+  in Argentina.}}
+  \verb{url}
+  \verb http://libproxy.temple.edu/login?url=http://search.ebscohost.com/login.
+  \verb aspx?direct=true&db=ufh&AN=16343043&site=ehost-live&scope=site
+  \endverb
+  \field{volume}{11}
+  \verb{file}
+  \verb {Political Communication 1994 Waisbord.pdf:/Users/justin/Dropbox/Papers
+  \verb  App/Library.papers3/Articles/1994/Waisbord/Political Communication 199
+  \verb 4 Waisbord.pdf:application/pdf}
+  \endverb
+  \field{journaltitle}{Political Communication}
+  \field{year}{1994}
+\endentry
+
+\entry{Walther:1997wf}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Walther}{W.}%
+     {Ted}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley}%
+  }
+  \strng{namehash}{WT1}
+  \strng{fullhash}{WT1}
+  \field{labelyear}{1997}
+  \field{sortinit}{W}
+  \field{title}{{The World Economy}}
+  \verb{url}
+  \verb http://www.getcited.org/pub/100136677
+  \endverb
+  \list{location}{1}{%
+    {New York}%
+  }
+  \field{year}{1997}
+\endentry
+
+\entry{Williams:2001ux}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Williams}{W.}%
+     {Heather~L}{H.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Cambridge University Press}%
+  }
+  \strng{namehash}{WHL1}
+  \strng{fullhash}{WHL1}
+  \field{labelyear}{2001}
+  \field{sortinit}{W}
+  \field{isbn}{9780521772563}
+  \field{title}{{Social Movements and Economic Transition: Markets and
+  Distributive Conflict in Mexico}}
+  \verb{url}
+  \verb http://books.google.com/books?id=DrSP3Rko26oC
+  \endverb
+  \field{year}{2001}
 \endentry
 
 \lossort

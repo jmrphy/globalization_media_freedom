@@ -1,4 +1,4 @@
-\documentclass[a4paper]{article}\usepackage[]{graphicx}\usepackage[]{color}
+\documentclass[12pt,a4paper]{article}\usepackage[]{graphicx}\usepackage[]{color}
 %% maxwidth is the original width if it is less than linewidth
 %% otherwise use linewidth (to make sure the graphics do not exceed the margin)
 \makeatletter
@@ -70,9 +70,22 @@
 \usepackage[english]{babel}
 \usepackage{graphicx}
 \usepackage{afterpage}
-
+\usepackage{xpatch}
 \usepackage{csquotes}
-\usepackage[style=authoryear, sorting=ynt, url=false, backend=bibtex]{biblatex}
+\usepackage[style=authoryear, sorting=nyt, url=false, dashed=false, backend=bibtex]{biblatex}
+\renewbibmacro{in:}{%
+  \ifentrytype{article}{}{\printtext{\bibstring{in}\intitlepunct}}}
+\renewbibmacro*{volume+number+eid}{
+    \printfield{volume}
+    \setunit*{\addnbspace}% NEW (optional); there's also \addnbthinspace
+    \printfield{number}
+    \setunit{\addcomma\space}
+    \printfield{eid}}
+\DeclareFieldFormat[article]{number}{\mkbibparens{#1}}
+
+
+
+\renewcommand*{\bibpagespunct}{\addcolon\space}
 \addbibresource{mybib.bib}
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 
@@ -220,7 +233,7 @@ Table 1 displays the results of 6 different logistic regressions assessing the p
 
 
 % Table created by stargazer v.4.5.3 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
-% Date and time: Mon, Apr 07, 2014 - 11:52:15
+% Date and time: Tue, Apr 08, 2014 - 13:31:24
 \begin{table}[!htbp] \centering 
   \caption{} 
   \label{} 
@@ -325,7 +338,7 @@ On the day NAFTA went into effect in January 1994, the Ejército Zapatista de Li
 
 Although Procampo helped gain support for NAFTA, immediately there was popular discontent, such as in the Barzón Farmers movement in Zacatecas, regarding several inadequacies of the program, including payments not being made \parencite[173]{Williams:2001ux}. From 1993 to 1995, the Barzon movement sought and received much favorable attention in the print media, where reporters were not under great pressure to suppress reports \parencite[187]{Williams:2001ux}.
 
-Neoliberal economic reforms, including increasing trade openness, somewhat surprisingly in light of our expectations although not exactly contradicting them, led to a relative opening of the domestic media \parencite{lawson2002building}. Between 1991 and 1993, in addition to pursuing NAFTA as his administration's top priority, Salinas' cuts to government spending included cutting the quid pro quo's which underwrote the traditional regime of media control. He specifically ended the system of paying for reporters accomodations on presidential trips, prohibited the distribute of bribes within the presidential palace, reduced the government advertising in which typically functioned as bribes for keeping media in line, ended tax deferments and credits to media, and stopped allowing media outlets to pay their Social Security taxes in advertisements. Privatization of state-owned enterprises also had the effect of reducing the media's dependence on government advertising revenues. The greater scrutiny from American and Canadian media relaxed the domestic media environment for domestic journalists, as it was easier for domestic journalists to report on topics that the foreign press were already reporting on outside any control from the Mexican government. Additionally, greater access to foreign inputs also freed the Mexican media from an important source of government leverage, in particular its traditional monopoly on the import of newsprint, providing further room for the Mexican media to take risks. As independent media outlets were gaining financial independence through market competition, at the same time the neoliberal state was relinquishing its traditional levers of control, led to a independence of the Mexican media increased significantly \parencite[76,89]{lawson2002building}.
+Neoliberal economic reforms, including increasing trade openness, somewhat surprisingly in light of our expectations although not exactly contradicting them, led to a relative opening of the domestic media \parencite{lawson2002building}. Between 1991 and 1993, in addition to pursuing NAFTA as his administration's top priority, Salinas' cuts to government spending included cutting the quid pro quo's which underwrote the traditional regime of media control. He specifically ended the system of paying for reporters accomodations on presidential trips, prohibited the distribution of bribes within the presidential palace, reduced the government advertising in which typically functioned as bribes for keeping media in line, ended tax deferments and credits to media, and stopped allowing media outlets to pay their Social Security taxes in advertisements. Privatization of state-owned enterprises also had the effect of reducing the media's dependence on government advertising revenues. The greater scrutiny from American and Canadian media relaxed the domestic media environment for domestic journalists, as it was easier for domestic journalists to report on topics that the foreign press were already reporting on outside any control from the Mexican government. Additionally, greater access to foreign inputs also freed the Mexican media from an important source of government leverage, in particular its traditional monopoly on the import of newsprint, providing further room for the Mexican media to take risks. As independent media outlets were gaining financial independence through market competition, at the same time the neoliberal state was relinquishing its traditional levers of control, led to a independence of the Mexican media increased significantly \parencite[76,89]{lawson2002building}.
 
 The international spotlight from the NAFTA negotiations also forced Salinas to cultivate a more positive image on human rights, for instance, when he established the National Commission for Human Rights \parencite[107]{Dominguez:2009wd}. Additionally, because neoliberal economic reforms actually led to an opening of the media which the state could not control, Salinas and after him Ernesto Zedillo moved away from traditional tactics of media repression in favor of more modern techniques of “news management” and public relations, such as controlling information by only providing access to friendly reporters. For instance, in a 1990 press conference Salinas explicitly excluded several independent media outlets and only permitted the most reliable pro-government journalists. Later in 1996, the Interior Ministry for the first time created an explicit “blacklist” of journalists who government officials were supposed to not engage \parencite[39]{lawson2002building}.
 
@@ -346,12 +359,24 @@ The implications are important for researchers of the globalization-democracy ne
 Certain unexpected findings also suggest interesting questions. For instance, when economic liberalization increases market competition in the media sector, it generates strong pressures which favor a free, independent media. If this is the case, then it would provide a warrant for expecting trade liberalization to be associated with media freedom in the long run, as the conventional wisdom is that trade liberalization increases market competition. Thus, if trade indeed is associated with increased domestic competition, then it remains unclear why trade liberalization would be statistically associated with media repression in the long-run, a pattern evidenced in the statistical models here. One possibility is that the domestic economic and political consequences of trade liberalization are not fully understood and that trade liberalization independently is not associated with increased domestic competition.
 
 \pagebreak
+
 \begingroup
 \setstretch{0.8}
 \setlength\bibitemsep{7pt}
+
+\xpatchbibmacro{date+extrayear}{%
+  \printtext[parens]%
+}{%
+  \setunit{\addperiod\space}%
+  \printtext%
+}{}{}
+
+
+
 \printbibliography
 \endgroup
 
+\pagebreak
 \section{Supplementary Material}
 
 ROC Plots?
