@@ -1,4 +1,5 @@
 require(foreign)
+require(countrycode)
 
 media<-read.csv("~/Dropbox/Data General/Media Freedom/VanBelleCleaned.csv")
 
@@ -37,6 +38,16 @@ kof<-subset(kof, select=c("scode", "year", "economic.globalization", "actual.flo
 kof2<-pdata.frame(kof, index=c("scode", "year"))
 kof2$leconglob<-lag(kof2$economic.globalization)
 kof2$ldeconglob<-diff(kof2$leconglob)
+kof2$lrestrict<-lag(kof2$restrictions)
+kof2$ldrestrict<-diff(kof2$lrestrict)
+kof2$lflows<-lag(kof2$actual.flows)
+kof2$ldflows<-diff(kof2$lflows)
+kof2$lpolglob<-lag(kof2$political.globalization)
+kof2$ldpolglob<-diff(kof2$lpolglob)
+kof2$linfoglob<-lag(kof2$information.flows)
+kof2$ldinfoglob<-diff(kof2$linfoglob)
+kof2$loverallglob<-lag(kof2$overall.globalization.index)
+kof2$ldoverallglob<-diff(kof2$loverallglob)
 kof<-as.data.frame(kof2)
 
 
@@ -48,9 +59,11 @@ df<-subset(df, !duplicated(subset(df,select=c(scode,year))))
 require(arm)
 modelvars<-subset(df, select=c("scode", "year", "interp", "fp", "lfp", "fp2", "lfp2", "lopenk",
           "ldopenk", "lfdiinward", "lfdiinflow", "lfpi", "lfpistock", "lpolity2", "ldpolity2",
-          "lrgdpch", "lgrgdpch", "economic.globalization", "leconglob", "ldeconglob", "actual.flows", "restrictions",
+          "lrgdpch", "lgrgdpch", "economic.globalization", "leconglob", "ldeconglob", "lrestrict", "ldrestrict",
+          "lpolglob", "ldpolglob", "linfoglob", "ldinfoglob",
+          "lflows", "ldflows", "loverallglob", "ldoverallglob", "actual.flows", "restrictions",
           "political.globalization", "information.flows", "overall.globalization.index")) 
-modelvars[,8:25]<-sapply(modelvars[,8:25], rescale)
+modelvars[,8:35]<-sapply(modelvars[,8:35], rescale)
 
 
 
@@ -62,13 +75,13 @@ countryavgs <-aggregate(df, by=list(scode),
                         FUN=mean, na.rm=TRUE)
 detach(df)
 
-require(countrycode)
+
 countryavgs$country<-countrycode(countryavgs$Group.1, "cown", "iso3c")
 
 countryavgs$dem<-ifelse(countryavgs$polity2>-2.21, "Greater than median democracy", "Less than median democracy")
 countryavgs$dem<-as.factor(countryavgs$dem)
 
-setwd("~/Dropbox/Projects/globalization_media_freedom/data")
+setwd("~/Dropbox/gh_projects/globalization_media_freedom/data")
 
 write.csv(countryavgs, "out_countryavgs.csv")
 write.csv(df, "out_df.csv")

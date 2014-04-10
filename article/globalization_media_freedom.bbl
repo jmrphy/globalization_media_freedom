@@ -797,6 +797,37 @@
   \field{year}{1995}
 \endentry
 
+\entry{DirectInvestmentTechnicalExpertGroupDITEG:2004wa}{inproceedings}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Direct Investment Technical Expert Group}}{D.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{organization}{2}{%
+    {IMF Committee on Balance of Payments Statistics}%
+    {OECD Workshop on International Investment Statistics}%
+  }
+  \strng{namehash}{D1}
+  \strng{fullhash}{D1}
+  \field{labelyear}{2004}
+  \field{sortinit}{D}
+  \field{booktitle}{IMF Committee on Balance of Payments Statistics and OECD
+  Workshop on International Investment Statistics}
+  \field{title}{{Definition of Foreign Direct Investment (FDI) Terms}}
+  \verb{url}
+  \verb http://www.imf.org/external/np/sta/bop/pdf/diteg20.pdf
+  \endverb
+  \verb{file}
+  \verb {414CA1D5-354B-4BF6-96A5-1B7F7D81AC5B.pdf:/Users/justin/Dropbox/Papers
+  \verb App/Library.papers3/Files/41/414CA1D5-354B-4BF6-96A5-1B7F7D81AC5B.pdf:a
+  \verb pplication/pdf}
+  \endverb
+  \field{month}{11}
+  \field{year}{2004}
+\endentry
+
 \entry{Dominguez:2009wd}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -1304,37 +1335,6 @@
   \field{year}{2005}
 \endentry
 
-\entry{DirectInvestmentTechnicalExpertGroupDITEG:2004wa}{inproceedings}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Group}{G.}%
-     {Direct Investment Technical~Expert}{D.~I. T.~E.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{organization}{2}{%
-    {IMF Committee on Balance of Payments Statistics}%
-    {OECD Workshop on International Investment Statistics}%
-  }
-  \strng{namehash}{GDITE1}
-  \strng{fullhash}{GDITE1}
-  \field{labelyear}{2004}
-  \field{sortinit}{G}
-  \field{booktitle}{IMF Committee on Balance of Payments Statistics and OECD
-  Workshop on International Investment Statistics}
-  \field{title}{{Definition of Foreign Direct Investment (FDI) Terms}}
-  \verb{url}
-  \verb http://www.imf.org/external/np/sta/bop/pdf/diteg20.pdf
-  \endverb
-  \verb{file}
-  \verb {414CA1D5-354B-4BF6-96A5-1B7F7D81AC5B.pdf:/Users/justin/Dropbox/Papers
-  \verb App/Library.papers3/Files/41/414CA1D5-354B-4BF6-96A5-1B7F7D81AC5B.pdf:a
-  \verb pplication/pdf}
-  \endverb
-  \field{month}{11}
-  \field{year}{2004}
-\endentry
-
 \entry{Habermas:1991vg}{book}{}
   \name{author}{1}{}{%
     {{}%
@@ -1482,6 +1482,24 @@
   \verb http://books.google.com/books?id=PLaWP6tJOE4C
   \endverb
   \field{year}{2002}
+\endentry
+
+\entry{stargazerLaTeXcod:vw}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hlavac}{H.}%
+     {Marek}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HM1}
+  \strng{fullhash}{HM1}
+  \field{sortinit}{H}
+  \field{title}{{stargazer: LaTeX code and ASCII text for well-formatted
+  regression and summary statistics tables}}
+  \verb{url}
+  \verb http://CRAN.R-project.org/package=stargazer
+  \endverb
 \endentry
 
 \entry{Hufbauer:2005vh}{article}{}
@@ -2629,6 +2647,13 @@
   \list{location}{1}{%
     {Miami}%
   }
+  \verb{file}
+  \verb {05D8A160-65A9-4F0B-8685-890BD1DF046D.pdf:/Users/justin/Dropbox/Papers
+  \verb App/Library.papers3/Files/05/05D8A160-65A9-4F0B-8685-890BD1DF046D.pdf:a
+  \verb pplication/pdf;05D8A160-65A9-4F0B-8685-890BD1DF046D.pdf:/Users/justin/D
+  \verb ropbox/Papers App/Library.papers3/Files/05/05D8A160-65A9-4F0B-8685-890B
+  \verb D1DF046D.pdf:application/pdf}
+  \endverb
   \field{year}{1997}
 \endentry
 
