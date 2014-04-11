@@ -55,15 +55,18 @@ df<-merge(df, kof, by=c("scode", "year"), all=TRUE)
 
 df<-subset(df, !duplicated(subset(df,select=c(scode,year))))
 
+df$year1<-df$year
+df$year2<-as.numeric(df$year)^2
+df$year3<-as.numeric(df$year)^3
 
 require(arm)
-modelvars<-subset(df, select=c("scode", "year", "interp", "fp", "lfp", "fp2", "lfp2", "lopenk",
-          "ldopenk", "lfdiinward", "lfdiinflow", "lfpi", "lfpistock", "lpolity2", "ldpolity2",
-          "lrgdpch", "lgrgdpch", "economic.globalization", "leconglob", "ldeconglob", "lrestrict", "ldrestrict",
-          "lpolglob", "ldpolglob", "linfoglob", "ldinfoglob",
-          "lflows", "ldflows", "loverallglob", "ldoverallglob", "actual.flows", "restrictions",
-          "political.globalization", "information.flows", "overall.globalization.index")) 
-modelvars[,8:35]<-sapply(modelvars[,8:35], rescale)
+modelvars<-subset(df, select=c("scode", "interp", "fp", "lfp", "fp2", "lfp2", "year", "year1", "year2", "year3", "lopenk",
+                               "ldopenk", "lfdiinward", "lfdiinflow", "lfpi", "lfpistock", "lpolity2", "ldpolity2",
+                               "lrgdpch", "lgrgdpch", "economic.globalization", "leconglob", "ldeconglob", "lrestrict", "ldrestrict",
+                               "lpolglob", "ldpolglob", "linfoglob", "ldinfoglob",
+                               "lflows", "ldflows", "loverallglob", "ldoverallglob", "actual.flows", "restrictions",
+                               "political.globalization", "information.flows", "overall.globalization.index")) 
+modelvars[,8:38]<-sapply(modelvars[,8:38], rescale)
 
 
 

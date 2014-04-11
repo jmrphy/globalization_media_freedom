@@ -1603,6 +1603,35 @@
   \field{year}{1996}
 \endentry
 
+\entry{ZeligEveryonesSt:2009ts}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Imai}{I.}%
+     {Kosuke}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {King}{K.}%
+     {Gary}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lau}{L.}%
+     {Olivia}{O.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{IKKGLO1}
+  \strng{fullhash}{IKKGLO1}
+  \field{labelyear}{2009}
+  \field{sortinit}{I}
+  \field{title}{{Zelig: Everyone's Statistical Software}}
+  \verb{url}
+  \verb http://gking.harvard.edu/zelig
+  \endverb
+  \field{year}{2009}
+\endentry
+
 \entry{Islam:2002uc}{book}{}
   \name{editor}{1}{}{%
     {{}%

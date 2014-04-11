@@ -176,10 +176,9 @@ Specifically, I offer two short, “disciplined-configurative” case studies fo
 
 Table 1 displays the results of 3 different logistic regressions assessing the probability of observing media freedom in country$_{it}$.\footnote{The tables in this article were generated in R using the \emph{stargazer} package \parencite{stargazerLaTeXcod:vw}.} Before analysis, all variables were rescaled by subtracting the mean and dividing by two standard deviations so that the displayed coefficients reflect the expected effect of a two standard-devation increase each independent variable, holding the others constant.\footnote{This makes the regression coefficients for continuous predictors directly comparably to binary predictors \parencite{Gelman:2008gz}.}. Each logistic regression is estimated using robust (heteroskedastic and autocorrelation consistent) standard errors.
 
-<<Main, child='~/Dropbox/gh_projects/globalization_media_freedom/analyses/main_regressions.Rnw', cache=FALSE, results='hide'>>=
-@
 
 <<MainModels, results='asis', cache=FALSE>>=
+source("/Users/justin/Dropbox/gh_projects/globalization_media_freedom/analyses/main_regressions.R")
 require(stargazer)
 mainmodels<-stargazer(model1, model2, model3,
           title="Standardized Logistic Regressions: Media Freedom",
@@ -188,20 +187,73 @@ mainmodels<-stargazer(model1, model2, model3,
           style = "apsr",
           font.size = "footnotesize",
           covariate.labels=c("Democracy level", "Democracy change", "GDP per capita", "GDP per capita change",
-                             "Interpolated", "Spline1", "Spline2", "Trade level", "Trade change", "FDI level",
-                             "FDI change", "FPI level", "FPI change", "Overall KOF level", "Overall KOF change")
+                             "Interpolated", "Spline 1", "Spline 2", "Trade level", "Trade change", "FDI level"
+                             , "FDI change", "FPI level", "FPI change", "Overall KOF level", "Overall KOF change")
           )
 @
 
 Model 1 represents a baseline model of media freedom as a function of only democracy and GDP per capita, with a cubic spline of time to control for autocorrelation \parencite{Beck:1998wg} and a dummy variable for the years in which the Freedom House data were interpolated into Van Belle's binary scale. Model 2 adds to the baseline model levels and changes of international trade, inward FDI, inward FPI. and overall globalization measured by the KOF index. Model 3 adds the KOF measures of overall globalization to assess whether levels and changes of overall globalization shape media freedom over and above the independent effects of particular components of economic openness. Inclusion of this variable also functions as an additional check on Model 2, mitigating the possibility that the estimated effects of trade, FDI, and FPI spuriously reflect some other aspect of globalization with which they are correlated.
 
+Most of the control variables are consistent with standard expectations, but the estimated relationship between democratization and media freedom is suprising and robust across all three models. Level of democracy has a predictably positive association with media freedom and is statistically significant in all models. But surprisingly, changes in democracy (democratization) have a negative relationship to media freedom, suggesting that while democratic states in the long-run are more likely to have free media, democratizing states tend to repress the media. Levels of GDP per capita are positively signed and also significant, while changes in GDP per capita also appear to have a positive and significant effect on media freedom. The dummy variable for interpolated country-years controls for whatever artificial discontinuity was introduced into the dynamics of the dependent variable by interpolating the Freedom House measure into the scale used by Van Belle. The coefficient is negative but never significant, suggesting that the interpolation is not appreciably problematic but controlled for nonetheless. The first and second knots of the cubic spline show reversed signs and are statistically significant in all models but the first, unsurprisingly reflecting autocorrelation in the dependent variable.
+
 The first finding of interest in Model 2 is that the coefficient for levels of trade is negative and statistically significant, consistent with Hypothesis 1 and suggesting that in the long run, international trade openness does decrease the probability of media freedom. However, the statistically insignificant coefficient for year-to-year changes in the trade level suggests that liberalization of trade does not itself shape the probability of observing media freedom.
+
+\afterpage{
+\begin{figure}[t]
+    \caption{Simulated Effect of Trade Level on Expected Probability of Media Freedom}
+    \label{absolute}
+    \begin{center}
+<<Trade_Effect_Plot, fig.align='center', cache=FALSE>>=
+source("/Users/justin/Dropbox/gh_projects/globalization_media_freedom/analyses/trade_effect_plot.R")
+@
+  \end{center}
+    \begin{singlespace}
+        {\scriptsize{Expected values from 1000 simulations of Model 3 in Table 1.}}
+    \end{singlespace}
+\end{figure}
+\clearpage
+}
+
+As logit estimates are not conveniently interpretable, Figure 2 illustrates how the expected probability of observing media freedom in $country_{it}$ changes as its level of international trade increases. The predicted probabilities are based on 1000 simulations of the model.\footnote{The simulations were conducted in R with the package \emph{Zelig} \parencite*{ZeligEveryonesSt:2009ts}}. The expected probability of observing media freedom in a country completely closed to international trade, but typical with respect to all other variables, is .39. Increasing international trade one standard deviation above the mean of \Sexpr{mean(df$lopenk)} would be expected to decrease the probability of media freedom by \Sexpr{mean(s.out.trade$qi$fd)} to .31. The probability of observing media freedom in the most trade-open countries (greater than 200\% of GDP) is roughly 23\% less probable than in a trade-closed economy.
 
 The coefficients for FDI and FPI in Model 2 reveal evidence that each have postive effects on media freedom, but with different dynamics. FDI flows have a positive and statistically significant effect on the probability of observing media freedom, while FDI stocks have no discernable effect. FPI flows have no discernable effect but FPI stocks are positively associated with media freedom. In other words, Model 2 suggests that increases in inward FDI may generate immediate pressures in favor of a free media (but these pressures decay over time), whereas increases in inward FPI have little immediate effect but may increase the probability of an eventually free media in the long run. The model thus provides support for Hypothesis 2 regarding the expected long-run effects of portfolio investment, but does not support Hypothesis 3 regarding the expected long-run effects of foreign direct investment.
 
+\afterpage{
+\begin{figure}[t]
+    \caption{Simulated Effect of FDI Inflows on Expected Probability of Media Freedom}
+    \label{absolute}
+    \begin{center}
+<<FDI_Effect_Plot, fig.align='center', cache=FALSE>>=
+source("/Users/justin/Dropbox/gh_projects/globalization_media_freedom/analyses/fdi_effect_plot.R")
+@
+  \end{center}
+    \begin{singlespace}
+        {\scriptsize{Expected values from 1000 simulations of Model 3 in Table 1.}}
+    \end{singlespace}
+\end{figure}
+\clearpage
+}
+
+
+\afterpage{
+\begin{figure}[t]
+    \caption{Simulated Effect of FPI Stock on Expected Probability of Media Freedom}
+    \label{absolute}
+    \begin{center}
+<<FPI_Effect_Plot, fig.align='center', cache=FALSE>>=
+source("/Users/justin/Dropbox/gh_projects/globalization_media_freedom/analyses/fpi_effect_plot.R")
+@
+  \end{center}
+    \begin{singlespace}
+        {\scriptsize{Expected values from 1000 simulations of Model 3 in Table 1.}}
+    \end{singlespace}
+\end{figure}
+\clearpage
+}
+
 In Model 3, the coefficient for \emph{Overall KOF change} is negative and statistically significant, as predicted by Hypothesis 4. Also, the coefficients and standard errors from Model 2 remain stable after controlling for overall globalization, mitigating the possibility that the results of Model 2 are spuriously reflecting some other dimension of globalization.
 
-Most of the control variables are consistent with standard expectations, but the estimated relationship between democratization and media freedom is suprising and robust across all three models. Level of democracy has a predictably positive association with media freedom and is statistically significant in all models. But surprisingly, changes in democracy (democratization) have a negative relationship to media freedom, suggesting that while democratic states in the long-run are more likely to have free media, democratizing states tend to repress the media. Levels of GDP per capita are positively signed and also significant, while changes in GDP per capita also appear to have a positive and significant effect on media freedom. The dummy variable for interpolated country-years controls for whatever artificial discontinuity was introduced into the dynamics of the dependent variable by interpolating the Freedom House measure into the scale used by Van Belle. The coefficient is negative but never significant, suggesting that the interpolation is not appreciably problematic but controlled for nonetheless. The first and second knots of the cubic spline show reversed signs and are statistically significant in all models but the first, unsurprisingly reflecting autocorrelation in the dependent variable.
+
 
 The baseline Model 1 already correctly predicts the state of media freedom in \Sexpr{model1correct} country-years. Model 3 correctly explains \Sexpr{model3correct-model1correct} additional cases, correctly classifying \Sexpr{model3correct}.
 
@@ -209,7 +261,6 @@ The baseline Model 1 already correctly predicts the state of media freedom in \S
 
 (REDO ALL THIS)
 
-Based on Model 5, the probability of observing media freedom in a country completely closed to international trade is .48 holding all the other variables at their means. Moving to the mean level of international trade in the sample (71\% of GDP) decreases the expected probability of media freedom by .9. The probability of observing media freedom in the most trade-open countries (greater than 200\% of GDP) is roughly 23\% less probable than in a trade-closed economy.
 
 The probability of observing media freedom in a country completely closed to portfolio capital is .36 holding all the other variables at their means. Moving to the mean level of portfolio capital in the sample (.05\% of GDP) increases the expected probability of media freedom by only .03. But the probability of observing media freedom in the countries most open to portfolio capital (greater than 5\% of GDP) is roughly 60\% more probable than in a hypothetical country completely closed to portfolio capital.
 
