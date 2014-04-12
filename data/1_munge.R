@@ -58,6 +58,7 @@ df<-subset(df, !duplicated(subset(df,select=c(scode,year))))
 df$year1<-df$year
 df$year2<-as.numeric(df$year)^2
 df$year3<-as.numeric(df$year)^3
+df$country<-countrycode(df$scode, "cown", "country.name")
 
 require(arm)
 modelvars<-subset(df, select=c("scode", "interp", "fp", "lfp", "fp2", "lfp2", "year", "year1", "year2", "year3", "lopenk",

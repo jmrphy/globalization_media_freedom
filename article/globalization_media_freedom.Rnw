@@ -176,7 +176,7 @@ Specifically, I offer two short, “disciplined-configurative” case studies fo
 
 Table 1 displays the results of 3 different logistic regressions assessing the probability of observing media freedom in country$_{it}$.\footnote{The tables in this article were generated in R using the \emph{stargazer} package \parencite{stargazerLaTeXcod:vw}.} Before analysis, all variables were rescaled by subtracting the mean and dividing by two standard deviations so that the displayed coefficients reflect the expected effect of a two standard-devation increase each independent variable, holding the others constant.\footnote{This makes the regression coefficients for continuous predictors directly comparably to binary predictors \parencite{Gelman:2008gz}.}. Each logistic regression is estimated using robust (heteroskedastic and autocorrelation consistent) standard errors.
 
-
+\afterpage{
 <<MainModels, results='asis', cache=FALSE>>=
 source("/Users/justin/Dropbox/gh_projects/globalization_media_freedom/analyses/main_regressions.R")
 require(stargazer)
@@ -191,7 +191,8 @@ mainmodels<-stargazer(model1, model2, model3,
                              , "FDI change", "FPI level", "FPI change", "Overall KOF level", "Overall KOF change")
           )
 @
-
+\clearpage
+}
 Model 1 represents a baseline model of media freedom as a function of only democracy and GDP per capita, with a cubic spline of time to control for autocorrelation \parencite{Beck:1998wg} and a dummy variable for the years in which the Freedom House data were interpolated into Van Belle's binary scale. Model 2 adds to the baseline model levels and changes of international trade, inward FDI, inward FPI. and overall globalization measured by the KOF index. Model 3 adds the KOF measures of overall globalization to assess whether levels and changes of overall globalization shape media freedom over and above the independent effects of particular components of economic openness. Inclusion of this variable also functions as an additional check on Model 2, mitigating the possibility that the estimated effects of trade, FDI, and FPI spuriously reflect some other aspect of globalization with which they are correlated.
 
 Most of the control variables are consistent with standard expectations, but the estimated relationship between democratization and media freedom is suprising and robust across all three models. Level of democracy has a predictably positive association with media freedom and is statistically significant in all models. But surprisingly, changes in democracy (democratization) have a negative relationship to media freedom, suggesting that while democratic states in the long-run are more likely to have free media, democratizing states tend to repress the media. Levels of GDP per capita are positively signed and also significant, while changes in GDP per capita also appear to have a positive and significant effect on media freedom. The dummy variable for interpolated country-years controls for whatever artificial discontinuity was introduced into the dynamics of the dependent variable by interpolating the Freedom House measure into the scale used by Van Belle. The coefficient is negative but never significant, suggesting that the interpolation is not appreciably problematic but controlled for nonetheless. The first and second knots of the cubic spline show reversed signs and are statistically significant in all models but the first, unsurprisingly reflecting autocorrelation in the dependent variable.
@@ -203,7 +204,7 @@ The first finding of interest in Model 2 is that the coefficient for levels of t
     \caption{Simulated Effect of Trade Level on Expected Probability of Media Freedom}
     \label{absolute}
     \begin{center}
-<<Trade_Effect_Plot, fig.align='center', cache=FALSE>>=
+<<Trade_Effect_Plot, fig.align='center', fig.height=5, cache=FALSE>>=
 source("/Users/justin/Dropbox/gh_projects/globalization_media_freedom/analyses/trade_effect_plot.R")
 @
   \end{center}
@@ -223,7 +224,7 @@ The coefficients for FDI and FPI in Model 2 reveal evidence that each have posti
     \caption{Simulated Effect of FDI Inflows on Expected Probability of Media Freedom}
     \label{absolute}
     \begin{center}
-<<FDI_Effect_Plot, fig.align='center', cache=FALSE>>=
+<<FDI_Effect_Plot, fig.align='center', fig.height=5, cache=FALSE>>=
 source("/Users/justin/Dropbox/gh_projects/globalization_media_freedom/analyses/fdi_effect_plot.R")
 @
   \end{center}
@@ -240,7 +241,7 @@ source("/Users/justin/Dropbox/gh_projects/globalization_media_freedom/analyses/f
     \caption{Simulated Effect of FPI Stock on Expected Probability of Media Freedom}
     \label{absolute}
     \begin{center}
-<<FPI_Effect_Plot, fig.align='center', cache=FALSE>>=
+<<FPI_Effect_Plot, fig.align='center', fig.height=5, cache=FALSE>>=
 source("/Users/justin/Dropbox/gh_projects/globalization_media_freedom/analyses/fpi_effect_plot.R")
 @
   \end{center}
@@ -254,8 +255,23 @@ source("/Users/justin/Dropbox/gh_projects/globalization_media_freedom/analyses/f
 In Model 3, the coefficient for \emph{Overall KOF change} is negative and statistically significant, as predicted by Hypothesis 4. Also, the coefficients and standard errors from Model 2 remain stable after controlling for overall globalization, mitigating the possibility that the results of Model 2 are spuriously reflecting some other dimension of globalization.
 
 
-
 The baseline Model 1 already correctly predicts the state of media freedom in \Sexpr{model1correct} country-years. Model 3 correctly explains \Sexpr{model3correct-model1correct} additional cases, correctly classifying \Sexpr{model3correct}.
+
+\afterpage{
+<<Interesting_Cases, results='asis', cache=FALSE>>=
+source("/Users/justin/Dropbox/gh_projects/globalization_media_freedom/analyses/explained_cases.R")
+require(stargazer)
+stargazer(model3.cases,
+          title="Cases Incorrectly Classified by Democracy and Domestic Economy but
+                      Correctly Classified by Adding Globalization Predictors",
+          style = "apsr",
+          summary=FALSE,
+          digit.separator=""
+                      )
+@
+\clearpage
+}
+
 
 \subsection{Effect Sizes}
 
@@ -268,11 +284,47 @@ Insert Graphs here, one for trade, one for FDI, one for FPI
 
 \subsection{Within-Case Analyses}
 
-In this section, I turn to the brief case studies of Argentina and Mexico to assess qualitatively whether we can observe implications of trade liberalization generating pressures toward media repression.
+\afterpage{
+\begin{figure}[t]
+    \caption{Cases Unexplained by Democracy and Domestic Economy: Haiti, Malawi, Armenia, and Ukraine}
+    \label{absolute}
+    \begin{center}
+<<Explained_Cases_Plots, fig.align='center', cache=FALSE>>=
+source("/Users/justin/Dropbox/gh_projects/globalization_media_freedom/analyses/explained_cases_plots.R")
+grid.arrange(haiti_malawi_plots, ukraine_armenia_plots)
+@
+\end{center}
+    \begin{singlespace}
+        {\scriptsize{Grey shading indicates periods of media repression (\emph{Media Freedom} = 0).
+        International economic variables are measured as shares of GDP.
+        GDP per capita is divided by 100.
+        Freedom House Freedom of the Press Scores are on a 0-100 scale.}}
+    \end{singlespace}
+\end{figure}
+\clearpage
+}
 
-INSERT PANEL OF ALL COUNTRIES?
 
-INSERT GRAPHS OF ARGENTINA AND MEXICO
+Next, I turn to the brief case studies of Argentina and Mexico to assess qualitatively whether we can observe implications of trade liberalization generating pressures toward media repression.
+
+\afterpage{
+\begin{figure}[t]
+    \caption{Globalization and Media Freedom in Argentina and Mexico, 1980-2003}
+    \label{absolute}
+    \begin{center}
+<<Case_Studies_Plots, fig.align='center', fig.height=5, cache=FALSE>>=
+source("/Users/justin/Dropbox/gh_projects/globalization_media_freedom/analyses/case_studies_plots.R")
+case_time_series_plot
+@
+  \end{center}
+    \begin{singlespace}
+        {\scriptsize{Grey shading indicates periods of media repression (\emph{Media Freedom} = 0).
+        Economic variables are measured as shares of GDP.
+        Freedom House Freedom of the Press Scores are on a 0-100 scale.}}
+    \end{singlespace}
+\end{figure}
+\clearpage
+}
 
 \subsubsection{Argentina}
 
