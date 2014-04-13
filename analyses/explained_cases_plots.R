@@ -38,7 +38,7 @@ ukraine_armenia_plots<-ggplot(data=subset(dfm, variable!="fp")) +
             aes(ymin = -Inf, ymax = Inf, xmin = year-0.5, xmax = year+0.5), alpha = 0.1) +
   geom_line(aes(x=year, y=value, linetype=variable, colour=variable)) +
   theme_bw() +
-  theme(legend.position="none") +
+  theme(legend.title=element_blank()) +
   labs(x="Year", y="Value") +
   facet_wrap( ~ country)
 
