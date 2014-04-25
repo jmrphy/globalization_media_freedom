@@ -20,6 +20,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
 \usepackage{afterpage}
 \usepackage{xpatch}
 \usepackage{csquotes}
@@ -76,8 +78,9 @@ Given the conventional wisdom that democratic political institutions drive econo
     \caption{Media Freedom and Trade vs. General Economic Globalization, 1970-2003}
     \label{absolute}
     \begin{center}
-<<Intro, child='~/Dropbox/gh_projects/globalization_media_freedom/analyses/intro_graphs.Rnw', cache=FALSE>>=
-
+<<Intro, cache=FALSE>>=
+source("~/Dropbox/gh_projects/globalization_media_freedom/analyses/intro_graphs.R")
+grid.arrange(kofintroplot, tradeintroplot)
 @
     \end{center}
     \begin{singlespace}
@@ -94,7 +97,7 @@ This article provides the first systematic effort to explain how various compone
 
 To test these expectations, I use a mixed-methods research design combining statistical analysis of a large panel of countries from 1970 to 2003 and qualitative process-tracing on the cases of Argentina and Mexico. Several binary time-sectional, cross-series analyses (BTSCS) provide evidence that a country undergoing an increase in overall globalization is more likely to have a repressive media environment, even after controlling for previously well-established drivers of media freedom such as regime type, income, and economic growth. The statistical models also provide evidence that, unique among the components of globalization considered here, trade levels have a robustly negative association with media freedom in the long-run. The effects of foreign investment are also broadly consistent with expectations, however, their dynamics are under-determined by the theory: both FDI and FPI are both positively associated with media freedom, but whereas FDI \emph{flows} exert a positive effect (in the short-run), \emph{stocks} of FPI have a positive effect on media freedom (in the long-run). Finally, qualitative process-tracing on cases from Argentina and Mexico in the early 1990s, selected as relatively hard cases of consolidating democracies which for that reason strongly predict media freedom, each provide some illustration of the mechanism relating globalization to domestic politics.
 
-The article proceeds in five sections. The first section reviews previous research at the intersection of globalization, democracy, and the media. The second section presents a simple informal model of a national policymaker facing domestic backlash for the distributive conflicts brought on by an increase in economic openness, and deducts four hypotheses differentiating the expected effects of trade, FDI, FPI, and overall globalization. The third sectoin
+The article proceeds in five sections. The first section reviews previous research at the intersection of globalization, democracy, and the media. The second section presents a simple informal model of a national policymaker facing domestic backlash for the distributive conflicts brought on by an increase in economic openness, and deducts four hypotheses differentiating the expected effects of trade, FDI, FPI, and overall globalization. The third section explains the data, methods, and research strategy. The fourth section presents and discusses the quantitative and qualitative findings, and the fifth section concludes.
 
 \section{Globalization, Democracy, and Media}
 
@@ -297,6 +300,77 @@ grid.arrange(haiti_malawi_plots, ukraine_armenia_plots)
 \clearpage
 }
 
+
+\subsection{Robustness}
+
+Vector autoregression (VAR) refers to an "*n*-equation, *n*-variable linear model in which each variable is in turn explained by its own lagged values, plus current and past values of the remaining *n* - 1 variables" (Stock and Watson 2001). VAR is ideal for checking whether the causal arrow of a hypothesis is properly directed, as it reveals straightforwardly whether changes in one variable typically precede changes in another variable or vice versa. Given its relatively atheoretical nature, VAR is an especially attractive tool for checking the robustness of a causal hypothesis against the historical record: while it would be dangerous to use VAR for inductively determining causal relationships, a true causal relationship would have to be consistent with the stylized facts of a VAR. A standard tool of econometrics since the 1980s, software implementations of VAR for panel data have only become available recently (Love 2006).
+
+Panel VAR pools the time-series of multiple units (Hood et. al 2008; Hurlin and Venet 2001) as follows:
+
+$$ y_{i,t} = \alpha_{i} + \sum_{k=1}^p \gamma^{(k)} y_{i,t-k} + \sum_{k=0}^p \beta_i^{(k)} x_{i,t-k} + v_{i,t} $$
+
+for each of the cross-sections *i* and for all *t* in [1,T], where
+
+$$ \gamma^{(k)} $$ represents the autoregressive coefficients and
+$$ \beta_i^{(k)} $$ represents the regression coefficients
+
+\afterpage{
+\begin{figure}
+\centering
+\begin{subfigure}{.9\textwidth}
+  \centering
+  \includegraphics[width=.9\linewidth]{fhscore_response_to_trade.pdf}
+  \label{fig:sub1}
+\end{subfigure}
+\begin{subfigure}{.9\textwidth}
+  \centering
+  \includegraphics[width=.9\linewidth]{trade_response_to_fhscore.pdf}
+  \label{fig:sub2}
+\end{subfigure}
+\caption{Impulse Responses From a Panel VAR}
+\label{fig:testing}
+\end{figure}
+\clearpage
+}
+
+\afterpage{
+\begin{figure}
+\centering
+\begin{subfigure}{.9\textwidth}
+  \centering
+  \includegraphics[width=.9\linewidth]{fhscore_response_to_fdi.pdf}
+  \label{fig:sub3}
+\end{subfigure}
+\begin{subfigure}{.9\textwidth}
+  \centering
+  \includegraphics[width=.9\linewidth]{fdi_response_to_fhscore.pdf}
+  \label{fig:sub4}
+\end{subfigure}
+\caption{Impulse Responses From a Panel VAR}
+\label{fig:test2}
+\end{figure}
+\clearpage
+}
+
+\afterpage{
+\begin{figure}
+\centering
+\begin{subfigure}{.9\textwidth}
+  \centering
+  \includegraphics[width=.9\linewidth]{fhscore_response_to_fpi.pdf}
+  \label{fig:sub5}
+\end{subfigure}
+\begin{subfigure}{.9\textwidth}
+  \centering
+  \includegraphics[width=.9\linewidth]{fpi_response_to_fhscore.pdf}
+  \label{fig:sub6}
+\end{subfigure}
+\caption{Impulse Responses From a Panel VAR}
+\label{fig:test3}
+\end{figure}
+\clearpage
+}
+
 \subsection{Qualitative Within-Case Analysis}
 
 Next, I provide two brief case studies of Argentina and Mexico to assess qualitatively whether we can observe implications of trade liberalization generating pressures toward media repression.
@@ -368,6 +442,16 @@ The implications of this article are important for researchers of the globalizat
 
 
 \pagebreak
+
+\section{Appendix}
+
+\begin{figure}[!htb]
+\begin{center}
+\includegraphics[width=1\textwidth]{grcombine1.pdf}
+\caption{Digraph}
+\end{center}
+\end{figure}
+
 
 \begingroup
 \setstretch{0.8}

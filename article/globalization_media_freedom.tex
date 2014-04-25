@@ -69,6 +69,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
 \usepackage{afterpage}
 \usepackage{xpatch}
 \usepackage{csquotes}
@@ -116,18 +118,16 @@ Given the conventional wisdom that democratic political institutions drive econo
     \caption{Media Freedom and Trade vs. General Economic Globalization, 1970-2003}
     \label{absolute}
     \begin{center}
-
 \begin{knitrout}
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
 
-{\centering \includegraphics[width=0.8\linewidth]{figures/intrographs} 
+{\centering \includegraphics[width=\maxwidth]{figures/Intro} 
 
 }
 
 
 
 \end{knitrout}
-
 
     \end{center}
     \begin{singlespace}
@@ -144,7 +144,7 @@ This article provides the first systematic effort to explain how various compone
 
 To test these expectations, I use a mixed-methods research design combining statistical analysis of a large panel of countries from 1970 to 2003 and qualitative process-tracing on the cases of Argentina and Mexico. Several binary time-sectional, cross-series analyses (BTSCS) provide evidence that a country undergoing an increase in overall globalization is more likely to have a repressive media environment, even after controlling for previously well-established drivers of media freedom such as regime type, income, and economic growth. The statistical models also provide evidence that, unique among the components of globalization considered here, trade levels have a robustly negative association with media freedom in the long-run. The effects of foreign investment are also broadly consistent with expectations, however, their dynamics are under-determined by the theory: both FDI and FPI are both positively associated with media freedom, but whereas FDI \emph{flows} exert a positive effect (in the short-run), \emph{stocks} of FPI have a positive effect on media freedom (in the long-run). Finally, qualitative process-tracing on cases from Argentina and Mexico in the early 1990s, selected as relatively hard cases of consolidating democracies which for that reason strongly predict media freedom, each provide some illustration of the mechanism relating globalization to domestic politics.
 
-The article proceeds in five sections. The first section reviews previous research at the intersection of globalization, democracy, and the media. The second section presents a simple informal model of a national policymaker facing domestic backlash for the distributive conflicts brought on by an increase in economic openness, and deducts four hypotheses differentiating the expected effects of trade, FDI, FPI, and overall globalization. The third sectoin
+The article proceeds in five sections. The first section reviews previous research at the intersection of globalization, democracy, and the media. The second section presents a simple informal model of a national policymaker facing domestic backlash for the distributive conflicts brought on by an increase in economic openness, and deducts four hypotheses differentiating the expected effects of trade, FDI, FPI, and overall globalization. The third section explains the data, methods, and research strategy. The fourth section presents and discusses the quantitative and qualitative findings, and the fifth section concludes.
 
 \section{Globalization, Democracy, and Media}
 
@@ -235,7 +235,7 @@ Table 1 displays the results of 3 different logistic regressions assessing the p
 \afterpage{
 
 % Table created by stargazer v.4.5.3 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
-% Date and time: Mon, Apr 14, 2014 - 00:53:46
+% Date and time: Fri, Apr 25, 2014 - 19:13:33
 \begin{table}[!htbp] \centering 
   \caption{Standardized Logistic Regressions: Media Freedom} 
   \label{} 
@@ -318,7 +318,7 @@ The first finding of interest from Models 2 and 3 is that the coefficient for le
 \clearpage
 }
 
-As logit estimates are not conveniently interpretable, Figure 2 illustrates how the expected probability of observing media freedom in $country_{it}$ changes as its level of international trade increases. The predicted probabilities are based on 1000 simulations of the model.\footnote{The simulations were conducted in R with the package \emph{Zelig} \parencite*{ZeligEveryonesSt:2009ts}}. The expected probability of observing media freedom in a country completely closed to international trade, but typical with respect to all other variables, is .39. Increasing international trade one standard deviation above the mean of 67.5924 would be expected to decrease the probability of media freedom by -0.0707 to .31. The probability of observing media freedom in the most trade-open countries (greater than 200\% of GDP) is roughly 23\% less probable than in a country completely closed to trade.
+As logit estimates are not conveniently interpretable, Figure 2 illustrates how the expected probability of observing media freedom in $country_{it}$ changes as its level of international trade increases. The predicted probabilities are based on 1000 simulations of the model.\footnote{The simulations were conducted in R with the package \emph{Zelig} \parencite*{ZeligEveryonesSt:2009ts}}. The expected probability of observing media freedom in a country completely closed to international trade, but typical with respect to all other variables, is .39. Increasing international trade one standard deviation above the mean of 67.5924 would be expected to decrease the probability of media freedom by -0.0703 to .31. The probability of observing media freedom in the most trade-open countries (greater than 200\% of GDP) is roughly 23\% less probable than in a country completely closed to trade.
 
 The coefficients for FDI and FPI in Models 2 and 3 reveal evidence that each have postive effects on media freedom, but with different dynamics. FDI flows have a positive and statistically significant effect on the probability of observing media freedom, while FDI stocks have no discernable effect. FPI flows have no discernable effect but FPI stocks are positively associated with media freedom. In other words, Models 2 and 3 suggest that increases in inward FDI may generate immediate pressures in favor of a free media (but these pressures decay over time), whereas increases in inward FPI have little immediate effect but stocks of FPI increase the probability of a free media in the long run. The model thus provides support for Hypothesis 2 regarding the expected long-run effects of portfolio investment, but does not support Hypothesis 3 regarding the expected long-run effects of foreign direct investment.
 
@@ -378,7 +378,7 @@ The baseline, Model 1, already correctly predicts the state of media freedom in 
 \afterpage{
 
 % Table created by stargazer v.4.5.3 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
-% Date and time: Mon, Apr 14, 2014 - 00:54:26
+% Date and time: Fri, Apr 25, 2014 - 19:14:11
 \begin{table}[!htbp] \centering 
   \caption{Cases Incorrectly Classified by Democracy and Domestic Economy but
                       Correctly Classified by Adding Globalization Predictors} 
@@ -430,6 +430,77 @@ KUWAIT & $1994$ \\
         GDP per capita is divided by 100.
         Freedom House Freedom of the Press Scores are on a 0-100 scale.}}
     \end{singlespace}
+\end{figure}
+\clearpage
+}
+
+
+\subsection{Robustness}
+
+Vector autoregression (VAR) refers to an "*n*-equation, *n*-variable linear model in which each variable is in turn explained by its own lagged values, plus current and past values of the remaining *n* - 1 variables" (Stock and Watson 2001). VAR is ideal for checking whether the causal arrow of a hypothesis is properly directed, as it reveals straightforwardly whether changes in one variable typically precede changes in another variable or vice versa. Given its relatively atheoretical nature, VAR is an especially attractive tool for checking the robustness of a causal hypothesis against the historical record: while it would be dangerous to use VAR for inductively determining causal relationships, a true causal relationship would have to be consistent with the stylized facts of a VAR. A standard tool of econometrics since the 1980s, software implementations of VAR for panel data have only become available recently (Love 2006).
+
+Panel VAR pools the time-series of multiple units (Hood et. al 2008; Hurlin and Venet 2001) as follows:
+
+$$ y_{i,t} = \alpha_{i} + \sum_{k=1}^p \gamma^{(k)} y_{i,t-k} + \sum_{k=0}^p \beta_i^{(k)} x_{i,t-k} + v_{i,t} $$
+
+for each of the cross-sections *i* and for all *t* in [1,T], where
+
+$$ \gamma^{(k)} $$ represents the autoregressive coefficients and
+$$ \beta_i^{(k)} $$ represents the regression coefficients
+
+\afterpage{
+\begin{figure}
+\centering
+\begin{subfigure}{.9\textwidth}
+  \centering
+  \includegraphics[width=.9\linewidth]{fhscore_response_to_trade.pdf}
+  \label{fig:sub1}
+\end{subfigure}
+\begin{subfigure}{.9\textwidth}
+  \centering
+  \includegraphics[width=.9\linewidth]{trade_response_to_fhscore.pdf}
+  \label{fig:sub2}
+\end{subfigure}
+\caption{Impulse Responses From a Panel VAR}
+\label{fig:testing}
+\end{figure}
+\clearpage
+}
+
+\afterpage{
+\begin{figure}
+\centering
+\begin{subfigure}{.9\textwidth}
+  \centering
+  \includegraphics[width=.9\linewidth]{fhscore_response_to_fdi.pdf}
+  \label{fig:sub3}
+\end{subfigure}
+\begin{subfigure}{.9\textwidth}
+  \centering
+  \includegraphics[width=.9\linewidth]{fdi_response_to_fhscore.pdf}
+  \label{fig:sub4}
+\end{subfigure}
+\caption{Impulse Responses From a Panel VAR}
+\label{fig:test2}
+\end{figure}
+\clearpage
+}
+
+\afterpage{
+\begin{figure}
+\centering
+\begin{subfigure}{.9\textwidth}
+  \centering
+  \includegraphics[width=.9\linewidth]{fhscore_response_to_fpi.pdf}
+  \label{fig:sub5}
+\end{subfigure}
+\begin{subfigure}{.9\textwidth}
+  \centering
+  \includegraphics[width=.9\linewidth]{fpi_response_to_fhscore.pdf}
+  \label{fig:sub6}
+\end{subfigure}
+\caption{Impulse Responses From a Panel VAR}
+\label{fig:test3}
 \end{figure}
 \clearpage
 }
@@ -512,6 +583,16 @@ The implications of this article are important for researchers of the globalizat
 
 
 \pagebreak
+
+\section{Appendix}
+
+\begin{figure}[!htb]
+\begin{center}
+\includegraphics[width=1\textwidth]{grcombine1.pdf}
+\caption{Digraph}
+\end{center}
+\end{figure}
+
 
 \begingroup
 \setstretch{0.8}

@@ -13,5 +13,5 @@ x.lo <- setx(z.out, lopenk=0)
 x.hi <- setx(z.out, lopenk=mean(df$lopenk)+sd(df$lopenk))
 s.out.trade <- sim(z.out, x = x.lo, x1 = x.hi)
 
-summary(s.out.trade)
-mean(s.out.trade$qi$fd)
+#summary(s.out.trade)
+#mean(s.out.trade$qi$fd)
