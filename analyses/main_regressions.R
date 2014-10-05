@@ -1,23 +1,30 @@
 require(Zelig)
-require(rms)
+require(splines)
 
 modelvars<-read.csv("~/Dropbox/gh_projects/globalization_media_freedom/data/out_modelvars.csv")
 df<-read.csv("~/Dropbox/gh_projects/globalization_media_freedom/data/out_df.csv")
 df$fp<-as.factor(df$fp)
 
-modelvars$spline<-rcs(as.numeric(modelvars$year1),3)
-modelvars<-subset(modelvars, select=c("fp", "scode", "year", "year1", "year2", "year3", "lpolity2",  "ldpolity2", "lrgdpch", "lgrgdpch", "interp", "lopenk", 
-  "ldopenk", "lfdiinward", "lfdiinflow", "lfpistock", "lfpi", "spline", "lpolglob", "ldpolglob", "leconglob", "ldeconglob", "loverallglob", "linfoglob", "ldinfoglob", "ldoverallglob"))
+
+modelvars<-subset(modelvars, select=c("fp", "scode", "year", "lpolity2", "ldpolity2", "lrgdpch", "lgrgdpch", "lopenk", "ldopenk", "lfdiinward", "lfdiinflow", "lfpistock", "lfpi"))
 modelvars<-modelvars[complete.cases(modelvars),]
 
-df$spline<-rcs(as.numeric(df$year1),3)
-df<-subset(df, select=c("fp", "scode", "year", "year1", "year2", "year3", "lpolity2",  "ldpolity2", "lrgdpch", "lgrgdpch", "interp", "lopenk", 
-                                      "ldopenk", "lfdiinward", "lfdiinflow", "lfpistock", "lfpi", "spline", "lpolglob", "ldpolglob", "leconglob", "ldeconglob", "loverallglob", "linfoglob", "ldinfoglob", "ldoverallglob"))
+spline<-ns(1972:2003, df=3)
+spline<-as.data.frame(spline)
+names(spline)<-c("spline1", "spline2", "spline3")
+spline$year<-1972:2003
+modelvars<-merge(modelvars, spline, by="year")
+modelvars<-modelvars[with(modelvars, order(scode, year)), ]
+
+df<-subset(df, select=c("fp", "scode", "year", "lpolity2", "ldpolity2", "lrgdpch", "lgrgdpch", "lopenk", "ldopenk", "lfdiinward", "lfdiinflow", "lfpistock", "lfpi"))
 df<-df[complete.cases(df),]
+
+df<-merge(df, spline, by="year")
+df<-df[with(df, order(scode, year)), ]
 
 
 ### Model 1, Baseline ###
-model1<-zelig(fp ~ lpolity2 + ldpolity2 + lrgdpch + lgrgdpch + interp + spline,
+model1<-zelig(fp ~ lpolity2 + ldpolity2 + lrgdpch + lgrgdpch + spline1 + spline2 + spline3,
               model="logit",
               robust=TRUE,
               data=modelvars,
@@ -25,9 +32,10 @@ model1<-zelig(fp ~ lpolity2 + ldpolity2 + lrgdpch + lgrgdpch + interp + spline,
 
 model1classif<-table(model1$result$fitted.values>.5, model1$result$y)
 model1correct<-(model1classif[1,1] + model1classif[2,2])
-model1correct
+(model1correct/4052)*100
+#summary(model1)
 
-model2<-zelig(fp ~ lpolity2 + ldpolity2 + lrgdpch + lgrgdpch + interp + spline + lopenk + ldopenk + lfdiinward + lfdiinflow + lfpistock  + lfpi,
+model2<-zelig(fp ~ lpolity2 + ldpolity2 + lrgdpch + lgrgdpch + spline1 + spline2 + spline3 + lopenk + ldopenk + lfdiinward + lfdiinflow + lfpistock  + lfpi,
                  model="logit",
                  robust=TRUE,
                  data=modelvars,
@@ -35,21 +43,11 @@ model2<-zelig(fp ~ lpolity2 + ldpolity2 + lrgdpch + lgrgdpch + interp + spline +
 
 model2classif<-(table(model2$result$fitted.values>.5, model2$result$y))
 model2correct<-(model2classif[1,1] + model2classif[2,2])
-model2correct
+(model2correct/4052)*100
+summary(model2)
 
-model3<-zelig(fp ~ lpolity2 + ldpolity2 + lrgdpch + lgrgdpch + interp + spline + lopenk + ldopenk + lfdiinward + lfdiinflow + lfpistock  + lfpi + loverallglob + ldoverallglob,
-                 model="logit",
-                 robust=TRUE,
-                 data=modelvars,
-                 cite=F)
 
-model3classif<-(table(model3$result$fitted.values>.5, model3$result$y))
-model3correct<-(model3classif[1,1] + model3classif[2,2])
-model3correct
-
-z.out<-zelig(fp ~ lpolity2 + ldpolity2 + lrgdpch + lgrgdpch + interp + year1 + year2 +
-                        lopenk + ldopenk + lfdiinward + lfdiinflow + lfpistock  + lfpi + loverallglob +
-                        ldoverallglob,
+z.out<-zelig(fp ~ lpolity2 + ldpolity2 + lrgdpch + lgrgdpch + spline1 + spline2 + spline3 + lopenk + ldopenk + lfdiinward + lfdiinflow + lfpistock  + lfpi,
               model="logit",
               robust=TRUE,
               data=df,

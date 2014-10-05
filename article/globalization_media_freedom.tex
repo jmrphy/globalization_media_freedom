@@ -89,9 +89,7 @@
 \renewcommand*{\bibpagespunct}{\addcolon\space}
 \addbibresource{mybib.bib}
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-
 \begin{document}
-
 
 
 
@@ -128,7 +126,6 @@ Given the conventional wisdom that democratic political institutions drive econo
 
 
 \end{knitrout}
-
     \end{center}
     \begin{singlespace}
         {\scriptsize{The KOF Index of Globalization is a 100-point scale reflecting the quantity of international trade and investment policy restrictions as well as flows of trade, FDI, FPI, and income paid to foreign nationals and capital \parencite[43]{Dreher:2008dg}. Media freedom is measured on a dichotomous scale (free or not free). See the section on Data and Method for a detailed description of the data sources. 
@@ -234,61 +231,55 @@ Table 1 displays the results of 3 different logistic regressions assessing the p
 
 \afterpage{
 
-% Table created by stargazer v.4.5.3 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
-% Date and time: Fri, Apr 25, 2014 - 19:13:33
+% Table created by stargazer v.5.0 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+% Date and time: Wed, Oct 01, 2014 - 17:22:11
 \begin{table}[!htbp] \centering 
   \caption{Standardized Logistic Regressions: Media Freedom} 
   \label{} 
 \footnotesize 
-\begin{tabular}{@{\extracolsep{5pt}}lccc} 
+\begin{tabular}{@{\extracolsep{5pt}}lcc} 
 \\[-1.8ex]\hline \\[-1.8ex] 
-\\[-1.8ex] & (1) & (2) & (3)\\ 
+\\[-1.8ex] & (1) & (2)\\ 
 \hline \\[-1.8ex] 
- Democracy level & 4.09$^{***}$ & 4.08$^{***}$ & 4.08$^{***}$ \\ 
-  & (0.14) & (0.15) & (0.16) \\ 
-  Democracy change & $-$0.23$^{***}$ & $-$0.24$^{***}$ & $-$0.24$^{***}$ \\ 
-  & (0.08) & (0.08) & (0.08) \\ 
-  GDP per capita & 1.34$^{***}$ & 0.97$^{***}$ & 0.92$^{***}$ \\ 
-  & (0.12) & (0.15) & (0.21) \\ 
-  GDP per capita change & 0.28$^{**}$ & 0.25$^{*}$ & 0.23$^{*}$ \\ 
-  & (0.13) & (0.14) & (0.14) \\ 
-  Interpolated & $-$0.07 & $-$0.11 & $-$0.12 \\ 
-  & (0.23) & (0.23) & (0.23) \\ 
-  Spline 1 & 1.64 & 2.46$^{**}$ & 2.52$^{**}$ \\ 
-  & (1.18) & (1.19) & (1.20) \\ 
-  Spline 2 & $-$2.48$^{**}$ & $-$3.60$^{***}$ & $-$3.60$^{***}$ \\ 
-  & (1.19) & (1.22) & (1.22) \\ 
-  Trade level &  & $-$0.32$^{***}$ & $-$0.33$^{***}$ \\ 
-  &  & (0.12) & (0.12) \\ 
-  Trade change &  & 0.02 & 0.04 \\ 
-  &  & (0.14) & (0.14) \\ 
-  FDI level &  & 0.68 & 0.53 \\ 
-  &  & (0.42) & (0.44) \\ 
-  FDI change &  & 0.33$^{**}$ & 0.37$^{**}$ \\ 
-  &  & (0.15) & (0.15) \\ 
-  FPI level &  & 1.05$^{***}$ & 1.03$^{***}$ \\ 
-  &  & (0.18) & (0.18) \\ 
-  FPI change &  & $-$0.03 & $-$0.02 \\ 
-  &  & (0.16) & (0.17) \\ 
-  Overall KOF level &  &  & 0.09 \\ 
-  &  &  & (0.25) \\ 
-  Overall KOF change &  &  & $-$0.21$^{**}$ \\ 
-  &  &  & (0.10) \\ 
-  Constant & $-$0.47 & $-$0.05 & $-$0.05 \\ 
-  & (0.29) & (0.30) & (0.30) \\ 
- N & 3,519 & 3,519 & 3,519 \\ 
-Log Likelihood & $-$1,216.00 & $-$1,185.00 & $-$1,183.00 \\ 
-AIC & 2,447.00 & 2,399.00 & 2,398.00 \\ 
+ Democracy level & 4.13$^{***}$ & 4.12$^{***}$ \\ 
+  & (0.12) & (0.12) \\ 
+  Democracy change & $-$0.13$^{*}$ & $-$0.15$^{**}$ \\ 
+  & (0.07) & (0.07) \\ 
+  GDP per capita & 0.63$^{***}$ & 0.34$^{**}$ \\ 
+  & (0.11) & (0.15) \\ 
+  GDP per capita change & 0.10 & 0.09 \\ 
+  & (0.09) & (0.10) \\ 
+  Spline 1 & 0.30 & 0.31 \\ 
+  & (0.20) & (0.20) \\ 
+  Spline 2 & 0.11 & 0.09 \\ 
+  & (0.46) & (0.46) \\ 
+  Spline 3 & 0.38$^{**}$ & 0.24 \\ 
+  & (0.15) & (0.16) \\ 
+  Trade level &  & $-$0.33$^{***}$ \\ 
+  &  & (0.11) \\ 
+  Trade change &  & $-$0.05 \\ 
+  &  & (0.11) \\ 
+  FDI level &  & $-$0.37$^{*}$ \\ 
+  &  & (0.20) \\ 
+  FDI change &  & 0.23$^{*}$ \\ 
+  &  & (0.12) \\ 
+  FPI level &  & 0.85$^{***}$ \\ 
+  &  & (0.17) \\ 
+  FPI change &  & 0.01 \\ 
+  &  & (0.18) \\ 
+  Constant & $-$0.90$^{***}$ & $-$0.84$^{***}$ \\ 
+  & (0.19) & (0.19) \\ 
+ N & 4,052 & 4,052 \\ 
+Log Likelihood & $-$1,429.00 & $-$1,406.00 \\ 
+AIC & 2,874.00 & 2,839.00 \\ 
 \hline \\[-1.8ex] 
-\multicolumn{4}{l}{$^{*}$p $<$ .1; $^{**}$p $<$ .05; $^{***}$p $<$ .01} \\ 
-\normalsize 
+\multicolumn{3}{l}{$^{*}$p $<$ .1; $^{**}$p $<$ .05; $^{***}$p $<$ .01} \\ 
 \end{tabular} 
 \end{table} 
 
-
 \clearpage
 }
-Model 1 represents a baseline model of media freedom as a function of only democracy and GDP per capita, with a cubic spline of time to control for autocorrelation \parencite{Beck:1998wg} and a dummy variable for the years in which the Freedom House data were interpolated into Van Belle's binary scale. Model 2 adds to the baseline model levels and changes of international trade, inward FDI, inward FPI, and overall globalization measured by the KOF index. Model 3 adds the KOF measures of overall globalization to assess whether levels and changes of overall globalization shape media freedom over and above the independent effects of particular components of economic openness. Inclusion of this variable also functions as an additional check on Model 2, mitigating the possibility that the estimated effects of trade, FDI, and FPI spuriously reflect some other aspect of globalization with which they are correlated.
+Model 1 represents a baseline model of media freedom as a function of only democracy and GDP per capita, with a natural cubic spline of time to control for autocorrelation \parencite{Beck:1998wg} and a dummy variable for the years in which the Freedom House data were interpolated into Van Belle's binary scale. Model 2 adds to the baseline model levels and changes of international trade, inward FDI, inward FPI, and overall globalization measured by the KOF index. Model 3 adds the KOF measures of overall globalization to assess whether levels and changes of overall globalization shape media freedom over and above the independent effects of particular components of economic openness. Inclusion of this variable also functions as an additional check on Model 2, mitigating the possibility that the estimated effects of trade, FDI, and FPI spuriously reflect some other aspect of globalization with which they are correlated.
 
 Most of the control variables are consistent with standard expectations, but the estimated relationship between democratization and media freedom is suprising and robust across all three models. Level of democracy has a predictably positive association with media freedom and is statistically significant in all models. But surprisingly, changes in democracy (democratization) have a negative relationship to media freedom, suggesting that while democratic states in the long-run are more likely to have free media, democratizing states tend to repress the media. Levels of GDP per capita are positively signed and also significant, while changes in GDP per capita also appear to have a positive and significant effect on media freedom. The dummy variable for interpolated country-years controls for whatever artificial discontinuity was introduced into the dynamics of the dependent variable by interpolating the Freedom House measure into the scale used by Van Belle. The coefficient is negative but never significant, suggesting that the interpolation is not appreciably problematic but controlled for nonetheless. The first and second knots of the cubic spline show reversed signs and are statistically significant in all models but the first, unsurprisingly reflecting autocorrelation in the dependent variable.
 
@@ -309,16 +300,15 @@ The first finding of interest from Models 2 and 3 is that the coefficient for le
 
 
 \end{knitrout}
-
   \end{center}
     \begin{singlespace}
-        {\scriptsize{Expected values from 1000 simulations of Model 3 in Table 1.}}
+        {\scriptsize{Expected values from 1000 simulations of Model 2 in Table 1.}}
     \end{singlespace}
 \end{figure}
 \clearpage
 }
 
-As logit estimates are not conveniently interpretable, Figure 2 illustrates how the expected probability of observing media freedom in $country_{it}$ changes as its level of international trade increases. The predicted probabilities are based on 1000 simulations of the model.\footnote{The simulations were conducted in R with the package \emph{Zelig} \parencite*{ZeligEveryonesSt:2009ts}}. The expected probability of observing media freedom in a country completely closed to international trade, but typical with respect to all other variables, is .39. Increasing international trade one standard deviation above the mean of 67.5924 would be expected to decrease the probability of media freedom by -0.0703 to .31. The probability of observing media freedom in the most trade-open countries (greater than 200\% of GDP) is roughly 23\% less probable than in a country completely closed to trade.
+As logit estimates are not conveniently interpretable, Figure 2 illustrates how the expected probability of observing media freedom in $country_{it}$ changes as its level of international trade increases. The predicted probabilities are based on 1000 simulations of the model.\footnote{The simulations were conducted in R with the package \emph{Zelig} \parencite*{ZeligEveryonesSt:2009ts}}. The expected probability of observing media freedom in a country completely closed to international trade, but typical with respect to all other variables, is .39. Increasing international trade one standard deviation above the mean of 68.4284 would be expected to decrease the probability of media freedom by \ensuremath{-0.0958} to .31. The probability of observing media freedom in the most trade-open countries (greater than 200\% of GDP) is roughly 23\% less probable than in a country completely closed to trade.
 
 The coefficients for FDI and FPI in Models 2 and 3 reveal evidence that each have postive effects on media freedom, but with different dynamics. FDI flows have a positive and statistically significant effect on the probability of observing media freedom, while FDI stocks have no discernable effect. FPI flows have no discernable effect but FPI stocks are positively associated with media freedom. In other words, Models 2 and 3 suggest that increases in inward FDI may generate immediate pressures in favor of a free media (but these pressures decay over time), whereas increases in inward FPI have little immediate effect but stocks of FPI increase the probability of a free media in the long run. The model thus provides support for Hypothesis 2 regarding the expected long-run effects of portfolio investment, but does not support Hypothesis 3 regarding the expected long-run effects of foreign direct investment.
 
@@ -337,7 +327,6 @@ The coefficients for FDI and FPI in Models 2 and 3 reveal evidence that each hav
 
 
 \end{knitrout}
-
   \end{center}
     \begin{singlespace}
         {\scriptsize{Expected values from 1000 simulations of Model 3 in Table 1.}}
@@ -362,7 +351,6 @@ The coefficients for FDI and FPI in Models 2 and 3 reveal evidence that each hav
 
 
 \end{knitrout}
-
   \end{center}
     \begin{singlespace}
         {\scriptsize{Expected values from 1000 simulations of Model 3 in Table 1.}}
@@ -373,66 +361,42 @@ The coefficients for FDI and FPI in Models 2 and 3 reveal evidence that each hav
 
 In Model 3, the coefficient for \emph{Overall KOF change} is negative and statistically significant, as predicted by Hypothesis 4. Also, the coefficients and standard errors from Model 2 remain stable after controlling for overall globalization, mitigating the possibility that the results of Model 2 are spuriously reflecting some other dimension of globalization.
 
-The baseline, Model 1, already correctly predicts the state of media freedom in a high proportion of cases, 3039 country-years. Model 3 correctly explains 12 additional cases, correctly classifying 3051. To get a sense of the cases which are poorly predicted by democracy, income, and economic growth but accurately predicted when globalization is accounted for, Table 2 identifies all the country years which were incorrectly classified by Model 1 but correctly classified by Model 3.
-
-\afterpage{
-
-% Table created by stargazer v.4.5.3 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
-% Date and time: Fri, Apr 25, 2014 - 19:14:11
-\begin{table}[!htbp] \centering 
-  \caption{Cases Incorrectly Classified by Democracy and Domestic Economy but
-                      Correctly Classified by Adding Globalization Predictors} 
-  \label{} 
-\begin{tabular}{@{\extracolsep{5pt}} cc} 
-\\[-1.8ex]\hline \\[-1.8ex] 
-Country & Year \\ 
-\hline \\[-1.8ex] 
-UKRAINE & $1993$ \\ 
-UKRAINE & $1994$ \\ 
-UKRAINE & $1998$ \\ 
-ARMENIA & $1994$ \\ 
-ARMENIA & $1995$ \\ 
-HAITI & $1996$ \\ 
-MALAWI & $1996$ \\ 
-KUWAIT & $1976$ \\ 
-KUWAIT & $1977$ \\ 
-KUWAIT & $1980$ \\ 
-KUWAIT & $1994$ \\ 
-\hline \\[-1.8ex] 
-\normalsize 
-\end{tabular} 
-\end{table} 
-
-
-\clearpage
-}
-
-\afterpage{
-\begin{figure}[t]
-    \caption{Cases Unexplained by Democracy and Domestic Economy: Haiti, Malawi, Armenia, and Ukraine}
-    \label{absolute}
-    \begin{center}
-\begin{knitrout}
-\definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}
-
-{\centering \includegraphics[width=\maxwidth]{figures/Explained_Cases_Plots} 
-
-}
-
-
-
-\end{knitrout}
-
-\end{center}
-    \begin{singlespace}
-        {\scriptsize{Grey shading indicates periods of media repression (\emph{Media Freedom} = 0).
-        International economic variables are measured as shares of GDP.
-        GDP per capita is divided by 100.
-        Freedom House Freedom of the Press Scores are on a 0-100 scale.}}
-    \end{singlespace}
-\end{figure}
-\clearpage
-}
+The baseline, Model 1, already correctly predicts the state of media freedom in a high proportion of cases, 3436 country-years. Model 3 correctly explains BLANK. To get a sense of the cases which are poorly predicted by democracy, income, and economic growth but accurately predicted when globalization is accounted for, Table 2 identifies all the country years which were incorrectly classified by Model 1 but correctly classified by Model 3.
+% 
+% \afterpage{
+% <<Interesting_Cases, results='asis', cache=FALSE>>=
+% source("/Users/justin/Dropbox/gh_projects/globalization_media_freedom/analyses/explained_cases.R")
+% require(stargazer)
+% stargazer(model3.cases,
+%           title="Cases Incorrectly Classified by Democracy and Domestic Economy but
+%                       Correctly Classified by Adding Globalization Predictors",
+%           style = "apsr",
+%           summary=FALSE,
+%           digit.separator=""
+%                       )
+% @
+% \clearpage
+% }
+% 
+% \afterpage{
+% \begin{figure}[t]
+%     \caption{Cases Unexplained by Democracy and Domestic Economy: Haiti, Malawi, Armenia, and Ukraine}
+%     \label{absolute}
+%     \begin{center}
+% <<Explained_Cases_Plots, fig.align='center', cache=FALSE>>=
+% source("/Users/justin/Dropbox/gh_projects/globalization_media_freedom/analyses/explained_cases_plots.R")
+% grid.arrange(haiti_malawi_plots, ukraine_armenia_plots)
+% @
+% \end{center}
+%     \begin{singlespace}
+%         {\scriptsize{Grey shading indicates periods of media repression (\emph{Media Freedom} = 0).
+%         International economic variables are measured as shares of GDP.
+%         GDP per capita is divided by 100.
+%         Freedom House Freedom of the Press Scores are on a 0-100 scale.}}
+%     \end{singlespace}
+% \end{figure}
+% \clearpage
+% }
 
 
 \subsection{Robustness}
@@ -524,7 +488,6 @@ Next, I provide two brief case studies of Argentina and Mexico to assess qualita
 
 
 \end{knitrout}
-
   \end{center}
     \begin{singlespace}
         {\scriptsize{Grey shading indicates periods of media repression (\emph{Media Freedom} = 0).
@@ -585,6 +548,8 @@ The implications of this article are important for researchers of the globalizat
 \pagebreak
 
 \section{Appendix}
+
+\input{vardecomp.tex}
 
 \begin{figure}[!htb]
 \begin{center}

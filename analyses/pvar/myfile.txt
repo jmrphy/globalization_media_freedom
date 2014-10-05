@@ -1,0 +1,11 @@
+	(1)
+	Full
+VARIABLES	__000006
+	
+L.__000006	-0.000488
+	(0.0142)
+	
+Observations	7,985
+R-squared	0.000
+Robust standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	

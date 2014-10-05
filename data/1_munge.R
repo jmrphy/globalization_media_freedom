@@ -23,8 +23,6 @@ rm(econ2)
 
 df<-merge(media, econ, by=c("scode", "year"))
 
-df$interp<-ifelse(df$year>=1996, 1, 0)
-
 setwd("~/Dropbox/Data General/KOF")
 require(gdata)
 kof<-read.xls("globalization_2012_long.xls", sheet=2, na.strings=c("."))
@@ -60,14 +58,54 @@ df$year2<-as.numeric(df$year)^2
 df$year3<-as.numeric(df$year)^3
 df$country<-countrycode(df$scode, "cown", "country.name")
 
+require(gdata)
+fh<-read.xls("~/Dropbox/gh_projects/globalization_media_freedom/data/FreedomHouse_1980_2013.xls", sheet=2)
+fh<-fh[3:212,1:62]
+fh<-fh[,c(1,23:62)]
+fh<-fh[, c(1, seq(2, ncol(fh), by = 2))]
+
+
+names(fh)[1]<-paste("Country")
+names(fh)[2:21]<-paste(1993:2012)
+fh<-fh[3:210,]
+
+require(reshape)
+
+fhlong<-reshape(fh, direction="long", varying=list(names(fh)[2:21]), v.names="FHscore", 
+                idvar=c("Country"), timevar="Year", times=1993:2012)
+
+fhlong$FHscore[fhlong$FHscore=="N/A"]<-NA
+
+fhlong$FHscore<-as.numeric(levels(fhlong$FHscore))[fhlong$FHscore]
+
+fhlong$FHscore<-100-fhlong$FHscore
+fh<-fhlong
+rm(fhlong)
+
+require(countrycode)
+fh$scode<-countrycode(fh$Country, "country.name", "cown")
+
+fh$scode[fh$Country=="Germany, East"]<-NA
+fh$scode[fh$Country=="Germany, West"]<-NA
+fh$scode[fh$Country=="Yemen, North"]<-NA
+fh$scode[fh$Country=="Yemen, South"]<-NA
+fh$scode[fh$Country=="Cyprus (Turkish)"]<-NA
+fh$scode[fh$Country=="USSR"]<-NA
+
+fh$year<-fh$Year
+
+fh<-fh[with(fh, order(scode, year)), ]
+
+df<-merge(df, fh, by=c("scode", "year"), all.x=TRUE)
+
 require(arm)
-modelvars<-subset(df, select=c("scode", "interp", "fp", "lfp", "fp2", "lfp2", "year", "year1", "year2", "year3", "lopenk",
+modelvars<-subset(df, select=c("scode", "fp", "lfp", "fp2", "lfp2", "year", "year1", "year2", "year3", "FHscore",  "lopenk",
                                "ldopenk", "lfdiinward", "lfdiinflow", "lfpi", "lfpistock", "lpolity2", "ldpolity2",
                                "lrgdpch", "lgrgdpch", "economic.globalization", "leconglob", "ldeconglob", "lrestrict", "ldrestrict",
-                               "lpolglob", "ldpolglob", "linfoglob", "ldinfoglob",
+                               "lpolglob", "ldpolglob", "linfoglob", "ldinfoglob", "leconglob", "ldeconglob",
                                "lflows", "ldflows", "loverallglob", "ldoverallglob", "actual.flows", "restrictions",
                                "political.globalization", "information.flows", "overall.globalization.index")) 
-modelvars[,8:38]<-sapply(modelvars[,8:38], rescale)
+modelvars[,7:38]<-sapply(modelvars[,7:38], rescale)
 
 
 

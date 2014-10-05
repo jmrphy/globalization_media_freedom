@@ -22,3 +22,5 @@ Done
 
 - Notable changes for diss notes
 1. Condensed abstract
+
+In particular, I use the newly released Global Media Freedom Dataset by Whitten-Woodring and Van Belle \parencites{Belle:1997wo}{van2000press} and newly expanded measures of economic openness from Sorens and Ruger \parencite{Sorens:2012hc} to analyze a large panel of countries from \Sexpr{min(df$year)} to \Sexpr{max(df$year)}.

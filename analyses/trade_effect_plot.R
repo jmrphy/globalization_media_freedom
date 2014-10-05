@@ -2,7 +2,7 @@ require(Zelig)
 
 source("/Users/justin/Dropbox/gh_projects/globalization_media_freedom/analyses/main_regressions.R")
 
-trade.r <- min(df$lopenk):max(df$lopenk)
+trade.r<-seq(min(df$lopenk),max(df$lopenk), 50) # ~ min to max in sample
 x.trade<-setx(z.out, lopenk=trade.r)
 s.out<-sim(z.out, x = x.trade)
 trade.plot<-plot.ci(s.out, ci=c(90,95,99), qi="ev", leg=4, ylim=0:1,
