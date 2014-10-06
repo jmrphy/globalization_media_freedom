@@ -8,11 +8,11 @@ df$FDI<-df$fdiinward
 df$FPI<-df$fpistock
 df$FH.Score<-df$FHscore
 
-cases<-subset(df, year>=1993 & year<=2003 & (country=="MEXICO" |
+cases<-subset(df, year>=1980 & year<=2003 & (country=="MEXICO" |
                                                country=="ARGENTINA"),
               select=c("country", "year", "FH.Score", "FDI", "FPI", "Trade"))
 
-cases[3:8]<-sapply(cases[3:8], function(x) scale(x))
+cases[3:6]<-sapply(cases[3:6], function(x) scale(x))
 
 dfm <- melt(cases, id.vars=c("country","year"))
 
