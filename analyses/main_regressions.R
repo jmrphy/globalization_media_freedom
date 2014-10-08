@@ -8,6 +8,7 @@ df$fp<-as.factor(df$fp)
 
 modelvars<-subset(modelvars, select=c("fp", "scode", "year", "lpolity2", "ldpolity2", "lrgdpch", "lgrgdpch", "lopenk", "ldopenk", "lfdiinward", "lfdiinflow", "lfpistock", "lfpi"))
 modelvars<-modelvars[complete.cases(modelvars),]
+modelvars<-subset(modelvars, !scode==450)
 
 spline<-ns(1972:2003, df=3)
 spline<-as.data.frame(spline)
@@ -18,6 +19,8 @@ modelvars<-modelvars[with(modelvars, order(scode, year)), ]
 
 df<-subset(df, select=c("fp", "scode", "year", "lpolity2", "ldpolity2", "lrgdpch", "lgrgdpch", "lopenk", "ldopenk", "lfdiinward", "lfdiinflow", "lfpistock", "lfpi"))
 df<-df[complete.cases(df),]
+df<-subset(df, !scode==450) # Remove Liberia because of errors for now
+
 
 df<-merge(df, spline, by="year")
 df<-df[with(df, order(scode, year)), ]

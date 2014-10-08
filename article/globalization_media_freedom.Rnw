@@ -219,7 +219,7 @@ source("/Users/justin/Dropbox/gh_projects/globalization_media_freedom/analyses/t
 \clearpage
 }
 
-As logit estimates are not conveniently interpretable, Figure 2 illustrates how the expected probability of observing media freedom in $country_{it}$ changes as its level of international trade increases. The predicted probabilities are based on 1000 simulations of the model.\footnote{The simulations were conducted in R with the package \emph{Zelig} \parencite*{ZeligEveryonesSt:2009ts}}. The expected probability of observing media freedom in a country completely closed to international trade, with mean values on the other variables in the model, is .42. Increasing international trade from zero to \Sexpr{mean(df$lopenk)+sd(df$lopenk)}, which is one standard deviation above the mean of \Sexpr{mean(df$lopenk)}, would be expected to decrease the probability of media freedom by \Sexpr{mean(s.out.trade$qi$fd)} to .33.
+As logit estimates are not conveniently interpretable, Figure 2 illustrates how the expected probability of observing media freedom in $country_{it}$ changes as its level of international trade increases.\footnote{All discussion of predicted probabilities are based on 1000 simulations of the model. The simulations were conducted in R with the package \emph{Zelig} \parencite*{ZeligEveryonesSt:2009ts}}. The expected probability of observing media freedom in a country completely closed to international trade, with mean values on the other variables in the model, is .42. Increasing international trade from zero to \Sexpr{mean(df$lopenk)+sd(df$lopenk)}, which is one standard deviation above the mean of \Sexpr{mean(df$lopenk)}, would be expected to decrease the probability of media freedom by \Sexpr{mean(s.out.trade$qi$fd)} to .33.
 
 \afterpage{
 \begin{figure}[t]
@@ -237,6 +237,7 @@ source("/Users/justin/Dropbox/gh_projects/globalization_media_freedom/analyses/f
 \clearpage
 }
 
+Figure 3 plots the expected probability of observing media freedom in $country_{it}$ given year-to-year changes in FDI inflows. The expected probability of observing media freedom given zero change in FDI inflows and all other variables held constant at their mean, is .35. A one standard deviation increase in FDI inflow, to \Sexpr{mean(df$lfdiinflow)+sd(df$lfdiinflow)}, would be expected to increase the probability of media freedom by \Sexpr{mean(s.out.fdi$qi$fd)} to .39.
 
 \afterpage{
 \begin{figure}[t]
@@ -255,6 +256,7 @@ source("/Users/justin/Dropbox/gh_projects/globalization_media_freedom/analyses/f
 }
 
 
+Figure 4 plots the expected probability of observing media freedom in $country_{it}$ given increases in FPI stocks. The expected probability of observing media freedom given zero change in FDI inflows and all other variables held constant at their mean, is .33. An increase in FPI inflow to one standard deviation greater than the mean (\Sexpr{mean(df$lfpistock)+sd(df$lfpistock)}), would be expected to increase the probability of media freedom by \Sexpr{mean(s.out.fpi$qi$fd)} to .47.
 
 % 
 % \afterpage{
@@ -301,10 +303,7 @@ Panel VAR pools the time-series of multiple units (Hood et. al 2008; Hurlin and 
 
 $$ y_{i,t} = \alpha_{i} + \sum_{k=1}^p \gamma^{(k)} y_{i,t-k} + \sum_{k=0}^p \beta_i^{(k)} x_{i,t-k} + v_{i,t} $$
 
-for each of the cross-sections *i* and for all *t* in [1,T], where
-
-$$ \gamma^{(k)} $$ represents the autoregressive coefficients and
-$$ \beta_i^{(k)} $$ represents the regression coefficients
+for each of the cross-sections *i* and for all *t* in [1,T], where $ \gamma^{(k)} $ represents the autoregressive coefficients and $ \beta_i^{(k)} $ represents the regression coefficients.
 
 \afterpage{
 \begin{figure}

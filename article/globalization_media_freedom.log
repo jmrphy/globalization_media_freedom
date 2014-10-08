@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  6 OCT 2014 16:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  8 OCT 2014 13:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1893,123 +1893,134 @@ Package pdftex.def Info: figures/Trade_Effect_Plot.pdf used on input line 310.
 
 ]
 
-Package xcolor Warning: Incompatible color definition on input line 470.
+Package xcolor Warning: Incompatible color definition on input line 412.
 
-<figures/FDI_Effect_Plot.pdf, id=391, 505.89pt x 361.35pt>
-File: figures/FDI_Effect_Plot.pdf Graphic file (type pdf)
+<figures/FDI_Effect_Plot1.pdf, id=388, 505.89pt x 361.35pt>
+File: figures/FDI_Effect_Plot1.pdf Graphic file (type pdf)
 
-<use figures/FDI_Effect_Plot.pdf>
-Package pdftex.def Info: figures/FDI_Effect_Plot.pdf used on input line 470.
+<use figures/FDI_Effect_Plot1.pdf>
+Package pdftex.def Info: figures/FDI_Effect_Plot1.pdf used on input line 412.
 (pdftex.def)             Requested size: 452.9679pt x 323.55235pt.
- [26 <./figures/FDI_Effect_Plot.pdf>]
 
-Package xcolor Warning: Incompatible color definition on input line 470.
+<figures/FDI_Effect_Plot2.pdf, id=389, 505.89pt x 361.35pt>
+File: figures/FDI_Effect_Plot2.pdf Graphic file (type pdf)
 
-<figures/FPI_Effect_Plot.pdf, id=406, 505.89pt x 361.35pt>
+<use figures/FDI_Effect_Plot2.pdf>
+Package pdftex.def Info: figures/FDI_Effect_Plot2.pdf used on input line 412.
+(pdftex.def)             Requested size: 452.9679pt x 323.55235pt.
+
+
+LaTeX Warning: Float too large for page by 44.153pt on input line 412.
+
+[26 <./figures/FDI_Effect_Plot1.pdf> <./figures/FDI_Effect_Plot2.pdf>]
+
+Package xcolor Warning: Incompatible color definition on input line 412.
+
+<figures/FPI_Effect_Plot.pdf, id=413, 505.89pt x 361.35pt>
 File: figures/FPI_Effect_Plot.pdf Graphic file (type pdf)
 
 <use figures/FPI_Effect_Plot.pdf>
-Package pdftex.def Info: figures/FPI_Effect_Plot.pdf used on input line 470.
+Package pdftex.def Info: figures/FPI_Effect_Plot.pdf used on input line 412.
 (pdftex.def)             Requested size: 452.9679pt x 323.55235pt.
- [27 <./figures/FPI_Effect_Plot.pdf>]
-<fhscore_response_to_trade.pdf, id=421, 225.4824pt x 172.86984pt>
-File: fhscore_response_to_trade.pdf Graphic file (type pdf)
-
-<use fhscore_response_to_trade.pdf>
-Package pdftex.def Info: fhscore_response_to_trade.pdf used on input line 470.
-(pdftex.def)             Requested size: 366.899pt x 281.30316pt.
-
-<trade_response_to_fhscore.pdf, id=422, 225.4824pt x 172.86984pt>
-File: trade_response_to_fhscore.pdf Graphic file (type pdf)
-
-<use trade_response_to_fhscore.pdf>
-Package pdftex.def Info: trade_response_to_fhscore.pdf used on input line 470.
-(pdftex.def)             Requested size: 366.899pt x 281.30316pt.
- [28 <./fhscore_response_to_trade.pdf> <./trade_response_to_fhscore.pdf>]
-<fhscore_response_to_fdi.pdf, id=448, 225.4824pt x 172.86984pt>
-File: fhscore_response_to_fdi.pdf Graphic file (type pdf)
-
-<use fhscore_response_to_fdi.pdf>
-Package pdftex.def Info: fhscore_response_to_fdi.pdf used on input line 470.
-(pdftex.def)             Requested size: 366.899pt x 281.30316pt.
-
-<fdi_response_to_fhscore.pdf, id=449, 225.4824pt x 172.86984pt>
-File: fdi_response_to_fhscore.pdf Graphic file (type pdf)
-
-<use fdi_response_to_fhscore.pdf>
-Package pdftex.def Info: fdi_response_to_fhscore.pdf used on input line 470.
-(pdftex.def)             Requested size: 366.899pt x 281.30316pt.
- [29 <./fhscore_response_to_fdi.pdf> <./fdi_response_to_fhscore.pdf>]
-<fhscore_response_to_fpi.pdf, id=476, 225.4824pt x 172.86984pt>
-File: fhscore_response_to_fpi.pdf Graphic file (type pdf)
-
-<use fhscore_response_to_fpi.pdf>
-Package pdftex.def Info: fhscore_response_to_fpi.pdf used on input line 470.
-(pdftex.def)             Requested size: 366.899pt x 281.30316pt.
-
-<fpi_response_to_fhscore.pdf, id=477, 225.4824pt x 172.86984pt>
-File: fpi_response_to_fhscore.pdf Graphic file (type pdf)
-
-<use fpi_response_to_fhscore.pdf>
-Package pdftex.def Info: fpi_response_to_fhscore.pdf used on input line 470.
-(pdftex.def)             Requested size: 366.899pt x 281.30316pt.
- [30 <./fhscore_response_to_fpi.pdf> <./fpi_response_to_fhscore.pdf>] [31
-
-
-
+ [27 <./figures/FPI_Effect_Plot.pdf>] [28
 
 
 ]
+<fhscore_response_to_trade.pdf, id=436, 225.4824pt x 172.86984pt>
+File: fhscore_response_to_trade.pdf Graphic file (type pdf)
 
-Package xcolor Warning: Incompatible color definition on input line 503.
+<use fhscore_response_to_trade.pdf>
+Package pdftex.def Info: fhscore_response_to_trade.pdf used on input line 509.
+(pdftex.def)             Requested size: 366.899pt x 281.30316pt.
 
-<figures/Case_Studies_Plots.pdf, id=518, 505.89pt x 361.35pt>
+<trade_response_to_fhscore.pdf, id=437, 225.4824pt x 172.86984pt>
+File: trade_response_to_fhscore.pdf Graphic file (type pdf)
+
+<use trade_response_to_fhscore.pdf>
+Package pdftex.def Info: trade_response_to_fhscore.pdf used on input line 509.
+(pdftex.def)             Requested size: 366.899pt x 281.30316pt.
+ [29 <./fhscore_response_to_trade.pdf> <./trade_response_to_fhscore.pdf>]
+<fhscore_response_to_fdi.pdf, id=463, 225.4824pt x 172.86984pt>
+File: fhscore_response_to_fdi.pdf Graphic file (type pdf)
+
+<use fhscore_response_to_fdi.pdf>
+Package pdftex.def Info: fhscore_response_to_fdi.pdf used on input line 509.
+(pdftex.def)             Requested size: 366.899pt x 281.30316pt.
+
+<fdi_response_to_fhscore.pdf, id=464, 225.4824pt x 172.86984pt>
+File: fdi_response_to_fhscore.pdf Graphic file (type pdf)
+
+<use fdi_response_to_fhscore.pdf>
+Package pdftex.def Info: fdi_response_to_fhscore.pdf used on input line 509.
+(pdftex.def)             Requested size: 366.899pt x 281.30316pt.
+ [30 <./fhscore_response_to_fdi.pdf> <./fdi_response_to_fhscore.pdf>]
+<fhscore_response_to_fpi.pdf, id=491, 225.4824pt x 172.86984pt>
+File: fhscore_response_to_fpi.pdf Graphic file (type pdf)
+
+<use fhscore_response_to_fpi.pdf>
+Package pdftex.def Info: fhscore_response_to_fpi.pdf used on input line 509.
+(pdftex.def)             Requested size: 366.899pt x 281.30316pt.
+
+<fpi_response_to_fhscore.pdf, id=492, 225.4824pt x 172.86984pt>
+File: fpi_response_to_fhscore.pdf Graphic file (type pdf)
+
+<use fpi_response_to_fhscore.pdf>
+Package pdftex.def Info: fpi_response_to_fhscore.pdf used on input line 509.
+(pdftex.def)             Requested size: 366.899pt x 281.30316pt.
+ [31 <./fhscore_response_to_fpi.pdf> <./fpi_response_to_fhscore.pdf>]
+
+Package xcolor Warning: Incompatible color definition on input line 509.
+
+<figures/Case_Studies_Plots.pdf, id=519, 505.89pt x 361.35pt>
 File: figures/Case_Studies_Plots.pdf Graphic file (type pdf)
 
 <use figures/Case_Studies_Plots.pdf>
-Package pdftex.def Info: figures/Case_Studies_Plots.pdf used on input line 503.
+Package pdftex.def Info: figures/Case_Studies_Plots.pdf used on input line 509.
 
 (pdftex.def)             Requested size: 452.9679pt x 323.55235pt.
  [32 <./figures/Case_Studies_Plots.pdf>]
 [33
 
+
+
+
 ] [34] [35] [36] [37] [38] [39] [40] (./vardecomp.tex)
-<grcombine1.pdf, id=630, 225.4824pt x 172.86984pt>
+<grcombine1.pdf, id=640, 225.4824pt x 172.86984pt>
 File: grcombine1.pdf Graphic file (type pdf)
  <use grcombine1.pdf>
-Package pdftex.def Info: grcombine1.pdf used on input line 551.
+Package pdftex.def Info: grcombine1.pdf used on input line 559.
 (pdftex.def)             Requested size: 452.9679pt x 347.29507pt.
-LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 570
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 578
 .
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ) [41 <./grcombine1.pdf>]
-Overfull \hbox (46.22607pt too wide) in paragraph at lines 571--571
+Overfull \hbox (46.22607pt too wide) in paragraph at lines 579--579
 \T2A/cmr/m/n/12 that Bind^^Q. \T2A/cmr/m/it/12 In-ter-na-tional Or-ga-ni-za-tio
 n \T2A/cmr/m/n/12 55 (3): pp. 509^^U551. \T2A/cmr/m/sc/12 doi\T2A/cmr/m/n/12 : 
 [][]$\T2A/cmtt/m/n/12 10 . 1162 / 00208180152507542$[][]\T2A/cmr/m/n/12 . 
  []
 
 [42]
-Overfull \hbox (7.48453pt too wide) in paragraph at lines 571--571
+Overfull \hbox (7.48453pt too wide) in paragraph at lines 579--579
 \T2A/cmr/m/n/12 Clas-si-fied In-for-ma-tion^^Q. En-glish. \T2A/cmr/m/it/12 The 
 Quar-terly Jour-nal of Eco-nomics \T2A/cmr/m/n/12 126 (3): pp. 1375^^U
  []
 
 [43] [44] [45]
-Overfull \hbox (19.29866pt too wide) in paragraph at lines 571--571
+Overfull \hbox (19.29866pt too wide) in paragraph at lines 579--579
 [][]\T2A/cmr/m/n/12 Van Belle, Dou-glas A. 2000. \T2A/cmr/m/it/12 Press Free-do
 m and Global Pol-i-tics\T2A/cmr/m/n/12 . Praeger. \T2A/cmr/m/sc/12 isbn\T2A/cmr
 /m/n/12 : 9780275967901. 
  []
 
 [46]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 574.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 574.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 582.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 582.
  (./globalization_media_freedom.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 574.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 574.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 582.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 582.
 Package rerunfilecheck Info: File `globalization_media_freedom.out' has not cha
 nged.
 (rerunfilecheck)             Checksum: A0FB1BA5F6E0B0BF02427B4379C7D958;1005.
@@ -2017,17 +2028,17 @@ nged.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 574.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 582.
 Package logreq Info: Writing requests to 'globalization_media_freedom.run.xml'.
 
 \openout1 = `globalization_media_freedom.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29745 strings out of 493117
- 554210 string characters out of 6135433
+ 29750 strings out of 493117
+ 554366 string characters out of 6135433
  850837 words of memory out of 5000000
- 32586 multiletter control sequences out of 15000+600000
+ 32590 multiletter control sequences out of 15000+600000
  22887 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,10n,92p,10424b,1643s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2059,10 +2070,10 @@ ts/type1/public/cm-super/sfti0800.pfb></usr/local/texlive/2014/texmf-dist/fonts
 ype1/public/cm-super/sfti1095.pfb></usr/local/texlive/2014/texmf-dist/fonts/typ
 e1/public/cm-super/sfti1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1
 /public/cm-super/sftt1200.pfb>
-Output written on globalization_media_freedom.pdf (46 pages, 699188 bytes).
+Output written on globalization_media_freedom.pdf (46 pages, 707734 bytes).
 PDF statistics:
- 847 PDF objects out of 1000 (max. 8388607)
- 734 compressed objects within 8 object streams
+ 857 PDF objects out of 1000 (max. 8388607)
+ 742 compressed objects within 8 object streams
  175 named destinations out of 1000 (max. 500000)
- 193 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 198 words of extra memory for PDF output out of 10000 (max. 10000000)
 
