@@ -8,14 +8,19 @@ encode polity2, generate(Democracy)
 encode fdiinward, generate(FDI)
 encode fpistock, generate(FPI)
 encode rgdpch, generate(GDPCap)
-encode scode, generate(id)
+
+generate id = scode
 xtset id year
 tsset id year
 
 
 % In paper
 
-pvar2 Democracy Trade FDI FPI PressScore, lag(8) gmm monte 300 decomp 8 8
+helm Democracy Trade FDI FPI PressScore GDPCap
+
+pvar2 Trade Democracy GDPCap PressScore, lag(5) gmm monte 300
+
+ decomp 8 8
 
 
 % Works also
