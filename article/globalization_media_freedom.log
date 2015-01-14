@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  14 JAN 2015 18:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  14 JAN 2015 19:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1865,7 +1865,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 Package xcolor Warning: Incompatible color definition on input line 141.
 
-<figures/Intro.pdf, id=138, 433.62pt x 505.89pt>
+<figures/Intro.pdf, id=137, 433.62pt x 505.89pt>
 File: figures/Intro.pdf Graphic file (type pdf)
  <use figures/Intro.pdf>
 Package pdftex.def Info: figures/Intro.pdf used on input line 141.
@@ -1894,7 +1894,7 @@ l sci-ence pro-vides well-established
 
 Package xcolor Warning: Incompatible color definition on input line 365.
 
-<figures/Trade_Effect_Plot1.pdf, id=422, 505.89pt x 361.35pt>
+<figures/Trade_Effect_Plot1.pdf, id=421, 505.89pt x 361.35pt>
 File: figures/Trade_Effect_Plot1.pdf Graphic file (type pdf)
 
 <use figures/Trade_Effect_Plot1.pdf>
@@ -1902,7 +1902,7 @@ Package pdftex.def Info: figures/Trade_Effect_Plot1.pdf used on input line 365.
 
 (pdftex.def)             Requested size: 452.9679pt x 323.55235pt.
 
-<figures/Trade_Effect_Plot2.pdf, id=423, 505.89pt x 361.35pt>
+<figures/Trade_Effect_Plot2.pdf, id=422, 505.89pt x 361.35pt>
 File: figures/Trade_Effect_Plot2.pdf Graphic file (type pdf)
 
 <use figures/Trade_Effect_Plot2.pdf>
@@ -1920,7 +1920,7 @@ LaTeX Warning: Float too large for page by 28.09782pt on input line 365.
 
 Package xcolor Warning: Incompatible color definition on input line 427.
 
-<figures/BMA_Plot.pdf, id=470, 505.89pt x 361.35pt>
+<figures/BMA_Plot.pdf, id=469, 505.89pt x 361.35pt>
 File: figures/BMA_Plot.pdf Graphic file (type pdf)
  <use figures/BMA_Plot.pdf>
 Package pdftex.def Info: figures/BMA_Plot.pdf used on input line 427.
@@ -1930,7 +1930,7 @@ Package pdftex.def Info: figures/BMA_Plot.pdf used on input line 427.
 
 Package xcolor Warning: Incompatible color definition on input line 427.
 
-<figures/BMA_Plot_Inclusions.pdf, id=483, 505.89pt x 361.35pt>
+<figures/BMA_Plot_Inclusions.pdf, id=482, 505.89pt x 361.35pt>
 File: figures/BMA_Plot_Inclusions.pdf Graphic file (type pdf)
 
 <use figures/BMA_Plot_Inclusions.pdf>
@@ -1945,7 +1945,7 @@ Package pdftex.def Info: figures/BMA_Plot_Inclusions.pdf used on input line 427
 
 Package xcolor Warning: Incompatible color definition on input line 511.
 
-<figures/Case_Studies_Plots.pdf, id=535, 505.89pt x 361.35pt>
+<figures/Case_Studies_Plots.pdf, id=534, 505.89pt x 361.35pt>
 File: figures/Case_Studies_Plots.pdf Graphic file (type pdf)
 
 <use figures/Case_Studies_Plots.pdf>
@@ -1970,7 +1970,7 @@ Overfull \hbox (38.00502pt too wide) in paragraph at lines 808--808
 
 Package xcolor Warning: Incompatible color definition on input line 808.
 
-<figures/BMA_Plot_Supp.pdf, id=667, 505.89pt x 361.35pt>
+<figures/BMA_Plot_Supp.pdf, id=666, 505.89pt x 361.35pt>
 File: figures/BMA_Plot_Supp.pdf Graphic file (type pdf)
 
 <use figures/BMA_Plot_Supp.pdf>
@@ -1980,7 +1980,7 @@ Package pdftex.def Info: figures/BMA_Plot_Supp.pdf used on input line 808.
 
 Package xcolor Warning: Incompatible color definition on input line 808.
 
-<figures/BMA_Plot_Supp_Inclusions.pdf, id=679, 505.89pt x 361.35pt>
+<figures/BMA_Plot_Supp_Inclusions.pdf, id=678, 505.89pt x 361.35pt>
 File: figures/BMA_Plot_Supp_Inclusions.pdf Graphic file (type pdf)
 
 <use figures/BMA_Plot_Supp_Inclusions.pdf>
@@ -2043,11 +2043,11 @@ Package logreq Info: Writing requests to 'globalization_media_freedom.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29782 strings out of 493117
- 554530 string characters out of 6135433
+ 29780 strings out of 493117
+ 554504 string characters out of 6135433
  853875 words of memory out of 5000000
- 32596 multiletter control sequences out of 15000+600000
- 21973 words of font info for 47 fonts, out of 8000000 for 9000
+ 32595 multiletter control sequences out of 15000+600000
+ 21096 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,10n,92p,10424b,1680s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
@@ -2074,13 +2074,12 @@ t/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2014/texmf-dist/
 fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2014/texmf-dist/fo
 nts/type1/public/cm-super/sfrm2074.pfb></usr/local/texlive/2014/texmf-dist/font
 s/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/
-type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2014/texmf-dist/fonts/ty
-pe1/public/cm-super/sfti1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/type
-1/public/cm-super/sftt1200.pfb>
-Output written on globalization_media_freedom.pdf (54 pages, 602335 bytes).
+type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2014/texmf-dist/fonts/ty
+pe1/public/cm-super/sftt1200.pfb>
+Output written on globalization_media_freedom.pdf (54 pages, 584903 bytes).
 PDF statistics:
- 876 PDF objects out of 1000 (max. 8388607)
- 771 compressed objects within 8 object streams
+ 872 PDF objects out of 1000 (max. 8388607)
+ 768 compressed objects within 8 object streams
  210 named destinations out of 1000 (max. 500000)
  205 words of extra memory for PDF output out of 10000 (max. 10000000)
 
