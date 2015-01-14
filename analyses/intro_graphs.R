@@ -11,7 +11,7 @@ kofintroplot<-ggplot(subset(countryavgs, pop>2), aes(x=FHscore, y=economic.globa
   xlab("Mean Media Freedom") +
   ylab("Mean Score on KOF Index") +
   theme_bw() +
-  ggtitle("General Economic Globalization & Media Freedom, 1960-2011") +
+  ggtitle("General Economic Globalization & Media Freedom, 1970-2011") +
   facet_wrap(~dem)
 
 
@@ -22,5 +22,5 @@ tradeintroplot<-ggplot(subset(countryavgs, pop>2), aes(x=FHscore, y=openk)) +
   xlab("Mean Media Freedom") +
   ylab("Mean Trade (% of GDP)") +
   theme_bw() +
-  ggtitle("Trade Openness & Media Freedom, 1960-2011") + 
+  ggtitle("Trade Openness & Media Freedom, 1970-2011") + 
   facet_wrap(~dem)
