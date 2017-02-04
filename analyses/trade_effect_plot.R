@@ -3,7 +3,7 @@ require(Zelig)
 source("/Users/justin/Dropbox/gh_projects/globalization_media_freedom/analyses/main_regressions.R")
 
 trade.r<-seq(min(zvars.trade$lopenk2),max(zvars.trade$lopenk2), 1) # ~ min to max in sample
-x.trade<-setx(z.out.trade, lopenk2=trade.r)
+x.trade<-setx(z.out.trade$zelig, lopenk2=3)
 s.out<-sim(z.out.trade, x = x.trade)
 trade.plot<-plot.ci(s.out, ci=c(90,95,99), qi="ev", leg=4, ylim=0:1,
         xlab="Log of Trade Level (% GDP)",
