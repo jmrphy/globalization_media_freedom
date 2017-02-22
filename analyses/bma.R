@@ -1,7 +1,7 @@
 require(BMA)
 require(ggplot2)
 
-source("/Users/justin/Dropbox/gh_projects/globalization_media_freedom/analyses/main_regressions.R")
+# source("/Users/justin/Dropbox/gh_projects/globalization_media_freedom/analyses/main_regressions.R")
 
 f <- formula(fp ~ lpolity2 + dpolity2 + lrgdpch2 + drgdpch2 + spline1 +
                spline2 + spline3 + lopenk2 + dopenk2 +

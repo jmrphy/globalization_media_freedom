@@ -26,7 +26,6 @@ controls.no.trade.outliers$dopenk2<-remove_outliers(controls.no.trade.outliers$d
 
 z.out.controls.no.trade.outliers<-zelig(fp ~ lpolity2 + dpolity2 + lrgdpch2 + drgdpch2 + spline1 + spline2 + spline3 + lopenk2 + dopenk2 + lfdiinward2 + dfdiinward2 + oil + internet + ethfrac + relfrac + onset + warl,
                                         model="logit",
-                                        robust=TRUE,
                                         data=controls.no.trade.outliers,
                                         cite=F)
 

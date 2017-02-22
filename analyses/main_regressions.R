@@ -147,19 +147,17 @@ z.out.controls.fpi<-zelig(fp ~ lpolity2 + dpolity2 + lrgdpch2 + drgdpch2 + splin
 
 zvars.trade<-subset(df, select=c("fp", "lpolity2", "dpolity2", "lrgdpch2", "drgdpch2", "spline1", "spline2", "spline3", "lopenk2", "dopenk2", "oil", "internet", "ethfrac", "relfrac", "warl", "onset"))
 zvars.trade<-zvars.trade[complete.cases(zvars.trade),]
-z.out.trade<-zelig(fp ~ lpolity2 + dpolity2 + lrgdpch2 + drgdpch2 + spline1 + spline2 + spline3 + lopenk2 + dopenk2 + oil + internet + ethfrac + relfrac + onset + warl,
-              model="logit",
-              data=zvars.trade)
 
-z5 <- zlogit$new()
-z5$zelig(fp ~ lpolity2 + dpolity2 + lrgdpch2 + drgdpch2 + spline1 + spline2 + spline3 + lopenk2 + dopenk2 + oil + internet + ethfrac + relfrac + onset + warl,
+# In first submission with old zelig
+# z.out.trade<-zelig(fp ~ lpolity2 + dpolity2 + lrgdpch2 + drgdpch2 + spline1 + spline2 + spline3 + lopenk2 + dopenk2 + oil + internet + ethfrac + relfrac + onset + warl,
+#               model="logit",
+#               data=zvars.trade)
+#trade.r<-seq(min(zvars.trade$lopenk2),max(zvars.trade$lopenk2), 1) # ~ min to max in sample
+
+# For resubmission with new zelig
+z.out.trade <- zlogit$new()
+z.out.trade$zelig(fp ~ lpolity2 + dpolity2 + lrgdpch2 + drgdpch2 + spline1 + spline2 + spline3 + lopenk2 + dopenk2 + oil + internet + ethfrac + relfrac + onset + warl,
       data=zvars.trade)
-
-trade.r<-seq(min(zvars.trade$lopenk2),max(zvars.trade$lopenk2), 1) # ~ min to max in sample
-
-z5$setrange(lopenk2 = min(zvars.trade$lopenk2):max(zvars.trade$lopenk2))
-z5$sim()
-z5$graph()
 
 zvars<-subset(df, select=c("fp", "lpolity2", "dpolity2", "lrgdpch2", "drgdpch2", "spline1", "spline2", "spline3", "lopenk2", "dopenk2", "lfdiinward2", "dfdiinward2", "lfpistock2", "dfpistock2", "scode", "year", "oil", "internet", "ethfrac", "relfrac", "warl", "onset"))
 zvars<-zvars[complete.cases(zvars),]

@@ -114,7 +114,7 @@ Among the less visible ways of exercising anti-democratic control, information-c
 
 \subsection{The Politics of International Trade}
 
-Whereas some forms of international integration may impose pressures in favor of democratic politics, I argue that international trade imposes little such pressure. The reason is that for any given country's international trade, the foreign counterparties to this set of transactions have little direct stake in the social and political conditions of the home country. Therefore, international trade should generate pressures in favor of media repression as argued above, while generating little of the counter-balancing pressure in favor of media openness that might be expected from some other forms of international integration.To better develop this argument and crystallize the hypothesis, I now link the informal model described above to the politics of international trade more specifically.
+Whereas some forms of international integration may impose pressures in favor of democratic politics, I argue that international trade imposes little such pressure. The reason is that for any given country's international trade, the foreign counterparties to this set of transactions have little direct stake in the social and political conditions of the home country. Therefore, international trade should generate pressures in favor of media repression as argued above, while generating little of the counter-balancing pressure in favor of media openness that might be expected from some other forms of international integration. To better develop this argument and crystallize the hypothesis, I now link the informal model described above to the politics of international trade more specifically.
 
 The standard economic intuition explaining trade flows, although many sophisticated variations and extensions have been developed, is the well-known Ricardian theory of comparative advantage. Other things equal, countries will tend to specialize in producing for export those goods which they are most advantaged in producing, and import from foreign producers those goods which domestic producers are unable to produce as efficiently. International trade theory and much research in political science provides well-established expectations regarding the distributive effects of a country increasing its exposure to international trade. The standard Stolper-Samuelson model (1941) expects that increasing trade openness increases the income of the domestically abundant factor while decreasing the income of the domestically scarce factor. Thus, in capital-rich countries (industrialized or post-industrial countries), increasing trade openness benefits capital and harms labor, whereas in capital-poor countries increasing trade openness is expected to benefit labor and harm capital owners. In his benchmark study on the political consequences of these distributive expectations, Rogowski \parencite*{Rogowski:1989wm} finds strong evidence that domestic political coalitions are empowered and disempowered by international trade as the Stolper-Samuelson model predicts. Hiscox \parencite*{Hiscox:2002us} further refines these expectations by showing that the history is more finely explained by distinguishing the relative mobility of factors: when domestic factors are relatively immobile within the domestic economy, we do not observe class-based cleavages but rather sector-based cleavages and cross-class alliances, as immobility weds the interests of labor and capital to their shared industry. In turn, the threat of distributive conflict from international trade has been found salient enough to explain domestic political outcomes as diverse as the size of welfare states \parencites{Cameron:1978vb}{Burgoon:2001dp} and the onset of civil wars \parencite{Bussmann:2007vx}.
 
@@ -142,20 +142,22 @@ Specifically, I offer two short, ``disciplined-configurative'' case studies for 
 
 Table 1 presents the results of 6 logistic regressions, appropriate for dichotomous dependent variables, modeling the probability of observing media freedom in country$_{it}$.\footnote{The tables in this article were generated in R using the \emph{stargazer} package \parencite{stargazerLaTeXcod:vw}.} Before analysis, all variables were rescaled by subtracting the mean and dividing by two standard deviations so that the displayed coefficients reflect the expected effect of a two standard-devation increase in the independent variable, holding the others constant at their means.\footnote{This makes the regression coefficients for continuous predictors directly comparable to binary predictors \parencite{Gelman:2008gz}.}. Each logistic regression is estimated using robust (heteroskedastic and autocorrelation consistent) standard errors, and includes a natural cubic spline of time to control for autocorrelation \parencite{Beck:1998wg}.
 
-\afterpage{
-<<MainModels, results='asis', cache=FALSE>>=
+<<MainModels, results='hide', cache=FALSE>>=
 source("/Users/justin/Dropbox/gh_projects/globalization_media_freedom/analyses/main_regressions.R")
-require(stargazer)
-mainmodels<-stargazer(model1, model2, model3, model4, z.out.controls, z.out.controls.fpi,
-          title="Standardized Logistic Regressions: Media Freedom",
-          dep.var.labels.include=FALSE,
-          digits = 2,
-          style = "apsr",
-          font.size = "footnotesize",
-          covariate.labels=c("Democracy$_{t-1}$", "$\\Delta$Democracy", "GDP per capita$_{t-1}$", "$\\Delta$GDP per capita", "Spline 1", "Spline 2", "Spline 3", "Trade$_{t-1}$", "$\\Delta$Trade", "FDI$_{t-1}$", "$\\Delta$FDI", "FPI$_{t-1}$", "$\\Delta$FPI", "Oil$_{t-1}$", "Internet$_{t-1}$", "Ethnic Frac.$_{t-1}$", "Religious Frac.$_{t-1}$", "Civil War Onset", "Civil War Ongoing"))
+@
+
+\afterpage{
+<<MainModelsTable, results='asis', cache=FALSE>>=
+
+require(texreg)
+texreg(l=list(model1$zelig.out$z.out[[1]], model2$zelig.out$z.out[[1]], model3$zelig.out$z.out[[1]], model4$zelig.out$z.out[[1]], z.out.controls$zelig.out$z.out[[1]], z.out.controls.fpi$zelig.out$z.out[[1]]),
+        fontsize = "footnotesize",
+       custom.coef.names=c("Intercept", "Democracy$_{t-1}$", "$\\Delta$Democracy", "GDP per capita$_{t-1}$", "$\\Delta$GDP per capita", "Spline 1", "Spline 2", "Spline 3", "Trade$_{t-1}$", "$\\Delta$Trade", "FDI$_{t-1}$", "$\\Delta$FDI", "FPI$_{t-1}$", "$\\Delta$FPI", "Oil$_{t-1}$", "Internet$_{t-1}$", "Ethnic Frac.$_{t-1}$", "Religious Frac.$_{t-1}$", "Civil War Onset", "Civil War Ongoing"))
+
 @
 \clearpage
 }
+
 Model 1 represents a baseline model of media freedom as a function of only levels and first differences of democracy and GDP per capita, and a natural cubic spline of time. Given that data for trade and FDI are substantially more plentiful than data for FPI, Models 2-4 add to the baseline model levels and changes in each component of economic globalization successively. Model 5 considers levels and changes of trade and FDI simultaneously, but omits FPI because FPI has significantly fewer observations. Model 6 adds to Model 5 levels and changes in FPI, despite significant sample attrition. Model 5 is arguably the preferred model for estimating the effect of trade on media freedom for two reasons. First, it retains a very high proportion of those country-years for which there exists trade and media freedom data while also controlling for most competing explanations. Second, although it does not control for the effects of FPI, this omission is not problematic for the purpose of hypothesis-testing because it reduces the magnitude of the estimated trade effect from Model 6 and therefore represents a more conservative estimate than that generated by inclusion of FPI.
 
 Model 1 indicates that levels and first differences of democracy and levels of GDP per capita have positive, statistically significant partial correlations with media freedom. Indeed, this simple model of media freedom already correctly classifies \Sexpr{model1correct} cases, \Sexpr{model1correct/nrow(model1vars)*100}\%. The coefficients for the natural cubic splines are statistically insignificant except for the third.
@@ -173,7 +175,47 @@ Finally, Model 6 provides additional evidence that trade has a negative effect a
     \label{absolute}
     \begin{center}
 <<Trade_Effect_Plot, fig.align='center', fig.height=5, cache=FALSE>>=
-source("/Users/justin/Dropbox/gh_projects/globalization_media_freedom/analyses/trade_effect_plot.R")
+
+# Levels
+
+z.out.trade$setrange(lopenk2=seq(min(zvars.trade$lopenk2):max(zvars.trade$lopenk2)))
+z.out.trade$sim()
+
+ci.plot(z.out.trade,
+        ci=c(90,95,99),
+        leg=4, ylim=0:1,
+        xlab="Log of Trade Level (% GDP)",
+        ylab="Expected Probability of Media Freedom")
+
+# Calucate QIs for country moving from min to mean of trade
+z.out.trade$setx(lopenk2=min(zvars.trade$lopenk2))
+z.out.trade$setx1(lopenk2=mean(zvars.trade$lopenk2))
+z.out.trade$sim()
+
+pv.mintrade <- z.out.trade$getqi(qi="pv", xvalue="x")
+pv.avgtrade <- z.out.trade$getqi(qi="pv", xvalue="x1")
+
+
+z.out.trade$setx(dopenk2=0)
+z.out.trade$setx1(dopenk2=mean(zvars.trade$dopenk2)+sd(zvars.trade$dopenk2))
+z.out.trade$sim()
+
+pv.trade.still <- z.out.trade$getqi(qi="pv", xvalue="x")
+pv.trade.up <- z.out.trade$getqi(qi="pv", xvalue="x1")
+pv.fd <- z.out.trade$getqi(qi="fd", xvalue="x1")
+
+# Changes
+
+z.out.trade$setrange(dopenk2=seq(min(zvars.trade$dopenk2):max(zvars.trade$dopenk2)))
+z.out.trade$sim()
+
+ci.plot(z.out.trade,
+        ci=c(90,95,99),
+        leg=4,
+        ylim=0:1,
+        xlab="Change in Log of Trade Level (% GDP)",
+        ylab="Expected Probability of Media Freedom")
+
 @
   \end{center}
     \begin{singlespace}
@@ -183,31 +225,11 @@ source("/Users/justin/Dropbox/gh_projects/globalization_media_freedom/analyses/t
 \clearpage
 }
 
-As logit estimates are not conveniently interpretable, the top half of Figure 2 illustrates the long-run expected probability of observing media freedom in $country_{it}$ given different levels of international trade.\footnote{All discussion of predicted probabilities are based on 1000 simulations of the model. The simulations were conducted in R with the package \emph{Zelig} \parencite*{ZeligEveryonesSt:2009ts}.} The expected probability of observing media freedom in a country completely closed to international trade, with mean values on all other variables in the model, is \Sexpr{mean(unlist(s.out.trade$qi[1]))}. Increasing international trade from zero to the mean of \Sexpr{mean(df$lopenk2, na.rm=TRUE)} would be expected to decrease the probability of media freedom by \Sexpr{mean(s.out.trade$qi$fd)} to \Sexpr{mean(unlist(s.out.trade$qi[2]))}.
+As logit estimates are not conveniently interpretable, the top half of Figure 2 illustrates the long-run expected probability of observing media freedom in $country_{it}$ given different levels of international trade.\footnote{All discussion of predicted probabilities are based on 1000 simulations of the model. The simulations were conducted in R with the package \emph{Zelig} \parencite*{ZeligEveryonesSt:2009ts}.} The expected probability of observing media freedom given the minimum observed trade openness, with mean values on all other variables in the model, is \Sexpr{mean(pv.mintrade)}. Increasing international trade to the mean of the sample \Sexpr{mean(df$lopenk2, na.rm=TRUE)} would be expected to decrease the probability of media freedom by \Sexpr{mean(pv.mintrade) - mean(pv.avgtrade)} to \Sexpr{mean(pv.avgtrade)}.
 
-The bottom half of Figure 2 illustrates how the expected probability of observing media freedom in $country_{it}$ is expected to change in the short-run in response to yearly changes in level of international trade. The expected probability of observing media freedom in a country with a mean trade level of \Sexpr{mean(df$lopenk2, na.rm=TRUE)} but zero change in trade is \Sexpr{mean(unlist(s.out.trade.change$qi[1]))}. A yearly increase in logged trade of \Sexpr{mean(zvars.trade$dopenk2)+sd(zvars.trade$dopenk2)}, a yearly change of trade one standard deviation above the mean yearly change, would be expected to decrease the probability of media freedom by \Sexpr{mean(s.out.trade.change$qi$fd)} to \Sexpr{mean(unlist(s.out.trade.change$qi[2]))}.
+The bottom half of Figure 2 illustrates how the expected probability of observing media freedom in $country_{it}$ is expected to change in the short-run in response to yearly changes in level of international trade. The expected probability of observing media freedom in a country with a mean trade level of \Sexpr{mean(df$lopenk2, na.rm=TRUE)} but zero change in trade is \Sexpr{mean(pv.trade.still)}. A yearly increase in logged trade of \Sexpr{mean(zvars.trade$dopenk2)+sd(zvars.trade$dopenk2)}, a yearly change of trade one standard deviation above the mean yearly change, would be expected to decrease the probability of media freedom by \Sexpr{mean(pv.trade.up) - mean(pv.trade.still)} to \Sexpr{mean(pv.trade.up)}.
 
 
-% 
-% \afterpage{
-% \begin{figure}[t]
-%     \caption{Simulated Effect of FPI Stock on Expected Probability of Media Freedom}
-%     \label{absolute}
-%     \begin{center}
-% <<FPI_Effect_Plot, fig.align='center', fig.height=5, cache=FALSE>>=
-% source("/Users/justin/Dropbox/gh_projects/globalization_media_freedom/analyses/fpi_effect_plot.R")
-% @
-%   \end{center}
-%     \begin{singlespace}
-%         {\scriptsize{Expected values from 1000 simulations of Model 3 in Table 1.}}
-%     \end{singlespace}
-% \end{figure}
-% \clearpage
-% }
-% 
-% The top half of Figure 3 plots the expected probability of observing media freedom in $country_{it}$ given increases in FPI stocks. The expected probability of observing media freedom given zero FPI stock and all other variables held constant at their mean is \Sexpr{mean(unlist(s.out.fpi$qi[1]))}. An increase in FPI stock from zero to the mean value of (\Sexpr{mean(df$lfpistock2)}), would be expected to increase the probability of media freedom by \Sexpr{mean(s.out.fpi$qi$fd)} to \Sexpr{mean(unlist(s.out.fpi$qi[2]))}.
-% 
-% The bottom half of Figure 3 plots the expected probability of observing media freedom in $country_{it}$ in the short-run due to yearly changes in FPI stock (FPI inflows). The expected probability of observing media freedom given zero FPI inflow and all other variables held constant at their mean is \Sexpr{mean(unlist(s.out.fpi.change$qi[1]))}. The mean FPI inflow per year, (\Sexpr{mean(df$dfpistock2)}), increases the probability of media freedom by \Sexpr{mean(s.out.fpi.change$qi$fd)} to \Sexpr{mean(unlist(s.out.fpi.change$qi[2]))}.
 
 \subsection{Outliers}
 
@@ -255,7 +277,7 @@ The results suggest that levels of trade openness have a robust negative effect 
 
 \subsection{Endogeneity}
 
-As democracy affects trade levels \parencite{Milner:2005ci}, it is possible that changes in media freedom affect trade levels for the same reason, as pro-trade or anti-trade domestic groups politically empowered by free media shape trade policy toward greater or less openness. If media freedom affects trade policy, then the regression estimates in Table 1 would be incorrect. I consider this possibility in two ways. First, if reverse causality is present and creating bias in the regression estimates, then some regressors should be correlated with the error term (endogeneity). Diagnosing this question manually reveals that the correlation coefficient for trade openness and the residuals is \Sexpr{cor(z.out.controls$result$residuals, controls$lopenk2)} and does not exceed \Sexpr{iv.corrs.max} for all other independent variables in Model 5, providing no obvious evidence of endogeneity. Second, I estimate a series of ordinary least-squares (OLS) regressions modeling the trade variable as a function of lagged values of media freedom, including fixed effects for year and country.\footnote{See Table 5 in Supplementary Information for full results.} A simple model with no controls other than fixed effects and a second model controlling additionally for levels and changes of democracy and economic growth both suggest that lagged values of media freedom have a positive and significant effect on trade levels. A third model controlling for lagged levels of trade openness suggests media freedom has no statistically distinguishable association with level of trade openness. Thus, the only evidence of reverse causality suggests that media freedom could possibly have a positive effect on trade openness. This is not problematic for the central argument that trade has a negative effect on media freedom because the direction of the effect would, if anything, bias the estimates in Table 1 upward. That is, to the degree media freedom increases trade, this would not lead to spurious evidence in favor the central argument but would rather lead to underestimating the negative effect of trade on media freedom. Given these two checks, the estimated negative effect of trade on media freedom appears robust to the threat of reverse causality.
+As democracy affects trade levels \parencite{Milner:2005ci}, it is possible that changes in media freedom affect trade levels for the same reason, as pro-trade or anti-trade domestic groups politically empowered by free media shape trade policy toward greater or less openness. If media freedom affects trade policy, then the regression estimates in Table 1 would be incorrect. I consider this possibility in two ways. First, if reverse causality is present and creating bias in the regression estimates, then some regressors should be correlated with the error term (endogeneity). Diagnosing this question manually reveals that the correlation coefficient for trade openness and the residuals is \Sexpr{cor(unlist(z.out.controls$getfitted()) - controls$fp, controls$lopenk2)} and does not exceed \Sexpr{iv.corrs.max} for all other independent variables in Model 5, providing no obvious evidence of endogeneity. Second, I estimate a series of ordinary least-squares (OLS) regressions modeling the trade variable as a function of lagged values of media freedom, including fixed effects for year and country.\footnote{See Table 5 in Supplementary Information for full results.} A simple model with no controls other than fixed effects and a second model controlling additionally for levels and changes of democracy and economic growth both suggest that lagged values of media freedom have a positive and significant effect on trade levels. A third model controlling for lagged levels of trade openness suggests media freedom has no statistically distinguishable association with level of trade openness. Thus, the only evidence of reverse causality suggests that media freedom could possibly have a positive effect on trade openness. This is not problematic for the central argument that trade has a negative effect on media freedom because the direction of the effect would, if anything, bias the estimates in Table 1 upward. That is, to the degree media freedom increases trade, this would not lead to spurious evidence in favor the central argument but would rather lead to underestimating the negative effect of trade on media freedom. Given these two checks, the estimated negative effect of trade on media freedom appears robust to the threat of reverse causality.
 
 \subsection{Matching and Sensitivity Analysis}
 
@@ -371,6 +393,7 @@ researchers of state-media relations (as well as activists and policy-makers int
 \section{Supplementary Information}
 
 <<summary, results='asis', cache=FALSE, echo=FALSE, comment=FALSE, message=FALSE>>=
+require(stargazer)
 stargazer(full.raw, font.size="small", title="Summary Statistics")
 @
 
@@ -387,13 +410,10 @@ stargazer(matrix(toupper(sort(unique(full.raw.complete$country))), ncol=3, byrow
 <<outlier_models, results='asis', cache=FALSE>>=
 require(stargazer)
 source("/Users/justin/Dropbox/gh_projects/globalization_media_freedom/analyses/outliers.R")
-stargazer(z.out.controls.no.trade.outliers,
-          title="Model 6 of Table 1 with trade outliers removed",
-          dep.var.labels.include=FALSE,
-          digits = 2,
-          style = "apsr",
-          font.size = "footnotesize",
-          covariate.labels=c("Democracy$_{t-1}$", "$\\Delta$Democracy", "GDP per capita$_{t-1}$", "$\\Delta$GDP per capita", "Spline 1", "Spline 2", "Spline 3", "Trade$_{t-1}$", "$\\Delta$Trade", "FDI$_{t-1}$", "$\\Delta$FDI", "FPI$_{t-1}$", "$\\Delta$FPI", "Oil$_{t-1}$", "Internet$_{t-1}$", "Ethnic Frac.$_{t-1}$", "Religious Frac.$_{t-1}$", "Civil War Onset", "Civil War Ongoing"))
+texreg(z.out.controls.no.trade.outliers$zelig.out$z.out[[1]],,
+          caption="Model 6 of Table 1 with trade outliers removed",
+          fontsize = "footnotesize",
+          custom.coef.names=c("Intercept", "Democracy$_{t-1}$", "$\\Delta$Democracy", "GDP per capita$_{t-1}$", "$\\Delta$GDP per capita", "Spline 1", "Spline 2", "Spline 3", "Trade$_{t-1}$", "$\\Delta$Trade", "FDI$_{t-1}$", "$\\Delta$FDI", "Oil$_{t-1}$", "Internet$_{t-1}$", "Ethnic Frac.$_{t-1}$", "Religious Frac.$_{t-1}$", "Civil War Onset", "Civil War Ongoing"))
 @
 
 \clearpage
@@ -402,6 +422,14 @@ stargazer(z.out.controls.no.trade.outliers,
 
 \afterpage{
 <<reverse_cause_models, results='asis', cache=FALSE>>=
+
+# TK Need to take info from stargazer table below and put into this texreg table here
+
+texreg(z.out.controls.no.trade.outliers$zelig.out$z.out[[1]],,
+          caption="Model 6 of Table 1 with trade outliers removed",
+          fontsize = "footnotesize",
+          custom.coef.names=c("Intercept", "Democracy$_{t-1}$", "$\\Delta$Democracy", "GDP per capita$_{t-1}$", "$\\Delta$GDP per capita", "Spline 1", "Spline 2", "Spline 3", "Trade$_{t-1}$", "$\\Delta$Trade", "FDI$_{t-1}$", "$\\Delta$FDI", "Oil$_{t-1}$", "Internet$_{t-1}$", "Ethnic Frac.$_{t-1}$", "Religious Frac.$_{t-1}$", "Civil War Onset", "Civil War Ongoing"))
+
 require(stargazer)
 reverse.cause.models<-stargazer(z.out.reverse1, z.out.reverse2, z.out.reverse3,
           title="Standardized OLS Regressions: Trade Openness",
