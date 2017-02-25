@@ -132,6 +132,29 @@
   \field{year}{1998}
 \endentry
 
+\entry{Beker:2011vq}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Beker}{B.}%
+     {Victor~A}{V.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BVA1}
+  \strng{fullhash}{BVA1}
+  \field{labelyear}{2011}
+  \field{sortinit}{B}
+  \field{addendum}{Kiel Institute for the World Economy}
+  \field{number}{2012-3}
+  \field{title}{{A Case Study on Trade Liberalization: Argentina in the 1990s}}
+  \verb{url}
+  \verb http://www.economics-ejournal.org/economics/discussionpapers/2012-3
+  \endverb
+  \field{journaltitle}{Economics}
+  \field{month}{01}
+  \field{year}{2011}
+\endentry
+
 \entry{george2005case}{book}{}
   \name{author}{2}{}{%
     {{}%
@@ -157,6 +180,32 @@
     {Cambridge}%
   }
   \field{year}{2005}
+\endentry
+
+\entry{Borner:2002cp}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Borner}{B.}%
+     {Silvio}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kobler}{K.}%
+     {Markus}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BSKM1}
+  \strng{fullhash}{BSKM1}
+  \field{labelyear}{2002}
+  \field{sortinit}{B}
+  \field{number}{3/4}
+  \field{pages}{327\bibrangedash 350}
+  \field{title}{{Strength and Commitment of the State: It Takes Two to Tango
+  {\textendash} A Case Study of Economic Reforms in Argentina in the 1990s}}
+  \field{volume}{110}
+  \field{journaltitle}{Public Choice}
+  \field{year}{2002}
 \endentry
 
 \entry{Burgoon:2001dp}{article}{}
@@ -248,6 +297,142 @@
   \field{year}{1998}
 \endentry
 
+\entry{Dominguez:2009wd}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Castro}{C.}%
+     {Rafael~Fern{\'a}ndez}{R.~F.}%
+     {de}{d.}%
+     {}{}}%
+    {{}%
+     {Dominguez}{D.}%
+     {Jorge~I}{J.~I.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Psychology Press}%
+  }
+  \strng{namehash}{CRFdDJI1}
+  \strng{fullhash}{CRFdDJI1}
+  \field{labelyear}{2001}
+  \field{sortinit}{C}
+  \field{title}{{The United States and Mexico: Between Partnership and
+  Conflict}}
+  \list{location}{1}{%
+    {Abingdon}%
+  }
+  \field{year}{2001}
+\endentry
+
+\entry{Cavallo:2004bf}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Cavallo}{C.}%
+     {Domingo~F}{D.~F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CDF1}
+  \strng{fullhash}{CDF1}
+  \field{labelyear}{2004}
+  \field{extrayear}{1}
+  \field{sortinit}{C}
+  \field{number}{1}
+  \field{pages}{137\bibrangedash 150}
+  \field{title}{{Argentina and the IMF During the Two Bush Administrations}}
+  \field{volume}{7}
+  \field{journaltitle}{International Finance}
+  \field{year}{2004}
+\endentry
+
+\entry{Cavallo:2004ta}{unpublished}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Cavallo}{C.}%
+     {Domingo~F}{D.~F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CDF1}
+  \strng{fullhash}{CDF1}
+  \field{labelyear}{2004}
+  \field{extrayear}{2}
+  \field{sortinit}{C}
+  \field{note}{Unpublished manuscript}
+  \field{title}{Clase N{\textordmasculine} 6. Argentina hasta la crisis
+  brasile{\~n}a}
+  \verb{url}
+  \verb http://www.cavallo.com.ar/wp-content/uploads/C6.pdf
+  \endverb
+  \list{location}{1}{%
+    {Cambridge}%
+  }
+  \list{institution}{1}{%
+    {Harvard University}%
+  }
+  \field{year}{2004}
+\endentry
+
+\entry{center1993trading}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Center for Public Integrity}}{C.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Center for Public Integrity}%
+  }
+  \strng{namehash}{C1}
+  \strng{fullhash}{C1}
+  \field{labelyear}{1993}
+  \field{sortinit}{C}
+  \field{title}{{The Trading Game: Inside Lobbying for the North American Free
+  Trade Agreement}}
+  \list{location}{1}{%
+    {Washington, D.C.}%
+  }
+  \field{year}{1993}
+\endentry
+
+\entry{Chabat:1997wj}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Chabat}{C.}%
+     {Jorge}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{2}{}{%
+    {{}%
+     {Garza}{G.}%
+     {Rodolfo~O}{R.~O.}%
+     {De~la}{D.~l.}%
+     {}{}}%
+    {{}%
+     {Velasco}{V.}%
+     {Jes{\'u}s}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Rowman {\&} Littlefield}%
+  }
+  \strng{namehash}{CJ1}
+  \strng{fullhash}{CJ1}
+  \field{labelyear}{1997}
+  \field{sortinit}{C}
+  \field{booktitle}{Bridging the Border: Transforming Mexico-U.S. Relations}
+  \field{title}{{Mexico's Foreign Policy After NAFTA: The Tools of
+  Interdependence}}
+  \list{location}{1}{%
+    {Lanham, MD}%
+  }
+  \field{year}{1997}
+\endentry
+
 \entry{Corrales:2006vz}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -299,6 +484,28 @@
   \field{journaltitle}{Kyklos}
   \field{month}{02}
   \field{year}{2004}
+\endentry
+
+\entry{Delgado:1995tr}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Delgado}{D.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Asociacion Madres de Plaza de Mayo}%
+  }
+  \strng{namehash}{DA1}
+  \strng{fullhash}{DA1}
+  \field{labelyear}{1995}
+  \field{sortinit}{D}
+  \field{title}{{\emph{Agresiones a }La Prensa \emph{1991-1994}}}
+  \list{location}{1}{%
+    {Buenos Aires}%
+  }
+  \field{year}{1995}
 \endentry
 
 \entry{Diamond:2012jo}{article}{}
@@ -358,6 +565,59 @@
     {New York}%
   }
   \field{year}{2008}
+\endentry
+
+\entry{Echegaray:2001tf}{incollection}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Echegaray}{E.}%
+     {Fabian}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Elordi}{E.}%
+     {Carlos}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Cambridge University Press}%
+  }
+  \strng{namehash}{EFEC1}
+  \strng{fullhash}{EFEC1}
+  \field{labelyear}{2001}
+  \field{sortinit}{E}
+  \field{booktitle}{Public Support for Market Reforms in New Democracies}
+  \field{title}{{Public Opinion, Presidential Popularity, and Economic Reform
+  in Argentina, 1989-1996}}
+  \field{year}{2001}
+\endentry
+
+\entry{eckstein2001power}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Eckstein}{E.}%
+     {Susan}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Merino}{M.}%
+     {Manuel Antonio~Garret{\'o}n}{M.~A.~G.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {University of California Press}%
+  }
+  \strng{namehash}{ESMMAG1}
+  \strng{fullhash}{ESMMAG1}
+  \field{labelyear}{2001}
+  \field{sortinit}{E}
+  \field{title}{{Power and Popular Protest: Latin American Social Movements}}
+  \list{location}{1}{%
+    {Berkeley}%
+  }
+  \field{year}{2001}
 \endentry
 
 \entry{Egorov:2009hc}{article}{}
@@ -443,6 +703,24 @@
   \field{year}{2003}
 \endentry
 
+\entry{Ferber:1993fb}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Ferber}{F.}%
+     {Federico}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FF1}
+  \strng{fullhash}{FF1}
+  \field{labelyear}{1993}
+  \field{sortinit}{F}
+  \field{title}{{ARGENTINA: FARMERS TO DEMAND CONCESSIONS IN PROTEST RALLY}}
+  \field{journaltitle}{IPS-Inter Press Service}
+  \field{month}{07}
+  \field{year}{1993}
+\endentry
+
 \entry{FreedomHouse:2011vv}{booklet}{}
   \name{author}{1}{}{%
     {{}%
@@ -460,6 +738,33 @@
   \verb https://freedomhouse.org/
   \endverb
   \field{year}{2011}
+\endentry
+
+\entry{Galiani:2003fr}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Galiani}{G.}%
+     {Sebastian}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sanguinetti}{S.}%
+     {Pablo}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GSSP1}
+  \strng{fullhash}{GSSP1}
+  \field{labelyear}{2003}
+  \field{sortinit}{G}
+  \field{number}{2}
+  \field{pages}{497\bibrangedash 513}
+  \field{title}{{The impact of trade liberalization on wage inequality:
+  evidence from Argentina}}
+  \field{volume}{72}
+  \field{journaltitle}{Journal of Development Economics}
+  \field{month}{12}
+  \field{year}{2003}
 \endentry
 
 \entry{Gehlbach:2011ky}{article}{}
@@ -528,6 +833,65 @@
     {Cambridge}%
   }
   \field{year}{1991}
+\endentry
+
+\entry{Hayden:2009uy}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hayden}{H.}%
+     {Tom}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Nation Books}%
+  }
+  \strng{namehash}{HT1}
+  \strng{fullhash}{HT1}
+  \field{labelyear}{2009}
+  \field{sortinit}{H}
+  \field{title}{{The Zapatista Reader}}
+  \list{location}{1}{%
+    {New York}%
+  }
+  \field{year}{2009}
+\endentry
+
+\entry{Hellman:1993wa}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hellman}{H.}%
+     {Judith~Adler}{J.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{2}{}{%
+    {{}%
+     {Grinspun}{G.}%
+     {Ricardo}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cameron}{C.}%
+     {Maxwell~A}{M.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Unpublished manuscript}%
+  }
+  \strng{namehash}{HJA1}
+  \strng{fullhash}{HJA1}
+  \field{labelyear}{1993}
+  \field{sortinit}{H}
+  \field{booktitle}{The Political Economy of North American Free Trade}
+  \field{pages}{193\bibrangedash 206}
+  \field{title}{{Mexican Perceptions of Free Trade: Support and Opposition to
+  NAFTA}}
+  \list{location}{1}{%
+    {New York}%
+  }
+  \field{year}{1993}
 \endentry
 
 \entry{Heston:HB3Tvq3w}{misc}{}
@@ -613,6 +977,33 @@
   \field{title}{{stargazer: LaTeX code and ASCII text for well-formatted
   regression and summary statistics tables}}
   \field{version}{4.5.3}
+\endentry
+
+\entry{Hufbauer:2005vh}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Hufbauer}{H.}%
+     {Gary~Clyde}{G.~C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schott}{S.}%
+     {Jeffrey~J}{J.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Institute for International Economics}%
+  }
+  \strng{namehash}{HGCSJJ1}
+  \strng{fullhash}{HGCSJJ1}
+  \field{labelyear}{2005}
+  \field{sortinit}{H}
+  \field{title}{{NAFTA Revisited: Achievements and Challenges}}
+  \list{location}{1}{%
+    {Washington}%
+  }
+  \field{year}{2005}
 \endentry
 
 \entry{Huntington:1975vt}{incollection}{}
@@ -799,6 +1190,49 @@
   \field{year}{1983}
 \endentry
 
+\entry{rboundsPerformRos:2014vj}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Keele}{K.}%
+     {Luke~J}{L.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KLJ1}
+  \strng{fullhash}{KLJ1}
+  \field{labelyear}{2014}
+  \field{sortinit}{K}
+  \field{addendum}{R package}
+  \field{title}{{rbounds: Perform Rosenbaum bounds sensitivity tests for
+  matched and unmatched data}}
+  \verb{url}
+  \verb http://CRAN.R-project.org/package=rbounds
+  \endverb
+  \field{version}{2.0}
+  \field{year}{2014}
+\endentry
+
+\entry{Klein:2002vg}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Klein}{K.}%
+     {Naomi}{N.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KN1}
+  \strng{fullhash}{KN1}
+  \field{labelyear}{2002}
+  \field{sortinit}{K}
+  \field{title}{{Revolt of the wronged}}
+  \verb{url}
+  \verb http://www.theguardian.com/world/2002/mar/28/argentina.comment
+  \endverb
+  \field{journaltitle}{The Guardian}
+  \field{month}{03}
+  \field{year}{2002}
+\endentry
+
 \entry{lawson2002building}{book}{}
   \name{author}{1}{}{%
     {{}%
@@ -979,6 +1413,25 @@
   \field{year}{1977}
 \endentry
 
+\entry{Long:1993wb}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Long}{L.}%
+     {William~R}{W.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LWR1}
+  \strng{fullhash}{LWR1}
+  \field{labelyear}{1993}
+  \field{sortinit}{L}
+  \field{title}{{MEDIA: Threats, Assaults Complicate Argentine Journalists'
+  Jobs}}
+  \field{journaltitle}{Los Angeles Times}
+  \field{month}{10}
+  \field{year}{1993}
+\endentry
+
 \entry{MacKinnon:2011id}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -997,6 +1450,26 @@
   \field{volume}{22}
   \field{journaltitle}{Journal of Democracy}
   \field{year}{2011}
+\endentry
+
+\entry{MarcusDelgado:2003gn}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Marcus-Delgado}{M.-D.}%
+     {Jane}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MDJ1}
+  \strng{fullhash}{MDJ1}
+  \field{labelyear}{2003}
+  \field{sortinit}{M}
+  \field{number}{4}
+  \field{pages}{139\bibrangedash 153}
+  \field{title}{{Trust, Corruption, and the Globalization Tango}}
+  \field{volume}{21}
+  \field{journaltitle}{Social Text}
+  \field{year}{2003}
 \endentry
 
 \entry{PolityIVProjectP:2011uq}{article}{}
@@ -1026,6 +1499,64 @@
   Transitions, 1800-2010}}
   \field{journaltitle}{Center for Systemic Piece}
   \field{year}{2011}
+\endentry
+
+\entry{McCullough:1991cs}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {McCullough}{M.}%
+     {Ed}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{ME1}
+  \strng{fullhash}{ME1}
+  \field{labelyear}{1991}
+  \field{sortinit}{M}
+  \field{title}{{Hard Times on Argentina's Fertile Pampas}}
+  \verb{url}
+  \verb http://www.apnewsarchive.com/1991/Hard-Times-on-Argentina-s-Fertile-Pam
+  \verb pas/id-f451c812baef26cd6502d6e621615868
+  \endverb
+  \field{journaltitle}{The Associated Press}
+  \field{month}{01}
+  \field{year}{1991}
+\endentry
+
+\entry{McDaniel:2003kw}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {McDaniel}{M.}%
+     {Christine~A}{C.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Agama}{A.}%
+     {Laurie-Ann}{L.-A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MCAALA1}
+  \strng{fullhash}{MCAALA1}
+  \field{labelyear}{2003}
+  \field{sortinit}{M}
+  \field{number}{7}
+  \field{pages}{939\bibrangedash 955}
+  \field{title}{{The NAFTA Preference and US-Mexico Trade: Aggregate-Level
+  Analysis}}
+  \field{volume}{26}
+  \field{journaltitle}{The World Economy}
+  \field{month}{07}
+  \field{year}{2003}
+\endentry
+
+\entry{:3GmqDB3y}{article}{}
+  \field{labelyear}{1992}
+  \field{sortinit}{M}
+  \field{title}{{Menem's Miracle}}
+  \field{journaltitle}{Time International}
+  \field{month}{07}
+  \field{year}{1992}
 \endentry
 
 \entry{Milner:2005ci}{article}{}
@@ -1128,6 +1659,33 @@
   \field{year}{2004}
 \endentry
 
+\entry{Morris:2001iy}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Morris}{M.}%
+     {Stephen~D}{S.~D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pass{\'e}-Smith}{P.-S.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MSDPSJ1}
+  \strng{fullhash}{MSDPSJ1}
+  \field{labelyear}{2001}
+  \field{sortinit}{M}
+  \field{number}{3}
+  \field{pages}{124\bibrangedash 149}
+  \field{title}{{What a Difference a Crisis Makes: NAFTA, Mexico, and the
+  United States}}
+  \field{volume}{28}
+  \field{journaltitle}{Latin American Perspectives}
+  \field{month}{01}
+  \field{year}{2001}
+\endentry
+
 \entry{Oneal:1999fc}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -1153,6 +1711,47 @@
   \field{journaltitle}{Journal of Peace Research}
   \field{month}{07}
   \field{year}{1999}
+\endentry
+
+\entry{OrmeJr:1997da}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Orme~Jr.}{O.~J.}%
+     {William~A}{W.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{OJWA1}
+  \strng{fullhash}{OJWA1}
+  \field{labelyear}{1997}
+  \field{sortinit}{O}
+  \field{number}{4}
+  \field{pages}{157\bibrangedash 158}
+  \field{title}{{A Culture of Collusion: An inside Look at the Mexican Press}}
+  \field{volume}{76}
+  \field{journaltitle}{Foreign Affairs}
+  \field{year}{1997}
+\endentry
+
+\entry{Park:2002io}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Park}{P.}%
+     {David~J}{D.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{PDJ1}
+  \strng{fullhash}{PDJ1}
+  \field{labelyear}{2002}
+  \field{sortinit}{P}
+  \field{number}{3}
+  \field{pages}{237\bibrangedash 260}
+  \field{title}{{Media, Democracy, and Human Rights in Argentina}}
+  \field{volume}{26}
+  \field{journaltitle}{Journal of Communication Inquiry}
+  \field{month}{07}
+  \field{year}{2002}
 \endentry
 
 \entry{Pearce:2012fm}{article}{}
@@ -1405,6 +2004,49 @@
   \field{year}{2011}
 \endentry
 
+\entry{Silverstein:2002wm}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Silverstein}{S.}%
+     {Ken}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SK1}
+  \strng{fullhash}{SK1}
+  \field{labelyear}{2002}
+  \field{sortinit}{S}
+  \field{title}{{Stop the Press:}}
+  \verb{url}
+  \verb http://prospect.org/article/stop-press
+  \endverb
+  \field{journaltitle}{The American Prospect}
+  \field{month}{01}
+  \field{year}{2002}
+\endentry
+
+\entry{Sims:kgMPqAHd}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Sims}{S.}%
+     {Calvin}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SC1}
+  \strng{fullhash}{SC1}
+  \field{labelyear}{1995}
+  \field{sortinit}{S}
+  \field{title}{{Press Protests `Gag' Bills In Argentina}}
+  \verb{url}
+  \verb http://www.nytimes.com/1995/02/19/world/press-protests-gag-bills-in-arg
+  \verb entina.html
+  \endverb
+  \field{journaltitle}{The New York Times}
+  \field{month}{02}
+  \field{year}{1995}
+\endentry
+
 \entry{Sorens:2012hc}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -1453,6 +2095,31 @@
   \field{year}{2015}
 \endentry
 
+\entry{Tommasi:1995wx}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Tommasi}{T.}%
+     {Mariano}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Velasco}{V.}%
+     {Andres}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{TMVA1}
+  \strng{fullhash}{TMVA1}
+  \field{labelyear}{1995}
+  \field{sortinit}{T}
+  \field{title}{{Where Are We in the Political Economy of Reform?}}
+  \verb{url}
+  \verb http://ideas.repec.org/p/cvs/starer/95-20.html
+  \endverb
+  \field{journaltitle}{C.V. Starr Center for Applied Economics}
+  \field{year}{1995}
+\endentry
+
 \entry{Belle:1997wo}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -1494,6 +2161,71 @@
     {Westport, CT}%
   }
   \field{year}{2000}
+\endentry
+
+\entry{Villareal:2010vk}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Villareal}{V.}%
+     {Angeles~M}{A.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{VAM1}
+  \strng{fullhash}{VAM1}
+  \field{labelyear}{2010}
+  \field{sortinit}{V}
+  \field{title}{{NAFTA and the Mexican Economy}}
+  \verb{url}
+  \verb http://www.fas.org/sgp/crs/row/RL34733.pdf
+  \endverb
+  \field{journaltitle}{Congressional Research Service}
+  \field{month}{06}
+  \field{year}{2010}
+\endentry
+
+\entry{Waisbord:1994kq}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Waisbord}{W.}%
+     {Silvio~R}{S.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WSR1}
+  \strng{fullhash}{WSR1}
+  \field{labelyear}{1994}
+  \field{sortinit}{W}
+  \field{number}{1}
+  \field{pages}{19\bibrangedash 33}
+  \field{title}{{Knocking on Newsroom Doors: The Press and Political Scandals
+  in Argentina.}}
+  \field{volume}{11}
+  \field{journaltitle}{Political Communication}
+  \field{year}{1994}
+\endentry
+
+\entry{Williams:2001ux}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Williams}{W.}%
+     {Heather~L}{H.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Cambridge University Press}%
+  }
+  \strng{namehash}{WHL1}
+  \strng{fullhash}{WHL1}
+  \field{labelyear}{2001}
+  \field{sortinit}{W}
+  \field{title}{{Social Movements and Economic Transition: Markets and
+  Distributive Conflict in Mexico}}
+  \list{location}{1}{%
+    {Cambridge}%
+  }
+  \field{year}{2001}
 \endentry
 
 \lossort

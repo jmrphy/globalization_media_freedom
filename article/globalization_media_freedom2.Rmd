@@ -1,0 +1,71 @@
+---
+output: 
+  pdf_document:
+    citation_package: natbib
+    keep_tex: true
+    fig_caption: true
+    latex_engine: pdflatex
+    template: Murphy_custom.tex
+title: "Why are More Trade-Open Countries More Likely to Repress the Media?"
+geometry: margin=1in
+linkcolor: MidnightBlue
+urlcolor: MidnightBlue
+citecolor: MidnightBlue
+fontsize: 12pt
+spacing: double
+bibliography: mybib
+---
+
+```{r setup, include=FALSE}
+
+library(knitr)
+
+knitr::opts_chunk$set(fig.path='figures/', fig.align='center', echo=FALSE, warning=FALSE, message=FALSE)
+options(replace.assign=TRUE,width=90, digits=2)
+setwd("~/Dropbox/gh_projects/globalization_media_freedom/article")
+
+options(scipen=999)
+set.seed(345)
+options(xtable.comment = FALSE)
+
+Sys.setenv(TEXINPUTS=getwd(),
+           BIBINPUTS=getwd(),
+           BSTINPUTS=getwd())
+
+```
+
+Given the conventional wisdom that democratic political institutions drive economic openness @[Milner:2005ci] and vice-versa @[EICHENGREEN:2008gg], it is surprising that since the 1970s, on average, those countries which have been more open to international trade have had lower levels of media freedom. Although overall economic globalization is positively correlated with media freedom around the world, the bivariate relationship between trade and media freedom is weakly negative. The bottom half of Figure 1 shows that for all available country-years between 1970 and 2011, those which engaged in higher levels of international trade had slightly more repressive media, on average, than those countries which were less open to international trade. This is true in both historically democratic and non-democratic countries, although the difference is most clear among countries with more democratic histories. Given the positive correlation found between media freedom and economic globalization as measured by the KOF index for overall economic globalization @[Dreher:2008dg], the coincidence of higher trade openness and greater media repression is a surprisingly under-reported empirical puzzle in international and comparative political economy.
+
+```{r, fig.width=6, fig.height=8, cache=FALSE, out.width='0.8\\linewidth'}
+
+require(ggplot2)
+require(gridExtra)
+
+df<-read.csv("~/Dropbox/gh_projects/globalization_media_freedom/data/out_df.csv")
+countryavgs<-read.csv("~/Dropbox/gh_projects/globalization_media_freedom/data/out_countryavgs.csv")
+
+kofintroplot<-ggplot(subset(countryavgs, pop>2), aes(x=FHscore, y=economic.globalization)) +
+  geom_smooth(method=lm, se=FALSE) +
+  geom_point(alpha=.5) +
+  geom_text(aes(label=country),hjust=.5, vjust=-.2, size=4, alpha=.5) +
+  xlab("Mean Media Freedom") +
+  ylab("Mean Score on KOF Index") +
+  theme_bw() +
+  ggtitle("General Economic Globalization & Media Freedom, 1970-2011") +
+  facet_wrap(~dem)
+
+
+tradeintroplot<-ggplot(subset(countryavgs, pop>2), aes(x=FHscore, y=openk)) +
+  geom_smooth(method=lm, se=FALSE) +
+  geom_point(alpha=.5) +
+  geom_text(aes(label=country),hjust=.5, vjust=-.2, size=4, alpha=.5) +
+  xlab("Mean Media Freedom") +
+  ylab("Mean Trade (% of GDP)") +
+  theme_bw() +
+  ggtitle("Trade Openness & Media Freedom, 1970-2011") + 
+  facet_wrap(~dem)
+
+grid.arrange(kofintroplot, tradeintroplot)
+
+```
+
