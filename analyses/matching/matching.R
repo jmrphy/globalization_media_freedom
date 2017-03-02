@@ -51,3 +51,31 @@ matched_trade <- Match(Y=Y, Tr=treatment, X=X, estimand="ATT",
 # matched_trade$est
 
 # binarysens(matched_trade, Gamma = 3, GammaInc = 0.01)
+
+# Matching for R&R
+
+"match on levels of trade openness, what is predicted level of media repression?"
+
+md<-subset(zvars, select=c("fp", "lopenk2", "lpolity2"))
+md<-md[complete.cases(md),]
+md$fp <- as.factor(md$fp)
+
+set.seed(333)
+md$treatment<-ifelse(md$lopenk2>quantile(md$lopenk2, .5), 1, 0)
+#md$treatment<-ifelse(md$fp==1, TRUE, FALSE)
+
+m.out <- matchit(treatment ~ lpolity2,
+                 data = md, method = "exact")
+
+#summary(m.out)
+#plot(m.out)
+
+m.data <- match.data(m.out)
+
+z.out <- zelig(fp ~ treatment, model = "logit", data = m.data)
+
+x.out <- setx(z.out, treatment=0)
+x1.out <- setx(z.out, treatment=1)
+s.out <- sim(z.out, x = x.out, x1 = x1.out)
+summary(s.out)
+plot(s.out)

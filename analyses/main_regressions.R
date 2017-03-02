@@ -7,10 +7,6 @@ modelvars<-read.csv("~/Dropbox/gh_projects/globalization_media_freedom/data/out_
 df<-read.csv("~/Dropbox/gh_projects/globalization_media_freedom/data/out_df.csv")
 df$fp<-as.factor(df$fp)
 
-full.raw<-subset(df, select=c("fp", "country", "year", "lpolity2", "dpolity2", "lrgdpch", "drgdpch2", "lopenk", "dopenk2", "lfdiinward", "dfdiinward2", "lfpistock2", "dfpistock", "oil", "internet", "ethfrac", "relfrac", "warl", "onset"))
-full.raw$fp<-as.numeric(full.raw$fp)-1
-full.raw.complete<-full.raw[complete.cases(full.raw),] 
-
 controls<-subset(modelvars, select=c("fp", "scode", "year", "lpolity2", "dpolity2", "lrgdpch", "lrgdpch2", "drgdpch","drgdpch2", "lopenk2", "dopenk2", "lfdiinward2", "dfdiinward2", "oil", "internet", "ethfrac", "relfrac", "warl", "onset"))
 modelvars<-subset(modelvars, select=c("fp", "scode", "year", "lpolity2", "dpolity2", "lrgdpch", "lrgdpch2", "drgdpch","drgdpch2", "lopenk", "dopenk", "lopenk2", "dopenk2", "lfdiinward", "lfdiinward2", "dfdiinward","dfdiinward2", "lfpistock", "lfpistock2", "dfpistock", "dfpistock2", "oil", "internet", "ethfrac", "relfrac", "warl", "onset"))
 #modelvars<-modelvars[complete.cases(modelvars),]
@@ -23,7 +19,7 @@ modelvars<-merge(modelvars, spline, by="year")
 modelvars<-modelvars[with(modelvars, order(scode, year)), ]
 
 
-df<-subset(df, select=c("fp", "lfp", "scode", "year", "lpolity2", "dpolity2", "lrgdpch", "lrgdpch2", "drgdpch","drgdpch2", "lopenk", "dopenk", "openk2", "lopenk2", "dopenk2", "lfdiinward", "lfdiinward2", "dfdiinward","dfdiinward2", "lfpistock", "lfpistock2", "dfpistock", "dfpistock2", "oil", "internet", "ethfrac", "relfrac", "warl", "onset"))
+df<-subset(df, select=c("fp", "lfp", "fp.d", "mediascore", "scode", "year", "polity2", "lpolity2", "dpolity2", "lrgdpch", "lrgdpch2", "drgdpch","drgdpch2", "lopenk", "dopenk", "openk2", "lopenk2", "dopenk2", "lfdiinward", "lfdiinward2", "dfdiinward","dfdiinward2", "lfpistock", "lfpistock2", "dfpistock", "dfpistock2", "oil", "internet", "ethfrac", "relfrac", "warl", "onset"))
 #df<-df[complete.cases(df),] 
 
 controls<-merge(controls, spline, by="year")
@@ -145,7 +141,7 @@ z.out.controls.fpi<-zelig(fp ~ lpolity2 + dpolity2 + lrgdpch2 + drgdpch2 + splin
               cite=F)
 
 
-zvars.trade<-subset(df, select=c("fp", "lpolity2", "dpolity2", "lrgdpch2", "drgdpch2", "spline1", "spline2", "spline3", "lopenk2", "dopenk2", "oil", "internet", "ethfrac", "relfrac", "warl", "onset"))
+zvars.trade<-subset(df, select=c("scode", "year", "fp", "mediascore", "lfp", "fp.d", "polity2", "lpolity2", "dpolity2", "lrgdpch2", "drgdpch2", "spline1", "spline2", "spline3", "openk2", "lopenk2", "dopenk2", "oil", "internet", "ethfrac", "relfrac", "warl", "onset"))
 zvars.trade<-zvars.trade[complete.cases(zvars.trade),]
 
 # In first submission with old zelig
@@ -156,7 +152,7 @@ zvars.trade<-zvars.trade[complete.cases(zvars.trade),]
 
 # For resubmission with new zelig
 z.out.trade <- zlogit$new()
-z.out.trade$zelig(fp ~ lpolity2 + dpolity2 + lrgdpch2 + drgdpch2 + spline1 + spline2 + spline3 + lopenk2 + dopenk2 + oil + internet + ethfrac + relfrac + onset + warl,
+z.out.trade$zelig(fp ~ lpolity2 + dpolity2 + lrgdpch2 + drgdpch2 + spline1 + spline2 + spline3 + lopenk2 + dopenk2 + oil + internet + ethfrac + relfrac + warl,
       data=zvars.trade)
 
 zvars<-subset(df, select=c("fp", "lpolity2", "dpolity2", "lrgdpch2", "drgdpch2", "spline1", "spline2", "spline3", "lopenk2", "dopenk2", "lfdiinward2", "dfdiinward2", "lfpistock2", "dfpistock2", "scode", "year", "oil", "internet", "ethfrac", "relfrac", "warl", "onset"))

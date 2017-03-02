@@ -8,16 +8,19 @@ df$FDI<-df$fdiinward
 df$FPI<-df$fpistock
 df$FH.Score<-df$FHscore
 
-cases<-subset(df, year>=1980 & year<=2003 & (country=="MEXICO" |
+cases<-subset(df, year>=1984 & year<=2011 & (country=="MEXICO" |
                                                country=="ARGENTINA"),
-              select=c("country", "year", "FH.Score", "FDI", "FPI", "Trade"))
+              select=c("country", "year", "FH.Score", "Trade", "polity2", "mediascore"))
 
-cases[3:6]<-sapply(cases[3:6], function(x) scale(x))
+#cases<-cases[complete.cases(cases),]
+
+cases[3:5]<-sapply(cases[3:5], function(x) scale(x))
 
 dfm <- melt(cases, id.vars=c("country","year"))
 
 case_time_series_plot<-ggplot(data=dfm) +
   geom_line(aes(x=year, y=value, linetype=variable, colour=variable)) +
+#  scale_y_continuous(breaks = seq(0,70, by = 2))+
   theme_bw() +
   labs(x="Year", y="Value") +
   facet_wrap( ~ country)
